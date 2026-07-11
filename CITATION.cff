@@ -2,6 +2,8 @@ cff-version: 1.2.0
 title: "Digital-Asset Law Corpus"
 message: "If you use this corpus, please cite it."
 type: dataset
+repository-code: "https://github.com/dacheah/digital-asset-law-corpus"
+url: "https://github.com/dacheah/digital-asset-law-corpus"
 abstract: >-
   A neutral, provenance-first, machine-readable record of digital-asset
   market-structure and prudential law across many jurisdictions. Each

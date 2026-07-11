@@ -52,7 +52,6 @@ def main():
         print(f"  untracked     : {len(extra)} file(s) present but not in the manifest")
     for r in bad[:20]:     print("   CHANGED", r)
     for r in missing[:20]: print("   MISSING", r)
-    for r in extra[:20]:   print("   UNTRACKED", r)
     return 0 if ok else 1
 
 if __name__ == "__main__":

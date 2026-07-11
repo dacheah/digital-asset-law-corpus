@@ -70,3 +70,12 @@ byte turns it RED. No dependencies, fully offline.
 What this corpus does **not** claim: it is not a consolidation service, not exhaustive, and the concept
 tags are an unreviewed pass (expect occasional over/under-tagging). Treat it as citation-grounded input,
 not as the last word.
+
+## Repository, releases & citation
+
+- **Canonical repository:** https://github.com/dacheah/digital-asset-law-corpus
+- **Versioned releases:** https://github.com/dacheah/digital-asset-law-corpus/releases (current: `v1.0.0`)
+- **Cite this corpus:** machine-readable metadata is in [CITATION.cff](CITATION.cff).
+
+Each release is a dated, self-contained snapshot with its own `corpus_manifest.json` root
+hash; verify any copy offline with `python3 verify_integrity.py` before relying on it.
