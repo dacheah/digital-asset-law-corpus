@@ -1,0 +1,2351 @@
+Corporations Amendment (Digital Assets Framework) Act 2026 (No. 38, 2026)
+
+Corporations Amendment (Digital Assets Framework) Act 2026
+
+No. 38, 2026
+
+An Act to amend the law relating to corporations and financial services, and for related purposes
+
+Contents
+
+1 Short title 1
+
+2 Commencement 2
+
+3 Schedules 2
+
+Schedule 1—Digital asset platforms and tokenised custody platforms 3
+
+Part 1—Core concepts 3
+
+Division 1—Main amendments 3
+
+Corporations Act 2001 3
+
+Division 2—Related amendments 22
+
+Corporations Act 2001 22
+
+Part 2—Australian financial service licences 27
+
+Division 1—Minimum standards, platform rules and prohibitions for licensees 27
+
+Corporations Act 2001 27
+
+Division 2—Other matters 35
+
+Corporations Act 2001 35
+
+Part 3—Financial services disclosure, financial product disclosure, and design and distribution requirements etc. 37
+
+Corporations Act 2001 37
+
+Part 4—Product intervention orders 48
+
+Corporations Act 2001 48
+
+Part 5—Market misconduct rules 49
+
+Corporations Act 2001 49
+
+Part 6—Exemptions 50
+
+Corporations Act 2001 50
+
+Part 7—Amendment of the ASIC Act 58
+
+Australian Securities and Investments Commission Act 2001 58
+
+Part 8—Application and transitional provisions 65
+
+Corporations Act 2001 65
+
+Corporations Amendment (Digital Assets Framework) Act 2026
+
+No. 38, 2026
+
+An Act to amend the law relating to corporations and financial services, and for related purposes
+
+[Assented to 8 April 2026]
+
+The Parliament of Australia enacts:
+
+1 Short title
+
+This Act is the Corporations Amendment (Digital Assets Framework) Act 2026.
+
+2 Commencement
+
+(1) Each provision of this Act specified in column 1 of the table commences, or is taken to have commenced, in accordance with column 2 of the table. Any other statement in column 2 has effect according to its terms.
+
+Commencement information
+
+Column 1 Column 2 Column 3
+
+Provisions Commencement Date/Details
+
+1. The whole of this Act The day after the end of the period of 12 months beginning on the day this Act receives the Royal Assent. 8 April 2027
+
+Note: This table relates only to the provisions of this Act as originally enacted. It will not be amended to deal with any later amendments of this Act.
+
+(2) Any information in column 3 of the table is not part of this Act. Information may be inserted in this column, or information in it may be edited, in any published version of this Act.
+
+3 Schedules
+
+Legislation that is specified in a Schedule to this Act is amended or repealed as set out in the applicable items in the Schedule concerned, and any other item in a Schedule to this Act has effect according to its terms.
+
+Schedule 1—Digital asset platforms and tokenised custody platforms
+
+Part 1—Core concepts
+
+Division 1—Main amendments
+
+Corporations Act 2001
+
+1 After section 761GA
+
+Insert:
+
+761GB Meaning of digital token
+
+(1) A digital token is:
+
+(a) an electronic record that one or more persons are capable of factually controlling as described in subsection (2); or
+
+(b) an electronic record prescribed by regulations made for the purposes of this paragraph;
+
+but does not include an electronic record that, under the regulations, is prescribed not to be a digital token.
+
+Note: The regulations may prescribe a class of electronic record (see subsection 13(3) of the Legislation Act 2003).
+
+When a person is capable of factually controlling an electronic record
+
+(2) A person is capable of factually controlling an electronic record if the person can (whether alone or jointly with one or more other persons):
+
+(a) transfer the electronic record; and
+
+(b) exclude one or more other persons from transferring the electronic record; and
+
+(c) demonstrate that the person can do the things in paragraphs (a) and (b).
+
+Note: A person who can do all of these things possesses the digital token (see paragraph 86(2)(a)).
+
+(3) In working out whether a person can do a thing in paragraph (2)(a), (b) or (c):
+
+(a) it only matters what the person can do as a matter of fact rather than law; and
+
+(b) it does not matter if another person can also do that thing.
+
+Note 1: An example of when an electronic record is a digital token is if:
+
+(a) the electronic record is created by a payment provider on a distributed ledger to identify a person entitled to withdraw money; and
+
+(b) the person transfers the money by transferring the electronic record to another person, who the provider then recognises as entitled to withdraw the money.
+
+Note 2: An example of when an electronic record is a digital token is if:
+
+(a) the electronic record is created by a custodian on a distributed ledger to identify a person with beneficial ownership of property; and
+
+(b) the person transfers the property by transferring the electronic record to another person, who the provider then recognises as a beneficial owner of the property.
+
+Note 3: An example of when an electronic record is not a digital token is if:
+
+(a) the electronic record is in a ledger maintained by a bank to record a specific account holder’s balance of money that can be withdrawn; and
+
+(b) a transfer of money is effected by the bank altering the electronic record to reflect an updated balance, but not by transferring the electronic record itself.
+
+Note 4: An example of when an electronic record is not a digital token is if:
+
+(a) the electronic record is in a database maintained by a custodian to identify a client with beneficial ownership of property; and
+
+(b) a transfer of the property is effected by the custodian altering the electronic record to reflect the new beneficial owner, but not by transferring the electronic record itself.
+
+761GC Meaning of digital asset platform
+
+(1) A digital asset platform is a facility under which:
+
+(a) a person (the operator) possesses one or more digital tokens (the underlying assets); and
+
+(b) the underlying assets are so possessed for or on behalf of another person, including by the operator:
+
+(i) acting as trustee or bailee; or
+
+(ii) being obliged to ensure that the underlying assets are dealt with on the instructions of the other person.
+
+Note 1: Paragraph (a) can be satisfied if an agent of the operator possesses the underlying assets, because the operator is taken to have done anything that the agent does (see subsection 761GE(2)).
+
+Note 2: The operator is the issuer of the platform (see section 761E).
+
+(2) For the purposes of paragraph (1)(b), the other person must be a client under the facility or a nominee of such a client.
+
+(3) The facility may also authorise the operator or one or more other persons to engage in conduct:
+
+(a) in relation to an underlying asset; and
+
+(b) for or on behalf of the client or the client nominee.
+
+(4) Despite subsection (1), a tokenised custody platform cannot be a digital asset platform.
+
+761GD Meaning of tokenised custody platform
+
+(1) A tokenised custody platform is a facility under which:
+
+(a) a person (the operator) identifies one or more assets other than money (the underlying assets); and
+
+(b) for each underlying asset:
+
+(i) the operator creates a single digital token; and
+
+(ii) possessing the digital token confers a right to redeem, or direct the delivery of, the underlying asset; and
+
+(c) the operator holds each underlying asset; and
+
+(d) each underlying asset is so held for or on behalf of another person who possesses the digital token for the underlying asset, including by the operator:
+
+(i) acting as trustee or bailee; or
+
+(ii) being obliged to ensure that the underlying asset is dealt with on the instructions of the other person.
+
+Note 1: Paragraph (c) can be satisfied if an agent of the operator holds the underlying asset, because the operator is taken to have done anything that the agent does (see subsection 761GE(2)).
+
+Note 2: The operator is the issuer of the platform (see section 761E).
+
+(2) The facility may also authorise the operator or one or more other persons to engage in conduct in relation to an underlying asset for, or on behalf of, a person who:
+
+(a) possesses the digital token for the underlying asset; and
+
+(b) is a client under the facility.
+
+Note: If a person is not the first to possess a digital token, merely possessing the digital token does not make the person a client under the facility. For a facility that is an arrangement, the person would need to enter into the arrangement as a client under the facility (see item 5 of the table in subsection 761E(3)).
+
+(3) In this section:
+
+holds: for a digital token, a person holds the digital token if the person possesses the digital token.
+
+761GE Agents appointed by operators of digital asset platforms or tokenised custody platforms
+
+(1) This section applies if the operator of a facility appoints an agent to do anything that the operator is authorised to do in connection with the facility.
+
+(2) For the purposes of determining:
+
+(a) whether the facility is a digital asset platform or a tokenised custody platform; and
+
+(b) if the facility is a digital asset platform or a tokenised custody platform:
+
+(i) whether there is a liability to a client under the facility; or
+
+(ii) whether this Act has been complied with for the facility; or
+
+(iii) whether the platform rules of the facility have been complied with; or
+
+(iv) whether the asset-holding standards or the transactional and settlement standards have been complied with for the facility;
+
+the operator is taken to have done (or failed to do) anything that the agent has done (or failed to do) because of the appointment, even if the agent was acting fraudulently or outside the scope of the agent’s authority.
+
+(3) An agent appointed by:
+
+(a) an agent appointed by the operator as described in subsection (1); or
+
+(b) a person who is taken under this subsection to be an agent of the operator;
+
+to do anything that the operator is authorised to do in connection with the facility is taken to be an agent appointed by the operator to do that thing for the purposes of subsections (1) and (2).
+
+2 After paragraph 764A(1)(l)
+
+Insert:
+
+(la) a digital asset platform, unless the platform is a managed investment scheme;
+
+(lb) a tokenised custody platform, unless the platform is a managed investment scheme;
+
+3 At the end of Division 3 of Part 7.1
+
+Add:
+
+Subdivision E—Related matters
+
+765E Disregard redemption rights when working out whether wrapped tokens etc. are financial products
+
+(1) In this section, a digital token is a wrapped token if possessing the digital token confers a right (the redemption right) to redeem, or direct the delivery of, one of the following (the related asset):
+
+(a) an underlying asset of a tokenised custody platform;
+
+(b) a digital token held through:
+
+(i) decentralised wrapping software; or
+
+(ii) public digital token infrastructure;
+
+(c) an asset of a kind prescribed by regulations made for the purposes of this paragraph.
+
+Disregard the redemption right when working out whether the wrapped token etc. is a financial product
+
+(2) Disregard the redemption right when working out whether the wrapped token is, or whether rights or interests attached to the wrapped token are, a financial product.
+
+(3) However, subsection (2) does not apply if:
+
+(a) where the related asset is a financial product—a person who possesses the wrapped token has rights or interests that are not equivalent to those the person would have if the person held the related asset directly; or
+
+(b) circumstances prescribed by regulations made for the purposes of this paragraph apply for the wrapped token.
+
+Definitions
+
+(4) In this section:
+
+decentralised wrapping software, for a wrapped token, means software:
+
+(a) through which the wrapped token’s related asset is held; and
+
+(b) that would be a tokenised custody platform if the following things done by the software were instead done by an operator (within the meaning of subsection 761GD(1)):
+
+(i) creating the wrapped token;
+
+(ii) holding the related asset for or on behalf of the person who possesses the wrapped token.
+
+holds: for a digital token, a person holds the digital token if the person possesses the digital token.
+
+4 Division 4 of Part 7.1 (after the heading)
+
+Insert:
+
+Subdivision A—General meanings
+
+5 After paragraph 766C(1)(c)
+
+Insert:
+
+(ca) in relation to a digital asset platform or a tokenised custody platform—any conduct of a client under the platform (after the platform has been issued to the client);
+
+6 At the end of subsection 766C(1)
+
+Add:
+
+Note: Paragraph (ca) covers conduct of a client under the platform on behalf of the client’s own customers. In contrast, conduct of the client under the platform for the client’s internal purposes is not a dealing in the platform (see subsection (3)).
+
+7 Subsection 766D(2)
+
+Repeal the subsection, substitute:
+
+(2) Paragraph (1)(a) does not apply to a person stating prices at which the person proposes to acquire or dispose of financial products if:
+
+(a) the person is the issuer of the products, and the products are:
+
+(i) superannuation products; or
+
+(ii) managed investment products; or
+
+(iii) financial products referred to in paragraph 764A(1)(ba) (which relates to certain managed investment schemes that are not registered schemes); or
+
+(iv) foreign passport fund products; or
+
+(b) the person is the issuer of a tokenised custody platform, and the person is stating prices for the purposes of holding, redeeming or directing the delivery of the financial products under the platform.
+
+8 After paragraph 766E(3)(ca)
+
+Insert:
+
+(cb) dealing in a digital asset platform, or the possessing of digital tokens under such a platform;
+
+(cc) dealing in a tokenised custody platform, or the holding (within the meaning of section 761GD) of assets under such a platform;
+
+9 At the end of Division 4 of Part 7.1
+
+Add:
+
+Subdivision B—Specific limitations
+
+766K Conduct relating to certain platforms is a financial service only if engaged in by, or on behalf of, a constitutionally-covered corporation
+
+Despite anything in Subdivision A, conduct that:
+
+(a) relates to a digital asset platform, or a tokenised custody platform, that is a financial product only because of paragraph 764A(1)(la) or (lb); and
+
+(b) would, apart from this section, be a financial service (or a kind of financial service);
+
+is a financial service (or a kind of financial service) only if the conduct is engaged in by, or on behalf of, a constitutionally-covered corporation.
+
+Note: Dealing in a financial product is an example of a kind of financial service (see section 766A).
+
+Subdivision C—Related matters
+
+766M Certain services must be provided by constitutionally-covered corporations
+
+Person providing service directly, and not through a representative etc.
+
+(1) A person contravenes this section if:
+
+(a) the person is providing a service (the applicable service), but not as an agent or representative of any other person; and
+
+(b) the person uses a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution) to provide all or part of the applicable service; and
+
+(c) the applicable service would be a financial service involving:
+
+(i) providing financial product advice relating to a digital asset platform or a tokenised custody platform; or
+
+(ii) dealing in a digital asset platform or a tokenised custody platform; or
+
+(iii) engaging in conduct relating to a digital asset platform, or a tokenised custody platform, that is conduct of a kind prescribed for the purposes of paragraph 766A(1)(f);
+
+if the person were a constitutionally-covered corporation; and
+
+(d) the person is not a constitutionally-covered corporation.
+
+Note: This section is a civil penalty provision (see section 1317E).
+
+Person providing service through a representative etc.
+
+(2) A person contravenes this section if:
+
+(a) another person is providing a service (the applicable service) as an agent or representative of the first-mentioned person; and
+
+(b) the other person uses a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution) to provide all or part of the applicable service; and
+
+(c) the applicable service would be a financial service involving:
+
+(i) providing financial product advice relating to a digital asset platform or a tokenised custody platform; or
+
+(ii) dealing in a digital asset platform or a tokenised custody platform; or
+
+(iii) engaging in conduct relating to a digital asset platform, or a tokenised custody platform, that is conduct of a kind prescribed for the purposes of paragraph 766A(1)(f);
+
+if the first-mentioned person were a constitutionally-covered corporation; and
+
+(d) the first-mentioned person is not a constitutionally-covered corporation.
+
+Note: This section is a civil penalty provision (see section 1317E).
+
+10 Division 5 of Part 7.1 (after the heading)
+
+Insert:
+
+Subdivision A—General meaning
+
+11 At the end of subsection 767A(1)
+
+Add:
+
+Note 1: A facility covered by the definition of digital asset platform can be a financial market in either or both of the following ways:
+
+(a) if this subsection applies to it;
+
+(b) if it is declared under subsection 767B(1), in which case it is a financial market to the extent that the facility relates to the digital tokens specified in the declaration (see subsection (6) of this section).
+
+Note 2: If a facility is covered by the definitions of digital asset platform and financial market, the facility is not a financial product to the extent that the facility is a financial market (see section 762B and subparagraph 765A(1)(l)(i)).
+
+12 At the end of subsection 767A(2)
+
+Add:
+
+Note: For further exemptions, see Subdivision C.
+
+13 At the end of section 767A
+
+Add:
+
+Digital asset platforms
+
+(6) If a declaration is in force under subsection 767B(1) for a digital asset platform in relation to one or more classes of digital tokens:
+
+(a) the platform is a financial market to the extent that the platform relates to the digital tokens; and
+
+(b) for the purposes of provisions regulating the platform as a financial market, the digital tokens are financial products to the extent that the digital tokens are related to the platform.
+
+14 After section 767A
+
+Insert:
+
+Subdivision B—Extensions to the meaning of financial market
+
+767B Extension—certain digital asset platforms providing a market for digital tokens that are not financial products
+
+Minister may extend the meaning of financial market
+
+(1) The Minister may, by legislative instrument, declare that a digital asset platform is a financial market if:
+
+(a) the platform would be a facility to which subsection 767A(1) applies in relation to one or more specified classes of digital tokens if those digital tokens were financial products; and
+
+(b) the platform is operated by, or on behalf of, a constitutionally-covered corporation.
+
+Note 1: While the declaration is in force, the platform is a financial market to the extent that it relates to the digital tokens (see subsection 767A(6)).
+
+Note 2: In making a declaration, the Minister must have regard to the matters in subsection (5).
+
+Note 3: The declaration may declare a class of digital asset platforms (see subsection 13(3) of the Legislation Act 2003).
+
+(2) The declaration may apply:
+
+(a) unconditionally or subject to specified conditions; and
+
+(b) for a specified period or indefinitely (the extension duration).
+
+Varying or revoking an extension
+
+(3) The Minister may, at any time by legislative instrument:
+
+(a) vary a declaration given under subsection (1) to:
+
+(i) impose conditions, or additional conditions, on the declaration; or
+
+(ii) vary or revoke any of the conditions on the declaration; or
+
+(iii) extend or shorten the extension duration (including as affected by any variation from a previous operation of this subparagraph); or
+
+(b) revoke a declaration given under subsection (1).
+
+(4) However, the Minister may only take action under subsection (3) after:
+
+(a) giving notice, and an opportunity to make submissions on the proposed action, to the operator of each facility known by the Minister to be covered by the declaration; and
+
+(b) both:
+
+(i) the Minister has caused a notice to be published on ASIC’s website allowing a reasonable period within which the operator of each facility covered by the declaration may make submissions on the proposed action; and
+
+(ii) that period has ended; and
+
+(c) having regard to the matters in paragraphs (1)(a) and (b) and (5)(a) to (e).
+
+Matters relevant to giving an extension etc.
+
+(5) In considering whether to make a declaration under subsection (1), the Minister must have regard to the following:
+
+(a) the likely effect on the Australian economy, and on the efficiency, integrity and stability of the Australian financial system;
+
+(b) any impact on competition in the operation of financial markets or on the provision of digital asset platforms;
+
+(c) the likely regulatory impact;
+
+(d) whether each facility that could be covered by the declaration has a material connection with this jurisdiction;
+
+(e) any relevant advice the Minister has received under subsection (6).
+
+The Minister may also have regard to any other matters that the Minister considers relevant.
+
+Regulators may advise the Minister
+
+(6) ASIC, APRA, the Reserve Bank or AUSTRAC may (on its own initiative) and must (at the request of the Minister):
+
+(a) consider whether a declaration should be made, varied or revoked under this section; and
+
+(b) advise the Minister accordingly.
+
+Subdivision C—Exemptions to the meaning of financial market
+
+767C Exemption—certain digital asset platforms are not financial markets for certain financial products
+
+Minister may exempt certain digital asset platforms from the meaning of financial market
+
+(1) The Minister may, by legislative instrument, declare that a digital asset platform is not a financial market in relation to one or more specified financial products.
+
+Note 1: In making a declaration, the Minister must have regard to the matters in subsection (5).
+
+Note 2: The declaration may declare one or more classes of digital asset platforms or specify one or more classes of financial products (see subsection 13(3) of the Legislation Act 2003).
+
+(2) The declaration may apply:
+
+(a) unconditionally or subject to specified conditions; and
+
+(b) for a specified period or indefinitely (the exemption duration);
+
+and applies despite anything in Subdivision A or B.
+
+Varying or revoking an extension
+
+(3) The Minister may, at any time by legislative instrument:
+
+(a) vary a declaration given under subsection (1) to:
+
+(i) impose conditions, or additional conditions, on the declaration; or
+
+(ii) vary or revoke any of the conditions on the declaration; or
+
+(iii) extend or shorten the exemption duration (including as affected by any variation from a previous operation of this subparagraph); or
+
+(b) revoke a declaration given under subsection (1).
+
+(4) However, the Minister may only take action under subsection (3) after:
+
+(a) giving notice, and an opportunity to make submissions on the proposed action, to the operator of each platform known by the Minister to be covered by the declaration; and
+
+(b) both:
+
+(i) the Minister has caused a notice to be published on ASIC’s website allowing a reasonable period within which the operator of each platform covered by the declaration may make submissions on the proposed action; and
+
+(ii) that period has ended; and
+
+(c) having regard to the matters in paragraphs (5)(a) to (d).
+
+Matters relevant to giving an exemption etc.
+
+(5) In considering whether to make a declaration under subsection (1), the Minister must have regard to the following:
+
+(a) the likely effect on the Australian economy, and on the efficiency, integrity and stability of the Australian financial system;
+
+(b) any impact on competition in the operation of financial markets or on the provision of digital asset platforms;
+
+(c) the likely regulatory impact;
+
+(d) any relevant advice the Minister has received under subsection (6).
+
+The Minister may also have regard to any other matters that the Minister considers relevant.
+
+Regulators may advise the Minister
+
+(6) ASIC, APRA, the Reserve Bank or AUSTRAC may (on its own initiative) and must (at the request of the Minister):
+
+(a) consider whether a declaration should be made, varied or revoked under this section; and
+
+(b) advise the Minister accordingly.
+
+15 Division 6 of Part 7.1 (after the heading)
+
+Insert:
+
+Subdivision A—General meaning
+
+16 At the end of subsection 768A(1) (after the examples)
+
+Add:
+
+Note 1: A facility covered by the definition of digital asset platform can be a clearing and settlement facility in either or both of the following ways:
+
+(a) if this subsection applies to it;
+
+(b) if it is declared under subsection 768B(1), in which case it is a clearing and settlement facility to the extent that the facility relates to the digital tokens specified in the declaration (see subsection (5) of this section).
+
+Note 2: If a facility is covered by the definitions of digital asset platform and clearing and settlement facility, the facility is not a financial product to the extent that the facility is a clearing and settlement facility (see section 762B and subparagraph 765A(1)(l)(ii)).
+
+17 At the end of subsection 768A(2)
+
+Add:
+
+Note: For further exemptions, see Subdivision C.
+
+18 At the end of section 768A
+
+Add:
+
+Digital asset platforms
+
+(5) If a declaration is in force under subsection 768B(1) for a digital asset platform in relation to one or more classes of digital tokens:
+
+(a) the platform is a clearing and settlement facility to the extent that the platform relates to the digital tokens; and
+
+(b) for the purposes of provisions regulating the platform as a clearing and settlement facility, the digital tokens are financial products to the extent that the digital tokens are related to the platform.
+
+19 After section 768A
+
+Insert:
+
+Subdivision B—Extensions to the meaning of clearing and settlement facility
+
+768B Extension—certain digital asset platforms providing a clearing and settlement mechanism for digital tokens that are not financial products
+
+Minister may extend the meaning of clearing and settlement facility
+
+(1) The Minister may, by legislative instrument, declare that a digital asset platform is a clearing and settlement facility if:
+
+(a) the platform would be a facility to which subsection 768A(1) applies in relation to one or more specified classes of digital tokens if those digital tokens were financial products; and
+
+(b) the platform is operated by, or on behalf of, a constitutionally-covered corporation.
+
+Note 1: While the declaration is in force, the platform is a clearing and settlement facility to the extent that it relates to the digital tokens (see subsection 768A(5)).
+
+Note 2: In making a declaration, the Minister must have regard to the matters in subsection (5).
+
+Note 3: The declaration may declare a class of digital asset platforms (see subsection 13(3) of the Legislation Act 2003).
+
+(2) The declaration may apply:
+
+(a) unconditionally or subject to specified conditions; and
+
+(b) for a specified period or indefinitely (the extension duration).
+
+Varying or revoking an extension
+
+(3) The Minister may, at any time by legislative instrument:
+
+(a) vary a declaration given under subsection (1) to:
+
+(i) impose conditions, or additional conditions, on the declaration; or
+
+(ii) vary or revoke any of the conditions on the declaration; or
+
+(iii) extend or shorten the extension duration (including as affected by any variation from a previous operation of this subparagraph); or
+
+(b) revoke a declaration given under subsection (1).
+
+(4) However, the Minister may only take action under subsection (3) after:
+
+(a) giving notice, and an opportunity to make submissions on the proposed action, to the operator of each facility known by the Minister to be covered by the declaration; and
+
+(b) both:
+
+(i) the Minister has caused a notice to be published on ASIC’s website allowing a reasonable period within which the operator of each facility covered by the declaration may make submissions on the proposed action; and
+
+(ii) that period has ended; and
+
+(c) having regard to the matters in paragraphs (1)(a) and (b) and (5)(a) to (e).
+
+Matters relevant to giving an extension etc.
+
+(5) In considering whether to make a declaration under subsection (1), the Minister must have regard to the following:
+
+(a) the likely effect on the Australian economy, and on the efficiency, integrity and stability of the Australian financial system;
+
+(b) any impact on competition in the operation of clearing and settlement facilities or on the provision of digital asset platforms;
+
+(c) the likely regulatory impact;
+
+(d) whether each facility that could be covered by the declaration has a material connection with this jurisdiction;
+
+(e) any relevant advice the Minister has received under subsection (6).
+
+The Minister may also have regard to any other matters that the Minister considers relevant.
+
+Regulators may advise the Minister
+
+(6) ASIC, APRA, the Reserve Bank or AUSTRAC may (on its own initiative) and must (at the request of the Minister):
+
+(a) consider whether a declaration should be made, varied or revoked under this section; and
+
+(b) advise the Minister accordingly.
+
+Subdivision C—Exemptions to the meaning of clearing and settlement facility
+
+768C Exemption—certain digital asset platforms are not clearing and settlement facilities for certain financial products
+
+Minister may exempt certain digital asset platforms from the meaning of clearing and settlement facility
+
+(1) The Minister may, by legislative instrument, declare that a digital asset platform is not a clearing and settlement facility in relation to one or more specified financial products.
+
+Note 1: In making a declaration, the Minister must have regard to the matters in subsection (5).
+
+Note 2: The declaration may declare one or more classes of digital asset platforms or specify one or more classes of financial products (see subsection 13(3) of the Legislation Act 2003).
+
+(2) The declaration may apply:
+
+(a) unconditionally or subject to specified conditions; and
+
+(b) for a specified period or indefinitely (the exemption duration);
+
+and applies despite anything in Subdivision A or B.
+
+Varying or revoking an extension
+
+(3) The Minister may, at any time by legislative instrument:
+
+(a) vary a declaration given under subsection (1) to:
+
+(i) impose conditions, or additional conditions, on the declaration; or
+
+(ii) vary or revoke any of the conditions on the declaration; or
+
+(iii) extend or shorten the exemption duration (including as affected by any variation from a previous operation of this subparagraph); or
+
+(b) revoke a declaration given under subsection (1).
+
+(4) However, the Minister may only take action under subsection (3) after:
+
+(a) giving notice, and an opportunity to make submissions on the proposed action, to the operator of each platform known by the Minister to be covered by the declaration; and
+
+(b) both:
+
+(i) the Minister has caused a notice to be published on ASIC’s website allowing a reasonable period within which the operator of each platform covered by the declaration may make submissions on the proposed action; and
+
+(ii) that period has ended; and
+
+(c) having regard to the matters in paragraphs (5)(a) to (d).
+
+Matters relevant to giving an exemption etc.
+
+(5) In considering whether to make a declaration under subsection (1), the Minister must have regard to the following:
+
+(a) the likely effect on the Australian economy, and on the efficiency, integrity and stability of the Australian financial system;
+
+(b) any impact on competition in the operation of clearing and settlement facilities or on the provision of digital asset platforms;
+
+(c) the likely regulatory impact;
+
+(d) any relevant advice the Minister has received under subsection (6).
+
+The Minister may also have regard to any other matters that the Minister considers relevant.
+
+Regulators may advise the Minister
+
+(6) ASIC, APRA, the Reserve Bank or AUSTRAC may (on its own initiative) and must (at the request of the Minister):
+
+(a) consider whether a declaration should be made, varied or revoked under this section; and
+
+(b) advise the Minister accordingly.
+
+Division 2—Related amendments
+
+Corporations Act 2001
+
+20 Section 9
+
+Insert:
+
+AUSTRAC means the Australian Transaction Reports and Analysis Centre.
+
+21 Section 9 (paragraph (a) of the definition of clearing and settlement facility)
+
+Omit “section 768A”, substitute “Division 6 of Part 7.1”.
+
+22 Section 9 (after paragraph (d) of the definition of client)
+
+Insert:
+
+(e) under a digital asset platform—means a person who is a client under the platform as described in item 5 of the table in subsection 761E(3); and
+
+(f) under a tokenised custody platform—means a person who is a client under the platform as described in item 5 of the table in subsection 761E(3).
+
+23 Section 9
+
+Insert:
+
+constitutionally-covered corporation means:
+
+(a) a corporation to which paragraph 51(xx) of the Constitution applies; or
+
+(b) a body that is a corporation within the meaning of this Act as originally enacted (see section 57A).
+
+24 Section 9 (definition of custodian)
+
+Repeal the definition, substitute:
+
+custodian:
+
+(a) of a digital asset platform—means a person who possesses an underlying asset of the platform; or
+
+(b) of a tokenised custody platform—means a person who holds (within the meaning of section 761GD) an underlying asset of the platform; or
+
+(c) in relation to a registrable superannuation entity—has the same meaning as in the Superannuation Industry (Supervision) Act 1993.
+
+25 Section 9
+
+Insert:
+
+digital asset platform has the meaning given by section 761GC.
+
+digital token has the meaning given by section 761GB.
+
+26 Section 9 (definition of financial market)
+
+Omit “section 767A”, substitute “Division 5 of Part 7.1”.
+
+27 Section 9 (after paragraph (mb) of the definition of managed investment scheme)
+
+Insert:
+
+(mc) a digital asset platform if, under the platform:
+
+(i) clients under the platform have the right to redeem, or direct the delivery of, the underlying assets of the platform; and
+
+(ii) the operator of the platform acts only on client instructions in relation to any decisions about the acquisition, disposal or use of the underlying assets; and
+
+(iii) the operator cannot negotiate or determine, to a material extent, any rights of the clients relating to the underlying assets;
+
+(md) a tokenised custody platform if, under the platform:
+
+(i) clients under the platform have the right to redeem, or direct the delivery of, the underlying assets of the platform; and
+
+(ii) the operator of the platform acts only on client instructions in relation to any decisions about the acquisition, disposal or use of the underlying assets; and
+
+(iii) the operator cannot negotiate or determine, to a material extent, any rights of the clients relating to the underlying assets; and
+
+(iv) all of the underlying assets must belong to the same class of asset; and
+
+(v) the digital token created for an underlying asset can only be divisible to the same extent that the underlying asset is reasonably capable of being divisible in a way that each part can be physically delivered;
+
+28 Section 9 (definition of operator)
+
+Repeal the definition, substitute:
+
+operator:
+
+(a) of a digital asset platform—has the meaning given by subsection 761GC(1); or
+
+(b) of a passport fund—means the entity that is the operator of the fund under the Passport Rules for this jurisdiction; or
+
+(c) of a tokenised custody platform—has the meaning given by subsection 761GD(1).
+
+29 Section 9
+
+Insert:
+
+tokenised custody platform has the meaning given by section 761GD.
+
+underlying asset:
+
+(a) of a digital asset platform—has the meaning given by subsection 761GC(1); or
+
+(b) of a tokenised custody platform—has the meaning given by paragraph 761GD(1)(a).
+
+30 Section 86
+
+Repeal the section, substitute:
+
+86 Meaning of possession
+
+General (things other than digital tokens)
+
+(1) A thing that is in a person’s custody or under a person’s control is in the person’s possession.
+
+Digital tokens
+
+(2) However, a person possesses a digital token if:
+
+(a) for an electronic record that is a digital token because of paragraph 761GB(1)(a)—the person is capable of factually controlling the electronic record as described in subsection 761GB(2); or
+
+(b) otherwise—the conditions prescribed by regulations made for the purposes of this paragraph are met for the person and the digital token;
+
+unless, under the regulations, prescribed circumstances exist such that the person does not possess the digital token.
+
+(3) Despite paragraph (2)(a), a person does not (jointly) possess an electronic record that is a digital token if:
+
+(a) the person needs the express cooperation of another person in order to be able to satisfy paragraph 761GB(2)(a), (b) or (c) for the electronic record; and
+
+(b) that other person can unilaterally satisfy that paragraph for the electronic record.
+
+31 Subsection 761E(3) (at the end of the table)
+
+Add:
+
+5 a facility that is:(a) a digital asset platform; or(b) a tokenised custody platform the person:(a) if the facility is an arrangement—enters into the arrangement as a client under the facility; or(b) otherwise—becomes a client under the facility
+
+32 After paragraph 761E(3A)(d)
+
+Insert:
+
+(da) any conduct of the client under a digital asset platform or a tokenised custody platform (after the platform has been issued to the client);
+
+33 At the end of subsection 791D(1)
+
+Add:
+
+; or (c) is covered by a declaration in force under subsection 767B(1) (about certain digital asset platforms).
+
+34 At the end of subsection 820D(1)
+
+Add:
+
+; or (c) is covered by a declaration in force under subsection 768B(1) (about certain digital asset platforms).
+
+35 Subsection 1317E(3) (before the table item dealing with subsection 791A(3))
+
+Insert:
+
+subsections 766M(1) and (2) certain services must be provided by constitutionally-covered corporations uncategorised
+
+Part 2—Australian financial service licences
+
+Division 1—Minimum standards, platform rules and prohibitions for licensees
+
+Corporations Act 2001
+
+36 Section 9
+
+Insert:
+
+asset-holding standards means standards in force under section 912BE.
+
+platform rules, of a digital asset platform or tokenised custody platform, means any rules (however described) that are made by the issuer of the platform, or contained in the issuer’s constitution, and that deal with the activities or conduct of persons in relation to the platform.
+
+Note: For the content of the rules, see section 912BG.
+
+transactional and settlement standards means standards in force under section 912BF.
+
+37 After Subdivision A of Division 3 of Part 7.6
+
+Insert:
+
+Subdivision AA—Specific obligations for financial services businesses involving certain platforms
+
+912BA Scope of this Subdivision
+
+This Subdivision applies in relation to:
+
+(a) a financial services licensee; and
+
+(b) a digital asset platform or a tokenised custody platform;
+
+to the extent that one or more of the financial services authorised by the licence relate to the issuing of the platform.
+
+912BB Compliance with standards
+
+The licensee must comply with the following standards to the extent that the standards relate to the financial services:
+
+(a) the asset-holding standards;
+
+(b) the transactional and settlement standards.
+
+Note 1: This section is a civil penalty provision (see section 1317E).
+
+Note 2: For the making of these standards, see sections 912BE and 912BF.
+
+912BC Having adequate platform rules
+
+The licensee must have platform rules for the platform that comply with subsection 912BG(1).
+
+Note: This section is a civil penalty provision (see section 1317E).
+
+912BD Compliance with declaration prohibiting transactions etc. involving certain financial products through certain platforms
+
+The licensee must comply with a prohibition in force under section 912BH relating to the financial services and the platform.
+
+Note: This section is a civil penalty provision (see section 1317E).
+
+912BE Asset-holding standards
+
+(1) ASIC may, by legislative instrument, make standards (the asset-holding standards) that deal with the following in relation to each digital asset platform or tokenised custody platform issued by one or more financial services licensees:
+
+(a) the activities or conduct of the licensees, or of the authorised representatives of the licensees, in relation to:
+
+(i) possessing and safeguarding the underlying assets of the platforms; or
+
+(ii) recordkeeping, reconciliation and reporting for the underlying assets of the platforms; or
+
+(iii) using the underlying assets of the platforms;
+
+(b) the provision by the licensees of supplementary services relating to the underlying assets of the platforms, including services concerning fund accounting, compliance monitoring, performance reporting, and tax;
+
+(c) any matter prescribed by regulations made for the purposes of this paragraph.
+
+Note 1: An asset includes a right (see section 9AB).
+
+Note 2: Different standards may apply to different classes of assets (see subsection 33(3A) of the Acts Interpretation Act 1901).
+
+(2) In considering whether to make a standard under subsection (1), ASIC must be reasonably satisfied that the proposed standard:
+
+(a) is adequate, effective and appropriate for all digital asset platforms and tokenised custody platforms, including by being reasonably proportionate for differences in the size, scale or nature of such platforms; and
+
+(b) requires any money held under a digital asset platform or tokenised custody platform (that is not an underlying asset of the platform) to be held in trust for, or on behalf of, a client under the platform; and
+
+(c) provides to the operator of:
+
+(i) a digital asset platform; or
+
+(ii) a tokenised custody platform;
+
+options for holding money for or on behalf of a client under the platform, to assist the operator to mitigate the impacts of a bank refusing to provide services ordinarily provided by a bank; and
+
+(d) does not prohibit a licensee who issues a digital asset platform or tokenised custody platform from:
+
+(i) providing particular services; or
+
+(ii) arranging for particular services to be provided;
+
+to clients under the platform; and
+
+(e) does not prohibit a licensee who issues a digital asset platform, or a tokenised custody platform, from possessing digital tokens under the platform:
+
+(i) in one address or location on public digital token infrastructure or similar infrastructure; or
+
+(ii) in one wallet;
+
+if the licensee’s internal accounting system identifies the digital tokens as the client’s; and
+
+(f) includes any requirement or limitation, or achieves any outcome, prescribed by the regulations for the purposes of this paragraph.
+
+912BF Transactional and settlement standards
+
+(1) ASIC may, by legislative instrument, make standards (the transactional and settlement standards) dealing with:
+
+(a) the conduct of persons in relation to the underlying assets of:
+
+(i) digital asset platforms; or
+
+(ii) tokenised custody platforms;
+
+issued by financial services licensees; and
+
+(b) any matter prescribed by regulations made for the purposes of this paragraph.
+
+(2) For the purposes of (but without limiting) subsection (1), the conduct the standards can deal with includes the following:
+
+(a) facilitating acquisitions, disposals, encumbrances or settlements of the underlying assets of a digital asset platform or tokenised custody platform;
+
+(b) matched principal trading and other execution models that involve the intermediary facilitation of such transactions;
+
+(c) handling, prioritising and executing the instructions of a client under such a platform (including across different business models such as market operation, market making, liquidity provision, brokerage, or dealing);
+
+(d) the conduct of persons engaged by the issuer of such a platform in relation to the performance of a function in any of the above paragraphs (including the conduct of authorised representatives, agents and subcontractors).
+
+(3) In considering whether to make a standard under subsection (1), ASIC must be reasonably satisfied that the proposed standard:
+
+(a) is adequate, effective and appropriate for all digital asset platforms and tokenised custody platforms, including by being reasonably proportionate for differences in the size, scale or nature of such platforms; and
+
+(b) allows for a client under such a platform to direct the exercise, for or on the client’s behalf, of specified rights that:
+
+(i) relate to the underlying assets of the platform; and
+
+(ii) are provided under the platform; and
+
+(c) does not prevent the issuer of such a platform from sourcing liquidity from platforms operating:
+
+(i) outside of this jurisdiction; and
+
+(ii) with or without a licence under this Act; and
+
+(d) requires the issuer of such a platform to:
+
+(i) enter into an enforceable written arrangement with each person providing liquidity to, or pursuing market-making strategies through, the platform; and
+
+(ii) monitor the activities or conduct of that person under the arrangement; and
+
+(iii) enforce the arrangement; and
+
+(e) includes any requirement or limitation, or achieves any outcome, prescribed by the regulations for the purposes of this paragraph.
+
+912BG Platform rules of a digital asset platform or tokenised custody platform
+
+Content of the platform rules
+
+(1) The platform rules of a digital asset platform or tokenised custody platform issued by a financial services licensee must include:
+
+(a) transparent and non-discriminatory eligibility criteria for identifying who can become a client under the platform; and
+
+(b) any ongoing obligations of a client under the platform; and
+
+(c) the method (the settlement method) for executing client instructions to execute and settle transactions involving the acquisition or disposal of underlying assets of the platform; and
+
+(d) a requirement for the licensee to disclose to a potential client under the platform:
+
+(i) the settlement method for transactions involving the acquisition or disposal of underlying assets of the platform; and
+
+(ii) whether external liquidity sources will be used in relation to such transactions and, if so, the extent to which the licensee remains responsible for the execution and settlement of such transactions; and
+
+(iii) who bears any counterparty or operational risk during execution and settlement of such transactions; and
+
+(iv) how any changes to the settlement method will be communicated to clients; and
+
+(v) whether and how a client’s acquisition of an underlying asset of the platform will be recorded in any legal or technical register; and
+
+(vi) any other matter prescribed by the regulations for the purposes of this subparagraph; and
+
+(e) information about the types of assets that are or will be available as underlying assets of the platform; and
+
+(f) the method for how the licensee, or any custodian of the platform, will determine what assets are or will be available as underlying assets of the platform; and
+
+(g) the arrangements for depositing, redeeming and directing the delivery of underlying assets in their actual form (rather than their money’s worth); and
+
+(h) any other rules prescribed by regulations made for the purposes of this subsection.
+
+Note: The licensee must comply with this provision as it is part of the financial services law (see paragraph 912A(1)(c)).
+
+Legal effect of the platform rules
+
+(2) The platform rules of a digital asset platform or tokenised custody platform have effect as a contract under seal:
+
+(a) between the licensee and each client under the platform; and
+
+(b) if, under the platform, clients can have dealings with each other—between a client under the platform and each other client under the platform;
+
+under which each of those persons agrees to observe the platform rules to the extent that they apply to the person and to engage in conduct that the person is required by the platform rules to engage in.
+
+Note: A failure to comply with the platform rules may be a breach of an implied warranty (see section 12ED of the ASIC Act).
+
+(3) However, if there is an inconsistency between the platform rules of the platform, and any of the following other instruments:
+
+(a) the transactional and settlement standards;
+
+(b) an instrument of a kind prescribed by the regulations for the purposes of this paragraph;
+
+those other instruments prevail over the platform rules to the extent of the inconsistency.
+
+912BH Prohibition by the Minister—transactions etc. involving certain financial products must not happen through digital asset platforms or tokenised custody platforms
+
+Prohibition
+
+(1) The Minister may, by legislative instrument, declare that conduct involving a specified financial product must not happen through:
+
+(a) a specified digital asset platform; or
+
+(b) a specified tokenised custody platform;
+
+if one or more of the financial services authorised by an Australian financial services licence relate to the issuing of the platform.
+
+Note 1: Such a licensee must comply with this prohibition (see section 912BD).
+
+Note 2: The Minister could, for example, declare that a particular class of financial products must not be held as underlying assets of a particular digital asset platform or tokenised custody platform.
+
+Note 3: A declaration may:
+
+(a) declare one or more classes of conduct; or
+
+(b) specify one or more (or all) classes of financial products or platforms;
+
+(see subsection 13(3) of the Legislation Act 2003).
+
+Note 4: In making a declaration, the Minister must have regard to the matters in subsection 912BI(1).
+
+(2) The prohibition may apply:
+
+(a) unconditionally or subject to specified conditions; and
+
+(b) for a specified period or indefinitely (the prohibition duration).
+
+Varying or revoking a prohibition
+
+(3) The Minister may, at any time by legislative instrument, make a declaration:
+
+(a) varying a prohibition declared under subsection (1) to:
+
+(i) impose conditions, or additional conditions, on the prohibition; or
+
+(ii) vary or revoke any of the conditions on the prohibition; or
+
+(iii) extend or shorten the prohibition duration (including as affected by any variation from a previous operation of this subparagraph); or
+
+(b) revoking a prohibition declared under subsection (1).
+
+(4) However, the Minister may only take action under subsection (3) after:
+
+(a) giving notice, and an opportunity to make submissions on the proposed action, to each financial services licensee known by the Minister to be covered by the prohibition; and
+
+(b) both:
+
+(i) the Minister has caused a notice to be published on ASIC’s website allowing a reasonable period within which each financial services licensee covered by the prohibition may make submissions on the proposed action; and
+
+(ii) that period has ended.
+
+912BI Prohibition by the Minister—matters to which the Minister has regard
+
+(1) In considering whether to make a declaration under subsection 912BH(1) or (3) prohibiting conduct in relation to one or more financial products, the Minister must have regard to:
+
+(a) the likely effect on the Australian economy, and on the efficiency, integrity and stability of the Australian financial system; and
+
+(b) any impact on the provision of digital asset platforms or tokenised custody platforms (as applicable); and
+
+(c) the likely regulatory impact; and
+
+(d) whether the conduct or financial products have resulted, or will or are likely to result, in significant consumer detriment; and
+
+(e) any relevant advice the Minister has received under subsection (3).
+
+(2) The Minister may also have regard to any other matters that the Minister considers relevant.
+
+ASIC, APRA or Reserve Bank may advise the Minister
+
+(3) ASIC, APRA or the Reserve Bank may (on its own initiative) and must (at the request of the Minister):
+
+(a) consider whether a declaration under subsection 912BH(1) or (3) should be made; and
+
+(b) advise the Minister accordingly.
+
+38 Paragraph 912D(3)(a)
+
+Omit “or 912B”, substitute “, 912B, 912BB, 912BC or 912BD”.
+
+39 Subsection 1317E(3) (after the table item dealing with subsection 912A(5A))
+
+Insert:
+
+section 912BB complying with standards uncategorised
+
+section 912BC having adequate platform rules uncategorised
+
+section 912BD licensee must comply with declared prohibitions uncategorised
+
+Division 2—Other matters
+
+Corporations Act 2001
+
+40 At the end of subsection 921C(1)
+
+Add:
+
+; (d) the relevant financial products are digital asset platforms or tokenised custody platforms that:
+
+(i) are financial products only because of paragraph 764A(1)(la) or (lb); and
+
+(ii) are not operated by constitutionally-covered corporations.
+
+41 After subsection 926A(5)
+
+Insert:
+
+(5A) Despite paragraph (2)(c), a declaration under that paragraph has no effect to the extent that it relates to:
+
+(a) a digital asset platform or a tokenised custody platform; or
+
+(b) a platform in a class of digital asset platforms or tokenised custody platforms;
+
+in circumstances where:
+
+(c) a provision resulting from the declaration does not relate to the platform in connection with a financial service; and
+
+(d) the platform:
+
+(i) is a financial product only because of paragraph 764A(1)(la) or (lb); and
+
+(ii) is not operated by a constitutionally-covered corporation.
+
+42 At the end of section 926B
+
+Add:
+
+(6) Despite paragraph (1)(c), a regulation made for the purposes of that paragraph has no effect to the extent that it relates to:
+
+(a) a digital asset platform or a tokenised custody platform; or
+
+(b) a platform in a class of digital asset platforms or tokenised custody platforms;
+
+in circumstances where:
+
+(c) a provision resulting from the regulation does not relate to the platform in connection with a financial service; and
+
+(d) the platform:
+
+(i) is a financial product only because of paragraph 764A(1)(la) or (lb); and
+
+(ii) is not operated by a constitutionally-covered corporation.
+
+Part 3—Financial services disclosure, financial product disclosure, and design and distribution requirements etc.
+
+Corporations Act 2001
+
+43 Section 9
+
+Insert:
+
+DAP/TCP Guide means a guide required to be given under section 1020AN.
+
+voting policy, for a digital asset platform or tokenised custody platform, means a policy required under section 1020AP.
+
+44 After subsection 952E(4)
+
+Insert:
+
+(4A) A person does not contravene subsection (1) or (2) to the extent that the disclosure document or statement:
+
+(a) is a Financial Services Guide, Supplementary Financial Services Guide or website disclosure information; and
+
+(b) relates to a digital asset platform or tokenised custody platform; and
+
+(c) is defective in a part of the disclosure document or statement:
+
+(i) for which another financial services licensee states it is responsible in the disclosure document or statement; and
+
+(ii) that relates to the financial services that are to be or are likely to be performed by that other financial services licensee.
+
+Note: In criminal proceedings, a defendant bears an evidential burden in relation to the matters in this subsection. See subsection 13.3(3) of the Criminal Code.
+
+45 At the end of section 952G
+
+Add:
+
+(11) A person does not contravene subsection (2), (4) or (6) to the extent that the disclosure document or statement:
+
+(a) is a Financial Services Guide, Supplementary Financial Services Guide or website disclosure information; and
+
+(b) relates to a digital asset platform or tokenised custody platform; and
+
+(c) is defective in a part of the disclosure document or statement:
+
+(i) for which another financial services licensee states it is responsible in the disclosure document or statement; and
+
+(ii) that relates to the financial services that are to be or are likely to be performed by that other financial services licensee.
+
+Note: In criminal proceedings, a defendant bears an evidential burden in relation to the matters in this subsection. See subsection 13.3(3) of the Criminal Code.
+
+46 After subsection 953B(6)
+
+Insert:
+
+(6A) A person is not liable under subsection (2) in a situation described in paragraph (1)(b) or (ba) to the extent that the disclosure document or statement:
+
+(a) is a Financial Services Guide, Supplementary Financial Services Guide or website disclosure information; and
+
+(b) relates to a digital asset platform or tokenised custody platform; and
+
+(c) is defective in a part of the disclosure document or statement:
+
+(i) for which another financial services licensee states it is responsible in the disclosure document or statement; and
+
+(ii) that relates to the financial services that are to be or are likely to be performed by that other financial services licensee.
+
+47 Paragraph 994B(1)(b)
+
+Repeal the paragraph, substitute:
+
+(b) under Part 7.9, the person is required to prepare:
+
+(i) a Product Disclosure Statement for the product; or
+
+(ii) a DAP/TCP Guide for the product; or
+
+48 Section 1010B (heading)
+
+Repeal the heading, substitute:
+
+1010B Part does not apply to financial products in some circumstances
+
+49 At the end of section 1010B
+
+Add:
+
+Digital asset platforms and tokenised custody platforms
+
+(3) A person who:
+
+(a) is the operator of a digital asset platform or tokenised custody platform; or
+
+(b) is otherwise involved in the operation or promotion of such a platform;
+
+does not have to comply with Division 2 for a recommendation situation, an issue situation or a sale situation if the financial product for that situation is:
+
+(c) the platform; or
+
+(d) an equitable right or interest in another financial product arising because of a holding, or an offer to hold or arrange for the holding of, the other financial product through the platform.
+
+Note: Disclosure obligations for these platforms are set out in Division 5D.
+
+(4) A person does not have to comply with the designated provisions for a financial product if, because of subsection (3), the person does not have to comply with Division 2 for the financial product.
+
+(5) In this section:
+
+designated provisions are the following provisions of this Part:
+
+(a) Divisions 3 to 5C (other than section 1017E);
+
+(b) Division 6 (other than sections 1020D, 1020F and 1020G);
+
+(c) Division 7 (other than section 1021O).
+
+50 After Division 5C of Part 7.9
+
+Insert:
+
+Division 5D—Disclosure framework for digital asset platforms and tokenised custody platforms
+
+1020AM Scope of this Division
+
+This Division applies in relation to a digital asset platform or tokenised custody platform only if the platform is issued, or will be issued, by a financial services licensee in the course of a financial services business.
+
+1020AN Giving a DAP/TCP Guide before issuing a platform
+
+Giving the Guide before issuing a digital asset platform or tokenised custody platform to a person as a retail client
+
+(1) The licensee must, before issuing a digital asset platform or tokenised custody platform to a person as a retail client under the platform, give the person a DAP/TCP Guide that:
+
+(a) includes the information required by section 1020AO for the platform; and
+
+(b) is written and presented in a clear, concise and effective manner.
+
+Note 1: The Guide can consist of 2 or more documents if they are presented and given in a way that satisfies paragraphs (a) and (b).
+
+Note 2: This subsection is a civil penalty provision (see section 1317E).
+
+Guide is no longer accurate
+
+(2) The licensee must not give a person a DAP/TCP Guide if the licensee becomes aware that:
+
+(a) a material change has occurred to the information in it; or
+
+(b) it has become misleading or deceptive or likely to mislead or deceive.
+
+To avoid doubt, the licensee must still comply with subsection (1).
+
+Note: This subsection is a civil penalty provision (see section 1317E).
+
+Circumstances affecting accuracy of Guides that have been given
+
+(3) If:
+
+(a) the licensee gives a person a DAP/TCP Guide (the existing Guide) in accordance with subsection (1); but
+
+(b) a new circumstance later arises so that the Guide no longer includes the information required by section 1020AO for the platform;
+
+the licensee must, as soon as practicable after the new circumstance arises, give the person:
+
+(c) updated information to enable the person to again readily have the information required by section 1020AO for the platform; and
+
+(d) objective advice about whether the updated information is, when compared with the information in the existing Guide, materially adverse to a retail client under the platform.
+
+Note 1: The updated information could take the form of a “Supplementary DAP/TCP Guide”, and could include information about how to readily access particular information on a website.
+
+Note 2: For paragraph (b), examples of a new circumstance include the licensee becoming aware of the matters in paragraph (2)(a) or (b).
+
+Note 3: This subsection is a civil penalty provision (see section 1317E).
+
+1020AO Content of a DAP/TCP Guide
+
+(1) A DAP/TCP Guide must include all information a person would reasonably require for the purposes of making a decision, as a retail client, whether to become a client under the platform, including such information that the person would reasonably require to:
+
+(a) understand the nature of the platform and any risks associated with participation in the platform; and
+
+(b) identify:
+
+(i) the licensee (as the issuer of the platform); and
+
+(ii) any custodians of the platform; and
+
+(iii) the nature of the responsibilities of the issuer and of any custodians, and of the relationships between them; and
+
+(c) understand the method and extent of all charges associated with the platform, including any right of the issuer or any other person to recoup expenses from a client’s assets; and
+
+(d) understand any differences between the rights of a client under the platform and the rights of a person who (directly) holds an underlying asset of the platform, including information on any applicable:
+
+(i) cooling-off rights; and
+
+(ii) voting rights; and
+
+(iii) withdrawal rights under section 724 or 1016E; and
+
+(e) understand how and to whom a client may make a complaint in relation to:
+
+(i) the operation of the platform; and
+
+(ii) the underlying assets of the platform (where this is possible); and
+
+(iii) financial product advice provided to the client in relation to the platform that is not provided by or on behalf of the licensee; and
+
+(f) understand a client’s rights to disclosure in relation to the underlying assets of the platform, including that a client may elect to receive copies of communications relating to those assets that:
+
+(i) are sent to the holders of those assets; or
+
+(ii) the holders of those assets may elect to receive; and
+
+(g) understand how the licensee, or any custodians of the platform, determine what is or will be available as underlying assets of the platform; and
+
+(h) understand any other matters prescribed by regulations made for the purposes of this paragraph.
+
+(2) A DAP/TCP Guide must also include:
+
+(a) a statement that copies of the platform’s voting policy are available free on request; and
+
+(b) a statement to the effect that the total fees and expenses payable by a client will include the costs of the platform; and
+
+(c) a statement to the effect that the fees and expenses for any conduct that:
+
+(i) can be engaged in under the platform; and
+
+(ii) is chosen by the client to be engaged in;
+
+will be in addition to the fees charged for the platform; and
+
+(d) examples, based on estimates, of the fees and expenses referred to in paragraphs (b) and (c), that satisfy any requirements prescribed by regulations made for the purposes of this paragraph; and
+
+(e) anything else prescribed by regulations made for the purposes of this paragraph.
+
+(3) Despite subsection (1), that subsection does not require a DAP/TCP Guide to include publicly-available information, provided that the DAP/TCP Guide:
+
+(a) refers to the information; and
+
+(b) includes sufficient details about the information to enable a person to easily identify and locate it; and
+
+(c) states that the information can be obtained free from the licensee on request; and
+
+(d) if any of the information is about any significant benefits to which a person will or may become entitled under the platform—includes a summary of that information; and
+
+(e) if any of the information is about any significant risks associated with the platform—includes a summary of those risks.
+
+1020AP Having and administering a platform voting policy
+
+(1) The licensee must, before issuing a digital asset platform or tokenised custody platform to a person as a retail client under the platform, ensure that there is a policy (the voting policy) for the platform that:
+
+(a) deals with the exercise of any voting or governance rights arising for:
+
+(i) the underlying assets of the platform; and
+
+(ii) any other asset that is otherwise held or possessed through the platform; and
+
+(b) includes the information required by section 1020AQ for the platform; and
+
+(c) is written and presented in a clear, concise and effective manner.
+
+Note: This subsection is a civil penalty provision (see section 1317E).
+
+(2) The licensee must ensure that the voting policy:
+
+(a) is kept accurate; and
+
+(b) is administered for the platform by the licensee or by a custodian of the platform.
+
+Note: This subsection is a civil penalty provision (see section 1317E).
+
+(3) The regulations may prescribe how liability is to be dealt with for proxy voting relating to an asset of a kind covered by paragraph (1)(a).
+
+1020AQ Content of a platform’s voting policy
+
+A platform’s voting policy must:
+
+(a) identify any rights a client under the platform will have in relation to any voting or governance rights arising for:
+
+(i) each underlying asset of the platform; and
+
+(ii) any other asset that is otherwise held or possessed through the platform;
+
+for the client (whether directly or through a nominee); and
+
+(b) state whether a client under the platform may instruct the licensee, or a custodian of the platform, (the authority) about the exercise of any such voting or governance rights; and
+
+(c) if the client may give such instructions:
+
+(i) require the authority to vote only when, and as, instructed by the client (including under a standing instruction); and
+
+(ii) require clients to be given, as soon as practicable, copies of any relevant information received by the licensee or a custodian in relation to the assets that are the subject of the voting or governance rights; and
+
+(iii) identify how copies of this relevant information are to be given to clients; and
+
+(iv) identify the steps that are to be taken after voting instructions have been communicated by a client to the authority; and
+
+(v) identify whether any costs are to be charged to the client for exercising voting or governance rights; and
+
+(d) if the client may not give such instructions—require the authority not to exercise any such voting or governance rights; and
+
+(e) state how any regulations made for the purposes of subsection 1020AP(3) (about proxy voting) relate to any such voting or governance rights.
+
+1020AR Disclosure obligations for underlying assets etc. of platforms
+
+Giving copies of communications about related assets
+
+(1) If:
+
+(a) a financial product, or a prescribed digital token, (the asset):
+
+(i) is an underlying asset of a digital asset platform or tokenised custody platform; or
+
+(ii) is otherwise held or possessed through such a platform;
+
+for a client under the platform (whether directly or through a nominee); and
+
+(b) communications are required by law to be given to the person who holds or possesses the asset (including communications required to be given on request);
+
+the licensee who issues the platform must, on request, ensure the client is given a copy of such communications as soon as practicable after the communications are received by the licensee or by a custodian of the platform.
+
+Note 1: The platform needs to be one that is issued, or will be issued, by a financial services licensee in the course of a financial services business (see section 1020AM).
+
+Note 2: This subsection is a civil penalty provision (see section 1317E).
+
+(2) The client’s request may be for a particular communication, or may be a standing request for one or more classes of such communications.
+
+Disclosure requirements relating to acquisitions of prescribed digital tokens
+
+(3) Regulations made for the purposes of this subsection may prescribe disclosure obligations before an acquisition of a prescribed digital token, by way of issue or sale, happens because of an instruction given:
+
+(a) under a digital asset platform or tokenised custody platform; and
+
+(b) by a client under the platform (whether directly or through a nominee).
+
+(4) Without limiting subsection (3), such obligations could be imposed on one or more of the following:
+
+(a) the licensee who issues the platform;
+
+(b) a custodian of the platform;
+
+(c) a person who is to issue or sell the prescribed digital token.
+
+Note: The platform needs to be one that is issued, or will be issued, by a financial services licensee in the course of a financial services business (see section 1020AM).
+
+(5) A person must comply with an obligation imposed on the person by regulations made for the purposes of subsection (3).
+
+Note: This subsection is a civil penalty provision (see section 1317E).
+
+Definitions
+
+(6) In this section:
+
+prescribed digital token means a digital token that:
+
+(a) is not a financial product; and
+
+(b) is of a class prescribed by regulations made for the purposes of this paragraph.
+
+51 At the end of section 1020D
+
+Add:
+
+; or (c) if the acquisition occurs in circumstances in which the party is required by Division 5D to have been given a DAP/TCP Guide for the product—taken to have notice of any contract, document or matter not specifically referred to in:
+
+(i) a DAP/TCP Guide given to the party; or
+
+(ii) any information or advice given under subsection 1020AN(3) to the party.
+
+52 Subsection 1317E(3) (after the table item dealing with subsection 1020A(5))
+
+Insert:
+
+subsection 1020AN(1) giving a DAP/TCP guide uncategorised
+
+subsection 1020AN(2) not giving a DAP/TCP guide if no longer accurate uncategorised
+
+subsection 1020AN(3) giving updated information or advice uncategorised
+
+subsection 1020AP(1) having a platform voting policy uncategorised
+
+subsection 1020AP(2) administering an accurate platform voting policy uncategorised
+
+subsection 1020AR(1) disclosing copies of communications uncategorised
+
+subsection 1020AR(5) complying with disclosure obligations uncategorised
+
+Part 4—Product intervention orders
+
+Corporations Act 2001
+
+53 Section 1023B
+
+Before “In”, insert “(1)”.
+
+54 At the end of section 1023B
+
+Add:
+
+(2) However, in this Part financial product includes a digital asset platform or a tokenised custody platform only to the extent that:
+
+(a) the platform is a financial product (within the meaning of Division 3 of Part 7.1) otherwise than because of paragraphs 764A(1)(la) and (lb); or
+
+(b) the platform is available for acquisition by issue, or for regulated sale:
+
+(i) by, or on behalf of, a constitutionally-covered corporation; or
+
+(ii) using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution).
+
+Part 5—Market misconduct rules
+
+Corporations Act 2001
+
+55 At the end of Division 1 of Part 7.10
+
+Add:
+
+1040C How this Part applies in relation to digital asset platforms and tokenised custody platforms
+
+This Part applies in relation to a digital asset platform or a tokenised custody platform only to the extent that:
+
+(a) the platform is a financial product otherwise than because of paragraphs 764A(1)(la) and (lb); or
+
+(b) the platform is a financial product that is issued by, or on behalf of, a constitutionally-covered corporation; or
+
+(c) the platform is a financial product, and that any prohibited conduct (see Division 2) engaged in in relation to the platform is engaged in:
+
+(i) by, or on behalf of, a constitutionally-covered corporation; or
+
+(ii) using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution).
+
+Part 6—Exemptions
+
+Corporations Act 2001
+
+56 Section 9
+
+Insert:
+
+custodial staking arrangement has the meaning given by section 9F.
+
+57 Section 9 (before paragraph (n) of the definition of managed investment scheme)
+
+Insert:
+
+(me) so much of:
+
+(i) a digital asset platform; or
+
+(ii) a tokenised custody platform;
+
+as relates to one or more custodial staking arrangements, if the issuer of the platform holds an Australian financial services licence authorising the provision of financial services relating to the issuing of the platform;
+
+(mf) public digital token infrastructure;
+
+58 Section 9
+
+Insert:
+
+public digital token infrastructure has the meaning given by section 9E.
+
+59 After section 9D
+
+Insert:
+
+9E Meaning of public digital token infrastructure
+
+(1) Public digital token infrastructure means any software, hardware, or combination of software or hardware, (the infrastructure):
+
+(a) that is used for transmitting, processing, or recording:
+
+(i) electronic records that are digital tokens; or
+
+(ii) electronic records relating to digital tokens; and
+
+(b) for which subsection (2) or (3) applies.
+
+(2) This subsection applies if all of the following are satisfied for certain protocols that apply to the infrastructure:
+
+(a) the protocols are a set of open source and publicly accessible standards for transmitting, processing and recording electronic records in a non-discretionary manner;
+
+(b) the protocols permit any person to contribute to the integrity, functionality and reliability of the infrastructure by conducting activities involving transmitting, processing and recording such electronic records;
+
+(c) the protocols are not reliant on any participant having a role so critical that the transmitting, processing, or recording of such electronic records cannot happen without the participant;
+
+(d) no regulations are made for the purposes of this paragraph to prescribe that this subsection does not apply for the protocols.
+
+(3) This subsection applies for the infrastructure if it is prescribed by regulations made for the purposes of this subsection.
+
+9F Meaning of custodial staking arrangement
+
+(1) A custodial staking arrangement, for a digital asset platform or a tokenised custody platform, is an arrangement that:
+
+(a) is entered into by the operator of the platform and by a beneficiary under the platform (whether directly or through a nominee); and
+
+(b) is entered into through the facility that constitutes the platform; and
+
+(c) permits the operator to allow one or more of the underlying assets possessed under the platform for the beneficiary (whether directly or through a nominee) to be used for activities (consensus activities) described in paragraph 9E(2)(b) if:
+
+(i) the beneficiary; or
+
+(ii) the nominee;
+
+expressly authorises the operator to do so; and
+
+(d) ensures that rewards from the consensus activities, after deducting any fees and charges, are passed on to the beneficiary (whether directly or through a nominee); and
+
+(e) may benefit the beneficiary in one or more of the following ways:
+
+(i) by allowing the underlying assets to be returned earlier than if the beneficiary had participated in consensus activities directly;
+
+(ii) by allowing the underlying assets to be used in consensus activities if the beneficiary would otherwise have insufficient assets to be able to participate in consensus activities directly;
+
+(iii) by protecting the beneficiary from, or by compensating the beneficiary for, any losses arising from the operation of public digital token infrastructure in relation to the underlying assets;
+
+(iv) by allowing the beneficiary to pay lower transaction fees than if the beneficiary had participated in consensus activities directly;
+
+(v) a way prescribed by regulations made for the purposes of this subparagraph.
+
+(2) In this section:
+
+beneficiary: a beneficiary under a platform means:
+
+(a) for a digital asset platform—a client under the platform; or
+
+(b) for a tokenised custody platform—a person who possesses a digital token created under the platform by the operator of the platform.
+
+60 Before section 742
+
+Insert:
+
+741A Fundraising offers through a digital asset platform or tokenised custody platform
+
+(1) A person who makes an offer of securities:
+
+(a) under a digital asset platform or tokenised custody platform; and
+
+(b) that needs disclosure to investors under Part 6D.2; and
+
+(c) that results in the person lodging a disclosure document with ASIC;
+
+must promptly notify the operator of the platform, and each custodian for the platform, if any of the following events happens:
+
+(d) a supplementary or replacement document is lodged with ASIC in relation to the disclosure document;
+
+(e) the person is prohibited under Division 1 of Part 6D.3 from making offers of securities under the disclosure document;
+
+(f) the disclosure document is withdrawn before the expiry date specified in the disclosure document.
+
+Note: This subsection is a civil penalty provision (see section 1317E).
+
+(2) Nothing in Part 6D.2 or 6D.3 requires a disclosure document for offers of securities under a digital asset platform or tokenised custody platform to include information about:
+
+(a) the platform; or
+
+(b) the rights attached to the securities to the extent these rights differ from the rights that a person would have if they acquired the securities directly.
+
+741B Fundraising exemptions relating to digital asset platforms and tokenised custody platforms
+
+A person who:
+
+(a) is the operator of a digital asset platform or of a tokenised custody platform; or
+
+(b) is otherwise involved in the operation or promotion of such a platform;
+
+is exempt from Parts 6D.2 and 6D.3 in relation to an offer to issue equitable rights or interests in securities arising because of an offer to hold, or arrange for the holding of, the securities through the platform.
+
+61 After paragraph 765A(1)(p)
+
+Insert:
+
+(pa) so much of:
+
+(i) a digital asset platform; or
+
+(ii) a tokenised custody platform;
+
+as relates to one or more custodial staking arrangements, if the issuer of the platform holds an Australian financial services licence authorising the provision of financial services relating to the issuing of the platform;
+
+(pb) an interest in something that is not a managed investment scheme because of paragraph (me) or (mf) of the definition of managed investment scheme in section 9, whether or not the interest arises because of the possession of a digital token;
+
+62 After paragraph 765A(1)(x)
+
+Insert:
+
+(xa) public digital token infrastructure;
+
+(xb) a right, interest or benefit arising:
+
+(i) out of conducting activities described in paragraph 9E(2)(b) (about consensus activities involving public digital token infrastructure); and
+
+(ii) whether or not because of the possession of a digital token;
+
+63 Subsection 766A(1)
+
+After “paragraph (2)(b)”, insert “and subsection (3)”.
+
+64 Subsection 766A(3)
+
+Repeal the subsection, substitute:
+
+Exceptions
+
+(3) None of the following is the provision of a financial service:
+
+(a) a person’s conduct done in the course of work of a kind ordinarily done by clerks or cashiers;
+
+(b) conducting activities described in paragraph 9E(2)(b) (about consensus activities involving public digital token infrastructure).
+
+65 After paragraph 768A(2)(h)
+
+Insert:
+
+(ha) conducting activities described in paragraph 9E(2)(b) (about consensus activities involving public digital token infrastructure);
+
+66 Subsection 791C(7) (heading)
+
+Repeal the heading, substitute:
+
+Exemption of classes of financial markets and persons
+
+67 After paragraph 911A(2)(j)
+
+Insert:
+
+(ja) the service is the issue of a digital asset platform if:
+
+(i) no financial products are held under any digital asset platform (a relevant platform) issued by a member of the person’s closely-related group; and
+
+(ii) the total value of transactions in the last 12 months through all relevant platforms does not exceed $10 million; and
+
+(iii) whenever a digital token begins to be an underlying asset of a relevant platform for a client (whether directly or through a nominee), the total of the entry values of all underlying assets of all relevant platforms for the client does not exceed $5,000; and
+
+(iv) the person has lodged with ASIC, in the prescribed form, notice that the person intends to rely on the exemption in this paragraph for digital asset platforms;
+
+(jb) the service consists only of either or both of the following:
+
+(i) advising another person about the existence of a digital asset platform or tokenised custody platform;
+
+(ii) arranging for another person to use a digital asset platform or tokenised custody platform;
+
+and when the person provides the service:
+
+(iii) the person does so in the ordinary course of the person’s business; and
+
+(iv) such services are not a significant part of the person’s business;
+
+68 After subsection 911A(4A)
+
+Insert:
+
+(4B) An amount in the exemption under paragraph (2)(ja) is taken to be replaced by any higher amount prescribed in, or worked out using a method prescribed in, regulations made for the purposes of this subsection.
+
+69 Subsection 911A(5)
+
+Omit “(2)(k) or (l)”, substitute “(2)(ja), (k) or (l)”.
+
+70 Paragraph 911A(5)(a)
+
+Omit “(2)(k)”, substitute “(2)(ja) or (k)”.
+
+71 Subsection 911A(6)
+
+Insert:
+
+closely-related group: a person’s closely-related group has the following members:
+
+(a) the person;
+
+(b) each associated entity of the person;
+
+(c) each entity for whom the person is an associated entity;
+
+(d) each entity who is connected with the person;
+
+(e) each entity that the person is connected with.
+
+entry value, of a digital token that is an underlying asset of a digital asset platform, means the market value of the digital token when it begins to be an underlying asset of the platform.
+
+72 Before section 992B
+
+Insert:
+
+992AC Exemptions relating to digital asset platforms and tokenised custody platforms
+
+A person who:
+
+(a) is the operator of a digital asset platform or of a tokenised custody platform; or
+
+(b) is otherwise involved in the operation or promotion of such a platform;
+
+is exempt from the other provisions of this Division in relation to an offer, request or invitation relating to a financial product that is an equitable right or interest in another financial product arising because of a holding, or an offer to hold or arrange for the holding of, the other financial product through the platform.
+
+73 Subsection 1317E(3) (after the table item dealing with subsection 728(4))
+
+Insert:
+
+subsection 741A(1) notifying of key events uncategorised
+
+Part 7—Amendment of the ASIC Act
+
+Australian Securities and Investments Commission Act 2001
+
+74 Subsection 12BA(1)
+
+Insert:
+
+clearing and settlement facility has the meaning given by subsections 12BAB(17) to (20).
+
+financial market has the meaning given by subsections 12BAB(15) to (16B).
+
+75 After paragraph 12BAA(7)(la)
+
+Insert:
+
+(lb) a digital asset platform, unless the platform is a managed investment scheme;
+
+(lc) a tokenised custody platform, unless the platform is a managed investment scheme;
+
+76 Subparagraph 12BAA(8)(k)(i)
+
+Omit “or (m)”, substitute “, (m), (me) or (mf)”.
+
+77 After paragraph 12BAA(8)(o)
+
+Insert:
+
+(oa) so much of:
+
+(i) a digital asset platform; or
+
+(ii) a tokenised custody platform;
+
+as relates to one or more custodial staking arrangements, if the issuer of the platform holds an Australian financial services licence authorising the provision of financial services relating to the issuing of the platform;
+
+(ob) an interest in something that is not a managed investment scheme because of paragraph (me) or (mf) of the definition of managed investment scheme in section 9 of the Corporations Act, whether or not the interest arises because of the possession of a digital token;
+
+(oc) public digital token infrastructure;
+
+(od) a right, interest or benefit arising:
+
+(i) out of conducting activities described in paragraph 9E(2)(b) of the Corporations Act (about consensus activities involving public digital token infrastructure); and
+
+(ii) whether or not because of the possession of a digital token;
+
+78 After subsection 12BAA(8)
+
+Insert:
+
+Related matters
+
+(8A) Section 765E of the Corporations Act also applies for the purposes of this Division as if references in that section to a financial product were references to a financial product within the meaning of this Division.
+
+Note: That section allows for redemption rights to be disregarded when working out whether wrapped digital tokens are financial products.
+
+79 Subsection 12BAB(1)
+
+After “paragraph (2)(b)”, insert “and subsection (3)”.
+
+80 Subsection 12BAB(1AA)
+
+After “a financial product”, insert “(other than a digital asset platform, or a tokenised custody platform, that is a financial product only because of paragraph 12BAA(7)(lb) or (lc))”.
+
+81 Before subsection 12BAB(2)
+
+Insert:
+
+Regulations may deal with various matters
+
+82 After subsection 12BAB(2)
+
+Insert:
+
+Exceptions
+
+(3) Conducting activities described in paragraph 9E(2)(b) of the Corporations Act (about consensus activities involving public digital token infrastructure) is not the provision of a financial service.
+
+Meaning of operating a registered scheme
+
+83 After paragraph 12BAB(7)(c)
+
+Insert:
+
+(ca) in relation to a digital asset platform or a tokenised custody platform—any conduct of a client under the platform (after the platform has been issued to the client);
+
+84 After subsection 12BAB(11)
+
+Insert:
+
+(11A) Paragraph (11)(a) does not apply to a person stating prices at which the person proposes to acquire or dispose of financial products if the person:
+
+(a) is the issuer of a tokenised custody platform; and
+
+(b) is stating prices for the purposes of holding, redeeming or directing the delivery of the financial products under the platform.
+
+85 After paragraph 12BAB(14)(c)
+
+Insert:
+
+(ca) dealing in a digital asset platform, or the possessing of digital tokens under such a platform;
+
+(cb) dealing in a tokenised custody platform, or the holding (within the meaning of section 761GD of the Corporations Act) of assets or digital tokens under such a platform;
+
+86 Subsection 12BAB(15)
+
+Omit “this section”, substitute “this Division”.
+
+87 After subsection 12BAB(16)
+
+Insert:
+
+(16A) If a declaration is in force under subsection 767B(1) of the Corporations Act for a digital asset platform in relation to one or more classes of digital tokens, then for the purposes of this Division:
+
+(a) the platform is a financial market to the extent that the platform relates to the digital tokens; and
+
+(b) for the purposes of provisions regulating the platform as a financial market, the digital tokens are financial products to the extent that the digital tokens are related to the platform.
+
+(16B) If a declaration is in force under subsection 767C(1) of the Corporations Act for a digital asset platform in relation to one or more financial products, then:
+
+(a) for the purposes of this Division; and
+
+(b) despite subsection (15) of this section;
+
+the platform is not a financial market in relation to those financial products.
+
+88 Subsection 12BAB(17)
+
+Omit “this section”, substitute “this Division”.
+
+89 After paragraph 12BAB(18)(h)
+
+Insert:
+
+(ha) conducting activities described in paragraph 9E(2)(b) of the Corporations Act (about consensus activities involving public digital token infrastructure);
+
+90 At the end of section 12BAB
+
+Add:
+
+(19) If a declaration is in force under subsection 768B(1) of the Corporations Act for a digital asset platform in relation to one or more classes of digital tokens, then for the purposes of this Division:
+
+(a) the platform is a clearing and settlement facility to the extent that the platform relates to the digital tokens; and
+
+(b) for the purposes of provisions regulating the platform as a clearing and settlement facility, the digital tokens are financial products to the extent that the digital tokens are related to the platform.
+
+(20) If a declaration is in force under subsection 768C(1) of the Corporations Act for a digital asset platform in relation to one or more financial products, then:
+
+(a) for the purposes of this Division; and
+
+(b) despite subsection (17) of this section;
+
+the platform is not a clearing and settlement facility in relation to those financial products.
+
+91 After section 12BAB
+
+Insert:
+
+12BAC Conduct relating to certain platforms is a financial service only if engaged in by, or on behalf of, a constitutionally-covered corporation
+
+Despite anything in section 12BAB, conduct that:
+
+(a) relates to a digital asset platform, or a tokenised custody platform, that is a financial product only because of paragraph 12BAA(7)(lb) or (lc); and
+
+(b) would, apart from this section, be a financial service (or a kind of financial service);
+
+is a financial service (or a kind of financial service) only if the conduct is engaged in by, or on behalf of, a constitutionally-covered corporation.
+
+Note: Dealing in a financial product is an example of a kind of financial service (see section 12BAB).
+
+92 At the end of subsections 12BF(1), (2A) and (2C)
+
+Add:
+
+Note: Not all contracts that are digital asset platforms or tokenised custody platforms will be covered by this subsection (see subsection (9)).
+
+93 At the end of section 12BF
+
+Add:
+
+(9) A reference in this section to a contract that is a financial product includes a digital asset platform or a tokenised custody platform only to the extent that the platform:
+
+(a) is a financial product otherwise than because of paragraphs 12BAA(7)(lb) and (lc); or
+
+(b) is issued:
+
+(i) by, or on behalf of, a constitutionally-covered corporation; or
+
+(ii) using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution).
+
+94 At the end of section 12BLC
+
+Add:
+
+(3) If:
+
+(a) a financial services licensee is a party to a contract with one or more other persons; and
+
+(b) either:
+
+(i) some or all of the contract exists because of the platform rules of a digital asset platform or tokenised custody platform operated by the licensee; or
+
+(ii) the licensee is the issuer of a digital asset platform or a tokenised custody platform;
+
+this Subdivision does not apply to so much of the contract as exists in order for the licensee to comply with section 912BB of the Corporations Act.
+
+Note 1: Section 912BB of the Corporations Act requires compliance with standards relating to such a platform.
+
+Note 2: Such a standard could require the contract to include a particular term, in which case this subsection means that this Subdivision does not apply to that term of the contract.
+
+95 At the end of subsection 12DK(6)
+
+Add:
+
+; and (d) a reference to a financial product includes a facility that:
+
+(i) is a digital asset platform or tokenised custody platform; and
+
+(ii) is a financial product only because of paragraph 12BAA(7)(lb) or (lc);
+
+only to the extent that the platform is operated:
+
+(iii) by, or on behalf of, a constitutionally-covered corporation; or
+
+(iv) using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution).
+
+96 At the end of section 14
+
+Add:
+
+(5) Paragraph (2)(j) applies in relation to a facility that:
+
+(a) is a digital asset platform or tokenised custody platform; and
+
+(b) is a financial product only because of paragraph 764A(1)(la) or (lb) of the Corporations Act;
+
+only to the extent that the conduct referred to in paragraph (2)(j) is engaged in:
+
+(c) by, or on behalf of, a constitutionally-covered corporation; or
+
+(d) using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution).
+
+97 After subsection 41(2)
+
+Insert:
+
+(2A) Subsection (2) applies in relation to a person and a facility that:
+
+(a) is a digital asset platform or tokenised custody platform; and
+
+(b) is a financial product only because of paragraph 764A(1)(la) or (lb) of the Corporations Act;
+
+only to the extent that:
+
+(c) the person is a constitutionally-covered corporation; or
+
+(d) the person acquired or disposed of the platform using a postal, telegraphic, telephonic or other like service (within the meaning of paragraph 51(v) of the Constitution); or
+
+(e) if there is another person as described in subsection (2)—the other person is a constitutionally-covered corporation.
+
+Part 8—Application and transitional provisions
+
+Corporations Act 2001
+
+98 In the appropriate position in Chapter 10
+
+Insert:
+
+Part 10.83—Transitional provisions relating to the Corporations Amendment (Digital Assets Framework) Act 2026
+
+1730 Definitions
+
+In this Part:
+
+AFSL means an Australian financial services licence.
+
+amended Corporations Act means this Act as in force on commencement.
+
+commencement means the day Schedule 1 to the Corporations Amendment (Digital Assets Framework) Act 2026 commences.
+
+Note: This is the day after the end of the 12-month period beginning on the day that Act receives the Royal Assent.
+
+DAP/TCP amendments means the amendments made by Schedule 1 to the Corporations Amendment (Digital Assets Framework) Act 2026.
+
+DAP/TCP financial service means a financial service relating to:
+
+(a) a digital asset platform; or
+
+(b) a tokenised custody platform.
+
+transition period means the 6-month period starting on commencement.
+
+1731 Application of amendments to financial services—general
+
+The DAP/TCP amendments apply in relation to a DAP/TCP financial service to the extent that the service is provided on or after commencement.
+
+1732 Transitional—delay in how amendments apply for AFSLs
+
+(1) Despite section 1731, the DAP/TCP amendments do not apply in relation to the provision of a DAP/TCP financial service at any time during the transition period while the following person (the responsible person):
+
+(a) if the person providing the service is doing so not as an agent or representative of any other person—the person providing the service;
+
+(b) otherwise—the person on whose behalf the service is being provided;
+
+does not hold an AFSL that is subject to a condition authorising the provision of the service.
+
+Note: This subsection applies if the responsible person:
+
+(a) does not hold an AFSL at all; or
+
+(b) holds an AFSL that authorises only the provision of other services.
+
+(2) However:
+
+(a) during the transition period, the responsible person may apply under the amended Corporations Act for ASIC to decide whether or not to:
+
+(i) grant the responsible person an AFSL that is subject to a condition authorising the provision of the service; or
+
+(ii) vary the conditions on the responsible person’s AFSL to authorise the provision of the service; and
+
+(b) ASIC may make such a decision under the amended Corporations Act in response to the application.
+
+(3) Despite section 1731, if the responsible person applies as described in paragraph (2)(a) of this section, the DAP/TCP amendments do not apply in relation to the provision of the service until the day after the day ASIC makes a decision described in that paragraph in response to the application.
+
+Note: If the responsible person fails to apply during the transition period, then the DAP/TCP amendments will start to apply immediately after the transition period.
+
+1733 Application of amendments otherwise than in connection with financial services
+
+If a provision of the amended Corporations Act:
+
+(a) relates to a digital asset platform or tokenised custody platform; but
+
+(b) does not relate to the platform in connection with a financial service;
+
+then the DAP/TCP amendments of that provision apply in relation to the platform only if the platform is, or is to be, issued on or after commencement.
+
+1734 Acquisition of property
+
+(1) Despite section 1350, sections 1731 to 1733 do not apply, and are taken never to have applied, to the extent that their operation would result in an acquisition of property from a person otherwise than on just terms.
+
+(2) In subsection (1), acquisition of property and just terms have the same meanings as in paragraph 51(xxxi) of the Constitution.
+
+1735 Regulations
+
+(1) The regulations may make provisions of a transitional, application or saving nature relating to this Part and the amendments and repeals made by the amending Schedule.
+
+(2) Without limiting subsection (1), regulations made for the purpose of that subsection may modify provisions of this Act.
+
+[Minister’s second reading speech made in—
+
+House of Representatives on 26 November 2025
+
+Senate on 5 February 2026]
+
+(108/25)

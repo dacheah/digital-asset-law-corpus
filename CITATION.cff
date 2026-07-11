@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Digital-Asset Law Corpus"
+message: "If you use this corpus, please cite it."
+type: dataset
+abstract: >-
+  A neutral, provenance-first, machine-readable record of digital-asset
+  market-structure and prudential law across many jurisdictions. Each
+  authoritative text carries its official source, retrieval date, official
+  citation, jurisdiction, language, an authoritative-status flag and a SHA-256
+  content hash; derived structure and concept tags are kept in a separate,
+  clearly-labelled layer.
+authors:
+  - name: "Digital-Asset Law Corpus maintainers"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-07-11"
+keywords: [law, legal, digital-assets, virtual-assets, provenance, regulation, mica, legal-nlp]

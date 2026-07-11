@@ -1,0 +1,2 @@
+# Pin bytes so SHA-256 integrity holds on every platform: never convert line endings.
+* -text

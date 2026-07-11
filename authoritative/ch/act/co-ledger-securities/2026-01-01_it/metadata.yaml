@@ -1,0 +1,54 @@
+corpus_id: ch/act/co-ledger-securities
+version_id: 2026-01-01_it
+title: Codice delle obbligazioni (CO) (SR 220) — Art. 973d–973i (ledger-based securities / Registerwertrechte)
+short_title: Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (Italian)
+jurisdiction: CHE
+document_type: federal act
+official_citation: Obligationenrecht (OR), SR 220, Art. 973d–973i (Registerwertrechte); official consolidated
+  version (Stand 1. Januar 2026)
+authentic_languages:
+- de
+- fr
+- it
+adoption_date: '1911-03-30'
+entry_into_force_date: '2021-02-01'
+source_url: https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it
+source_publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Fedlex consolidation (PDF/A anchor + Akoma Ntoso XML)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:9fd4e4e643c717c6c4fe22f624dba630a58d9307a4f4d5a1e1f0ae7562056243
+original_sha256: sha256:5175db551899e114cc6261e0a4f502b3ef7886dd8f196aba9309e3aab011e928
+text_sha256: sha256:9fd4e4e643c717c6c4fe22f624dba630a58d9307a4f4d5a1e1f0ae7562056243
+text_fidelity: extracted_verified
+language: it
+authoritative_status: official_consolidation
+license: ch-law-noncopyright
+rights_note: Swiss Copyright Act (URG, SR 231.1) Art. 5 excludes official texts from copyright. Clean.
+  German, French and Italian are equally authentic (JC-013).
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it
+  original_sha256: sha256:5175db551899e114cc6261e0a4f502b3ef7886dd8f196aba9309e3aab011e928
+  note: 'Fedlex consolidation of the Code of Obligations (SR 220), Italian, Stand 1.1.2026: whole-act
+    PDF/A (anchor) + XML (text source).'
+supersedes: null
+superseded_by: null
+related_documents:
+- ch/act/dlt-2020
+provenance_note: 'Ledger-based securities (Registerwertrechte) in the Swiss Code of Obligations (OR, SR
+  220), Art. 973d–973i — the private-law basis for DLT-based uncertificated securities, created by the
+  DLT Act (JC-027). Italian authentic text; the whole official Fedlex PDF/A (Stand 1.1.2026) is the byte-exact
+  anchor and text.txt is the Art. 973d–973i extract from the official Akoma Ntoso XML. Cross-linked to
+  the DLT Act. AUTHORITATIVENESS: official_consolidation. LICENCE: ch-law-noncopyright. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is Art. 973d–973i (ledger-based securities / Registerwertrechte) extracted from the
+    official Fedlex Akoma Ntoso XML of the whole Code of Obligations; original.pdf is the whole official
+    Fedlex PDF/A (byte-exact anchor).
+  verified_by: Project maintainer (Fedlex XML extraction cross-checked against the official PDF/A)
+  verified_date: '2026-07-10'
+  note: All 6 target articles (Art. 973d–973i) present in the XML and cross-checked present in the PDF/A
+    (6/6 matched).

@@ -1,0 +1,99 @@
+corpus_id: kr/act/virtual-asset-user-protection-2023
+version_id: '2024-07-19'
+title: 가상자산 이용자 보호 등에 관한 법률 (Act on the Protection of Virtual Asset Users)
+short_title: 가상자산이용자보호법 / Virtual Asset User Protection Act (Korea)
+jurisdiction: KOR
+document_type: statute
+official_citation: 가상자산 이용자 보호 등에 관한 법률 (법률 제20372호, 2024. 3. 12., 타법개정; 시행 2024. 7. 19.) — Act on the
+  Protection of Virtual Asset Users (Act No. 20372) (Republic of Korea), in force 19 Jul 2024
+authentic_languages:
+- ko
+adoption_date: '2023-07-18'
+entry_into_force_date: '2024-07-19'
+source_url: https://www.law.go.kr/법령/가상자산이용자보호법
+source_publisher: '국가법령정보센터 (National Law Information Center, Ministry of Government Legislation); responsible
+  ministry: 금융위원회 (Financial Services Commission)'
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual download of the official current-version PDF from 국가법령정보센터 (law.go.kr)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:d1c69cbae10dad390539f97d12aba4556e088377d6494359f5a9961fa9475151
+original_sha256: sha256:9308df4b38014cbff8d1bffe84b265e3275e7c81a7faa7cc0658cb0a004c6dd6
+text_sha256: sha256:d1c69cbae10dad390539f97d12aba4556e088377d6494359f5a9961fa9475151
+text_fidelity: extracted_verified
+language: ko
+authoritative_status: official_consolidation
+license: kr-law-noncopyright
+rights_note: 'Under the Copyright Act of the Republic of Korea, Article 7 (works not eligible for protection),
+  copyright does not subsist in ''(1) the Constitution, statutes (법률), treaties, decrees, municipal ordinances
+  and municipal rules'', among other official documents (헌법·법률·조약·명령·조례 및 규칙 …). A statute (법률) such as
+  this Act is therefore freely reproducible (analogous to Japan''s Copyright Act Art. 13 and mainland
+  China''s Copyright Law Art. 5). Source: the official 국가법령정보센터 (National Law Information Center, law.go.kr);
+  its government content is additionally offered under the Korea Open Government Licence (KOGL). NOTE:
+  any English rendering (e.g. the Korea Legislation Research Institute translation at elaw.klri.re.kr)
+  is UNOFFICIAL — it carries the express disclaimer that it has no legal or official force (어떠한 법적 효력이나
+  공식적 효력도 없습니다) — and is kept in the derived layer, never in the authoritative layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.law.go.kr/법령/가상자산이용자보호법
+  original_sha256: sha256:9308df4b38014cbff8d1bffe84b265e3275e7c81a7faa7cc0658cb0a004c6dd6
+  note: 'Initial capture: official current-version PDF of the Act from 국가법령정보센터 (law.go.kr), rendered
+    by the site (iText producer). The version identifier printed in the PDF header is [시행 2024. 7. 19.]
+    [법률 제20372호, 2024. 3. 12., 타법개정]. original.pdf is the byte-exact anchor; text.txt is the enacted text
+    extracted from it.'
+verification:
+  status: verified
+  method: 'text.txt (the enacted Korean text) verified against the raw pdftotext extraction of original.pdf.
+    COMPLETENESS + ORDER + NO FABRICATION: text.txt, with whitespace removed, is an EXACT order-preserving
+    match (8,602 characters both sides) to the raw pdftotext output minus the disclosed law.go.kr page
+    apparatus — so no operative content was added, lost, or reordered. Structure recovered: 5 chapters
+    (제1장–제5장), 22 main articles (제1조–제22조), and the 부칙 addenda (its own 제1조–제3조, incl. the 19 Jul 2024
+    commencement). Every apparatus line removed was audited and is non-enacted furniture: the running
+    header/footer 법제처 / 국가법령정보센터 (×7 pages), the page numbers 1–7, the repeated running title, and
+    the 금융위원회 (가상자산과) ministry-contact line.'
+  reference: 국가법령정보센터 (law.go.kr) — 가상자산 이용자 보호 등에 관한 법률, 법률 제20372호, 시행 2024. 7. 19., retrieved
+    9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): the law.go.kr page apparatus (법제처 / page number /
+    국가법령정보센터 running header-footer, and the 금융위원회 ministry-contact line) is removed; the official
+    title + version-header lines are kept. FIDELITY CHOICE for a space-delimited script: the source PDF''s
+    VISUAL LINE BREAKS are PRESERVED VERBATIM within each provision — they are NOT rejoined — because
+    Korean uses inter-word spaces that PDF wraps do not preserve (a mid-word wrap has no space to add;
+    a word-boundary wrap drops the space), so rejoining would fabricate or delete content. Canonical
+    UTF-8/LF by tooling. Authoritative as an official_consolidation (law.go.kr''s 현행/current version has
+    legal force).'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: '가상자산 이용자 보호 등에 관한 법률 (Act on the Protection of Virtual Asset Users; abbreviated 가상자산이용자보호법,
+  ''VAUPA''), Republic of Korea — the CURRENT IN-FORCE version from 국가법령정보센터 (the official National Law
+  Information Center), version 법률 제20372호 (promulgated 2024-03-12 by 타법개정, i.e. amendment via another
+  Act — the 국회법 revision per its 부칙), in force from 19 Jul 2024. Originally enacted as 법률 제19563호 on 18
+  Jul 2023 (referenced in this version''s 부칙 제3조). This is Korea''s enacted FIRST-PHASE Track A digital-asset
+  market-structure statute: it defines 가상자산 (virtual assets) and 가상자산사업자 (virtual-asset service providers),
+  protects user assets (예치금 safekeeping via banks, cold-storage and insurance/reserve requirements), prohibits
+  unfair trading (제3장 불공정거래의 규제 — use of undisclosed material information, market manipulation, unfair
+  trading practices), and gives the 금융위원회 (FSC) / 금융감독원 (FSS) supervision, investigation, and sanction
+  powers (제4장), with penalties (제5장). SCOPE NOTE: Korea''s comprehensive SECOND-PHASE framework, the Digital
+  Asset Basic Act (디지털자산기본법) — won-stablecoin issuance, broader VASP licensing — is NOT included: as of
+  2026 it remains a BILL stalled in the National Assembly (a Bank-of-Korea vs FSC dispute over stablecoin
+  issuers), so under the ''a bill is not law'' discipline it is a queue watch until enacted (JC-005/JC-019),
+  like the US CLARITY Act. AUTHENTIC LANGUAGE: Korean (ko) ONLY — the third non-English-authentic branch
+  (after JP and CN) and the third script (Hangul); the KLRI English translation is expressly unofficial
+  and belongs in the derived layer. AUTHORITATIVENESS: law.go.kr''s 현행 (current) version has legal force,
+  so this consolidated text is AUTHORITATIVE (recorded as official_consolidation) — like AU/SG/JP current
+  versions, unlike EU (EUR-Lex) consolidations (JC-009). SOURCE/FORMAT: original.pdf is the official law.go.kr
+  PDF (byte-exact anchor); text.txt is the enacted text (title + version header → 5 chapters 제1장–제5장,
+  articles 제1조–제22조 → 부칙 addenda) with DISCLOSED cleaning: the law.go.kr page apparatus (the 법제처 / page-number
+  / 국가법령정보센터 running header-footer and the 금융위원회 ministry-contact line) is removed; NOTHING is reordered.
+  IMPORTANT FIDELITY NOTE: Korean is a space-delimited script and PDF line-wraps do not preserve inter-word
+  spaces reliably, so the source PDF''s VISUAL LINE BREAKS ARE PRESERVED VERBATIM within each provision
+  rather than rejoined — rejoining would either merge words (at mid-word wraps) or drop inter-word spaces
+  (at word-boundary wraps), i.e. fabricate content. The cleaned text is verified as an EXACT, order-preserving
+  match (8,602 characters) to the raw pdftotext output minus the disclosed apparatus. LICENCE: kr-law-noncopyright
+  — Copyright Act of Korea Art. 7 excludes statutes from copyright (JC-019); law.go.kr content is additionally
+  under the KOGL. Follow-ups queued: the Digital Asset Basic Act ON ENACTMENT; the VAUPA enforcement decree
+  (시행령) and FSS rules; an unofficial English translation in the derived layer. Recorded on its own terms
+  (JC-003/JC-005/JC-019).'

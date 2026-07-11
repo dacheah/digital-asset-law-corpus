@@ -1,0 +1,64 @@
+corpus_id: hk/ordinance/amlo-va-services-2022
+version_id: 2023-06-01_en
+title: Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615) — Part 5B (Regulation
+  of Activities Involving Virtual Assets)
+short_title: Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (English)
+jurisdiction: HKG
+document_type: ordinance
+official_citation: Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap. 615), Part 5B
+  (Regulation of Activities Involving Virtual Assets), added by 15 of 2022 s. 4; in operation 1 June 2023
+authentic_languages:
+- en
+- zh-Hant
+adoption_date: '2022-12-07'
+entry_into_force_date: '2023-06-01'
+source_url: https://www.elegislation.gov.hk/hk/cap615!en
+source_publisher: Hong Kong SAR — Department of Justice (e-Legislation); also open data on data.gov.hk
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official HKeL verified copy of Cap. 615 (PDF)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:1444f8dd8f326489cdc8e8460d5daecaaaf98da2c64806fc1e557f559797df8b
+original_sha256: sha256:f6956c3c8dc6791521f47f5c8a2e97805ad7cd0d4ff292aa9e20d046f67aff6e
+text_sha256: sha256:1444f8dd8f326489cdc8e8460d5daecaaaf98da2c64806fc1e557f559797df8b
+text_fidelity: extracted_verified
+language: en
+authoritative_status: official_consolidation
+license: hk-data-gov-psi
+rights_note: 'Hong Kong Government copyright (Copyright Ordinance, Cap. 528). Reuse RESOLVED (JC-032):
+  the Department of Justice publishes HKeL legislation as official open data on data.gov.hk (dataset hk-doj-hkel-legislation-current);
+  the data.gov.hk Terms permit reproduction/redistribution for commercial and non-commercial use with
+  attribution. English and Traditional Chinese are both authentic (JC-011/013).'
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.elegislation.gov.hk/hk/cap615!en
+  original_sha256: sha256:f6956c3c8dc6791521f47f5c8a2e97805ad7cd0d4ff292aa9e20d046f67aff6e
+  note: Official HKeL PDF of Cap. 615; text.txt is Part 5B (pages 61–123, sliced from the 'Part 5B' heading).
+    original.pdf is the whole Cap. 615 PDF (byte-exact anchor).
+supersedes: null
+superseded_by: null
+related_documents:
+- hk/ordinance/stablecoins-2025
+provenance_note: 'The SFC virtual-asset trading platform (VATP) licensing regime: Part 5B (Regulation
+  of Virtual Asset Services) of the Anti-Money Laundering and Counter-Terrorist Financing Ordinance (Cap.
+  615), added by 15 of 2022 and in operation since 1 June 2023 — the market-structure licensing of virtual-asset
+  services (the s.53ZR interpretation, licensing requirement and grant, responsible officers, and discipline).
+  English authentic (parallel with Traditional Chinese; JC-013). Scope note (JC-004): only the Track-A
+  market-structure Part 5B is stored here; the AML/CDD duties elsewhere in Cap. 615 belong to the sibling
+  AML corpus (Project Origin) and are cross-referenced, not reproduced. text.txt is the Part 5B extract
+  from the official HKeL copy; original.pdf is the whole Cap. 615 (byte-exact anchor). Cross-linked to
+  the HK Stablecoins Ordinance. AUTHORITATIVENESS: official_consolidation. LICENCE: hk-data-gov-psi. Recorded
+  neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over the 63-page extraction
+    range (pages 61-123), sliced from the Part heading ''Part 5B'' to scope the record to that Part (preceding
+    neighbouring-Part text on the first page removed); 0 repeating header/footer line-classes removed.
+    Structure: 82 blocks; 0 PART/CHAPTER headings; 0 numbered units (max 0); 0 Art. units.'

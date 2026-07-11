@@ -1,0 +1,76 @@
+corpus_id: au/act/digital-assets-framework-2026
+version_id: '2026-04-08'
+title: Corporations Amendment (Digital Assets Framework) Act 2026
+short_title: Digital Assets Framework Act 2026
+jurisdiction: AUS
+document_type: statute
+official_citation: Corporations Amendment (Digital Assets Framework) Act 2026 (Cth), No. 38, 2026 (C2026A00038)
+authentic_languages:
+- en
+adoption_date: '2026-04-08'
+source_url: https://www.legislation.gov.au/C2026A00038/asmade
+source_publisher: Federal Register of Legislation (Commonwealth of Australia)
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from the official Federal Register of Legislation
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:25e936727a922ac279d3fdcbbdfc11b5ee6be4b66bef15c39ba4e88854d297eb
+original_sha256: sha256:8e9fdf0418ca9fc42239bee1bca8bd806a9a84908c3bb9cdc9bc5526c9e3b217
+text_sha256: sha256:25e936727a922ac279d3fdcbbdfc11b5ee6be4b66bef15c39ba4e88854d297eb
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: cc-by-4.0-cwlth
+rights_note: © Commonwealth of Australia; sourced from the Federal Register of Legislation (legislation.gov.au);
+  licensed under CC BY 4.0 (Commonwealth Coat of Arms and any third-party material excepted).
+capture_history:
+- date: '2026-07-08'
+  source_url: https://www.legislation.gov.au/C2026A00038/asmade
+  original_sha256: sha256:8e9fdf0418ca9fc42239bee1bca8bd806a9a84908c3bb9cdc9bc5526c9e3b217
+  note: 'Initial capture: authenticated ''as made'' PDF (Authorised Version C2026A00038) from the Federal
+    Register of Legislation, manually downloaded and staged.'
+- date: '2026-07-08'
+  source_url: https://www.legislation.gov.au/C2026A00038/asmade/text
+  original_sha256: sha256:1e50e807228db69c63f593ec37f52433f6f7d8119fd1cea0d2d28ed1f9659970
+  note: 'Official Federal Register of Legislation Word (DOCX) rendering of the same Act; source of text.txt
+    (apparatus-free). Retained on the maintainer''s capture store; text.txt is hash-traceable to this artifact.'
+verification:
+  status: verified
+  method: 'text.txt (from the official DOCX) cross-checked against the authenticated Authorised Version
+    PDF of the same Act: every DOCX word reconciles with the PDF (zero DOCX-only tokens); the only
+    PDF-only tokens are page apparatus (the Authorised-Version footer, page numbers) and the Federal
+    Register URL, which the DOCX correctly omits. Schedule/Part structure present.'
+  reference: Federal Register of Legislation C2026A00038 (Authorised Version PDF + DOCX)
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'text.txt taken from the DOCX rather than the PDF because the DOCX is free of the PDF''s per-page
+    running headers/footers; tabs and non-breaking hyphens preserved (e.g. cooling-off, market-making,
+    non-discriminatory); canonical UTF-8/LF by tooling. original.pdf remains the authenticated anchor.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Corporations Amendment (Digital Assets Framework) Act 2026 (Cth) — the AS-MADE amending
+  Act (No. 38, 2026; C2026A00038). Royal Assent 8 April 2026; registered on the Federal Register of Legislation
+  10 April 2026. It AMENDS the Corporations Act 2001 and the Australian Securities and Investments Commission
+  Act 2001, inserting the digital-asset / digital-asset-platform (DAP) regime on an AFSL-licensing basis
+  (administered by Treasury; implemented by ASIC). COMMENCEMENT is staged per the Act''s section 2 (effective_date
+  left null). original.pdf is the authenticated ''Authorised Version'' PDF and is the byte-exact integrity
+  anchor. text.txt is taken from the official Federal Register of Legislation Word (DOCX) rendering of
+  the same Act — chosen because it is free of the PDF''s page apparatus (running headers, footers, page
+  numbers) — with tabs and non-breaking hyphens preserved. CROSS-CHECKED against the authenticated PDF:
+  every DOCX word reconciles with the PDF (zero DOCX-only tokens); the only PDF-only tokens are page apparatus
+  and the Federal Register URL. SCOPE (see branches/au/02-au-scope-amendment.md): this captures the amending
+  Act as enacted. FOLLOW-UPS queued: the compiled Corporations Act 2001 digital-asset provisions — to
+  be ingested as an AUTHORITATIVE official consolidation (Australian compilations are authoritative, unlike
+  EUR-Lex consolidations, JC-009); and ASIC legislative instruments + Treasury DAP rules on finalisation.
+  ASIC no-action positions and transitional relief are NOT law and are out of scope. OBI: neutral public
+  record (low-risk); any monetisation needs employer OBI + IP clearance first (branches/au/01-au-licensing.md).
+  Recorded on its own terms — no cross-jurisdiction relationship encoded in the authoritative layer (JC-003/JC-007).'
+corrections:
+- date: '2026-07-08'
+  change: 'Whitespace normalization: 363 non-breaking spaces (U+00A0) in the DOCX-sourced text normalized
+    to regular spaces, for corpus-wide consistency (matching the EU/MiCA Unicode-space handling) and
+    searchability. Wording and order unchanged; text.txt re-hashed.'
+  reference: 'Extraction normalization; consistent with the corpus Unicode-space handling.'
+  note: 'content_hash/text_sha256 updated accordingly; prior state retained in Git history (append-only).'

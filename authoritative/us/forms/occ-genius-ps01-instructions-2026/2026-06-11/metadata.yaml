@@ -1,0 +1,54 @@
+corpus_id: us/forms/occ-genius-ps01-instructions-2026
+version_id: '2026-06-11'
+title: Instructions for OCC Reporting Form PS-01, Payment Stablecoin Activity and Reserve Weekly Reporting
+short_title: Form PS-01 Instructions
+jurisdiction: USA
+document_type: reporting-forms
+official_citation: OCC Bulletin 2026-24 (June 11, 2026), attach. b
+authentic_languages:
+- en
+source_url: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24b.pdf
+source_publisher: Office of the Comptroller of the Currency (OCC)
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from the official OCC source
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:ca155b51141393df23060d1aa208e3dedadfa9f0618240357e49e02566bbda43
+original_sha256: sha256:470f4d25238798d316ab39a204c241a459290cdbc76e1c2df23b1e9a0cea8764
+text_sha256: sha256:ca155b51141393df23060d1aa208e3dedadfa9f0618240357e49e02566bbda43
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: public-domain-gov
+rights_note: U.S. Government work; not subject to copyright under 17 U.S.C. § 105. Freely reproducible.
+capture_history:
+- date: '2026-07-08'
+  source_url: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24b.pdf
+  original_sha256: sha256:470f4d25238798d316ab39a204c241a459290cdbc76e1c2df23b1e9a0cea8764
+  note: 'Initial capture: OCC Bulletin 2026-24 attachment b (PS-01 instructions) PDF, manually downloaded
+    from the official OCC source and staged.'
+verification:
+  status: verified
+  method: 'text.txt extraction faithfully reproduces the stored official OCC PDF: word count reconciles
+    with the raw pdftotext extraction (delta = added title line minus removed bare page numbers); the
+    table of contents, schedule headings, and substantive passages were spot-checked. The sole official
+    source is the OCC PDF (no independent parallel text exists for cross-source comparison).'
+  reference: OCC Bulletin 2026-24 (attachment b); original.pdf
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'Disclosed cleaning (wording unchanged): page-break form-feeds to paragraph breaks; table-of-contents
+    dot leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling.'
+supersedes: null
+superseded_by: null
+related_documents:
+- us/forms/occ-genius-reporting-2026
+- us/rule/occ-payment-stablecoins-2026
+provenance_note: Instructions for OCC Reporting Form PS-01 (weekly payment stablecoin activity and reserve
+  reporting) for OCC-supervised PPSIs/FPSIs — OCC Bulletin 2026-24 attachment b, issued 2026-06-11. The
+  corresponding form template (Form PS-01, MS Excel, attachment c) is REFERENCED by URL, not stored [https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24c.xlsx].
+  original.pdf is the byte-exact OCC PDF. Text extracted from the stored official OCC PDF via pdftotext
+  with disclosed conservative cleaning (page-break form-feeds to paragraph breaks; table-of-contents dot
+  leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling).
+  Wording unchanged; word counts reconcile with the raw extraction. Part of the GENIUS Act reporting package
+  (see the Notice record); relates to the OCC payment-stablecoins rule.

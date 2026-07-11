@@ -1,0 +1,55 @@
+corpus_id: ch/act/finfrag-dlt-facility
+version_id: 2024-01-01_it
+title: Legge sull'infrastruttura finanziaria (LInFI) (SR 958.1) — Art. 73a–73f (DLT trading facility)
+short_title: Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (Italian)
+jurisdiction: CHE
+document_type: federal act
+official_citation: Finanzmarktinfrastrukturgesetz (FinfraG), SR 958.1, Art. 73a–73f (DLT-Handelssystem);
+  official consolidated version (Stand 1. Januar 2024)
+authentic_languages:
+- de
+- fr
+- it
+adoption_date: '2015-06-19'
+entry_into_force_date: '2021-08-01'
+source_url: https://www.fedlex.admin.ch/eli/cc/2015/853/it
+source_publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Fedlex consolidation (PDF/A anchor + Akoma Ntoso XML)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:7a501c8f71ce9e6e18aa05159e02e3445795d01f98cfb57809f699baab68dc24
+original_sha256: sha256:426741953737ed4c2537f82927aa99ff3f7510ee711fb66f9d2f21ddaf539ffb
+text_sha256: sha256:7a501c8f71ce9e6e18aa05159e02e3445795d01f98cfb57809f699baab68dc24
+text_fidelity: extracted_verified
+language: it
+authoritative_status: official_consolidation
+license: ch-law-noncopyright
+rights_note: Swiss Copyright Act (URG, SR 231.1) Art. 5 excludes official texts from copyright. Clean.
+  German, French and Italian are equally authentic (JC-013).
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.fedlex.admin.ch/eli/cc/2015/853/it
+  original_sha256: sha256:426741953737ed4c2537f82927aa99ff3f7510ee711fb66f9d2f21ddaf539ffb
+  note: 'Fedlex consolidation of the FinfraG (SR 958.1), Italian, Stand 1.1.2024: whole-act PDF/A (anchor)
+    + XML (text source).'
+supersedes: null
+superseded_by: null
+related_documents:
+- ch/act/dlt-2020
+provenance_note: 'The DLT trading facility (DLT-Handelssystem) licence in the Financial Market Infrastructure
+  Act (FinfraG, SR 958.1), Art. 73a–73f — a Swiss authorisation for venues admitting DLT securities to
+  trading, created by the DLT Act (JC-027). Italian authentic text; the whole official Fedlex PDF/A (Stand
+  1.1.2024) is the byte-exact anchor and text.txt is the Art. 73a–73f extract from the official Akoma
+  Ntoso XML. Cross-linked to the DLT Act. AUTHORITATIVENESS: official_consolidation. LICENCE: ch-law-noncopyright.
+  Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is Art. 73a–73f (the DLT trading facility) extracted from the official Fedlex Akoma
+    Ntoso XML of the whole FinfraG consolidation; original.pdf is the whole official Fedlex PDF/A (byte-exact
+    anchor).
+  verified_by: Project maintainer (Fedlex XML extraction cross-checked against the official PDF/A)
+  verified_date: '2026-07-10'
+  note: All 6 target articles (Art. 73a–73f) present in the XML and cross-checked present in the PDF/A
+    (6/6 matched).

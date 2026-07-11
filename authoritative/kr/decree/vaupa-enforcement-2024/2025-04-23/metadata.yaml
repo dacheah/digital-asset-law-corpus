@@ -1,0 +1,54 @@
+corpus_id: kr/decree/vaupa-enforcement-2024
+version_id: '2025-04-23'
+title: 가상자산 이용자 보호 등에 관한 법률 시행령 (Enforcement Decree of the Act on the Protection of Virtual Asset Users,
+  etc.)
+short_title: Korea VAUPA Enforcement Decree (Presidential Decree No. 35472)
+jurisdiction: KOR
+document_type: presidential decree
+official_citation: 가상자산 이용자 보호 등에 관한 법률 시행령, 대통령령 제35472호, 시행 2025-04-23 (Enforcement Decree of the VAUPA)
+authentic_languages:
+- ko
+adoption_date: '2024-07-19'
+entry_into_force_date: '2025-04-23'
+source_url: https://www.law.go.kr/법령/가상자산이용자보호등에관한법률시행령
+source_publisher: Republic of Korea — National Law Information Center (law.go.kr)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official law.go.kr PDF (current version)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:6a8509dcd93fc1faacc8e489613f5cf80ef0247f95049c71691c58ca9ac4ee9c
+original_sha256: sha256:ef5d29f507290af800b24ddb3c73d1b78e394d6a8e51804d9f1e776a0aa4a9bb
+text_sha256: sha256:6a8509dcd93fc1faacc8e489613f5cf80ef0247f95049c71691c58ca9ac4ee9c
+text_fidelity: extracted_verified
+language: ko
+authoritative_status: official_consolidation
+license: kr-law-noncopyright
+rights_note: Korean Copyright Act, Art. 7, excludes statutes, decrees and official notices from copyright.
+  Clean. Korean is the authentic language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.law.go.kr/법령/가상자산이용자보호등에관한법률시행령
+  original_sha256: sha256:ef5d29f507290af800b24ddb3c73d1b78e394d6a8e51804d9f1e776a0aa4a9bb
+  note: Official law.go.kr PDF of the VAUPA Enforcement Decree (Presidential Decree No. 35472, in force
+    23 April 2025 — the current amended version).
+supersedes: null
+superseded_by: null
+related_documents:
+- kr/act/virtual-asset-user-protection-2023
+provenance_note: 'The Enforcement Decree of the Virtual Asset User Protection Act (Presidential Decree
+  No. 35472), the implementing subordinate legislation under the VAUPA — detailing user-asset protection,
+  unfair-trading and FSC/FSS supervisory provisions. Korean authentic; captured as the current amended
+  version (in force 23 April 2025). Cross-linked to the VAUPA anchor. AUTHORITATIVENESS: official_consolidation.
+  LICENCE: kr-law-noncopyright (Copyright Act Art. 7). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 10-page PDF;
+    1 repeating header/footer line-classes removed. Structure: 170 blocks; 0 PART/CHAPTER headings; 117
+    numbered units (max 9); 0 Art. units.'

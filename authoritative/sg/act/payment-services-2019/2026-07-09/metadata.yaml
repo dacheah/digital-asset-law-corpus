@@ -1,0 +1,67 @@
+corpus_id: sg/act/payment-services-2019
+version_id: '2026-07-09'
+title: Payment Services Act 2019
+short_title: Payment Services Act 2019 (Singapore)
+jurisdiction: SGP
+document_type: statute
+official_citation: Payment Services Act 2019 (Act 2 of 2019) (Singapore), current version as at 9 Jul
+  2026
+authentic_languages:
+- en
+entry_into_force_date: '2020-01-28'
+source_url: https://sso.agc.gov.sg/Act/PSA2019
+source_publisher: Singapore Statutes Online (Attorney-General's Chambers)
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual download from Singapore Statutes Online
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:8eedd2cf46b2b72a75b960d5711096faae6bf337a723cb10b97049ed09badc21
+original_sha256: sha256:ff3594e4389a9baf617b966a6a35c8dc716b6e9479e75c0a5c4f8873838a0efa
+text_sha256: sha256:8eedd2cf46b2b72a75b960d5711096faae6bf337a723cb10b97049ed09badc21
+text_fidelity: extracted_verified
+language: en
+authoritative_status: official_consolidation
+license: sso-agc-permission
+rights_note: Reproduced with the permission of the Attorney-General's Chambers (AGC), Singapore, under
+  the Singapore Statutes Online Terms of Use (cl. 13); subject to the copyright of the Singapore Government.
+  Users should check Singapore Statutes Online (sso.agc.gov.sg) for the latest version. Automated/bulk
+  extraction from SSO is restricted to 03:00-07:00 SGT (this text was captured by manual download).
+capture_history:
+- date: '2026-07-09'
+  source_url: https://sso.agc.gov.sg/Act/PSA2019
+  original_sha256: sha256:ff3594e4389a9baf617b966a6a35c8dc716b6e9479e75c0a5c4f8873838a0efa
+  note: 'Initial capture: SSO current-version PDF of the Payment Services Act 2019, manually downloaded
+    and staged.'
+verification:
+  status: verified
+  method: 'text.txt (SSO PDF via pdftotext) verified as a faithful SUBSET of the raw extraction — the
+    only token present in text.txt but not the raw is "sso" (from the title line); i.e. no fabrication
+    and no operative content lost. The removed material is the 3-line SSO per-page apparatus and the
+    SSO-generated Table of Contents (navigation). 14 PART headers and 170 definitions parsed.'
+  reference: Singapore Statutes Online — Payment Services Act 2019 (current version as at 09 Jul 2026)
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): SSO page apparatus stripped; navigation ToC omitted;
+    wrapped lines rejoined; inline SSO amendment annotations ([Act X wef date]) retained; soft hyphens
+    stripped; canonical UTF-8/LF by tooling. Authoritative as an official_consolidation (SG current
+    versions have legal force).'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Payment Services Act 2019 (Act 2 of 2019), Singapore — the CURRENT IN-FORCE consolidated
+  version from Singapore Statutes Online (SSO), ''current version as at 09 Jul 2026''. This is Singapore''s
+  Track A market-structure spine: it licenses DIGITAL PAYMENT TOKEN (DPT) service providers alongside
+  other payment services. Originally commenced 28 Jan 2020 (except ss. 111, 113, 114, which had later/appointed
+  commencement); the consolidated text incorporates later amendments (e.g. Act 1 of 2021, Act 12 of 2024),
+  whose inline ''[Act X of YYYY wef DD/MM/YYYY]'' annotations are RETAINED from the SSO output. English
+  is the single authentic language. AUTHORITATIVENESS: Singapore''s Revised Edition / current SSO version
+  has legal force, so this consolidated text is AUTHORITATIVE (recorded as official_consolidation) — like
+  AU compilations, unlike EU consolidations (JC-009). original.pdf is the SSO PDF (byte-exact anchor);
+  text.txt is from pdftotext with disclosed cleaning (wording unchanged): the 3-line SSO per-page apparatus
+  (''Singapore Statutes Online'' / ''Current version as at ...'' / ''PDF created date ...'') stripped;
+  the SSO-generated Table of Contents (navigation, not enacted text) omitted; wrapped lines rejoined;
+  soft hyphens stripped. Cross-check: the cleaned text is a faithful subset of the raw extraction (only
+  added token is ''SSO'' in the title line). LICENCE: sso-agc-permission — reproduction expressly permitted
+  with attribution (JC-014). Follow-up queued: the FSMA 2022 digital-token-service-provider (DTSP) provisions;
+  the MAS single-currency-stablecoin framework only if legislated. Recorded on its own terms (JC-003/JC-007).'

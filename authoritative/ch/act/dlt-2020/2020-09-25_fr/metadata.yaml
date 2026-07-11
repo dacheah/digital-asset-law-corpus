@@ -1,0 +1,115 @@
+corpus_id: ch/act/dlt-2020
+version_id: 2020-09-25_fr
+title: Loi fédérale sur l’adaptation du droit fédéral aux développements de la technologie des registres
+  électroniques distribués du 25 septembre 2020 (loi TRD; RO 2021 33)
+short_title: Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — French authentic text
+jurisdiction: CHE
+document_type: federal act
+official_citation: Loi fédérale sur l’adaptation du droit fédéral aux développements de la technologie
+  des registres électroniques distribués (loi TRD), du 25 septembre 2020, Recueil officiel RO 2021 33
+  — French authentic text; www.fedlex.admin.ch/eli/oc/2021/33/fr
+authentic_languages:
+- de
+- fr
+- it
+adoption_date: '2020-09-25'
+entry_into_force_date: '2021-08-01'
+source_url: https://www.fedlex.admin.ch/eli/oc/2021/33/fr
+source_publisher: Swiss Confederation — Federal Chancellery (Fedlex); enacted by the Federal Assembly
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: 'Project maintainer — manual download from Fedlex of the official as-adopted PDF/A (French
+  authentic text): https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2021/33/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2021-33-fr-pdf-a.pdf'
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:f97e2bb1ca0ad3b389a6084f1a68f333887be1d5bbd8a5bf22bcd48b3f36662e
+original_sha256: sha256:6c649c8984fec8034c2a7aa531f437113a7d29d93caab2719d9ecd1e7f2741ab
+text_sha256: sha256:f97e2bb1ca0ad3b389a6084f1a68f333887be1d5bbd8a5bf22bcd48b3f36662e
+text_fidelity: extracted_verified
+language: fr
+authoritative_status: authentic_text
+license: ch-law-noncopyright
+rights_note: 'Under the Swiss Federal Act on Copyright and Related Rights (URG/CopA, SR 231.1), Article
+  5 (''Amtliche Werke'' / official works) excludes from copyright protection ''laws, decrees, international
+  treaties or other official acts, decisions, protocols or reports by public authorities.'' A federal
+  act published on Fedlex is squarely within Art. 5, so the authentic text is freely reproducible (as
+  with Japanese/Chinese/Korean/Brazilian statutory text; JC-027). Source: the official Fedlex publication
+  (Swiss Confederation, Federal Chancellery). The PDF states ''Massgebend ist die signierte elektronische
+  Fassung'' (the signed electronic version is authoritative). Swiss federal law is equally authentic in
+  German, French and Italian; this record is the French authentic text (version 2020-09-25_fr); the French
+  and Italian / German companion versions are the parallel authentic-language records under the same corpus_id.
+  Any English rendering is UNOFFICIAL (derived layer).'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.fedlex.admin.ch/eli/oc/2021/33/fr
+  original_sha256: sha256:6c649c8984fec8034c2a7aa531f437113a7d29d93caab2719d9ecd1e7f2741ab
+  note: 'Initial capture: the maintainer downloaded the official as-adopted PDF/A of the DLT Act (French
+    authentic text) from Fedlex (https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/oc/2021/33/fr/pdf-a/fedlex-data-admin-ch-eli-oc-2021-33-fr-pdf-a.pdf).
+    Fedlex''s reading UI is JavaScript-rendered, but the PDF/A is served directly from its data filestore.
+    original.pdf is the byte-exact anchor; text.txt is the authentic text extracted from it (two-column-aware
+    position parser).'
+verification:
+  status: verified
+  method: 'text.txt (the French authentic text) was extracted from the official Fedlex as-adopted PDF/A
+    with a two-column-aware, position/size-based parser (marginal titles / Randtitel separated from the
+    body column) and verified by span accounting and independent cross-checks. (1) COMPLETENESS BY CONSTRUCTION:
+    every text line of the PDF is classified into exactly one of body / marginal-title / footnote / dropped-apparatus
+    (nothing is silently discarded). (2) NO-FABRICATION + COMPLETENESS (independent engine): with all
+    non-alphanumeric characters removed and case folded, the union of kept content (body + 30 footnotes)
+    and the explicitly-dropped apparatus is an EXACT match — 34466 alphanumeric characters, delta 0 —
+    to an INDEPENDENT pdftotext extraction of the same PDF, so no operative content was added, lost, or
+    reordered and the only removed material is the disclosed page apparatus. (3) FOOTNOTES: all 30 numbered
+    SR/BBl cross-reference footnotes were captured with their numbers (paired by position) and collected
+    in a closing section. (4) STRUCTURE: title + preamble + Section I (the ten amended enactments, in
+    order: Code of Obligations, Debt Enforcement and Bankruptcy Act, Private International Law Act, FinSA,
+    National Bank Act, Banking Act, Financial Institutions Act, Anti-Money Laundering Act, Intermediated
+    Securities Act, FinfraG) + Section II + both chambers'' signatures + the Federal Council entry-into-force
+    decree, in document order. (5) LIVE CROSS-CHECK: the signed instrument is identical across its three
+    authentic languages; its end-matter (referendum clause; both chambers'' presidents/secretaries; the
+    14 January 2021 referendum deadline; 1 February 2021 partial commencement; final signatories Simonetta
+    Sommaruga and Walter Thurnherr, 11 December 2020) was cross-checked live against the German authentic
+    companion (version 2020-09-25_de) and matches; the French title, the amended Code des obligations
+    (droits-valeurs inscrits) and loi sur l''infrastructure des marchés financiers (système de négociation
+    fondé sur la TRD) are present in text.txt.'
+  reference: Fedlex (Swiss Confederation, Federal Chancellery) — Swiss DLT Act, Official Compilation AS/RO/RU
+    2021 33, French PDF/A, retrieved 9 July 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed apparatus removed (legal wording unchanged): the running header ''Anpassung des Bundesrechts
+    an Entwicklungen der Technik verteilter elektronischer Register. BG'' (and its FR/IT equivalents),
+    the AS/RO/RU 2021 33 references, the page numbers ''N / 22'', the print number ''2021-0130'', and
+    the page-1 masthead (''www.bundesrecht.admin.ch'' + ''the signed electronic version is authoritative'').
+    Editorial rendering, all disclosed: marginal titles (Randtitel) rendered as heading blocks beside
+    their article; Absatz numbers kept inline; inline footnote-reference markers rendered as superscripts;
+    soft line-break hyphens rejoined. The authentic text (title, preamble, Sections I-II, signatures,
+    entry-into-force decree, footnotes) is reproduced in full. Canonical UTF-8/LF by tooling.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'The DLT Act — Federal Act on the Adaptation of Federal Law to Developments in the Technology
+  of Distributed Electronic Registers — Switzerland''s foundational digital-asset instrument, adopted
+  by the Federal Assembly on 25 September 2020 (Official Compilation AS/RO/RU 2021 33). It is a *Mantelerlass*
+  (blanket act): its Section I amends TEN existing federal enactments — (1) the Code of Obligations (ledger-based
+  securities / Registerwertrechte, Art. 973d ff.), (2) the Debt Enforcement and Bankruptcy Act, (3) the
+  Private International Law Act, (4) the Financial Services Act (FinSA), (5) the National Bank Act, (6)
+  the Banking Act (segregation of crypto-based assets in insolvency), (7) the Financial Institutions Act
+  (FinIA), (8) the Anti-Money Laundering Act, (9) the Intermediated Securities Act, and (10) the Financial
+  Market Infrastructure Act (FinfraG) — whose Track A market-structure core is the new ''DLT trading facility''
+  (DLT-Handelssystem) licence: a licensed multilateral trading venue for DLT securities open to retail
+  participants, supervised by FINMA. Section II subjects the act to the optional referendum and leaves
+  entry into force to the Federal Council; it is signed by the presidents and secretaries of both chambers
+  (25 Sep 2020). The Federal Council decree (11 Dec 2020) records the unused referendum deadline (14 Jan
+  2021) and set the Code-of-Obligations and related provisions in force on 1 February 2021, the remainder
+  (incl. the FinfraG DLT trading facility) on 1 August 2021. AUTHENTIC LANGUAGE: this record holds the
+  French authentic text; German, French and Italian are equally authentic (none is a translation) — the
+  parallel-language versions share this corpus_id with language-suffixed version_ids (the Hong Kong parallel-authentic
+  model, JC-013/027). English is unofficial → derived. SOURCE/FORMAT: captured from Fedlex (Swiss Confederation,
+  Federal Chancellery) as the official as-adopted PDF/A of the Official Compilation (the ''signed electronic
+  version is authoritative''); original.pdf is the byte-exact anchor. FIDELITY (see verification block):
+  text.txt was extracted with a two-column-aware, position/size-based parser (marginal titles/Randtitel
+  separated from the body column; running headers, page/print numbers and the masthead dropped as apparatus;
+  the 30 numbered SR/BBl cross-reference footnotes collected in a closing section). Completeness is proven
+  by span accounting — every character of an INDEPENDENT pdftotext extraction is accounted for (alnum
+  delta = 0) — and the end-matter (referendum clause, both chambers'' signatories, and the Federal Council
+  entry-into-force decree) was independently cross-checked against the live Fedlex source. LICENCE: ch-law-noncopyright
+  — Swiss Copyright Act (SR 231.1) Art. 5 (JC-027). Recorded neutrally, on its own terms (JC-003/JC-005/JC-006).'

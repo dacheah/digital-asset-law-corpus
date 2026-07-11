@@ -1,0 +1,54 @@
+corpus_id: us/forms/occ-genius-ps02-instructions-2026
+version_id: '2026-06-11'
+title: Instructions for OCC Reporting Form PS-02, PPSI and FPSI Quarterly Reports of Condition and Income
+short_title: Form PS-02 Instructions
+jurisdiction: USA
+document_type: reporting-forms
+official_citation: OCC Bulletin 2026-24 (June 11, 2026), attach. d
+authentic_languages:
+- en
+source_url: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24d.pdf
+source_publisher: Office of the Comptroller of the Currency (OCC)
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from the official OCC source
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:58cd208a1a44fb13e4487ecac62f67be70be129d5e86e339eb7f33eaa03ebec6
+original_sha256: sha256:233580b54ff41e8cd4efe08782ffa0b091c1799460f6aab64b92fbb3e4002087
+text_sha256: sha256:58cd208a1a44fb13e4487ecac62f67be70be129d5e86e339eb7f33eaa03ebec6
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: public-domain-gov
+rights_note: U.S. Government work; not subject to copyright under 17 U.S.C. § 105. Freely reproducible.
+capture_history:
+- date: '2026-07-08'
+  source_url: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24d.pdf
+  original_sha256: sha256:233580b54ff41e8cd4efe08782ffa0b091c1799460f6aab64b92fbb3e4002087
+  note: 'Initial capture: OCC Bulletin 2026-24 attachment d (PS-02 instructions) PDF, manually downloaded
+    from the official OCC source and staged.'
+verification:
+  status: verified
+  method: 'text.txt extraction faithfully reproduces the stored official OCC PDF: word count reconciles
+    with the raw pdftotext extraction (delta = added title line minus removed bare page numbers); the
+    table of contents, schedule headings, and substantive passages were spot-checked. The sole official
+    source is the OCC PDF (no independent parallel text exists for cross-source comparison).'
+  reference: OCC Bulletin 2026-24 (attachment d); original.pdf
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'Disclosed cleaning (wording unchanged): page-break form-feeds to paragraph breaks; table-of-contents
+    dot leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling.'
+supersedes: null
+superseded_by: null
+related_documents:
+- us/forms/occ-genius-reporting-2026
+- us/rule/occ-payment-stablecoins-2026
+provenance_note: Instructions for OCC Reporting Form PS-02 (quarterly reports of condition and income)
+  for OCC-supervised PPSIs/FPSIs — OCC Bulletin 2026-24 attachment d, issued 2026-06-11. The corresponding
+  form template (Form PS-02, MS Excel, attachment e) is REFERENCED by URL, not stored [https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24e.xlsx].
+  original.pdf is the byte-exact OCC PDF. Text extracted from the stored official OCC PDF via pdftotext
+  with disclosed conservative cleaning (page-break form-feeds to paragraph breaks; table-of-contents dot
+  leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling).
+  Wording unchanged; word counts reconcile with the raw extraction. Part of the GENIUS Act reporting package
+  (see the Notice record); relates to the OCC payment-stablecoins rule.

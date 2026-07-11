@@ -1,0 +1,100 @@
+corpus_id: br/resolucao/bcb-520-2025
+version_id: '2025-11-10'
+title: Resolução BCB nº 520, de 10 de novembro de 2025 (BCB Resolution No. 520 — virtual-asset service
+  provider operating rules)
+short_title: Resolução BCB nº 520/2025 — PSAV operating/prudential rules (Brazil)
+jurisdiction: BRA
+document_type: resolução
+official_citation: Resolução BCB nº 520, de 10 de novembro de 2025 (Banco Central do Brasil, Diretoria
+  Colegiada) — disciplines the constitution and functioning of virtual-asset service providers; published
+  DOU 11.11.2025; in force 2 Feb 2026
+authentic_languages:
+- pt-BR
+adoption_date: '2025-11-10'
+entry_into_force_date: '2026-02-02'
+source_url: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=520
+source_publisher: Banco Central do Brasil (Diretoria Colegiada)
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual capture (browser print-to-PDF) of the official BCB normativo
+  (bcb.gov.br)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:ed05bef6e3d66715268afbe61f5ef53562ece83c25b377d4699a5c798db42173
+original_sha256: sha256:82377e4e92844349fb517663e31ecf332cd96b42a24df2fa814d5cac0dbc5714
+text_sha256: sha256:ed05bef6e3d66715268afbe61f5ef53562ece83c25b377d4699a5c798db42173
+text_fidelity: extracted_verified
+language: pt-BR
+authoritative_status: authentic_text
+license: br-law-noncopyright
+rights_note: 'Under the Brazilian Copyright Law (Lei nº 9.610/1998), Article 8, item IV, ''os textos de
+  tratados ou convenções, leis, decretos, regulamentos, decisões judiciais e demais atos oficiais'' are
+  not the subject of copyright protection. A BCB Resolução is a regulamento / ato oficial of a federal
+  authority, squarely within Art. 8, IV, so the authentic Portuguese text is freely reproducible (as with
+  Brazilian statutes; JC-021). Source: the official Banco Central do Brasil normativo (bcb.gov.br). Any
+  English rendering is UNOFFICIAL and belongs in the derived layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=520
+  original_sha256: sha256:82377e4e92844349fb517663e31ecf332cd96b42a24df2fa814d5cac0dbc5714
+  note: 'Initial capture: browser print-to-PDF of the official BCB normativo page for Resolução BCB nº
+    520 (the BCB site renders normativos via JavaScript, so print-to-PDF captures the rendered text; the
+    cookie-consent banner was dismissed before printing). original.pdf is the byte-exact print anchor;
+    text.txt is the enacted text extracted from it, with the browser print header and the BCB website
+    footer removed.'
+verification:
+  status: verified
+  method: 'text.txt (the enacted Portuguese text) verified against the raw pdftotext extraction of
+    original.pdf. NO FABRICATION + COMPLETENESS: with all whitespace removed, text.txt is an EXACT match
+    (121,685 non-whitespace characters) to the whitespace-stripped captured body (the pdftotext output
+    between the official title and the BCB website footer) — so no operative content was added, lost, or
+    reordered; only page-width line wraps were rejoined. STRUCTURE + COMPLETENESS EVIDENCE: the articles
+    form a COMPLETE CONSECUTIVE sequence Art. 1º–Art. 92 (no gaps) across 11 chapters (CAPÍTULO I–XI),
+    ending naturally in the in-force article (Art. 92, 2 Feb 2026), the signatory (GILNEU FRANCISCO
+    ASTOLFI VIVAN, Diretor de Regulação) and the ANEXO with its footnotes — i.e. the capture is not
+    truncated. The preamble cites Lei nº 14.478/2022 (×4 references to the enabling statute in text).'
+  reference: Banco Central do Brasil — Resolução BCB nº 520, de 10 de novembro de 2025, retrieved 9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): original.pdf is a browser print-to-PDF of the JS-rendered
+    BCB normativo (cookie-consent banner dismissed before printing, so it does not contaminate the text).
+    Removed as apparatus only: the browser print header line ("Resolução BCB n° 520 de 10/11/2025") and
+    the BCB website footer ("Siga o BC" social-media links, "Acesso à informação", the BCB mission
+    statement, "Atendimento: 145", and the "© Banco Central do Brasil" copyright line). Portuguese is
+    Latin-script and space-delimited; page-width wraps are at word boundaries (no hyphenation), so they
+    are rejoined with a single space (unlike the Korean visual-line case). One block per article (each
+    absorbing its §§, incisos and alíneas); chapter headings and the annex as their own blocks. Canonical
+    UTF-8/LF by tooling. Authoritative as authentic_text — the official BCB publication, as issued.'
+supersedes: null
+superseded_by: null
+related_documents:
+- br/lei/virtual-assets-framework-2022
+- br/resolucao/bcb-519-2025
+- br/resolucao/bcb-521-2025
+provenance_note: 'Resolução BCB nº 520, de 10 de novembro de 2025 (Banco Central do Brasil) — the Banco
+  Central''s substantive IMPLEMENTING REGULATION of the virtual-asset market under Brazil''s Marco Legal
+  dos Ativos Virtuais (Lei nº 14.478/2022; the resolution''s preamble cites arts. 2º–5º, 7º, 8º and 9º
+  of that Lei and Decreto nº 11.563/2023). This is Brazil''s Track A market-structure operating regime:
+  it disciplines the constitution and functioning of the sociedades prestadoras de serviços de ativos
+  virtuais (SPSAVs / VASPs), defining the service-provider modalities and the core operating framework
+  — definitions (CAPÍTULO II: airdrop, ativo virtual referenciado em moeda fiduciária (stablecoin), carteira
+  fria/quente/morna (cold/hot/warm wallets), chave privada, contrato inteligente, etc.), authorisation-to-operate
+  conditions, asset segregation, custody, governance, risk management, cybersecurity, conduct and activity
+  restrictions, through 92 articles in 11 chapters, plus an ANEXO (minimum requirements for selecting
+  virtual assets to offer). RELATIONSHIP: this is the implementing rule to the enabling statute, cross-referenced
+  in related_documents → br/lei/virtual-assets-framework-2022 (the statute↔rule pairing, as with the US
+  GENIUS Act ↔ OCC payment-stablecoins rule). Its companion resolutions — nº 519 (authorisation/licensing)
+  and nº 521 (integration of virtual-asset international payments into the FX framework) — are queued
+  as follow-ups (JC-023). Entry into force 2 Feb 2026 (Art. 92). AUTHENTIC LANGUAGE: Portuguese (pt-BR);
+  English renderings unofficial → derived. AUTHORITATIVENESS: authentic_text — the official BCB normativo
+  publication, as issued (no amendments). SOURCE/FORMAT: because the BCB normativo site renders via JavaScript,
+  the official text was captured as a browser print-to-PDF (the cookie-consent banner dismissed first);
+  original.pdf is the byte-exact print anchor; text.txt is the enacted text (title → ementa → preamble
+  → CAPÍTULOs I–XI, Art. 1º–92 with §§/incisos/alíneas → signature → ANEXO with its footnotes), with DISCLOSED
+  removal of the browser print header line and the BCB website footer only (the ''Siga o BC'' social-media
+  links, ''Acesso à informação'', the BCB mission statement, ''Atendimento: 145'', and the copyright line).
+  Page-width line wraps (Latin, word-boundary; no hyphenation) are rejoined with a single space; the whitespace-stripped
+  text is an exact match to the whitespace-stripped captured body (no operative content added, lost, or
+  reordered), and the 92 articles form a complete consecutive sequence ending in the in-force article,
+  signature and annex. LICENCE: br-law-noncopyright — Lei 9.610/1998 Art. 8, IV (JC-021/023). Recorded
+  on its own terms (JC-003/JC-007/JC-023).'

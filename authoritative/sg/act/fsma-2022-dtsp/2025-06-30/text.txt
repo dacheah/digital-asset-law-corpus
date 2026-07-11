@@ -1,0 +1,1539 @@
+PART 9
+
+                            DIGITAL TOKEN SERVICE PROVIDERS
+
+                                     Division 1 — Preliminary
+
+Interpretation of this Part
+
+   136.—(1) In this Part, unless the context otherwise requires —
+        “5% controller”, in relation to a corporation (being a licensee), means a person that
+           alone or together with the person’s associates —
+                    (a) has an interest in at least 5%, but less than 12%, of the shares in the
+                        corporation; or
+                    (b) is in a position to control at least 5%, but less than 12%, of the votes
+                        in the corporation;
+        “12% controller”, in relation to a corporation (being a licensee), means a person
+           that alone or together with the person’s associates —
+                    (a) has an interest in at least 12%, but less than 20%, of the shares in the
+                        corporation; or
+                    (b) is in a position to control at least 12%, but less than 20%, of the
+                        votes in the corporation;
+        “20% controller”, in relation to a corporation (being a licensee), means a person
+           that alone or together with the person’s associates —
+                    (a) has an interest in at least 20% of the shares in the corporation; or
+                    (b) is in a position to control at least 20% of the votes in the corporation;
+        “arrangement” includes any formal or informal scheme, arrangement or
+           understanding, and any trust whether express or implied;
+        “book” includes any record, register, document or other record of information and
+           any account or accounting record, however compiled, recorded or stored,
+           whether in written or printed form or on microfilm or by electronic process or
+           otherwise;
+        “capital markets products” has the meaning given by section 2(1) of the Securities
+           and Futures Act 2001;
+        “chief executive officer”, in relation to a corporation, means a person, by whatever
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             name called, who —
+                    (a) is in the direct employment of, or acting for or by arrangement with,
+                        the corporation; and
+                    (b) is principally responsible for the management and conduct of the
+                        business of the corporation;
+        “company” has the meaning given by section 4(1) of the Companies Act 1967;
+        “digital payment token” has the meaning given by section 2(1) of the Payment
+           Services Act 2019;
+        “digital payment token service” has the meaning given by section 2(1) of the
+           Payment Services Act 2019;
+        “digital token” means —
+                   (a) a digital payment token; or
+                   (b) a digital representation of a capital markets product which —
+                          (i) can be transferred, stored or traded electronically; and
+
+                            (ii)   satisfies such other characteristics as the Authority may
+                                   prescribe,
+
+             but does not include an excluded digital token;
+        “digital token service” has the meaning given by Part 1 of the First Schedule, but
+           excludes any service that is specified in Part 2 of that Schedule;
+        “digital token service provider” means any person that provides a digital token
+           service;
+        “digital token service user” means any person that uses a digital token service;
+        “director” has the meaning given by section 4(1) of the Companies Act 1967;
+        “e-money” has the meaning given by section 2(1) of the Payment Services
+           Act 2019;
+        “employee”, in relation to an employer, includes an individual seconded or
+           temporarily transferred to the employer from another employer;
+        “entity” means any body corporate or unincorporate, whether incorporated, formed
+           or established in or outside Singapore;
+        “excluded digital token” means a digital token that is prescribed by the Authority
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             as an excluded digital token;
+        “executive director” means a director who is concurrently an executive officer;
+        “executive officer”, in relation to a corporation, means any individual, by whatever
+           name called, who —
+                   (a) is in the direct employment of, or acting for or by arrangement with,
+                       the corporation; and
+                   (b) is concerned with or takes part in the management of the corporation
+                       on a day-to-day basis;
+        “financial regulatory authority”, in relation to a foreign country or territory, means
+            an authority of the foreign country or territory exercising any function that
+            corresponds to a regulatory function of the Authority under this Act or any
+            other MAS scheduled Act;
+        “indirect controller”, in relation to a corporation (being a licensee) —
+                   (a) means any person, whether acting alone or together with any other
+                       person, and whether with or without holding shares or controlling
+                       voting power in the corporation —
+                         (i) in accordance with whose directions, instructions or wishes
+                               the directors of the corporation are accustomed or under an
+                               obligation, whether formal or informal, to act; or
+
+                            (ii)   that is in a position to determine the policy of the
+                                   corporation; but
+
+                   (b) excludes any person —
+                         (i) who is a director or other officer of the corporation and
+                              whose appointment has been approved by the Authority; or
+
+                            (ii)   in accordance with whose directions, instructions or wishes
+                                   the directors of the corporation are accustomed to act by
+                                   reason only that they act on advice given by the person in
+                                   the person’s professional capacity;
+
+        “licence” means a licence granted under section 138;
+        “licensee” means a digital token service provider the licence of which is in force;
+        “limited liability partnership” has the meaning given by section 4(1) of the Limited
+           Liability Partnerships Act 2005;
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+        “money” includes e-money but excludes any digital payment token and any
+          excluded digital token;
+        “partner”, in relation to a limited liability partnership, has the meaning given by
+           section 2(1) of the Limited Liability Partnerships Act 2005;
+        “permanent place of business”, in relation to a person, means each fixed location in
+           Singapore used by the person, for carrying on the person’s business, regardless
+           whether the business is carried on within a single building or at a single
+           business address;
+        “place of business”, in relation to a licensee, means any location (including a kiosk
+           that can be moved from one location to another) in Singapore used by the
+           licensee, for carrying on its business;
+        “registered office” means a registered office maintained under section 142(1) or
+           370(1) of the Companies Act 1967;
+        “regulated financial institution” means a person that carries on a business, the
+           conduct of which is regulated or authorised by the Authority or, if it is carried
+           on in Singapore, could be regulated or authorised by the Authority;
+        “share” has the meaning given by section 4(1) of the Companies Act 1967 and
+           includes an interest in a share;
+        “VCC” or variable capital company has the meaning given by section 2(1) of the
+          Variable Capital Companies Act 2018.
+    (2) In this Part, unless the context otherwise requires —
+             (a) a person has an interest in a share if —
+                    (i) the person has or is treated as having an interest in that share
+                          under section 7(1A), (1B), (2), (6) and (7) to (10) of the
+                          Companies Act 1967; or
+
+                       (ii)   the person has any legal or equitable interest in that share, except
+                              an interest that is to be disregarded under section 7(9) of the
+                              Companies Act 1967;
+
+             (b) a reference to the control of a percentage of the votes in a corporation
+                 (being a licensee) is a reference to the control, whether direct or indirect, of
+                 that percentage of the total number of votes that might be cast in a general
+                 meeting of the corporation; and
+             (c) a person (A) is an associate of another person (B) if —
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                        (i)   A is the spouse, a parent, remoter lineal ancestor or step-parent, a
+                              son, daughter, remoter issue, stepson or stepdaughter, or a
+                              brother or sister, of B;
+
+                       (ii)   A is a body corporate that is, or a majority of the directors of
+                              which are, accustomed or under an obligation, whether formal or
+                              informal, to act in accordance with the directions, instructions or
+                              wishes of B;
+
+                      (iii)   A is a person that is accustomed or under an obligation, whether
+                              formal or informal, to act in accordance with the directions,
+                              instructions or wishes of B;
+
+                       (iv)   A is a subsidiary of B;
+
+                        (v)   A is a body corporate in which B, whether alone or together with
+                              other associates of B as described in sub-paragraphs (ii), (iii) and
+                              (iv), is in a position to control 20% or more of the votes in A; or
+
+                       (vi)   A is a person with whom B has an agreement or arrangement
+                              (whether oral or in writing and whether express or implied) to
+                              act together with respect to the acquisition, holding or disposal
+                              of shares or other interests in, or with respect to the exercise of
+                              their votes in relation to, the corporation (being a licensee)
+                              mentioned in the definition of “5% controller”, “12% controller”
+                              or “20% controller”.
+
+    (3) For the purposes of section 137(2) and (4), the provision of a digital token service
+is incidental to any other business carried on by a person, if the digital token service —
+             (a) is carried on, offered or provided by that person to support that other
+                 business; and
+             (b) is provided by that person in connection with the carrying on of that other
+                 business.
+
+                      Division 2 — Licensing of digital token service providers
+
+                   Subdivision (1) — Licensing of digital token service providers
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+Licensing of digital token service providers
+
+   137.—(1) Except as provided for in subsection (5), an individual or a partnership
+must not from a place of business in Singapore carry on a business of providing any type
+of digital token service outside Singapore unless the individual or the partnership has in
+force a licence.
+   (2) For the purposes of subsection (1), where a person provides any type of digital
+token service while the person carries on any business (called in this subsection the
+primary business) from a place of business in Singapore —
+             (a) the person is presumed to carry on a secondary business of providing that
+                 type of digital token service from a place of business in Singapore,
+                 regardless whether the provision of that type of digital token service is
+                 related or incidental to the primary business; and
+             (b) the presumption in paragraph (a) is not rebutted by proof that the provision
+                 of that type of digital token service is related or incidental, or is both
+                 related and incidental, to the primary business.
+   (3) Except as provided for in subsection (5), a Singapore corporation must not carry
+on a business, whether from Singapore or elsewhere, of providing any type of digital
+token service outside Singapore unless the Singapore corporation has in force a licence.
+   (4) For the purposes of subsection (3), where a person provides any type of digital
+token service while the person carries on any business (called in this subsection the
+primary business) —
+             (a) the person is presumed to carry on a secondary business of providing that
+                 type of digital token service regardless whether the provision of that type
+                 of digital token service is related or incidental to the primary business; and
+             (b) the presumption in paragraph (a) is not rebutted by proof that the provision
+                 of that type of digital token service is related or incidental, or is both
+                 related and incidental, to the primary business.
+   (5) Subsections (1) and (3) do not apply to a person who carries on a business of
+providing a digital token service —
+             (a) unless otherwise provided for in regulations made under section 192 —
+                    (i) that is —
+                              (A) required to be licensed, approved or recognised under
+                                  the Securities and Futures Act 2001; or
+                              (B) exempted from licensing, approval or recognition under
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                                       the Securities and Futures Act 2001,
+                              in respect of the carrying on of a business in a capital markets
+                              product regulated activity;
+
+                       (ii)   that is —
+                                 (A) required to be licensed under the Financial Advisers
+                                     Act 2001; or
+                                  (B) exempted from licensing under the Financial Advisers
+                                       Act 2001,
+                              in respect of the carrying on of a business of providing a
+                              financial advisory service; or
+
+                      (iii)   that is —
+                                 (A) required to be licensed under the Payment Services
+                                     Act 2019; or
+                                  (B) exempted from licensing under the Payment Services
+                                        Act 2019,
+                              in respect of the carrying on of a business of providing any
+                              digital payment token service;
+
+             (b) that is specified in the Second Schedule; or
+             (c) that belongs to a prescribed class of persons.
+  (6) A person that contravenes subsection (1) or (3) shall be guilty of an offence and
+shall be liable on conviction —
+             (a) in the case of an individual, to a fine not exceeding $125,000 or to
+                 imprisonment for a term not exceeding 3 years or to both and, in the case
+                 of a continuing offence, to a further fine not exceeding $12,500 for every
+                 day or part of a day during which the offence continues after conviction; or
+             (b) in any other case, to a fine not exceeding $250,000 and, in the case of a
+                 continuing offence, to a further fine not exceeding $25,000 for every day
+                 or part of a day during which the offence continues after conviction.
+    (7) In this section —
+         “capital markets product regulated activity” means any of the following activities:
+
+Singapore Statutes Online                 Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                   (a) any regulated activity;
+                   (b) establishing or operating an organised market;
+         “financial advisory service” has the meaning given by section 2(1) of the Financial
+             Advisers Act 2001;
+         “organised market” has the meaning given by Part 1 of the First Schedule to the
+            Securities and Futures Act 2001;
+         “regulated activity” has the meaning given by section 2(1) of the Securities and
+            Futures Act 2001;
+         “Singapore corporation” means a body corporate formed or incorporated in
+            Singapore and includes a limited liability partnership.
+
+Application for licence
+
+  138.—(1) An application for a licence must be made to the Authority in the form and
+manner required by the Authority.
+    (2) Upon receiving an application under subsection (1), the Authority may —
+             (a) grant a licence to the applicant, with or without conditions; or
+             (b) refuse to grant a licence.
+   (3) Where an applicant has applied for a licence, the Authority must not grant the
+licence to the applicant unless —
+             (a) the applicant has a permanent place of business in Singapore;
+             (b) in the case of an applicant that is a corporation, an executive director of the
+                 applicant —
+                     (i) is resident in Singapore; or
+
+                       (ii)   if the applicant satisfies such conditions as may be prescribed —
+                              belongs to a prescribed class of persons;
+
+             (c) in the case of an applicant that is a partnership, a partner of the
+                 applicant —
+                    (i) is resident in Singapore; or
+
+                       (ii)   if the applicant satisfies such conditions as may be prescribed —
+                              belongs to a prescribed class of persons;
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             (d) in the case of an applicant that is a limited liability partnership — a partner
+                 or manager of the applicant —
+                     (i) is resident in Singapore; or
+
+                       (ii)   if the applicant satisfies such conditions as may be prescribed —
+                              belongs to a prescribed class of persons;
+
+             (e) the applicant satisfies such financial requirements as may be prescribed;
+             (f) the Authority —
+                     (i) is satisfied that the applicant is a fit and proper person under the
+                         Guidelines on Fit and Proper Criteria;
+
+                       (ii)   is satisfied as to the financial condition of the applicant;
+
+                      (iii)   is satisfied that the public interest will be served by the granting
+                              of the licence; and
+
+                       (iv)   is satisfied that the applicant meets such other criteria for the
+                              grant of the licence as the Authority considers relevant;
+
+             (g) the applicant satisfies such operational requirements as the Authority may
+                 specify; and
+             (h) the application is accompanied by —
+                     (i) such information or documents as the Authority may require;
+                          and
+
+                       (ii)   a non-refundable application fee of a prescribed amount that is
+                              payable in such manner as the Authority may specify.
+
+   (4) The Authority may at any time add to, vary or revoke any of the conditions of a
+licence imposed under subsection (2)(a) or this subsection.
+   (5) The Authority must not refuse an application under subsection (1) without giving
+the applicant an opportunity to be heard.
+    (6) Every licensee must, while its licence is in force, satisfy —
+             (a) such financial requirements as may be prescribed or specified by the
+                 Authority by written notice; and
+             (b) such operational requirements and other requirements as the Authority may
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    specify by written notice.
+  (7) A licensee that fails to comply with any requirement mentioned in subsection (6)
+must immediately notify the Authority of the failure.
+    (8) Where a licensee fails to comply with any requirement under subsection (6) —
+             (a) the Authority may, by written notice to that licensee, do either or both of
+                 the following:
+                     (i) restrict or suspend the operations of that licensee;
+
+                       (ii)   give such directions to that licensee as the Authority considers
+                              appropriate; and
+
+             (b) that licensee must comply with that notice.
+   (9) A licensee that, without reasonable cause, contravenes subsection (6), or fails to
+comply with any condition imposed by the Authority under subsection (2)(a) or (4), shall
+be guilty of an offence and shall be liable on conviction to a fine not exceeding $100,000
+and, in the case of a continuing offence, to a further fine not exceeding $10,000 for every
+day or part of a day during which the offence continues after conviction.
+
+Holding out as licensee
+
+   139.—(1) A person must not hold himself, herself or itself out as a licensee, unless
+the person has in force a licence.
+   (2) An individual or a partnership must not hold himself, herself or itself (as the case
+may be) out as carrying on from a place in Singapore a business of providing any type of
+digital token service outside of Singapore, unless the individual or partnership is a
+licensee or exempt from section 137(1) under section 189.
+   (3) A Singapore corporation must not hold itself out as carrying on a business of
+providing digital token service outside of Singapore, unless it is a licensee or exempt
+from section 137(3) under section 189.
+    (4) Subsections (2) and (3) do not apply to any person mentioned in section 137(5).
+  (5) A person that contravenes subsection (1), (2) or (3) shall be guilty of an offence
+and shall be liable on conviction —
+             (a) in the case of an individual, to a fine not exceeding $125,000 or to
+                 imprisonment for a term not exceeding 3 years or to both and, in the case
+                 of a continuing offence, to a further fine not exceeding $12,500 for every
+                 day or part of a day during which the offence continues after conviction; or
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             (b) in any other case, to a fine not exceeding $250,000 and, in the case of a
+                 continuing offence, to a further fine not exceeding $25,000 for every day
+                 or part of a day during which the offence continues after conviction.
+   (6) For the purposes of subsection (3), “Singapore corporation” has the meaning
+given by section 137(7).
+
+Annual fees of licensees
+
+  140.—(1) A licensee must pay to the Authority a prescribed annual fee in such
+manner as the Authority may specify by written notice.
+  (2) The Authority may, where the Authority considers it to be appropriate in a
+particular case, waive, refund or remit the whole or any part of any annual fee paid or
+payable to the Authority.
+
+Lapsing, surrender, revocation or suspension of licence
+
+   141.—(1) A licence lapses —
+            (a) in the case of a licensee that is an entity, if the licensee is wound up or
+                otherwise dissolved, whether in Singapore or elsewhere;
+            (b) in the case of a licensee that is an individual, if the licensee dies, becomes
+                mentally incapacitated or is adjudicated a bankrupt; or
+             (c) upon the occurrence of such other event as may be prescribed.
+    (2) The Authority may revoke a licence if —
+             (a) it appears to the Authority that any of the following persons is not a fit and
+                 proper person under the Guidelines on Fit and Proper Criteria:
+                     (i) the licensee;
+
+                       (ii)   any officer or employee of the licensee;
+
+                      (iii)   where the licensee is a partnership — any partner of that
+                              partnership;
+
+                       (iv)   where the licensee is a limited liability partnership — any
+                              partner or manager of that limited liability partnership;
+
+                        (v)   where the licensee is a corporation — any 5% controller,
+                              12% controller, 20% controller or indirect controller of the
+                              licensee;
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             (b) it appears to the Authority that either of the following is not satisfactory:
+                     (i) the financial standing of the licensee;
+
+                       (ii)   the manner in which the licensee’s business is being conducted;
+
+             (c) the licensee has contravened, or continues to contravene, any provision of
+                 this Act, or has failed, or continues to fail, to comply with any condition or
+                 restriction imposed by the Authority under this Act;
+             (d) the licensee has failed, or continues to fail, to comply with any written
+                 notice issued by the Authority under this Act;
+             (e) it appears to the Authority that the licensee has failed, or continues to fail,
+                 to comply with any of the licensee’s obligations under or arising from —
+                     (i) this Part; or
+
+                       (ii)   any written notice issued by the Authority under this Act;
+
+             (f) the licensee has provided to the Authority any information or document
+                 required under this Act that is false or misleading in a material particular;
+             (g) it appears to the Authority that any of the following persons has not
+                 performed that person’s duties under this Act honestly or fairly:
+                     (i) the licensee;
+
+                       (ii)   any officer or employee of the licensee;
+
+                      (iii)   where the licensee is a partnership — any partner of that
+                              partnership;
+
+                       (iv)   where the licensee is a limited liability partnership — any
+                              partner or manager of that limited liability partnership;
+
+             (h) it appears to the Authority that it would be contrary to the public interest
+                 for the licensee to continue its operations;
+             (i) the licensee fails to pay the annual fee mentioned in section 140(1);
+             (j) the licensee fails or ceases to carry on a business of providing any type of
+                 digital token service;
+             (k) in the case of a licensee that is a corporation —
+                     (i) the licensee fails or ceases to have an executive director who —
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                                 (A) is resident in Singapore; or
+                                 (B) belongs to the prescribed class of persons mentioned in
+                                     section 138(3)(b)(ii); or
+
+                       (ii)   if any executive director of the licensee belongs to the prescribed
+                              class of persons mentioned in section 138(3)(b)(ii) — the
+                              licensee does not or ceases to satisfy any condition mentioned in
+                              section 138(3)(b)(ii);
+
+             (l) in the case of a licensee that is a partnership —
+                     (i) the licensee fails or ceases to have a partner who —
+                                 (A) is resident in Singapore; or
+                                 (B) belongs to the prescribed class of persons mentioned in
+                                     section 138(3)(c)(ii); or
+
+                       (ii)   if any partner of the licensee belongs to the prescribed class of
+                              persons mentioned in section 138(3)(c)(ii) — the licensee does
+                              not or ceases to satisfy any condition mentioned in
+                              section 138(3)(c)(ii); or
+
+            (m) in the case of a licensee that is a limited liability partnership —
+                    (i) the licensee fails or ceases to have a partner or manager who —
+                                 (A) is resident in Singapore; or
+                                 (B) belongs to the prescribed class of persons mentioned in
+                                     section 138(3)(d)(ii); or
+
+                       (ii)   if any partner or manager of the licensee belongs to the
+                              prescribed class of persons mentioned in section 138(3)(d)(ii) —
+                              the licensee does not or ceases to satisfy any condition
+                              mentioned in section 138(3)(d)(ii).
+
+    (3) The Authority may, if the Authority considers it desirable to do so —
+             (a) suspend the licence of a licensee for a specified period, instead of revoking
+                 the licence under subsection (2); and
+             (b) at any time —
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                        (i)   extend the suspension for a specified period; or
+
+                       (ii)   cancel the suspension.
+
+   (4) Except as provided in subsection (5), the Authority must not revoke a licence
+under subsection (2) or suspend a licence under subsection (3), without giving the
+licensee an opportunity to be heard.
+   (5) The Authority may revoke or suspend a licence of a licensee, without giving the
+licensee an opportunity to be heard, in any of the following circumstances:
+             (a) in the case of a licensee that is an entity — the licensee is in the course of
+                 being wound up or otherwise dissolved, whether in Singapore or
+                 elsewhere;
+             (b) a receiver, a receiver and manager, a judicial manager or an equivalent
+                 person has been appointed, whether in Singapore or elsewhere, for or in
+                 respect of any property of the licensee;
+             (c) any of the following persons has been convicted, whether in Singapore or
+                 elsewhere, of an offence involving fraud or dishonesty, or of an offence the
+                 conviction for which involves a finding that the person convicted had acted
+                 fraudulently or dishonestly, whether the applicable offence is committed
+                 before, on or after the date of commencement of this paragraph:
+                     (i) the licensee;
+
+                       (ii)   in the case of a licensee that is a corporation — any director,
+                              5% controller, 12% controller, 20% controller or indirect
+                              controller of the licensee;
+
+                      (iii)   in the case of a licensee that is a partnership — any partner of
+                              that partnership; and
+
+                       (iv)   in the case of a licensee that is a limited liability partnership —
+                              any partner or manager of that limited liability partnership.
+
+   (6) A licensee whose licence has lapsed, or is revoked or suspended, must cease to
+carry on the business of providing any type of digital token service from the date the
+licence lapses, or the revocation or suspension takes effect, as the case may be.
+   (7) Despite the lapsing or revocation of a licence granted to a person, unless the
+Authority otherwise directs, sections 145, 158, 169, 170 and 171, continue to apply in
+relation to the person in respect of matters that occurred before the lapsing or revocation
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+of the licence.
+   (8) A person that contravenes subsection (6) shall be guilty of an offence and shall be
+liable on conviction to a fine not exceeding $100,000 and, in the case of a continuing
+offence, to a further fine not exceeding $10,000 for every day or part of a day during
+which the offence continues after conviction.
+  (9) A licensee may surrender the licensee’s licence by submitting to the Authority a
+written notice of surrender, in such form as may be specified by the Authority by written
+notice.
+    (10) Any surrender, lapsing, revocation or suspension of a person’s licence —
+             (a) does not avoid or affect any agreement, transaction or arrangement relating
+                 to the person’s business of providing any digital token service that is
+                 entered into by the person, whether the agreement, transaction or
+                 arrangement was entered into before or after the surrender, lapsing,
+                 revocation, or suspension (as the case may be) of the licence; and
+             (b) does not affect any right, obligation or liability arising under any such
+                 agreement, transaction or arrangement.
+
+Appeals to Minister
+
+   142. Any person that is aggrieved —
+            (a) by the refusal of the Authority to grant a licence to the person; or
+            (b) by the revocation or suspension of the person’s licence by the Authority,
+may, within 30 days after having been informed by the Authority of the refusal,
+revocation or suspension, appeal in writing to the Minister, whose decision is final.
+
+                            Subdivision (2) — Conduct of business
+
+Place of business of licensee
+
+   143.—(1) A licensee must not carry on a business of providing any type of digital
+token service unless the licensee has a permanent place of business.
+   (2) A licensee must appoint at least one person to be present, on such days and at
+such hours as the Authority may specify by written notice, at the licensee’s permanent
+place of business to respond to any queries related to anti-money laundering or
+countering the financing of terrorism, or complaints from any digital token service user
+that uses any digital token service provided by the licensee or is a customer of the
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+licensee.
+   (3) A licensee must keep, or cause to be kept, at the licensee’s permanent place of
+business, books of all the licensee’s transactions in relation to any digital token service
+provided by the licensee.
+   (4) A licensee must notify the Authority of any change in the address of any of the
+following places within 7 days after the date of that change:
+             (a) the licensee’s permanent place of business or registered office;
+             (b) every other place of business of the licensee.
+  (5) A licensee that contravenes subsection (1), (2) or (3) shall be guilty of an offence
+and shall be liable on conviction to a fine not exceeding $100,000 and, in the case of a
+continuing offence, to a further fine not exceeding $10,000 for every day or part of a day
+during which the offence continues after conviction.
+   (6) A licensee that contravenes subsection (4) shall be guilty of an offence and shall
+be liable on conviction to a fine not exceeding $2,000.
+
+Obligation of licensee to notify Authority of certain events
+
+   144.—(1) A licensee must notify the Authority of the occurrence of any of the
+following events as soon as practicable after that occurrence:
+            (a) any civil or criminal proceeding instituted against the licensee, whether in
+                Singapore or elsewhere;
+            (b) any event (including an irregularity in the operations of the licensee) that
+                materially impedes or impairs the operations of the licensee;
+             (c) the licensee being or becoming, or being likely to become, insolvent or
+                 unable to meet any of the licensee’s financial, statutory, contractual or
+                 other obligations;
+            (d) any disciplinary action taken against the licensee by any regulatory
+                authority (other than the Authority), whether in Singapore or elsewhere;
+             (e) any significant change to the regulatory requirements imposed on the
+                 licensee by any regulatory authority (other than the Authority), whether in
+                 Singapore or elsewhere;
+             (f) any other event that the Authority may prescribe or specify by written
+                 notice.
+    (2) A licensee must notify the Authority of the occurrence of any other event that the
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+Authority may prescribe or specify by written notice within 14 days after the date of that
+occurrence.
+  (3) A person that contravenes subsection (1) or (2) shall be guilty of an offence and
+shall be liable on conviction to a fine not exceeding $250,000.
+
+Obligation of licensee to provide information to Authority
+
+   145.—(1) Subject to subsection (4), the Authority may, by written notice, require any
+licensee, or any person acting on behalf of a licensee, to provide to the Authority, within
+such period as the Authority may specify in the notice, all such information relating to
+the licensee’s business of providing any digital token service as the Authority may
+specify in the notice.
+  (2) Without limiting subsection (1), the Authority may, in the notice under that
+subsection, require any person mentioned in that subsection to provide —
+             (a) information relating to any of the following matters:
+                     (i) the operations of the licensee;
+
+                       (ii)   the pricing of, or any other form of consideration for, any digital
+                              token service offered or provided by the licensee; and
+
+             (b) such other information as the Authority may require for the purposes of
+                 this Part.
+    (3) Subject to subsection (4) —
+             (a) a requirement imposed by the Authority under this section has effect
+                 despite any obligation as to secrecy or other restrictions upon the
+                 disclosure of information imposed by any rule of law or contract; and
+             (b) a person that complies with a requirement imposed by the Authority under
+                 this section is not to be treated as being in breach of any restriction on the
+                 disclosure of the information imposed by any rule of law or contract.
+   (4) Nothing in this section requires a person to disclose any information subject to
+legal privilege.
+   (5) A person that fails to comply with a notice under subsection (1) shall be guilty of
+an offence and shall be liable on conviction —
+             (a) in the case of an individual, to a fine not exceeding $12,500 or to
+                 imprisonment for a term not exceeding 12 months or to both and, in the
+                 case of a continuing offence, to a further fine not exceeding $1,250 for
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    every day or part of a day during which the offence continues after
+                    conviction; or
+             (b) in any other case, to a fine not exceeding $25,000 and, in the case of a
+                 continuing offence, to a further fine not exceeding $2,500 for every day or
+                 part of a day during which the offence continues after conviction.
+
+Obligation of licensee to submit periodic reports
+
+   146.—(1) A licensee must submit to the Authority such reports or returns relating to
+the licensee’s business in such form, manner and frequency as the Authority may specify
+by written notice.
+   (2) A person that contravenes subsection (1) shall be guilty of an offence and shall be
+liable on conviction to a fine not exceeding $100,000 and, in the case of a continuing
+offence, to a further fine not exceeding $10,000 for every day or part of a day during
+which the offence continues after conviction.
+
+Prohibition from carrying on certain businesses
+
+  147.—(1) A licensee must not carry on a business of granting any credit facility to
+any individual in Singapore.
+   (2) A licensee that contravenes subsection (1) shall be guilty of an offence and shall
+be liable on conviction to a fine not exceeding $100,000 and, in the case of a continuing
+offence, to a further fine not exceeding $10,000 for every day or part of a day during
+which the offence continues after conviction.
+    (3) In this section, “credit facility” means —
+             (a) any advance, loan or other facility that is granted by a licensee to a
+                 customer who is an individual, and that gives the customer access to any
+                 funds or financial guarantee provided by the licensee; or
+             (b) any other liability that is incurred by a licensee on behalf of a customer
+                 who is an individual.
+
+                            Subdivision (3) — Control of controllers of licensees
+
+Application and interpretation of this Subdivision
+
+   148.—(1) This Subdivision applies to —
+            (a) every individual, whether or not resident in Singapore and whether or not a
+
+Singapore Statutes Online                 Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                   citizen of Singapore; and
+            (b) every entity.
+   (2) In this Subdivision, unless the context otherwise requires, a reference to a licensee
+is a reference to a licensee incorporated in Singapore.
+
+Control of shareholding in licensee
+
+  149.—(1) A person must not become a 20% controller of a licensee without first
+applying for and obtaining the approval of the Authority under subsection (2).
+  (2) The Authority may approve an application made by any person under
+subsection (1) if the Authority is satisfied that —
+             (a) having regard to the likely influence of the person, the licensee will or will
+                 continue to conduct its business prudently and comply with the provisions
+                 of this Act and any other written law administered by the Authority;
+             (b) the person is, under the Guidelines on Fit and Proper Criteria, a fit and
+                 proper person to be a 20% controller of the licensee; and
+             (c) it is in the public interest to do so.
+  (3) An approval under subsection (2) may be granted to any person subject to such
+conditions as the Authority may impose, including but not limited to —
+             (a) any condition restricting the person’s disposal or further acquisition of
+                 shares or voting power in the licensee; and
+             (b) any condition restricting the person’s exercise of voting power in the
+                 licensee.
+  (4) The Authority may at any time add to, vary or revoke any condition that is
+imposed under subsection (3) or this subsection.
+   (5) Any condition imposed under subsection (3) or (4) has effect despite any
+provision of the Companies Act 1967 or anything contained in the constitution of the
+licensee.
+
+Objection to existing control of licensee
+
+    150.—(1) The Authority may serve a written notice of objection on any person that
+is, or is required to obtain or has obtained the Authority’s approval under section 149(2)
+to become, a 20% controller of a licensee, if the Authority is satisfied that —
+            (a) any condition for approval under section 149(2) imposed on the person
+
+Singapore Statutes Online             Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                   under section 149(3) or (4) has not been complied with;
+            (b) it is not, or is no longer, in the public interest to allow the person to
+                continue to be a 20% controller of the licensee;
+             (c) the person has provided any false or misleading information or document
+                 in connection with an application under section 149(1);
+            (d) the person is no longer a fit and proper person under the Guidelines on Fit
+                and Proper Criteria;
+             (e) having regard to the likely influence of the person, the licensee is no longer
+                 likely to conduct its business prudently or to comply with the provisions of
+                 this Part; or
+             (f) the Authority would not have been satisfied as to any of the matters
+                 specified in section 149(2) had the Authority been aware, at that time, of
+                 circumstances relevant to the person’s application under section 149(1).
+  (2) Before serving a written notice of objection under subsection (1), the Authority
+must, unless the Authority decides that it is not practicable or desirable to do so —
+             (a) notify the person of the Authority’s intention to serve the written notice of
+                 objection; and
+             (b) specify a date by which the person may make written representations with
+                 regard to the proposed written notice of objection.
+   (3) The Authority must consider any written representations that the Authority
+receives before the date mentioned in subsection (2)(b), for the purpose of determining
+whether to issue a written notice of objection.
+  (4) The Authority must, in any written notice of objection, specify a reasonable
+period within which the person that has been served the written notice of objection
+must —
+             (a) cease to be a 20% controller of the licensee; or
+             (b) comply with such direction as the Authority may make under section 151.
+  (5) A person that has been served a written notice of objection must comply with that
+notice.
+
+Power of Authority to issue directions for this Subdivision
+
+  151.—(1) If the Authority is satisfied that a person has contravened section 149(1) or
+has failed to comply with any condition imposed under section 149(3) or (4), or if the
+
+Singapore Statutes Online            Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+Authority has served a written notice of objection under section 150, the Authority may,
+by written notice —
+            (a) direct the transfer or disposal of all or any of the shares in the licensee held
+                by the person or any of the person’s associates (called in this section the
+                specified shares) within such time or subject to such conditions as the
+                Authority considers appropriate;
+            (b) restrict the transfer or disposal of all or any of the specified shares; or
+             (c) make such other direction as the Authority considers appropriate.
+  (2) Where the Authority has issued any direction under subsection (1)(a) or imposed
+any restriction under subsection (1)(b), until a transfer or disposal is effected in
+accordance with the direction or until the restriction on the transfer or disposal is
+removed, as the case may be —
+             (a) no voting rights may be exercised in respect of the specified shares, unless
+                 the Authority expressly permits such rights to be exercised;
+             (b) no shares of the licensee may be issued or offered (whether by way of
+                 rights, bonus or otherwise) in respect of the specified shares, unless the
+                 Authority expressly permits such issue or offer; and
+             (c) except in a liquidation of the licensee, no payment may be made by the
+                 licensee of any amount (whether by way of dividends or otherwise) in
+                 respect of the specified shares, unless the Authority expressly authorises
+                 such payment.
+  (3) Subsection (2) has effect despite any provision of the Companies Act 1967 or
+anything contained in the constitution of the licensee.
+   (4) Any issue or offer of shares in contravention of subsection (2)(b) is void, and a
+person to whom a direction has been issued under subsection (1)(a) or on whom a
+restriction has been imposed under subsection (1)(b) must immediately return those
+shares to the licensee, upon which the licensee must return to the person any payment
+received from the person in respect of those shares.
+   (5) Any payment made by a licensee in contravention of subsection (2)(c) is void, and
+a person to whom a direction has been issued under subsection (1)(a) or on whom a
+restriction has been imposed under subsection (1)(b) must immediately return the
+payment the person has received to the licensee.
+
+Power of Authority to obtain information relating to this Subdivision
+
+   152.—(1) The Authority may, by written notice, direct a licensee to obtain from any
+
+Singapore Statutes Online            Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+of its shareholders, and to provide to the Authority, any information relating to the
+shareholder that the Authority may require for either or both of the following purposes:
+            (a) ascertaining or investigating into the control of shareholding or voting
+                power in the licensee;
+            (b) exercising any power or function under section 149, 150, 151, 153 or 189.
+   (2) Without limiting subsection (1), the notice in that subsection may require the
+licensee to obtain and provide the following information:
+             (a) whether the shareholder has an interest in any share in the licensee as
+                 beneficial owner or as trustee;
+             (b) if the shareholder holds the interest in the share as trustee, to indicate as far
+                 as that shareholder is able to —
+                     (i) the person for whom that shareholder holds the interest (either
+                           by name or by other particulars sufficient to enable that person
+                           to be identified); and
+
+                       (ii)   the nature of that person’s interest.
+
+   (3) The Authority may, by written notice, require any shareholder (X) of a licensee, or
+any person (Y) that appears from information provided to the Authority under
+subsection (1) or this subsection to have an interest in any share in the licensee, to
+provide to the Authority any information relating to X or Y (as the case may be) that the
+Authority may require for either or both of the following purposes:
+             (a) ascertaining or investigating into the control of shareholding or voting
+                 power in the licensee;
+             (b) exercising any power or function under section 149, 150, 151, 153 or 189.
+   (4) Without limiting subsection (3), the notice in that subsection may require X or Y
+to provide the following information:
+             (a) whether X or Y holds the interest as beneficial owner or as trustee;
+             (b) if X or Y holds the interest as trustee, to indicate as far as X or Y can —
+                     (i) the person (Z) for whom X or Y holds the interest (either by
+                           name or by other particulars sufficient to enable Z to be
+                           identified); and
+
+                       (ii)   the nature of Z’s interest;
+
+             (c) whether any share or any voting right attached to the share is the subject of
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    an agreement or arrangement described in section 136(2)(c)(vi), and if so,
+                    to give particulars of the agreement or arrangement and the parties to it.
+
+Offences, penalties and defences
+
+   153.—(1) A person that —
+            (a) contravenes section 149(1) or 150(5) or does any act in contravention of
+                section 151(2);
+            (b) fails to comply with —
+                    (i) any written notice issued under section 151(1) or 152(1) or (3);
+                          or
+
+                       (ii)   any condition imposed under section 149(3) or (4); or
+
+             (c) in purported compliance with a written notice issued under section 152(1)
+                 or (3), knowingly or recklessly provides any information or document that
+                 is false or misleading in a material particular,
+shall be guilty of an offence.
+  (2) A person convicted of an offence under subsection (1) shall be liable on
+conviction —
+             (a) in the case of an individual, to a fine not exceeding $125,000 or to
+                 imprisonment for a term not exceeding 3 years or to both and, in the case
+                 of a continuing offence, to a further fine not exceeding $12,500 for every
+                 day or part of a day during which the offence continues after conviction; or
+             (b) in any other case, to a fine not exceeding $250,000 and, in the case of a
+                 continuing offence, to a further fine not exceeding $25,000 for every day
+                 or part of a day during which the offence continues after conviction.
+   (3) Where a person is charged with an offence in respect of a contravention of
+section 149(1), it is a defence for the person to prove that —
+             (a) the person was not aware that the person had contravened section 149(1),
+                 as the case may be;
+             (b) within 14 days after becoming aware of the contravention, the person
+                 notified the Authority of the contravention; and
+             (c) within such reasonable time as may be determined by the Authority, the
+                 person took such action in relation to the person’s shareholding or control
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    of the voting power in the licensee as the Authority may direct.
+   (4) Where a person is charged with an offence in respect of a contravention of
+section 149(1), it is also a defence for the person to prove that, even though the person
+was aware of the contravention —
+             (a) the contravention occurred as a result of an increase in the shareholding as
+                 described in section 136(2)(a) of, or in the voting power controlled by, any
+                 of the person’s associates described in section 136(2)(c)(i);
+             (b) the person had no agreement or arrangement (whether oral or in writing
+                 and whether express or implied) with that associate —
+                    (i) with respect to the acquisition, holding or disposal of shares or
+                          other interests in the licensee; or
+
+                       (ii)    under which the person and that associate act together in
+                               exercising their voting power in relation to the licensee;
+
+             (c) within 14 days after the date of the contravention, the person notified the
+                 Authority of the contravention; and
+             (d) within such reasonable time as may be determined by the Authority, the
+                 person took such action in relation to the person’s shareholding or control
+                 of the voting power in the licensee as the Authority may direct.
+  (5) Except as provided in subsections (3) and (4), it is not a defence for a person
+charged with an offence in respect of a contravention of section 149(1) to prove that the
+person did not intend to, or did not knowingly, contravene that provision.
+
+Appeals to Minister
+
+  154. Any person that is aggrieved by a decision of the Authority under section 149,
+150 or 151 may, within 30 days after receiving the decision of the Authority, appeal in
+writing to the Minister, whose decision is final.
+
+                            Subdivision (4) — Control of officers of licensees
+
+Approval of chief executive officer, director, partner or manager of licensee
+
+   155.—(1) Subject to subsections (4) and (5) —
+            (a) an individual may not be appointed as a chief executive officer or as a
+                director of a licensee that is a corporation;
+
+Singapore Statutes Online                Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+            (b) an individual may not be appointed as manager, or become a partner, of a
+                licensee that is a limited liability partnership; and
+             (c) an individual may not become a partner in a licensee that is a partnership,
+without the approval of the Authority upon an application made by the licensee
+concerned.
+   (2) An application under subsection (1) must be made in the form and manner
+prescribed.
+  (3) Without affecting any other matter that the Authority may consider relevant, the
+Authority may —
+             (a) in determining whether to grant its approval under paragraph (b), have
+                 regard to such criteria as the Authority may specify by written notice to the
+                 licensee; and
+             (b) approve or refuse the application.
+   (4) Where a licensee that is a corporation has obtained the approval of the Authority
+under subsection (3)(b) to appoint an individual as the licensee’s chief executive officer
+or director, the individual may, without the approval of the Authority, be re-appointed as
+chief executive officer or director (as the case may be) of the licensee immediately upon
+the expiry of the individual’s term of appointment.
+   (5) Where a licensee that is a limited liability partnership has obtained the approval of
+the Authority under subsection (3)(b) to appoint an individual as the licensee’s manager,
+the individual may, without the approval of the Authority, be re-appointed as manager of
+the licensee immediately upon the expiry of the individual’s term of appointment.
+  (6) Subject to subsection (7), the Authority must not refuse a licensee’s application
+under subsection (1) without giving the licensee an opportunity to be heard.
+  (7) The Authority may refuse an application under subsection (1) for the Authority’s
+approval under subsection (3)(b) of an individual without giving the licensee an
+opportunity to be heard, in any of the following circumstances:
+             (a) the individual has been convicted, whether in Singapore or elsewhere, of
+                 any of the following offences, whether the offence is committed before, on
+                 or after the date of commencement of this paragraph:
+                     (i) an offence involving fraud or dishonesty;
+
+                       (ii)   an offence the conviction for which involves a finding that the
+                              individual had acted fraudulently or dishonestly;
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                      (iii)   an offence that is specified in the Third Schedule to the
+                              Registration of Criminals Act 1949;
+
+             (b) the individual is an undischarged bankrupt, whether in Singapore or
+                 elsewhere;
+             (c) the individual has had an enforcement order against the individual in
+                 respect of a judgment debt returned unsatisfied in whole or in part;
+             (d) the individual has, whether in Singapore or elsewhere, entered into a
+                 compromise or scheme of arrangement with the individual’s creditors,
+                 being a compromise or scheme of arrangement that is still in operation;
+             (e) the individual has in force against the individual a prohibition order;
+             (f) the individual has been a director of, or directly concerned in the
+                 management of, a regulated financial institution, whether in Singapore or
+                 elsewhere —
+                     (i) that is being or has been wound up by a court; or
+
+                       (ii)   the approval, authorisation, designation, recognition, registration
+                              or licence of which has been withdrawn, cancelled or revoked by
+                              the Authority or, in the case of a regulated financial institution in
+                              a foreign country or territory, by the financial regulatory
+                              authority in that foreign country or territory.
+
+  (8) Where the Authority refuses an application under subsection (1) for the
+Authority’s approval under subsection (3)(b), the Authority need not give the individual
+who was proposed to be appointed an opportunity to be heard.
+  (9) A licensee that, without reasonable excuse, contravenes subsection (1) shall be
+guilty of an offence and shall be liable on conviction to a fine not exceeding $100,000.
+    (10) In this section —
+         “prohibition order” means —
+                   (a) a prohibition order made under section 68(1) of the Financial
+                       Advisers Act 2001 as in force immediately before the date of
+                       commencement of section 200(1)(b) and (2) to (7) of this Act;
+                   (b) a prohibition order made under section 68(1) of the Financial
+                       Advisers Act 2001 as in force immediately before the date of
+                       commencement of section 200(1)(b) and (2) to (7) of this Act, and as
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                            continued by section 217(2) of this Act;
+                   (c) an order made under section 74(1) of the Insurance Act 1966 as in
+                       force immediately before the date of commencement of
+                       section 204(1) to (4) of this Act;
+                   (d) an order made under section 74(1) of the Insurance Act 1966 as in
+                       force immediately before the date of commencement of
+                       section 204(1) to (4) of this Act, and as continued by section 218(2)
+                       of this Act;
+                   (e) a prohibition order made under section 101A(1) of the Securities and
+                       Futures Act 2001 as in force immediately before the date of
+                       commencement of section 209(1)(a), (c) and (d), (4) to (14), (17) and
+                       (18) of this Act;
+                    (f) a prohibition order made under section 101A(1) of the Securities and
+                        Futures Act 2001 as in force immediately before the date of
+                        commencement of section 209(1)(a), (c) and (d), (4) to (14), (17) and
+                        (18) of this Act, and as continued by section 220(3) of this Act; or
+                   (g) a prohibition order made under section 7(1) of this Act.
+
+Removal of chief executive officer, director, partner or manager
+
+   156.—(1) Despite the provisions of any other written law, where the Authority is
+satisfied that an individual who is a chief executive officer, director, partner or manager
+of a licensee is not a fit and proper person under the Guidelines on Fit and Proper
+Criteria to act as such chief executive officer, director, partner or manager, the Authority
+may, by written notice, direct the licensee to remove the individual, within such period as
+the Authority may specify in the notice —
+            (a) from employment with the licensee;
+            (b) as chief executive officer or director of the licensee; or
+             (c) as partner or manager of the licensee.
+   (2) For the purposes of subsection (1), the Authority may (without affecting the
+generality of that provision) be satisfied that an individual who is a chief executive
+officer, director, partner or manager of a licensee is not a fit and proper person under the
+Guidelines on Fit and Proper Criteria to act as such if the individual fails to discharge
+such duties relating to the individual’s office or employment as chief executive officer,
+director, partner or manager (as the case may be) as may be prescribed.
+
+Singapore Statutes Online                Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+   (3) Without affecting any other matter that the Authority may consider relevant, in
+assessing whether to direct the licensee to remove an individual under subsection (1), the
+Authority may consider whether the individual —
+             (a) has been convicted, whether in Singapore or elsewhere, of any of the
+                 following offences, whether the offence is committed before, on or after
+                 the date of commencement of this paragraph:
+                     (i) an offence involving fraud or dishonesty;
+
+                       (ii)   an offence the conviction for which involves a finding that the
+                              individual had acted fraudulently or dishonestly;
+
+                      (iii)   an offence that is specified in the Third Schedule to the
+                              Registration of Criminals Act 1949;
+
+             (b) is an undischarged bankrupt, whether in Singapore or elsewhere;
+             (c) has had an enforcement order against the individual in respect of a
+                 judgment debt returned unsatisfied in whole or in part;
+             (d) has, whether in Singapore or elsewhere, entered into a compromise or
+                 scheme of arrangement with the individual’s creditors, being a compromise
+                 or scheme of arrangement that is still in operation;
+             (e) has in force against the individual a prohibition order;
+             (f) has been a director of, or directly concerned in the management of, a
+                 regulated financial institution, whether in Singapore or elsewhere —
+                    (i) that is being or has been wound up by a court; or
+
+                       (ii)   the approval, authorisation, designation, recognition, registration
+                              or licence of which has been withdrawn, cancelled or revoked by
+                              the Authority or, in the case of a regulated financial institution in
+                              a foreign country or territory, by the financial regulatory
+                              authority in that foreign country or territory;
+
+             (g) has wilfully contravened, or wilfully caused the licensee to contravene, any
+                 provision of this Act;
+             (h) has, without reasonable excuse, failed to secure the compliance of the
+                 licensee with this Act, the Monetary Authority of Singapore Act 1970 or
+                 any of the other written laws set out in the Schedule to the Monetary
+                 Authority of Singapore Act 1970;
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             (i) has failed to discharge any of the duties of the individual’s office or
+                 employment; or
+             (j) needs to be removed in the public interest.
+   (4) Without prejudice to any other matter that the Authority may consider relevant,
+the Authority must, in determining whether an individual has failed to discharge the
+duties of the individual’s office or employment for the purposes of subsection (3)(i),
+have regard to such criteria as may be prescribed.
+  (5) Subject to subsection (6), before directing a licensee to remove an individual
+under subsection (1), the Authority must give both the licensee and the individual an
+opportunity to be heard.
+  (6) The Authority may direct a licensee to remove an individual under subsection (1)
+on any of the following grounds without giving the licensee or the individual an
+opportunity to be heard:
+             (a) the individual is an undischarged bankrupt, whether in Singapore or
+                 elsewhere;
+             (b) the individual has been convicted, whether in Singapore or elsewhere, of
+                 an offence, whether committed before, on or after the date of
+                 commencement of this paragraph —
+                    (i) involving fraud or dishonesty, or the conviction for which
+                          involves a finding that the individual had acted fraudulently or
+                          dishonestly; and
+
+                       (ii)   punishable with imprisonment for a term of at least 3 months.
+
+   (7) Without affecting the Authority’s power to impose conditions under
+section 138(2)(a) or (4), the Authority may at any time, by written notice to a licensee,
+impose or vary a condition requiring the licensee to notify the Authority of any change to
+any particulars (such as residence in Singapore or elsewhere, or nature of appointment)
+of its chief executive officer, director, partner or manager that may be specified in the
+notice.
+    (8) A licensee that, without reasonable excuse —
+             (a) fails to comply with a written notice under subsection (1); or
+             (b) contravenes any condition imposed under subsection (7),
+shall be guilty of an offence and shall be liable on conviction to a fine not exceeding
+$100,000.
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+   (9) No civil or criminal liability is incurred by a licensee, or any person acting on
+behalf of the licensee, in respect of anything done (including any notification made) or
+omitted to be done with reasonable care and in good faith in the discharge or purported
+discharge of the obligations of the licensee under this section.
+    (10) In this section, “prohibition order” means —
+             (a) a prohibition order made under section 68(1) of the Financial Advisers
+                 Act 2001 as in force immediately before the date of commencement of
+                 section 200(1)(b) and (2) to (7) of this Act;
+             (b) a prohibition order made under section 68(1) of the Financial Advisers
+                 Act 2001 as in force immediately before the date of commencement of
+                 section 200(1)(b) and (2) to (7) of this Act, and as continued by
+                 section 217(2) of this Act;
+             (c) an order made under section 74(1) of the Insurance Act 1966 as in force
+                 immediately before the date of commencement of section 204(1) to (4) of
+                 this Act;
+             (d) an order made under section 74(1) of the Insurance Act 1966 as in force
+                 immediately before the date of commencement of section 204(1) to (4) of
+                 this Act, and as continued by section 218(2) of this Act;
+             (e) a prohibition order made under section 101A(1) of the Securities and
+                 Futures Act 2001 as in force immediately before the date of
+                 commencement of section 209(1)(a), (c) and (d), (4) to (14), (17) and (18)
+                 of this Act;
+             (f) a prohibition order made under section 101A(1) of the Securities and
+                 Futures Act 2001 as in force immediately before the date of
+                 commencement of section 209(1)(a), (c) and (d), (4) to (14), (17) and (18)
+                 of this Act, and as continued by section 220(3) of this Act; or
+             (g) a prohibition order made under section 7(1) of this Act.
+
+Appeals to Minister
+
+   157.—(1) A licensee that is aggrieved by a decision of the Authority under
+section 155(3)(b) may, within 30 days after receiving the decision of the Authority,
+appeal in writing to the Minister, whose decision is final.
+   (2) A licensee, or any chief executive officer, director, partner or manager of that
+licensee, that is aggrieved by a written notice of the Authority under section 156(1) may,
+within 30 days after receiving the notice, appeal in writing to the Minister, whose
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+decision is final.
+
+                               Subdivision (5) — Audit of licensees
+
+Auditing
+
+   158.—(1) Despite the provisions of the Companies Act 1967, a licensee —
+            (a) must, on an annual basis and at its own expense, appoint an auditor; and
+            (b) if for any reason its auditor ceases to be its auditor, must appoint another
+                auditor as soon as practicable after such cessation.
+    (2) The Authority may appoint an auditor for a licensee —
+             (a) if the licensee fails to appoint an auditor; or
+             (b) if the Authority considers it desirable that another auditor should act with
+                 the auditor appointed under subsection (1).
+  (3) The Authority may at any time fix the remuneration to be paid by a licensee to an
+auditor appointed by the Authority under subsection (2) for the licensee.
+    (4) The duties of an auditor appointed under subsection (1) or (2) are as follows:
+             (a) to carry out an audit of the transactions in relation to the digital token
+                 services provided by the licensee, in particular, in respect of the licensee’s
+                 observance of the provisions of this Act and any of the requirements
+                 imposed under any other written law administered by the Authority;
+             (b) to submit a report of such audit to the Authority in such form as may be
+                 prescribed and within such time as the Authority may allow.
+   (5) The Authority may, by written notice to an auditor, impose all or any of the
+following duties on the auditor in addition to those provided under subsection (4), and
+the auditor must carry out the duties so imposed:
+             (a) a duty to submit such additional information in relation to the audit as the
+                 Authority considers necessary;
+             (b) a duty to enlarge or extend the scope of the audit of the licensee’s business
+                 and affairs;
+             (c) a duty to carry out any other examination, or establish any procedure, in
+                 relation to the audit in any particular case;
+             (d) a duty to submit a report on any of the matters mentioned in paragraphs (b)
+
+Singapore Statutes Online            Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    and (c).
+    (6) The licensee must remunerate the auditor in respect of —
+             (a) any remuneration the Authority has fixed under subsection (3); and
+             (b) the discharge of all or any of the additional duties of the auditor imposed
+                 under subsection (5).
+  (7) Despite any other provision of this Part or the provisions of the Companies
+Act 1967, the Authority may, if the Authority is not satisfied with the performance of
+any duty by the auditor of a licensee, at any time direct the licensee to —
+             (a) remove the auditor; and
+             (b) appoint another auditor.
+  (8) A copy of any report under subsection (5)(d) must be submitted in writing to the
+Authority.
+   (9) If an auditor, in the course of performing the auditor’s duties, is satisfied that any
+of the following matters has occurred, the auditor must immediately report that matter to
+the Authority:
+             (a) there has been a serious breach or non-observance of the provisions of this
+                 Act or any of the requirements imposed under any other written law
+                 administered by the Authority;
+             (b) a criminal offence involving fraud or dishonesty has been committed;
+             (c) in the case of a licensee that is a corporation, losses have been incurred that
+                 reduce the capital of the licensee by at least 50%;
+             (d) there is any irregularity that has or may have a material effect on the
+                 accounts of the licensee, including any irregularity that had caused a major
+                 disruption to the provision of any type of digital token service to the
+                 customers of the licensee;
+             (e) the auditor is unable to confirm that the claims of creditors of the licensee
+                 are still covered by the assets of the licensee.
+  (10) Where an auditor or employee of the auditor discloses in good faith to the
+Authority —
+             (a) the auditor’s or employee’s knowledge or suspicion of any of the matters
+                 mentioned in subsection (9); or
+             (b) any information or other matter on which that knowledge or suspicion is
+
+Singapore Statutes Online            Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    based,
+the disclosure is not a breach of any restriction upon the disclosure imposed by any law,
+contract or rules of professional conduct, and the auditor or employee is not liable for
+any loss arising out of the disclosure or any act or omission in consequence of the
+disclosure.
+   (11) A licensee that contravenes subsection (1) shall be guilty of an offence and shall
+be liable on conviction to a fine not exceeding $100,000 and, in the case of a continuing
+offence, to a further fine not exceeding $10,000 for every day or part of a day during
+which the offence continues after conviction.
+  (12) An auditor that contravenes subsection (5) or (9) shall be guilty of an offence
+and shall be liable on conviction to a fine not exceeding $100,000 and, in the case of a
+continuing offence, to a further fine not exceeding $10,000 for every day or part of a day
+during which the offence continues after conviction.
+    (13) In this section —
+         “capital”, in relation to a corporation, means the sum of —
+                   (a) all of the following items in the latest accounts of the corporation:
+                          (i) paid up ordinary share capital;
+
+                             (ii)   paid up irredeemable and non-cumulative preference share
+                                    capital; and
+
+                   (b) any unappropriated profit or loss in the latest audited accounts of the
+                       corporation,
+             less —
+                   (c) any interim loss in the latest accounts of the corporation; and
+                   (d) any dividend that has been declared since the latest audited accounts
+                       of the corporation;
+         “irredeemable and non-cumulative preference share capital”, in relation to the
+             capital of a corporation, means share capital consisting of preference shares that
+             satisfy all of the following requirements:
+                   (a) the principal of each share of the corporation is perpetual;
+                   (b) the shares of the corporation are not callable at the initiative of the
+                       corporation or the shareholders, and the principal of the shares cannot
+                       be repaid outside of liquidation of the corporation, except in the case
+
+Singapore Statutes Online                Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                            of a repurchase or other manner of reduction of share capital that is
+                            initiated by the corporation and permitted under written law;
+                   (c) the corporation has full discretion to cancel dividend payments,
+                       and —
+                         (i) the cancellation of dividend payments is not an event of
+                              default of the corporation under any agreement;
+
+                             (ii)    the corporation has full access to cancelled dividend
+                                     payments to meet its obligations as they fall due; and
+
+                             (iii)   the cancellation of dividend payments does not result in any
+                                     restriction being imposed on the corporation under any
+                                     agreement, except in relation to dividend payments to
+                                     ordinary shareholders of the corporation.
+
+Powers of auditor appointed by Authority
+
+  159.—(1) An auditor appointed by the Authority under section 158(2) may, for the
+purpose of carrying out an examination or audit —
+            (a) examine, on oath or affirmation, any officer or employee of the licensee or
+                any other auditor of the licensee;
+            (b) require any officer or employee of the licensee, or any other auditor of the
+                licensee, to produce any books held by or on behalf of the licensee relating
+                to the licensee’s business;
+             (c) make copies of or take extracts from, or retain possession of, any books
+                 mentioned in paragraph (b) for such period as may be necessary to enable
+                 those books to be inspected;
+            (d) employ such persons as the auditor considers necessary to assist the auditor
+                in carrying out the examination or audit; and
+             (e) authorise in writing any person employed by the auditor to do, in relation
+                 to the examination or audit, any act or thing that the auditor could do as an
+                 auditor under this subsection, other than the examination of a person on
+                 oath or affirmation.
+    (2) An individual who, without reasonable excuse —
+             (a) refuses or fails to answer any question put to the individual; or
+
+Singapore Statutes Online                 Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+             (b) fails to comply with any request made to the individual,
+by an auditor appointed under section 158(2) or a person authorised under
+subsection (1)(e), shall be guilty of an offence and shall be liable on conviction to a fine
+not exceeding $12,500 or to imprisonment for a term not exceeding 12 months or to
+both.
+
+Restriction on auditor’s and employee’s right to communicate certain matters
+
+   160.—(1) Except as may be necessary for the carrying into effect of the provisions of
+this Part or so far as may be required for the purposes of any legal proceedings, whether
+civil or criminal —
+            (a) an auditor appointed under section 158(1) or (2); or
+            (b) any employee of such auditor,
+must not disclose any information that comes to the auditor’s or employee’s knowledge
+in the course of performing the auditor’s or employee’s duties, to any person other than
+the Authority or, in the case of an employee of such auditor, the auditor.
+   (2) A person that contravenes subsection (1) shall be guilty of an offence and shall be
+liable on conviction —
+             (a) in the case of the auditor, to a fine not exceeding $25,000; or
+             (b) in the case of the employee, to a fine not exceeding $12,500.
+
+Offence to destroy, conceal, alter, etc., records
+
+  161.—(1) An individual who, with intent to prevent, delay or obstruct the carrying
+out of any examination or audit under section 158 or 159 —
+            (a) destroys, conceals or alters any book relating to the business of a licensee;
+                or
+            (b) sends, or conspires with any other person to send, out of Singapore any
+                book or asset of any description belonging to, in the possession of or under
+                the control of the licensee,
+shall be guilty of an offence and shall be liable on conviction to a fine not exceeding
+$50,000 or to imprisonment for a term not exceeding 2 years or to both.
+   (2) If, in any proceedings for an offence under subsection (1), it is proved that the
+individual charged with the offence —
+             (a) destroyed, concealed or altered any book mentioned in subsection (1)(a);
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                    or
+             (b) sent, or conspired to send, out of Singapore any book or asset mentioned in
+                 subsection (1)(b),
+the onus of proving that, in so doing, the individual did not act with intent to prevent,
+delay or obstruct the carrying out of an examination or audit under section 158 or 159
+lies on the individual.
+
+                                    Division 3 — Offences
+
+Falsification of records by officers, etc.
+
+   162.—(1) An officer, auditor, employee or agent of a licensee who —
+            (a) wilfully makes, or causes to be made, a false entry in any book, or in any
+                report, slip, document or statement of the business, affairs, transactions,
+                conditions or assets of the licensee;
+            (b) wilfully omits to make an entry in any book, or in any report, slip,
+                document or statement of the business, affairs, transactions, conditions or
+                assets of the licensee, or wilfully causes any such entry to be omitted; or
+             (c) wilfully alters, extracts, conceals or destroys an entry in any book, or in
+                 any report, slip, document or statement of the business, affairs,
+                 transactions, conditions or assets of the licensee, or wilfully causes any
+                 such entry to be altered, extracted, concealed or destroyed,
+shall be guilty of an offence and shall be liable on conviction to a fine not exceeding
+$125,000 or to imprisonment for a term not exceeding 3 years or to both.
+   (2) In this section, “officer” includes a person purporting to act in the capacity of an
+officer.
+
+General penalty
+
+   163. A person guilty of an offence under this Part for which no penalty is expressly
+provided shall be liable on conviction —
+            (a) in the case of an individual, to a fine not exceeding $50,000; or
+            (b) in any other case, to a fine not exceeding $100,000.
+
+Singapore Statutes Online           Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                                     Division 4 — Miscellaneous
+
+Power of court to make certain orders
+
+  164.—(1) Where, on an application of the Authority, it appears to the court that a
+person —
+            (a) has committed an offence under this Part; or
+            (b) is about to do an act that, if done, would be an offence under this Part,
+the court may (without prejudice to any other order it may make) make one or more of
+the orders under subsection (2).
+    (2) The orders mentioned in subsection (1) are —
+             (a) in the case of a persistent or continuing contravention of a provision of this
+                 Part, an order restraining a person from —
+                     (i) carrying on a business of providing digital token services; or
+
+                       (ii)   holding himself, herself or itself out as a licensee;
+
+             (b) for the purpose of securing compliance with any order made under this
+                 section, an order directing a person to do or refrain from doing any
+                 specified act; and
+             (c) any ancillary order the court considers to be desirable as a result of making
+                 any other order under this section.
+   (3) The court may, before making an order under subsection (2), direct that notice of
+the application be given to such person as it thinks fit or that notice of the application be
+published in such manner as it thinks fit, or both.
+  (4) A person that, without reasonable excuse, contravenes an order made under
+subsection (2) shall be guilty of an offence and shall be liable on conviction —
+             (a) in the case of an individual, to a fine not exceeding $50,000 or to
+                 imprisonment for a term not exceeding 2 years or to both; or
+             (b) in any other case, to a fine not exceeding $100,000.
+   (5) Subject to subsection (6), subsection (4) does not affect the powers of the court in
+relation to the punishment of contempt of court.
+   (6) A person cannot be punished for contempt of court in respect of any contravention
+of an order made under subsection (2), for which the person has been convicted of an
+
+Singapore Statutes Online               Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+offence under subsection (4).
+  (7) A person cannot be convicted of an offence under subsection (4) in respect of any
+contravention of an order made under subsection (2) that has been punished as a
+contempt of court.
+  (8) The court may rescind, vary or discharge, or suspend the operation of, an order
+made by the court under this section.
+
+Codes, guidelines, etc., by Authority
+
+   165.—(1) The Authority may issue and publish by notification in the Gazette or in
+any other manner the Authority considers appropriate, such codes, guidelines, policy
+statements, practice notes and no-action letters as the Authority considers appropriate for
+providing guidance —
+            (a) in furtherance of the Authority’s regulatory objectives under this Part;
+            (b) in relation to any matter relating to any of the Authority’s functions under
+                this Part; or
+             (c) in relation to the operation of any of the provisions of this Part.
+   (2) The Authority may, at any time, amend or revoke the whole or any part of any
+code, guideline, policy statement, practice note or no-action letter issued under this
+section.
+    (3) Where amendments are made under subsection (2) —
+             (a) the other provisions of this section apply, with the necessary modifications,
+                 to such amendments as they apply to the code, guideline, policy statement,
+                 practice note or no-action letter; and
+             (b) any reference in this Part or any other written law to the code, guideline,
+                 policy statement, practice note or no-action letter, however expressed, is
+                 (unless the context otherwise requires) a reference to the code, guideline,
+                 policy statement, practice note or no-action letter as so amended.
+   (4) Any failure by a person to comply with any provision of a code, guideline, policy
+statement or practice note issued under this section to the person does not of itself render
+that person liable to criminal proceedings, but any such failure may, in any proceedings,
+whether civil or criminal, be relied upon by any party to the proceedings as tending to
+establish or negate any liability that is in question in the proceedings.
+   (5) The issue by the Authority of a no-action letter does not of itself prevent the
+institution of any proceedings against any person for the contravention of any provision
+
+Singapore Statutes Online            Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+of this Part.
+   (6) Any code, guideline, policy statement or practice note issued under this section
+may be of general or specific application, and may specify that different provisions of
+such code, guideline, policy statement or practice note apply to different circumstances
+or provide for different cases or classes of cases.
+   (7) To avoid doubt, any code, guideline, policy statement, practice note or no-action
+letter issued under this section is not to be treated as subsidiary legislation.
+  (8) In this section, “no-action letter” means a letter written by the Authority to a
+person to the effect that, if the facts are as represented by the person, the Authority will
+not institute proceedings against the person in respect of a particular state of affairs or
+particular conduct.
+
+Power of Authority to issue written notice
+
+   166.—(1) The Authority may, if the Authority thinks it necessary or expedient for the
+effective administration of this Part, for the protection of consumers or in the interest of
+the public or a section of the public, issue to any of the following persons or classes of
+persons a written notice, either of a general or a specific nature, to comply with such
+requirements as the Authority may specify in the notice:
+            (a) any licensee or class of licensees;
+            (b) any person, or class of persons, exempt under section 189;
+             (c) any person that contravenes, has contravened, or is likely to contravene,
+                 any provision of this Part.
+    (2) Without limiting subsection (1), a notice may be issued —
+             (a) with respect to —
+                    (i) the activities that may be carried out by a licensee or a person
+                          exempt under section 189, in relation to its business;
+
+                       (ii)   the standards, framework, policies and procedures for the
+                              prudent management of risks (including information technology
+                              risks) by a licensee or a person exempt under section 189;
+
+                      (iii)   the financial soundness, financial management and stability of a
+                              licensee or a person exempt under section 189;
+
+                       (iv)   the standards to be maintained by a licensee or a person exempt
+                              under section 189, in the conduct of its business;
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                        (v)   the arrangement and conditions that are to apply if a licensee or
+                              a person exempt under section 189, appoints any person as an
+                              independent contractor to carry out the functions and duties of
+                              the licensee or person exempt under section 189, as the case may
+                              be;
+
+                       (vi)   the type, form, manner and frequency of returns and other
+                              information to be submitted to the Authority;
+
+                      (vii)   the preparation and publication of reports on the performance of
+                              a licensee or a person exempt under section 189;
+
+                     (viii)   the remuneration of an auditor appointed under this Part and the
+                              costs of an audit carried out under this Part;
+
+                       (ix)   the collection by or on behalf of the Authority of information
+                              from a licensee or a person exempt under section 189, in relation
+                              to the conduct of its business at such intervals or on such
+                              occasions as may be set out in the notice;
+
+                        (x)   the manner in which a licensee or a person exempt under
+                              section 189, deals with its customers, and any conflicts of
+                              interests between the licensee or person exempt under
+                              section 189 (as the case may be) and its customers;
+
+                       (xi)   the display or exhibition by a licensee or a person exempt under
+                              section 189, of such cautionary statements as the Authority
+                              thinks fit in a conspicuous place at every place of business or
+                              website of the licensee, or person exempt under section 189; and
+
+                      (xii)   the provision by a licensee or a person exempt under
+                              section 189, of cautionary statements in writing to the customers
+                              or prospective customers of the licensee or person exempt under
+                              section 189;
+
+             (b) to require any person that contravenes, has contravened, or is likely to
+                 contravene any provision of this Part —
+                    (i) to comply with, or to cease contravening, that provision;
+
+                       (ii)   to take any action necessary to enable the person to conduct the
+                              person’s business in accordance with sound principles; and
+
+Singapore Statutes Online              Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+                      (iii)   where the person is a company or a VCC, to remove any of its
+                              directors; and
+
+             (c) for any other purpose specified in this Part.
+  (3) It is not necessary to publish any written notice issued under subsection (1) or
+under any other provision of this Part in the Gazette.
+  (4) The Authority may at any time vary, rescind or revoke any notice issued under
+subsection (1).
+   (5) A person that fails to comply with any requirement specified in a notice issued
+under subsection (1) shall (if the failure to comply with that requirement is not itself an
+offence under any other provision of this Part) be guilty of an offence and shall be liable
+on conviction to a fine not exceeding $100,000 and, in the case of a continuing offence,
+to a further fine not exceeding $10,000 for every day or part of a day during which the
+offence continues after conviction.
+
+Power of Authority to make regulations
+
+   167.—(1) Regulations may be made under section 192 for or with respect to —
+            (a) the fees to be paid in respect of any matter or thing required for the
+                purposes of this Part, and the refund or remission of the whole or any part
+                of any such fees;
+            (b) the granting, lapsing, surrender, revocation or suspension of a licence, and
+                all incidental matters;
+             (c) the requirements which a licensee or person exempt under section 189
+                 must comply with when ceasing or intending to cease the provision of a
+                 digital token service and all incidental matters;
+            (d) the requirements which a licensee or a person exempt under section 189
+                must comply with to ensure proper corporate governance of the licensee or
+                person;
+             (e) the requirements applicable to a licensee or person exempt under
+                 section 189, including requirements in relation to the fitness and propriety
+                 of the licensee, the person exempt under section 189, or the chief executive
+                 officer or equivalent person of the licensee or person exempt under
+                 section 189, as the case may be;
+             (f) the rules for the use of the electronic service mentioned in section 187; and
+
+Singapore Statutes Online             Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026
+            (g) the procedure to be applied where there is a breakdown or an interruption
+                of the electronic service mentioned in section 187.
+   (2) Regulations mentioned in subsection (1) may relate to all, or any class, category
+or description of persons or digital token services, and may make different provisions for
+different classes, categories or descriptions of persons or digital token services or to a
+particular person or digital token service.
+
+Singapore Statutes Online         Current version as at 10 Jul 2026   PDF created date on: 10 Jul 2026

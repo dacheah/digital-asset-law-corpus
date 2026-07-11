@@ -1,0 +1,69 @@
+corpus_id: us/rule/occ-payment-stablecoins-2026
+version_id: '2026-03-02'
+title: Implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act for the
+  Issuance of Stablecoins by Entities Subject to the Jurisdiction of the Office of the Comptroller of
+  the Currency
+short_title: OCC Payment Stablecoins Proposed Rule (NPRM)
+jurisdiction: USA
+document_type: rule
+official_citation: 91 FR 10202 (proposed Mar. 2, 2026)
+authentic_languages:
+- en
+source_url: https://www.govinfo.gov/content/pkg/FR-2026-03-02/pdf/2026-04089.pdf
+source_publisher: U.S. Government Publishing Office (govinfo) / Office of the Federal Register
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from the official govinfo/Federal Register source
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:bb84e621c61f84a23bc6742e5a60657a6f8d6926cd8f7b94c2cf7bae54811782
+original_sha256: sha256:da7e4c77383bbaaf69fe3ba6356a8b81db77133f5011be46d829613056eb82f0
+text_sha256: sha256:bb84e621c61f84a23bc6742e5a60657a6f8d6926cd8f7b94c2cf7bae54811782
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: public-domain-gov
+rights_note: U.S. Government work; not subject to copyright under 17 U.S.C. § 105. Freely reproducible.
+capture_history:
+- date: '2026-07-08'
+  source_url: https://www.govinfo.gov/content/pkg/FR-2026-03-02/pdf/2026-04089.pdf
+  original_sha256: sha256:da7e4c77383bbaaf69fe3ba6356a8b81db77133f5011be46d829613056eb82f0
+  note: 'Initial capture: canonical Federal Register PDF from govinfo (FR-2026-03-02, doc 2026-04089),
+    manually downloaded from the official source and staged.'
+- date: '2026-07-08'
+  source_url: https://www.federalregister.gov/documents/full_text/xml/2026/03/02/2026-04089.xml
+  original_sha256: sha256:fbba8f375757e16b9aa558e0a3b3f51c8c4868bf59a9c99f280a084ea2fcc8ee
+  note: 'Official Federal Register full-text XML (same document 2026-04089); source of the text.txt extraction.
+    Retained on the maintainer''s capture store; text.txt is hash-traceable to this artifact.'
+verification:
+  status: verified
+  method: 'Federal Register full-text-XML-derived text.txt cross-checked against the canonical govinfo
+    FR PDF (same document): page extent reconciled (102 pages, 91 FR 10202–10303); all 40 regulatory
+    sections captured (new 12 CFR part 15 §§ plus conforming amendments to parts 3, 6, 8, 19); preamble
+    parts (agency, action, summary, dates, contact) and substantive probes reconciled; word-type overlap
+    99.5% — residual differences are the PDF''s Federal Register apparatus (running heads, page numbers,
+    footnote markers) and long footnote URLs that the PDF line-wraps, not document wording.'
+  reference: govinfo FR-2026-03-02 doc 2026-04089 (Federal Register PDF + FR full-text XML)
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'Disclosed normalizations in text.txt (wording unchanged): Unicode spaces (incl. thin space U+2009
+    between the section sign and the number) collapsed to regular spaces; invisible soft hyphen removed;
+    canonical UTF-8/LF by tooling. Captured as the as-published PROPOSED state; the final rule, when issued,
+    will be a new dated version.'
+supersedes: null
+superseded_by: null
+related_documents:
+- us/statute/genius-act-2025
+- us/forms/occ-genius-reporting-2026
+provenance_note: 'OCC notice of proposed rulemaking (NPRM) implementing the GENIUS Act — the AS-PUBLISHED,
+  POINT-IN-TIME PROPOSED state. Published 2026-03-02 at 91 FR 10202 (pp. 10202–10303); FR Doc. 2026-04089;
+  Docket OCC-2025-0372; RIN 1557-AF41; comment period closed 2026-05-01. Proposes a new 12 CFR part 15
+  (payment stablecoins) and conforming amendments to 12 CFR parts 3, 6, 8, and 19. STATUS: PROPOSED, not
+  final — when the OCC finalises this rulemaking, the final rule will be ingested as a NEW dated version
+  that supersedes this one (append-only; see queue/candidates.md). original.pdf is the canonical govinfo
+  Federal Register PDF and is the byte-exact integrity anchor. text.txt is the full document text (preamble/SUPPLEMENTARY
+  INFORMATION + proposed regulatory text) extracted from the official Federal Register full-text XML of
+  the same document (FR DTD), chosen for clean structure. Disclosed text normalizations (wording unchanged):
+  Unicode spaces — including the thin space (U+2009) the source places between ''§'' and section numbers
+  — collapsed to regular spaces; invisible soft hyphens removed; canonical UTF-8/LF applied by tooling.
+  Implements the GENIUS Act (Pub. L. 119-27); cross-referenced via related_documents.'

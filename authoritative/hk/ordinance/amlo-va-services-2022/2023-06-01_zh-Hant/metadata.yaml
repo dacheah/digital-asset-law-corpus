@@ -1,0 +1,59 @@
+corpus_id: hk/ordinance/amlo-va-services-2022
+version_id: 2023-06-01_zh-Hant
+title: 《打擊洗錢及恐怖分子資金籌集條例》(第615章) — 第5B部 (規管涉及虛擬資產的活動)
+short_title: Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (Traditional Chinese)
+jurisdiction: HKG
+document_type: ordinance
+official_citation: 《打擊洗錢及恐怖分子資金籌集條例》(第615章)第5B部（虛擬資產服務的規管），由2022年第15號第4條加入；2023年6月1日起實施
+authentic_languages:
+- en
+- zh-Hant
+adoption_date: '2022-12-07'
+entry_into_force_date: '2023-06-01'
+source_url: https://www.elegislation.gov.hk/hk/cap615!zh-Hant
+source_publisher: Hong Kong SAR — Department of Justice (e-Legislation); also open data on data.gov.hk
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official HKeL verified copy of Cap. 615 (PDF)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:607432b839ac5895c3d91db40d849c3d83ed677a7a0ced8d9b0f0020f6696cc3
+original_sha256: sha256:66d2e04dca649862a4df4512cd6c1ceb8fa92aeb641b97555b125d5d928a5286
+text_sha256: sha256:607432b839ac5895c3d91db40d849c3d83ed677a7a0ced8d9b0f0020f6696cc3
+text_fidelity: extracted_verified
+language: zh-Hant
+authoritative_status: official_consolidation
+license: hk-data-gov-psi
+rights_note: 'Hong Kong Government copyright (Copyright Ordinance, Cap. 528). Reuse RESOLVED (JC-032):
+  the Department of Justice publishes HKeL legislation as official open data on data.gov.hk; reproduction/redistribution
+  for commercial and non-commercial use with attribution. Traditional Chinese and English are both authentic
+  (JC-011/013).'
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.elegislation.gov.hk/hk/cap615!zh-Hant
+  original_sha256: sha256:66d2e04dca649862a4df4512cd6c1ceb8fa92aeb641b97555b125d5d928a5286
+  note: Official HKeL PDF of Cap. 615; text.txt is Part 5B (pages 48–96, sliced from the 第5B部 heading).
+    original.pdf is the whole Cap. 615 PDF (byte-exact anchor).
+supersedes: null
+superseded_by: null
+related_documents:
+- hk/ordinance/stablecoins-2025
+provenance_note: 'Traditional Chinese authentic text of Part 5B (虛擬資產服務的規管) of the Anti-Money Laundering
+  and Counter-Terrorist Financing Ordinance (Cap. 615) — the SFC virtual-asset-service (VATP) licensing
+  regime, in operation since 1 June 2023. Parallel authentic-language version of the English Part 5B (the
+  Chinese text prevails equally; JC-013). Scope note (JC-004): only the Track-A market-structure Part
+  5B is stored; AML/CDD duties elsewhere in Cap. 615 belong to Project Origin. text.txt is the Part 5B
+  extract from the official HKeL copy; original.pdf is the whole Cap. 615 (byte-exact anchor). AUTHORITATIVENESS:
+  official_consolidation. LICENCE: hk-data-gov-psi. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over the 49-page extraction
+    range (pages 48-96), sliced from the Part heading ''第5B部'' to scope the record to that Part (preceding
+    neighbouring-Part text on the first page removed); 0 repeating header/footer line-classes removed.
+    Structure: 73 blocks; 0 PART/CHAPTER headings; 0 numbered units (max 0); 0 Art. units.'

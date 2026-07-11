@@ -1,0 +1,69 @@
+corpus_id: ae/decision/cma-virtual-assets-2026
+version_id: '2026-03-08'
+title: قرار رئيس مجلس إدارة هيئة سوق المال رقم (4/ر.م) لسنة 2026 في شأن تنظيم الأصول الافتراضية (CMA Chairman
+  Decision No. (4/R.M) of 2026 on Regulating Virtual Assets)
+short_title: UAE (federal, CMA) Chairman Decision No. (4/R.M) of 2026 — Regulating Virtual Assets (Arabic)
+jurisdiction: ARE
+document_type: decision
+official_citation: قرار رئيس مجلس إدارة هيئة سوق المال رقم (4/ر.م) لسنة 2026 في شأن تنظيم الأصول الافتراضية؛
+  تاريخ الإصدار 08/03/2026، تاريخ السريان 09/03/2026 — UAE federal Capital Market Authority (CMA, formerly
+  SCA)
+authentic_languages:
+- ar
+adoption_date: '2026-03-08'
+entry_into_force_date: '2026-03-09'
+source_url: https://www.uaecma.gov.ae/ar/regulations/regulations-listing.aspx
+source_publisher: United Arab Emirates — Capital Market Authority (هيئة سوق المال / CMA, formerly SCA)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official CMA PDF (Arabic)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:916cc9edce26fbb80e6adbf56e93d7fe987df0be9024cc0b24dbd7a539270593
+original_sha256: sha256:f8341a1bd33185ca24de737641d7fc7787612879a03b2a270ec335ebe197c9bb
+text_sha256: sha256:916cc9edce26fbb80e6adbf56e93d7fe987df0be9024cc0b24dbd7a539270593
+text_fidelity: extracted_verified
+language: ar
+authoritative_status: authentic_text
+license: ae-law-noncopyright
+rights_note: UAE Federal Decree-Law 38/2021 on Copyright, Art. 3, excludes official regulations/decisions
+  from copyright. Clean. Arabic is authentic. The Securities and Commodities Authority (SCA) was renamed
+  the Capital Market Authority (CMA) by Federal Decree-Laws 32 & 33 of 2025.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.uaecma.gov.ae/ar/regulations/regulations-listing.aspx
+  original_sha256: sha256:f8341a1bd33185ca24de737641d7fc7787612879a03b2a270ec335ebe197c9bb
+  note: 'Official CMA PDF (Arabic). NOTE: the PDF''s Arabic text layer displaces bracketed numerals (a
+    right-to-left bidi artifact); text.txt is the pdftotext -layout output with bidi controls stripped
+    and a deterministic bracketed-numeral repair applied.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'The UAE FEDERAL crypto rulebook: the Capital Market Authority (CMA — the renamed Securities
+  and Commodities Authority) Chairman Decision No. (4/R.M) of 2026 on Regulating Virtual Assets, issued
+  8 March 2026 (effective 9 March 2026), which replaces the prior SCA virtual-asset decisions and licenses
+  virtual-asset activities federally (onshore, outside the DIFC and ADGM free zones). Arabic authentic.
+  FIDELITY: extracted_verified (independent OCR cross-check, JC-038) — the pdftotext -layout extraction
+  (bidi controls stripped, bracketed-numeral repair applied) was confirmed against the official PDF''s
+  VISUAL content by an independent Arabic OCR (pdftoppm 300 dpi → tesseract -l ara; reproducible via scripts/verify_ocr.py)
+  at 97.3% token / 93.4% char-5-gram agreement — the residual is OCR noise, not a content discrepancy;
+  all articles present. A clean logical-order HTML/Gazette source would still permit a char-exact re-verification.
+  LICENCE: ae-law-noncopyright (Federal Decree-Law 38/2021 Art. 3). Recorded neutrally.'
+verification:
+  status: verified
+  method: 'pdftotext -layout of the official CMA PDF, with bidi control characters stripped and a deterministic
+    bracketed-numeral repair ((  )N -> (N)) applied to counter the PDF text layer''s right-to-left displacement
+    of digits. The Arabic prose extracts in logical, readable order (standard Unicode Arabic, not presentation
+    forms). INDEPENDENT OCR CROSS-CHECK (JC-038): the pdftotext -layout extraction (bidi controls stripped,
+    bracketed-numeral repair applied) was confirmed against the official PDF''s VISUAL content by an independent
+    Arabic OCR that reads the rendered glyphs (pdftoppm 300 dpi → tesseract -l ara --psm 6; reproducible
+    via scripts/verify_ocr.py). After Arabic orthographic normalisation the stored text is covered by
+    the OCR at 97.3% of token instances (95.2% of unique tokens) and 93.4% of character 5-grams; the residual
+    is OCR noise, not a content discrepancy, and all المادة articles are present in both independent readings.'
+  verified_by: Project maintainer (independent Arabic OCR cross-check, scripts/verify_ocr.py)
+  verified_date: '2026-07-11'
+  note: text_fidelity=extracted_verified via an INDEPENDENT Arabic OCR cross-check of the official PDF
+    (JC-038; 97.3% token / 93.4% char-5-gram agreement, residual is OCR noise). The OCR reads the PDF's
+    visual glyphs, so it independently confirms that the bidi-repaired text-layer extraction matches the
+    document's actual content. A clean logical-order HTML/Gazette source would additionally permit a char-exact
+    re-verification.

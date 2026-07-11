@@ -1,0 +1,55 @@
+corpus_id: mx/ley/fintech-2018
+version_id: '2025-11-14'
+title: Ley para Regular las Instituciones de Tecnología Financiera
+short_title: Mexico Ley Fintech (consolidated, última reforma 14 nov 2025)
+jurisdiction: MEX
+document_type: ley
+official_citation: Ley para Regular las Instituciones de Tecnología Financiera, publicada en el Diario
+  Oficial de la Federación el 9 de marzo de 2018; última reforma publicada en el DOF el 14 de noviembre
+  de 2025 (texto consolidado, Cámara de Diputados)
+authentic_languages:
+- es
+adoption_date: '2018-03-09'
+entry_into_force_date: '2018-03-10'
+source_url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LRITF.pdf
+source_publisher: Cámara de Diputados del H. Congreso de la Unión (México) — texto consolidado
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official consolidated PDF (Cámara de Diputados)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:3c1e6bd9ea40c91c587e16adb4a12597d8559af89bbf0e4113d0ce094d5f67d6
+original_sha256: sha256:6d87b87a815243e4c83e95dc98a258a36b94d28918339bb62421d1251ada57ed
+text_sha256: sha256:3c1e6bd9ea40c91c587e16adb4a12597d8559af89bbf0e4113d0ce094d5f67d6
+text_fidelity: extracted_verified
+language: es
+authoritative_status: official_consolidation
+license: mx-law-noncopyright
+rights_note: Mexican Ley Federal del Derecho de Autor, Art. 14, excludes legislative and official texts
+  from copyright. Clean. Spanish is the authentic language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.diputados.gob.mx/LeyesBiblio/pdf/LRITF.pdf
+  original_sha256: sha256:6d87b87a815243e4c83e95dc98a258a36b94d28918339bb62421d1251ada57ed
+  note: Official consolidated PDF (Cámara de Diputados) of the Ley Fintech, updated with reforms to 14
+    November 2025.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Mexico''s Ley para Regular las Instituciones de Tecnología Financiera (''Ley Fintech'',
+  DOF 9 Mar 2018) — the framework for financial-technology institutions; its virtual-asset provisions
+  (Arts 30–34) permit ITFs to operate with ''activos virtuales'' subject to Banco de México authorisation.
+  Spanish authentic; captured as the consolidated text (última reforma 14 Nov 2025). The whole law is
+  the anchor; the VA provisions sit within. AUTHORITATIVENESS: official_consolidation. LICENCE: mx-law-noncopyright
+  (LFDA Art. 14). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 84-page PDF;
+    1 repeating header/footer line-classes removed. Structure: 1085 blocks; 0 PART/CHAPTER headings; 0
+    numbered units (max 0); 0 Art. units.'

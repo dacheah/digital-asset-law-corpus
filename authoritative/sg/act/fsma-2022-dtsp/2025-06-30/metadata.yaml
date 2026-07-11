@@ -1,0 +1,54 @@
+corpus_id: sg/act/fsma-2022-dtsp
+version_id: '2025-06-30'
+title: Financial Services and Markets Act 2022 — Part 9 (Digital Token Service Providers)
+short_title: Singapore FSMA 2022, Part 9 (Digital Token Service Providers)
+jurisdiction: SGP
+document_type: act
+official_citation: Financial Services and Markets Act 2022 (Act 18 of 2022), Part 9 (ss. 136–167), Singapore;
+  Part 9 commenced 30 June 2025
+authentic_languages:
+- en
+adoption_date: '2022-04-05'
+entry_into_force_date: '2025-06-30'
+source_url: https://sso.agc.gov.sg/Act/FSMA2022
+source_publisher: Singapore — Singapore Statutes Online (AGC)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official SSO PDF (FSMA 2022, Part 9)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:de7ddacd78acbd0ecf9aad4228a28c19fabaa92980c857c11b4dc116f378eac9
+original_sha256: sha256:6ac69f471b29eed02591b89502a9a82cfefdf88814e49806d3a1c5507f13f8fc
+text_sha256: sha256:de7ddacd78acbd0ecf9aad4228a28c19fabaa92980c857c11b4dc116f378eac9
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: sso-agc-permission
+rights_note: Singapore Government copyright; reproduced under the AGC/SSO Terms of Use (express permission,
+  attribution). Clean. English is authentic.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://sso.agc.gov.sg/Act/FSMA2022
+  original_sha256: sha256:6ac69f471b29eed02591b89502a9a82cfefdf88814e49806d3a1c5507f13f8fc
+  note: Official SSO PDF scoped to Part 9 of the FSMA 2022.
+supersedes: null
+superseded_by: null
+related_documents:
+- sg/act/payment-services-2019
+provenance_note: 'Singapore''s digital-token-service-provider regime: Part 9 of the Financial Services
+  and Markets Act 2022 (ss. 136–167), which licenses persons that provide a digital token service and
+  carries an extraterritorial hook (a person with a place of business in Singapore providing a digital
+  token service outside Singapore must be licensed). English authentic; Part 9 commenced 30 June 2025.
+  Cross-linked to the Payment Services Act (DPT services). AUTHORITATIVENESS: authentic_text. LICENCE:
+  sso-agc-permission. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 42-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 209 blocks; 1 PART/CHAPTER headings; 32
+    numbered units (max 167); 0 Art. units.'

@@ -1,0 +1,104 @@
+corpus_id: br/lei/virtual-assets-framework-2022
+version_id: '2022-12-21'
+title: Lei nº 14.478, de 21 de dezembro de 2022 (Marco Legal dos Ativos Virtuais / Legal Framework for
+  Virtual Assets)
+short_title: Lei 14.478/2022 — Marco Legal dos Ativos Virtuais (Brazil)
+jurisdiction: BRA
+document_type: lei
+official_citation: Lei nº 14.478, de 21 de dezembro de 2022 (Brasil) — Marco Legal dos Ativos Virtuais;
+  publicada no DOU de 22.12.2022 — Legal Framework for Virtual Assets
+authentic_languages:
+- pt-BR
+adoption_date: '2022-12-21'
+entry_into_force_date: '2023-06-20'
+source_url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14478.htm
+source_publisher: Presidência da República (Casa Civil, Subchefia para Assuntos Jurídicos), via Planalto
+  (planalto.gov.br)
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual download of the official HTML from Planalto (planalto.gov.br)
+original_format: html
+original_filename: original.html
+content_hash: sha256:c311872a7fac38b44ceebbede2dbe526244c01a7a218c72b791648f2cd5a7d01
+original_sha256: sha256:7b701f3b454bba297b82e72ef70eeee781b788ee53275cbd4ae947259d3cd0d2
+text_sha256: sha256:c311872a7fac38b44ceebbede2dbe526244c01a7a218c72b791648f2cd5a7d01
+text_fidelity: extracted_verified
+language: pt-BR
+authoritative_status: authentic_text
+license: br-law-noncopyright
+rights_note: 'Under the Brazilian Copyright Law (Lei de Direitos Autorais, Lei nº 9.610/1998), Article
+  8, item IV, ''os textos de tratados ou convenções, leis, decretos, regulamentos, decisões judiciais
+  e demais atos oficiais'' (the texts of treaties or conventions, laws, decrees, regulations, judicial
+  decisions and other official acts) are ''não são objeto de proteção como direitos autorais'' (not the
+  subject of copyright protection). A federal statute (lei) is squarely within Art. 8, IV, so the authentic
+  Portuguese text is freely reproducible (analogous to Japan''s Copyright Act Art. 13, mainland China''s
+  Copyright Law Art. 5, and Korea''s Copyright Act Art. 7, reached via the ''official texts'' route).
+  Source: the official Planalto site (planalto.gov.br). Any English rendering is UNOFFICIAL and belongs
+  in the derived layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14478.htm
+  original_sha256: sha256:7b701f3b454bba297b82e72ef70eeee781b788ee53275cbd4ae947259d3cd0d2
+  note: 'Initial capture: official HTML of Lei 14.478/2022 from Planalto (planalto.gov.br), saved by the
+    maintainer. original.html is the byte-exact anchor (Windows-1252 encoded, as served); text.txt is
+    the enacted text extracted from the page''s paragraph (<p>) elements. The captured text was independently
+    cross-checked against the live Planalto page (14 articles; Art. 14 = 180-day commencement; signatories
+    confirmed).'
+verification:
+  status: verified
+  method: 'text.txt (the enacted Portuguese text) verified against original.html by two checks, plus an
+    independent third source. (1) NO FABRICATION: every character in text.txt is present in the HTML page
+    text — the set difference is empty (0 characters not in the page). (2) COMPLETENESS: every extracted
+    paragraph appears verbatim (whitespace-normalised) in the HTML page text (0 missing); the full article
+    set Art. 1º–Art. 14 is present (plus the Penal-Code provision the Act inserts), together with the
+    ementa, the enactment clause, the Brasília date and the three signatories. (3) INDEPENDENT CROSS-CHECK:
+    the captured text was compared against the LIVE Planalto page (fetched separately) — 14 articles, the
+    Art. 14 180-day commencement, the Art. 3 definition of ativo virtual and the Art. 5 definition of
+    prestadora de serviços de ativos virtuais, and the signatories (Jair Messias Bolsonaro et al.,
+    21 Dec 2022) all match.'
+  reference: Planalto (planalto.gov.br) — Lei nº 14.478/2022, retrieved and cross-checked 9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): text extracted from the page''s <p> elements, so line
+    breaks follow the enacted paragraph structure (no PDF-wrap hazard — HTML paragraphs are complete).
+    Removed as page furniture only: the "Presidência da República … Subchefia para Assuntos Jurídicos"
+    site header, the "Regulamento / Vigência" navigation links, and the "Este texto não substitui o
+    publicado no DOU de 22.12.2022" footer note. STRUCTURE: the text is grouped one block per enacted
+    article — each article absorbs its incisos, parágrafos and any provisions it QUOTES from an amended
+    law (e.g. Art. 10 inserts Penal-Code "Art. 171-A"; Arts. 11–12 quote provisions of Leis 7.492/1986
+    and 9.613/1998), identified deterministically by strict article-number consecutiveness so that quoted
+    provisions do not masquerade as top-level articles. No text is added, lost or reordered by this
+    grouping. Units delimited by blank lines; canonical UTF-8/LF by tooling (source Windows-1252).
+    Authoritative as authentic_text — the official Planalto publication of the enacted law.'
+supersedes: null
+superseded_by: null
+related_documents:
+- br/resolucao/bcb-520-2025
+- br/resolucao/bcb-519-2025
+- br/resolucao/bcb-521-2025
+provenance_note: 'Lei nº 14.478, de 21 de dezembro de 2022 (the ''Marco Legal dos Ativos Virtuais'' /
+  Legal Framework for Virtual Assets), Brazil — the official Planalto text, as enacted (no inline amendments
+  present). This is Brazil''s Track A market-structure ENABLING STATUTE: it sets diretrizes (guidelines)
+  for the prestação de serviços de ativos virtuais (provision of virtual-asset services), defines ATIVO
+  VIRTUAL (virtual asset, Art. 3) and PRESTADORA DE SERVIÇOS DE ATIVOS VIRTUAIS (virtual-asset service
+  provider / VASP, Art. 5), requires VASPs to be authorised by a federal body designated by the Executive
+  (Art. 2), creates a fraud offence involving virtual assets by amending the Código Penal (Decreto-Lei
+  2.848/1940), and brings VASPs within the crimes-against-the-financial-system (Lei 7.492/1986) and anti-money-laundering
+  (Lei 9.613/1998) regimes. It comprises 14 articles (Art. 1º–Art. 14; Art. 14 sets a 180-day commencement,
+  i.e. in force 20 Jun 2023), plus the quoted Penal-Code provision it inserts. IMPLEMENTING REGULATION
+  (queued, NOT in this record): the Banco Central do Brasil — designated regulator per Decreto 11.563/2023
+  — issued the comprehensive VASP framework as Resoluções BCB nº 519, 520 e 521 (published 10 Nov 2025,
+  effective 2 Feb 2026); these are queued as implementing regulation, cross-referenced to this Lei (the
+  same statute-then-rule split as the US GENIUS Act + OCC rule). AUTHENTIC LANGUAGE: Portuguese (pt-BR)
+  — the corpus''s FIRST non-English authentic text in the LATIN script (after the CJK/Hangul branches
+  JP/CN/KR), and the branch that opens LATIN AMERICA. English renderings are unofficial → derived. AUTHORITATIVENESS:
+  authentic_text — the official Planalto publication of the enacted law. SOURCE/FORMAT: original.html
+  is the byte-exact Planalto page (Windows-1252 as served); text.txt is extracted from its <p> elements
+  (title → ementa → enactment clause → Art. 1º–Art. 14 with parágrafos/incisos → Brasília date → signatories),
+  with DISCLOSED removal of Planalto page furniture only (the ''Presidência da República … Subchefia''
+  header, the ''Regulamento/Vigência'' navigation links, and the ''Este texto não substitui o publicado
+  no DOU'' footer note). No operative content added, lost, or reordered: every extracted paragraph is
+  present verbatim in the page''s text, and the text was cross-checked against the live Planalto page.
+  LICENCE: br-law-noncopyright — Lei 9.610/1998 Art. 8, IV excludes official texts from copyright (JC-021).
+  Follow-ups queued: the BCB Resolutions 519/520/521; an unofficial English rendering in the derived layer.
+  Recorded on its own terms (JC-003/JC-007/JC-021).'

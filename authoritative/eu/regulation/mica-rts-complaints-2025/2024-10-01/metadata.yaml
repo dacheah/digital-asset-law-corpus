@@ -1,0 +1,51 @@
+corpus_id: eu/regulation/mica-rts-complaints-2025
+version_id: '2024-10-01'
+title: Commission Delegated Regulation (EU) 2025/294 supplementing MiCA with regard to regulatory technical
+  standards specifying the requirements, templates and procedures for the handling of complaints by crypto-asset
+  service providers
+short_title: MiCA RTS — complaints-handling for CASPs (Reg (EU) 2025/294)
+jurisdiction: EU
+document_type: delegated regulation
+official_citation: Commission Delegated Regulation (EU) 2025/294 of 1 October 2024, OJ L, 2025/294, 13
+  February 2025 (RTS under Regulation (EU) 2023/1114)
+authentic_languages:
+- en
+adoption_date: '2024-10-01'
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0294
+source_publisher: European Union — Official Journal (EUR-Lex)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official EUR-Lex OJ PDF
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:6444fda63f897e3761ab56a621f7fda1b1ba34ce0a679fd45babdb581049646d
+original_sha256: sha256:dbb3b483804713a83558fe472e413de2de30d196fcbcdde59a1f03c83e758f05
+text_sha256: sha256:6444fda63f897e3761ab56a621f7fda1b1ba34ce0a679fd45babdb581049646d
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: eu-reuse-2011-833
+rights_note: EU Official Journal text — reuse under Commission Decision 2011/833/EU (attribution). Clean.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0294
+  original_sha256: sha256:dbb3b483804713a83558fe472e413de2de30d196fcbcdde59a1f03c83e758f05
+  note: Official EUR-Lex OJ PDF.
+supersedes: null
+superseded_by: null
+related_documents:
+- eu/regulation/mica-2023
+provenance_note: 'MiCA Level-2 regulatory technical standards on complaints-handling by crypto-asset service
+  providers (Commission Delegated Regulation (EU) 2025/294), under Regulation (EU) 2023/1114. English
+  authentic; cross-linked to MiCA. LICENCE: eu-reuse-2011-833. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 9-page PDF; 0
+    repeating header/footer line-classes removed. Structure: 119 blocks; 0 PART/CHAPTER headings; 33 numbered
+    units (max 7); 12 Art. units.'

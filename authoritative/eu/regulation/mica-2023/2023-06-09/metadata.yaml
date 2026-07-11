@@ -1,0 +1,107 @@
+corpus_id: eu/regulation/mica-2023
+version_id: '2023-06-09'
+title: Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on markets
+  in crypto-assets, and amending Regulations (EU) No 1093/2010 and (EU) No 1095/2010 and Directives 2013/36/EU
+  and (EU) 2019/1937
+short_title: MiCA
+jurisdiction: EU
+document_type: regulation
+official_citation: Regulation (EU) 2023/1114, OJ L 150, 9.6.2023, p. 40 (CELEX 32023R1114)
+authentic_languages:
+- bg
+- cs
+- da
+- de
+- el
+- en
+- es
+- et
+- fi
+- fr
+- ga
+- hr
+- hu
+- it
+- lt
+- lv
+- mt
+- nl
+- pl
+- pt
+- ro
+- sk
+- sl
+- sv
+adoption_date: '2023-05-31'
+entry_into_force_date: '2023-06-29'
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114
+source_publisher: Publications Office of the European Union (EUR-Lex) — Official Journal of the European
+  Union
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from the official EUR-Lex source
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:b7e0ea12d959553c82c1504e892389b693aa9496b6832049be236915fbdfacf8
+original_sha256: sha256:491a2f0014d56ffb33289f91229d21fae3bc783457eedeff0c48f06dbb06d731
+text_sha256: sha256:b7e0ea12d959553c82c1504e892389b693aa9496b6832049be236915fbdfacf8
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: eu-reuse-2011-833
+rights_note: 'EU legal text, reusable under Commission Decision 2011/833/EU with source acknowledgement
+  (not public domain). Attribution: ''Source: EUR-Lex, © European Union, https://eur-lex.europa.eu, 1998-2026.'''
+capture_history:
+- date: '2026-07-08'
+  source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114
+  original_sha256: sha256:491a2f0014d56ffb33289f91229d21fae3bc783457eedeff0c48f06dbb06d731
+  note: 'Initial capture: as-adopted OJ authentic English text from EUR-Lex (CELEX 32023R1114; OJ L 150,
+    9.6.2023), manually downloaded from the official source and staged.'
+- date: '2026-07-08'
+  source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32023R1114
+  original_sha256: sha256:4623d3f52994c20732e9ae67c4500d2fc0701de92bdd4d97e6e99ce3a881ef11
+  note: 'Official EUR-Lex HTML rendering (same CELEX 32023R1114); used as the independent cross-check and
+    as the oracle for verifying line-break hyphen restorations. Retained on the maintainer''s capture store.'
+verification:
+  status: verified
+  method: 'PDF-derived text.txt cross-checked against the authentic EUR-Lex HTML rendering of the same
+    CELEX: all 149 articles and 9 Titles present; ~99.9% word-type overlap; the 12 line-break hyphen-loss
+    restorations (e.g. crypto-asset, e-money, third-country) were each confirmed against the HTML before
+    applying; residual set-difference tokens are a footnote page number and HTML-tokenisation false
+    positives, not content loss or fabrication.'
+  reference: EUR-Lex CELEX 32023R1114 (OJ PDF + EUR-Lex HTML)
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'Disclosed normalizations in text.txt (statutory wording unchanged): OJ running headers removed;
+    soft-hyphen line-breaks joined; residual soft hyphens stripped; HTML-verified hyphen restorations;
+    structural headers (Article/TITLE/CHAPTER) isolated for parsing; canonical UTF-8/LF by tooling.
+    The as-adopted OJ text is authentic; the EUR-Lex consolidated version is non-authentic (JC-009).'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Markets in Crypto-Assets Regulation (MiCA) — the AS-ADOPTED OJ authentic text (CELEX
+  32023R1114; OJ L 150, 9.6.2023, p. 40). Adopted 2023-05-31; entered into force 2023-06-29; STAGED APPLICATION
+  — Titles III and IV (asset-referenced tokens and e-money tokens) apply from 2024-06-30, the remainder
+  from 2024-12-30 (effective_date left null as application is staged). AUTHENTIC LANGUAGE: all 24 EU official
+  languages are equally authentic; this record stores the ENGLISH authentic text (English-first, JC-008)
+  and records all 24 in authentic_languages — English is authentic, not a translation. original.pdf is
+  the EUR-Lex OJ PDF and is the byte-exact integrity anchor. text.txt is extracted from that PDF (single-column
+  OJ; pdftotext) with disclosed cleaning (wording unchanged): OJ running headers removed; soft-hyphen
+  line-breaks joined; residual soft hyphens stripped; 12 line-break hyphen-loss compounds restored to
+  their hyphenated form (e.g. crypto-asset, e-money, third-country) — each restoration VERIFIED against
+  the authentic EUR-Lex HTML rendering; one ''up-to-date'' repaired; canonical UTF-8/LF by tooling. Cross-checked
+  against the authentic EUR-Lex HTML (~99.9% word-type overlap; all 149 articles and 9 Titles present);
+  residual set-difference tokens are a footnote page number and HTML-tokenisation false positives, not
+  content loss. FOLLOW-UP VERSIONS (see queue/candidates.md): MiCA corrigenda (through 2024) are authentic
+  dated corrections; the EUR-Lex CONSOLIDATED version (2024-01-09) is a NON-AUTHENTIC reference (EUR-Lex''s
+  own disclaimer) and will never be presented as the authentic text (JC-009). Track B: MiCA''s AML sibling
+  (the Transfer of Funds Regulation; AMLR) is owned by the sibling AML corpus (Project Origin) and referenced,
+  not reproduced. Recorded on its own terms — no cross-jurisdiction ''lead/reaction'' relationship is
+  encoded in the authoritative layer (JC-003/JC-007).'
+corrections:
+- date: '2026-07-08'
+  change: 'Paragraphing correction: the initial extraction wrongly isolated wrapped citation clauses
+    beginning ''Article NNN'' (e.g. ''Article 290 TFEU'') as standalone paragraphs; corrected so that only
+    the 149 true standalone article headers begin a paragraph. Wording and order unchanged; text.txt re-hashed.'
+  reference: 'Extraction cleanup; paragraph structure cross-checked against EUR-Lex HTML (CELEX 32023R1114).'
+  note: 'content_hash/text_sha256 updated accordingly; prior state retained in Git history (append-only).'

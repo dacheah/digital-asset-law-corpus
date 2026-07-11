@@ -1,0 +1,93 @@
+corpus_id: cn/notice/virtual-currency-trading-2021
+version_id: '2021-09-15'
+title: 关于进一步防范和处置虚拟货币交易炒作风险的通知 (Notice on Further Preventing and Dealing with the Risks of Virtual Currency
+  Trading and Speculation)
+short_title: 银发〔2021〕237号 / 2021 Virtual Currency Trading Risks Notice (China)
+jurisdiction: CHN
+document_type: notice
+official_citation: 中国人民银行 中央网信办 最高人民法院 最高人民检察院 工业和信息化部 公安部 市场监管总局 银保监会 证监会 外汇局《关于进一步防范和处置虚拟货币交易炒作风险的通知》（银发〔2021〕237号）—
+  Notice on Further Preventing and Dealing with the Risks of Virtual Currency Trading and Speculation
+  (People's Bank of China and nine other authorities, PBC Doc. Yin Fa [2021] No. 237), dated 15 Sept 2021
+authentic_languages:
+- zh-Hans
+adoption_date: '2021-09-15'
+entry_into_force_date: '2021-09-15'
+source_url: https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html
+source_publisher: 中国人民银行 (People's Bank of China), Legal Affairs Department (条法司), publishing on behalf
+  of the ten co-issuing authorities
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual capture (browser print-to-PDF) of the official PBoC web publication
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:9c658ee116f24372ced22841109201ef66aec05c45fa893ca0575f6542e63d42
+original_sha256: sha256:a3ebdeb4dab3551aaa37744edc02309c04fe86b54adf7c0ee796ae5e0dfd280d
+text_sha256: sha256:9c658ee116f24372ced22841109201ef66aec05c45fa893ca0575f6542e63d42
+text_fidelity: extracted_verified
+language: zh-Hans
+authoritative_status: authentic_text
+license: cn-law-noncopyright
+rights_note: 'Under the Copyright Law of the People''s Republic of China, Article 5(1), the law does not
+  apply to ''laws and regulations, resolutions, decisions and orders of State organs, other documents
+  of a legislative, administrative or judicial nature and the official translations thereof'' (本法不适用于：（一）法律、法规，国家机关的决议、决定、命令和其他具有立法、行政、司法性质的文件，及其官方正式译文).
+  A PBoC-led inter-agency notice (通知) is a normative document of an administrative nature issued by State
+  organs, within Art. 5(1); the authentic Chinese text is freely reproducible (JC-017). Source: the official
+  PBoC publication (pbc.gov.cn). Any English rendering is UNOFFICIAL — only the Chinese original has legal
+  effect — and is kept in the derived layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html
+  original_sha256: sha256:a3ebdeb4dab3551aaa37744edc02309c04fe86b54adf7c0ee796ae5e0dfd280d
+  note: 'Initial capture: browser print-to-PDF of the official PBoC web page for the 2021 Notice (银发〔2021〕237号),
+    Legal Affairs Dept (条法司) → 规范性文件. The page''s PDF metadata title is the full ten-agency notice title;
+    page-displayed publish time 2021-09-24 17:00 (the notice itself is dated 15 Sept 2021). original.pdf
+    is the print-to-PDF anchor; text.txt is the notice body extracted from it.'
+verification:
+  status: verified
+  method: 'text.txt (the notice body) verified against the raw pdftotext extraction of original.pdf by
+    two checks. (1) NO FABRICATION: every character in text.txt is present in the raw extraction (0
+    characters in text.txt not in the raw PDF text). (2) COMPLETENESS + ORDER: text.txt, with whitespace
+    removed, is an EXACT order-preserving match (2,740 characters) to the raw pdftotext body region — the
+    slice from the ten-agency title through the signature date, minus only the disclosed webpage chrome.
+    Structure recovered: 5 articles (一–五) and 16 sub-items （一）–（十六）, the addressees line, the preamble
+    citing the enabling statutes, the ten-agency signature block, and the date 2021年9月15日.'
+  reference: PBoC official web publication — 关于进一步防范和处置虚拟货币交易炒作风险的通知 (银发〔2021〕237号), pbc.gov.cn,
+    retrieved 9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): because original.pdf is a browser print-to-PDF of the
+    official PBoC web page, the extraction removes the surrounding webpage apparatus — the site navigation
+    menu, the 字号 大 中 小 font-size widget, the 打印本页 and 关闭窗口 buttons, and the page-displayed publish
+    timestamp (2021-09-24 17:00:00) — none of which is part of the notice. PDF line-wraps within paragraphs
+    are rejoined without added spaces (Chinese); article headings, parenthesised sub-items, the addressees
+    line, the signature block and the date each begin a new unit; canonical UTF-8/LF by tooling.
+    Authoritative as authentic_text (the PBoC web page is the official publication of the notice). This
+    record is preserved as the SUPERSEDED predecessor of 银发〔2026〕42号 (superseded_by), append-only.'
+supersedes: null
+superseded_by: cn/notice/virtual-currency-risks-2026
+related_documents:
+- cn/notice/virtual-currency-risks-2026
+provenance_note: '关于进一步防范和处置虚拟货币交易炒作风险的通知 (Notice on Further Preventing and Dealing with the Risks of
+  Virtual Currency Trading and Speculation), PBC Doc. 银发〔2021〕237号 (Yin Fa [2021] No. 237), mainland China
+  — issued 15 Sept 2021 by TEN authorities: 中国人民银行 (PBoC), 中央网信办 (CAC), 最高人民法院 (Supreme People''s Court),
+  最高人民检察院 (Supreme People''s Procuratorate), 工业和信息化部 (MIIT), 公安部 (MPS), 市场监管总局 (SAMR), 银保监会 (CBIRC — abolished
+  2023, its functions passing to 金融监管总局/NFRA), 证监会 (CSRC), 外汇局 (SAFE). This is the FOUNDATIONAL mainland-China
+  virtual-currency prohibition and a landmark, widely-cited instrument: it establishes that virtual currencies
+  (比特币/以太币/泰达币 etc.) have NO legal-tender status (不具有法偿性) and that virtual-currency-related business (fiat↔VC
+  and VC↔VC exchange, acting as central counterparty, token issuance financing, VC derivatives, etc.)
+  is illegal financial activity (非法金融活动) to be strictly prohibited, and that overseas exchanges providing
+  services to PRC residents are likewise illegal. Structure: 5 articles (一 nature of virtual currency;
+  二 working mechanisms; 三 risk monitoring and early warning; 四 a multi-dimensional risk-prevention and
+  disposal system; 五 organisation) with 16 sub-items （一）–（十六）. SUPERSESSION: this notice is SUPERSEDED
+  BY the 2026 Notice 银发〔2026〕42号 (关于进一步防范和处置虚拟货币等相关风险的通知), which expressly repealed it (同时废止) and extended
+  the regime to RMB-pegged stablecoins and RWA tokenisation — recorded here in superseded_by, with the
+  2026 record''s supersedes pointing back (a bidirectional link showing the prohibition''s evolution;
+  JC-024). Preserved append-only as the superseded predecessor: it was the operative prohibition from
+  2021 until Feb 2026. AUTHENTIC LANGUAGE: Simplified Chinese (zh-Hans) only; English unofficial → derived
+  (JC-017). AUTHORITATIVENESS: authentic_text — the official PBoC web publication of the notice. SOURCE/FORMAT:
+  original.pdf is a browser print-to-PDF of the official PBoC page; text.txt is the notice body (ten-agency
+  title → addressees → preamble citing the enabling statutes → 5 articles/16 sub-items → ten-agency signature
+  → date 2021年9月15日), with DISCLOSED removal of webpage chrome only (site navigation, the 字号 font-size
+  widget, the 打印本页/关闭窗口 buttons, and the publish-time stamp); the extracted body is an EXACT, order-preserving
+  match to the raw pdftotext body minus that chrome (2,740 characters). LICENCE: cn-law-noncopyright —
+  Copyright Law of the PRC Art. 5(1) (JC-017). Recorded on its own terms (JC-003/JC-006/JC-007/JC-017/JC-024).'

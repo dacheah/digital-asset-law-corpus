@@ -1,0 +1,27 @@
+Digital-Asset Law Corpus — Licence
+==================================
+
+Two layers, licensed differently. Read this together with NOTICE.
+
+1. THE DERIVED / COMPILATION LAYER  →  CC BY 4.0
+   The selection, arrangement and coordination of the corpus, the structural
+   parsing (derived/**/structure.json), the neutral concept tags
+   (derived/**/concepts.json, derived/concept-index.json) and the metadata
+   schema are licensed under the Creative Commons Attribution 4.0 International
+   licence (SPDX: CC-BY-4.0). Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+   You may share and adapt these with attribution (see CITATION.cff).
+
+2. THE SOURCE TEXTS  →  NOT RELICENSED; each keeps its own terms
+   The authoritative texts (authoritative/**/text.txt) and the byte-exact
+   official originals (authoritative/**/original.*) are official legal
+   instruments reproduced from their official sources. They are NOT relicensed
+   by this project. Each record's own terms are recorded in its metadata.yaml
+   `license` / `rights_note` fields and summarised per record in NOTICE. Only
+   records whose reuse terms are confirmed clean (statutory non-copyright,
+   government public-domain, or an explicit attribution/open licence) are
+   included in this public release; 57 of the corpus's 70 records qualify.
+
+NO LEGAL ADVICE. This is a reference record, not legal or compliance advice.
+The authoritative text of each instrument is the official original in its
+authentic language; translations and concept tags are unofficial and derived.
+Always confirm against the cited official source for anything legally operative.

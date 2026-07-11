@@ -1,0 +1,57 @@
+corpus_id: mt/act/vfaa-2018
+version_id: 2025-05-16_en
+title: Virtual Financial Assets Act (Chapter 590 of the Laws of Malta)
+short_title: Malta Virtual Financial Assets Act (Cap. 590) — English authentic text
+jurisdiction: MLT
+document_type: act
+official_citation: Virtual Financial Assets Act, Chapter 590 of the Laws of Malta (originally Act XXX
+  of 2018), as amended; official consolidated text (revised to 16 May 2025)
+authentic_languages:
+- en
+- mt
+adoption_date: '2018-11-01'
+entry_into_force_date: '2018-11-01'
+source_url: https://legislation.mt/eli/cap/590/20250516/eng
+source_publisher: Government of Malta — Laws of Malta (legislation.mt)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Laws of Malta consolidated PDF (Cap. 590, English)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:6c9eee557fb0657231cb80b9dee356f0a53423998c077c39a846d54a31d0f252
+original_sha256: sha256:855f0d9d44d00eddbccc8079596e0b4bf292dd22eba095b56d79a88b5285bc06
+text_sha256: sha256:6c9eee557fb0657231cb80b9dee356f0a53423998c077c39a846d54a31d0f252
+text_fidelity: extracted_verified
+language: en
+authoritative_status: official_consolidation
+license: mt-law-noncopyright
+rights_note: Maltese Copyright Act (Cap. 415) Art. 2 excludes official texts from copyright. Clean. English
+  and Maltese are both authentic; the Maltese text prevails in case of conflict (JC-013 parallel-language
+  model). Parts of the VFA regime now interact with the EU MiCA framework (transposed via Cap. 647).
+capture_history:
+- date: '2026-07-10'
+  source_url: https://legislation.mt/eli/cap/590/20250516/eng
+  original_sha256: sha256:855f0d9d44d00eddbccc8079596e0b4bf292dd22eba095b56d79a88b5285bc06
+  note: Official Laws of Malta consolidated PDF of the Virtual Financial Assets Act (Cap. 590), English,
+    revised to 16 May 2025.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Malta''s Virtual Financial Assets Act (Chapter 590), one of the earliest comprehensive
+  crypto frameworks (originally Act of 2018): it regulates VFA issuers (ICOs / whitepapers), VFA agents
+  and VFA service providers under the MFSA. English and Maltese are equally authentic (Maltese prevails);
+  stored as parallel authentic-language records under one corpus_id (JC-013). Captured as the official
+  consolidated text revised to 16 May 2025. AUTHORITATIVENESS: official_consolidation. LICENCE: mt-law-noncopyright
+  (Copyright Act Cap. 415 Art. 2). Much of the regime now runs alongside the EU MiCA framework. Recorded
+  neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 60-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 657 blocks; 12 PART/CHAPTER headings; 66
+    numbered units (max 2024); 1 Art. units.'

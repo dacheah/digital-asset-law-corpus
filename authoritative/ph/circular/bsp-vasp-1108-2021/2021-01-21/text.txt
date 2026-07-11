@@ -1,0 +1,415 @@
+EIANeKo SeNrnaL NG PIUIpINAS
+
+                               OFFICE OF THE GOVERNOR
+
+                                  CIRCULAR NO. 1108
+                                     Series of 2O2L
+
+Subject: Guidelines for Virtual Asset Service Providers (VASP)
+
+       The Monetary Board, in its Resolution No. 78 dated 2L January 2O2L, approved the
+following rules and regulations governing the operations of VASPs in the Philippines,
+which shall amend in its entirety Section 902-N of the Manual of Regulations for Non-Bank
+Financial Institutions (MORNBFI).
+
+       Section 1. Section 902-N on Virtual Currency Exchanges shall be replaced by Virtual
+Asset Service Providers (VASP), and is amended in its entirety to read, as follows:
+
+       902-N VIRTUAL ASSET SERVICE PROVIDERS (VASP)
+
+             PoLicy Sta|ement,. It is the policy of the Bangko
+       Sentral to provide an environment that encourages
+       financial innovation while safeguarding the integrity
+       and stability of the financial system. The Bangko
+       Sentral recognizes that virtual- asset (VA) systems have
+       the potential to revolutionize the delivery of financial
+       services by providing faster and more economical- means
+       to transfer funds, both domestic and international, and
+       may further support financial inclusion.            These
+       benefits, however, should be considered along with the
+       attendant risks in VAs considering the higher degree of
+       anonymity involved, the velocity of transactions,
+       volatility of prices, and g1oba1 accessibility. It is
+       for these reasons that the Bangko Sentral shall- ensure
+       that the VA systems shall not be misused and that the
+       Philippines shall- not be used for money laundering (ML),
+       terrorist financing (TF) and proliferation financing
+        (PF) activities. In addition, VA transacti-ons also pose
+       other risks, such as information technology (IT) risks,
+       consumer protection, and financial stability concerns,
+       among others.
+
+            Furthermore, the Bangko Sentral recognizes that
+       once fiat currency is exchanged or converted into VA, it
+       becomes easily transferrable, facilitating      expedient
+       movement or transfer of funds and payment services, among
+       others. fn this manner, VASPs are considered as money
+       service businesses that are subject to the regulatory
+       authority and examination powers of the Bangko Sentral
+       under R.A. No. 7653, ds amended by R.A. No. 1-121-1-.
+            This Section shal1 govern the operations                                 and
+       reporting obligations of VASPs in the Philippines.
+                                                                                    L-9
+      Scope. These guidelines shal1 cover VASPs, ds
+defined in this Section, that offer their services or
+engage in VASP activities in the Philippines. These
+guidelines do not cover businesses involved in the
+participation and provision of financial services
+related to an issuer's offer and/or sale of a VA, which
+fa11 within the jurisdiction of Securities and Exchange
+Commission, and entities soleIy acting on their own
+behal-f (i.e., not engaged in the business of actively
+facilitating VA-related actj-vities for the account of
+others) .
+     The guidelines outl-ined in this Section are based
+on leading standards such as the Financial Action Task
+Force Recommendations on anti-money laundering and
+counter-terrorist financing standards, as well as other
+recognized risk management principles, and shal1 serve
+as Bangko Sentral's baseline requirement for all VASPs.
+    DefiniEion of Terms. The terms as used in this
+Section, sha1l be defined, as follows:
+a. VirtuaT asset refers to any type of digital- unit that
+   can be digitally traded, or transferred, and can be
+   used for payment or investment purposes. It can be
+   defined as a "property", "proceeds", "funds", "funds
+   or other assets", and other "corresponding value". It
+   is used as a medium of exchange or a form of digitally
+   stored value created by agreement within the community
+   of VA users. VAs sha1l be broadly construed to include
+   digital units of exchange that (i) have a centralized
+   repository or administrator; (ii) are decentralized
+   and have no centralized repository or administrator;
+   or (iii) may be created or obtained by computing or
+   manufacturing effort.     VAs are not. issued nor
+   guaranteed by any jurisdiction and do not have Iegal
+   tender status.
+   For purposes of these guidelines, digital units of
+   exchange t.hat is used for (i) the payment of goods
+   and services soIe1y provided by its issuer or a
+   limited set of merchants specified by its issuer
+    (e.9., gift checks) ; or (ii) the payment of virtual-
+   goods and services within an online game (e.9., gaming
+   tokens) shalI not be considered as VAs. Also, virtual
+   currencies as previously defined in Bangko Sentral-
+   Circular No. 944 (Guidelines for Virtual Currency
+   Exchanges) shall now be referred to as VAs.
+b. Virtual Asset Service Provider (VASP) refers to any
+   entity that offers services or engages in activities
+                                                   Page 2 of 9
+     that provide facility for the transfer or exchange of
+     VA, which involve the conduct of one or more of the
+     following activities:
+     (1) exchange between VAs and f iat currencies,'
+     (2) exchange between one or more forms of VAs;
+     (3) transfer of VAs; and
+     (4) safekeeping and/or administration of VAs or
+         instruments enablinc control over VAs.
+     Virtual Currency Exchanges as previously defined in
+     Bangko Sentral Circul-ar No. 944 (Guidelines f or
+     Virtual Currency Exchanges) sha11 now be referred to
+     as VASPS.
+c. VA Custodian refers to a VASP performing the act of
+     ftem b(4) above.
+d.   Fiat currency refers to gfovernment-issued currency
+     that is designated as Iega1 tender in its country of
+     issuance through government decree, regulation, or
+     Iaw.
+e. Money Service Business (MSB) refers to financial-
+   services that invol-ve the acceptance of cash, checks,
+   other monetary instruments or other stores of va1ue,
+   and the payment of a corresponding sum in cash or
+   other form to a beneficiary by means of a
+   communication, message, transfer, or through a
+   clearj-ng network to which the service provider
+     belongs.
+       Requiremente for    issuance of    Certificate      of
+Authority   (COA). A VASP sha1l secure a COA to operate as
+an MSB, pursuant to and upon compliance with the
+requirements under Section 901-N. fn the course of COA
+application, the Bangko Sentral shaI1 take into account
+and extend its evaluation over the fitness and propriety
+of the VASP's beneficial owners.
+     A VASP shall also adhere to the registration
+procedures under Appendix N-7 and submit the Application
+for Registration and Not.arized Deeds of Undertaking
+(Appendices N-8 and N-9) to the Bangko Sentral through
+the appropriate supervising department of the Bangko
+Sentral.
+     The VASP shal1 comply with pertinent. Bangko Sentral
+rules and regulations on Outsourcing (Section 702-N),
+Liquidity Risk Management (Section 724-N), Operational
+Risk Management (Section 725-N), fT Risk Management
+including the area of IT Outsourcing/Vendor Management
+Program (Section 726-N), Business Continuity Management
+                                                    Page 3 of 9
+                                                                  a
+(Section 727-N), Internal Control (Section 737-N), Anti-
+Money Laundering (Sections 607-N and 502-N), Financial
+Consumer Protection (Sections 707-N, 702-N and 703-N) ,
+and sound corporate governance principles, among others.
+     Capitalizat,ion. VASPs shall- have a minimum paid-in
+capital as follows:
+             Category               Minimum Required
+                                       Capital
+    VASP with        safekeeping     P50.0 million
+    and/or         administration
+    services for VAs (i.e., VA
+    Custodian) as defined in
+    this Circul-ar
+    VASP without safekeeping         PL0.0 million
+    and/or         administration
+    services for VAs
+     Registration and Annual Serviee Fees. A VASP shall
+pay the registration and annual service fees as provided
+under Section 901-N.
+     WaLLet Security. VASPs providing wallet services
+for holding and storing VAs must establish an adequate
+cybersecurity framework and adopt appropriate security
+measures/control-s in their VA platform to ensure
+confidentiality,   integrity   and availability     of
+data/information   uploaded,  stored,  processed   and
+transmitted into and out of the system and protect the
+infrastructure from malware, cyber-attacks and other
+evolving and emerging threats. Likewise, the framework
+shal1 cover provisions on the protection of fiat
+currency, if any, and VA wallet.s against cyberthreats
+and other technology risks.
+      TecfuioTogy Outsoureing. VASPs shal1 adopt a sound
+risk management system to mitigate risks arising from
+outsourcing (i.e., confidentiality of information, data
+privacy, data management, contract managemenL, security,
+performance monitoring and business continuity, among
+others). The VASP sha1I be responsible for the
+performance of the service in the same manner and to the
+same extent as if it were directly performing the said
+activity.
+      Internal ControT. A11 VASPs shal1 maintain an
+internal control system commensurate to the nature, size
+and complexity of their respective businesses. Critical
+control functions such as risk management, audit,
+compliance, anti-money laundering, information security
+and other essential roles must be performed by competent
+officers. The suitability of the board of directors and
+management must also be assessed in adherence to sou''l
+                                                      -*19
+                                                     Page 4 of 9
+corporate governance procedures (e.9.,       fitness     and
+propriety tests).
+     Financial Consurner Protection. VASPs sha11 adopt
+customer awareness measures to educate their customers
+which includes, among othersr (i) safeguarding of VA
+and/or fiat currency wallets as well as protection of
+client information such as 1og-in credentials; (ii) use
+of the mobiLe platform and wall-ets; (iii) actual fees
+and charges related to the use of the mobile platform
+and withdrawal transactions; and (iv) problem resolution
+procedures.
+     VASPs shall clearly communicate and explain to their
+ customers the terms and conditions prescribing the
+ manner on how the losses and liabilities  from security
+ breaches, system failure, or human error will be settled
+ between the VASP and it,s customers.
+     VASPs shall   disclose, prior to entering into an
+initial- transaction and on an ongoing basis, all material
+risks to their cl-ients in a manner that is clear, fair
+and not misleading. Discl-osure shaIl provide information
+regarding the risks associated with the acquisition,
+possession, and trading of VAs. VASPS shall also disclose
+whether they are holding VAs in custody and the attendant
+risks or whether the customers have fuII control and
+responsibility of protecting and safeguarding their VAs.
+Lastly, VASPs shall- adopt a mechanism in handling
+cusLomer complaints and ensure that effective controls
+are in place for timely resolution thereof.
+      Customer due diTigenee. VASPs sha1l conduct
+customer due diligence when (1) it establishes business
+relations with any customer; (2) undertakes any
+occasional but. relevant business transaction for any
+cusLomer who has not otherwise established business
+relation with the VASP; (3) where there is suspicion of
+money laundering or terrorist financing; or (4) where
+there is doubt about the veracity or adequacy of
+previously obt.ained customer identification data.
+     Relevant business transaction sha11 mean any single
+transaction amounting to P5,000 or more, or two or more
+transactions belj-eved to be linked and with an aggregate
+value of P5,000 or more. For this purpose, the VASP
+should have appropriate system to identify and determine
+occasional customer or transacti-on.
+    Additional Requirements. A VASP shall only engage
+with other VASPs, fj-nancial institutions,          and/or
+remittance and transfer companies that are duly
+authorized and l-icensed by the appropriate regulatory
+authorities. VASPs sha11 establish a robust due diligence
+                                                                  /)
+                                                    Page 5 of 9
+and accreditation process in sel-ecting the VAs that will
+be listed or traded in their platform. In addition, VASPs
+sha1l adopt a fraud risk management system which
+sophistication and effectiveness are commensurate to the
+risks associat.ed with particular VA types or specific VA
+activities.    VASPs sha1l also comply with the
+requirements, rules and regulations of the Bangko Sentral
+regarding the application for registration            and
+activities requiring prior Bangko Sentral approval or
+notification.
+     Clearing and set.tlement of transactions of VASP, as
+well as other activities inherent to their business
+models, shal1 only be undertaken with regulated VASPs
+and platforms to ensure that all VASP activities are
+executed within an unbroken chain of requlated entities.
+      A VASP that creates and maintains fiat wal-l-ets to
+facilitate the conversion or exchange of fiat currency
+to VA or vice versa shall maintain sufficient
+unencumbered liquid assets to ensure that VA redemptions
+are adequately met at all times. The VASP sha1l have in
+place control mechanisms to ensure prompt recording of
+receipt of fiat money.
+     VA Custodians who11y responsible for custody of
+customers' VAs, either through proprietary or outsource
+arrangfements, sha1l adopt measures to ensure adequate
+reserves for t.he VAs held in custody. Said VA Custodians
+sha1l adopt. effective mechanism to properly record and
+segregate customers' VAs from their proprietary VAs.
+     In cases when the conduct of in-depth studies and
+further data coll-ection pursuant to the Bangko Sentral's
+mandates be warranted, VASPs shall comply with additional
+requests to submit specific data and information thereon
+through surveys, questionnaires or other means.
+     VASPs shaI1 also comply with applicable rules that
+may be issued by other regulatory authorities.
+
+     Transactional Requirements for VASPs. VASPs and
+other BSFIs that engage in or facilitate VA transfers
+shall consider all VA transfer transactions as cross-
+border wj-re transfers and sha1I comply with pertinent
+rules on wire transf ers as stated in Part Six (AI,IL
+Regulations) of this Manual.
+      For VA transfers amounting to P50,000.00 or more,
+or its equivalent in foreign currency, the originating
+institution in a VA transfer must obtain and hol-d the
+required and accurate originator information as well as
+the required beneficiary information, and t.ransmit said
+information to the beneficiary institution. Benefici^ty
+                                                   Page 6 of 9
+institutions must obtain and hold required originator
+information as well as required and accurate beneficiary
+information. A11 the information gathered sha1l be made
+available on request to competent authorities.
+     The required information for VA transfers,
+including transactions associated with a VA transfer,
+includes the following:
+     a. originator's name (r.e., the sending customer);
+     b. originator's account number used to process the
+        transaction (e.g., Lhe vA wa11et);
+     e. a-i ai,rnator's physical (geographical-) address, or
+        national       identity   number, or       customer
+        ident.if ication number   (j.e.,  not a transaction
+        number) that uniquely    identifies  the originator
+        to the ordering institution, or date and place
+        of birth;
+     d. beneficiary's name; and
+     e. beneficiary account number where such an account
+        is used to process the transaction (e.9., the VA
+         wal-l-et).
+
+      The required information must be transmitted
+immediately and in a secure manner. VASPs shall uphold
+the confidentiality, integrity and availability of the
+required information to facil-itate recordkeeping and use
+of such information by receiving VASPs or other covered
+entities, as well as to prevent unauthorized disclosure.
+Entities should also submit the required information
+simultaneously or concurrently with the transfer itself.
+     For large value pay-outs of more than P500,000 or
+its equivalent in foreign currency, in any single
+transaction with customers or counterparties, enhanced
+due diligence shall- be conducted and said pay-outs shalI
+only be made via check payment or direct credit to
+deposj-t accounts or account to account transfer using
+electronic fund transfer facilities.
+     Notifieation and Repott,ing Requirementg. A VASP
+shal1 comply with the notification and reporting
+requirements as prescribed under Section 901-N.
+     Tn addition, a VASP shaIl maintain records and
+ submit the following reports t,o the appropriate
+ supervising department of the Bangko Sentral:
+        Nature of Report     Frequency         Due Date
+  l-. AFS (audited by an     Annually    Not later than ]-20
+      external- auditor                  cal-endar days af ter
+      included in the List               the cl-ose of the
+                                         reference calendar or
+                                                      Page 7 of 9
+              of Selected External-                               fiscal year subject to
+              Auditors for BSFIs)                                 the provisions under
+                                                                  Section          901-N
+                                                                  (Reports)
+
+          2. Quarterly Report on                   Quarterly     Ten (10) business days
+              Total- Volume and Val-ue                           from end of reference
+              of VCs transacted*                                 guarter
+
+          3. List of operating                     Quarterly     Ten (10) business days
+             offices and websites*                               from end of reference
+                                                                 cfuarcer
+        *Du7y certified by the Proprietor/Managing Partner/ President
+          or any of ficer of equival,ent rank
+             A VASP sha11 ensure that transaction and due
+       diligence records are maint,ained for a period of at least
+       five (5) years and adhere to other guidelines issued by
+       the Bangko Sentral on the maintenance of records.
+            Sanctions. Appropriate monetary penalties,
+       sanctions and other enforcement action/s specified under
+       Section 901-N sha11 be imposed on the VASP, their
+       directors and/or officers for the noted violations.
+      Section 2. Appendices in the MORNBFI that made reference to "Virtual Currency
+Exchanges" are revised as follows:
+
+       Appendix                  Existins Phrase                      New Phrase
+                                                            N-8 Deed of Undertaking on
+                         N-8 Deed of Undertaking on
+                                                            Compliance with the
+                         Compliance with the
+                                                            Requirements on Money
+ N-Regulations - List    Requirements on Money
+                                                            Service Business Operations
+ of Appendices           Service Business Operations
+                                                            and Virtual Curreney
+                         and Virtual Currency
+                                                            gxenang€s Virtual As set
+                         Exchanges
+                                                            Service Providers
+ Appendix N-7
+ (REGTSTRATION                                              (Appendix to Sec. 90l-N on
+ PROCEDURES FOR          (Appendix to Sec. 901-N on         Money Service Business
+ Rrc/Mc/FXD)             Money Service Business             Operations and Sec. 902-N on
+ Appendix N-8 (DEED      Operations and Sec. 902-N on       @
+ oF UNDERTAKTNG)         Virtual Currency Exchanges)        Virtual Asset
+ Appendix N-9 (DEED                                         Service Providers)
+ oF UNDERTAKTNG)
+
+        Section 3. Transitory provisions. Bangko Sentral-registered Virtual Currency
+Exchanges, as well as VASPs currently operating without Bangko Sentral approval, shall
+apply for a Certificate of Authority not later than three (3) months from effectivity of this
+Circular. Upon submission of the application, said entities may continue to operate their
+business unless instructed otherwise.
+
+                                                                                    Page 8 of 9
+       All VASPs must also comply with the applicable requirements prescribed herein
+within six (6) months from effectivity of this Circular. Failure to comply with these
+requirements shall subject the entity to the appropriate enforcement action provided
+under Section 001-N.
+
+        Section 4. Effectivity Clause. This Circular shall take effect fifteen (15) calendar
+days following its publication in the Official Gazette or any newspaper of general
+circulation.
+
+                                                     FOR THE MONETARY BOARD
+
+                                                       BENJAMIN E. DIOKNO
+                                                              Governor
+
+L6 r^nr^ry 2o2L
+
+                                                                                   Page 9 of 9

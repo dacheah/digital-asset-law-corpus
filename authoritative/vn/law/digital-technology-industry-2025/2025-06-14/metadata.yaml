@@ -1,0 +1,54 @@
+corpus_id: vn/law/digital-technology-industry-2025
+version_id: '2025-06-14'
+title: Law on Digital Technology Industry (Luật Công nghiệp công nghệ số), No. 71/2025/QH15
+short_title: Vietnam Law on Digital Technology Industry (71/2025/QH15)
+jurisdiction: VNM
+document_type: law
+official_citation: Luật Công nghiệp công nghệ số, Luật số 71/2025/QH15, Quốc hội thông qua 14 June 2025;
+  Công báo số 965+966, 24 July 2025; có hiệu lực 1 January 2026
+authentic_languages:
+- vi
+adoption_date: '2025-06-14'
+entry_into_force_date: '2026-01-01'
+source_url: https://congbao.chinhphu.vn
+source_publisher: Socialist Republic of Vietnam — Công báo (Official Gazette)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Công báo PDF (No. 965+966)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:c3fe3370f932eb938c61430c0d5e467480ad86e3c03ca132fad78a1b9744f95c
+original_sha256: sha256:d65911c89cedad9cb0948824d742363776b9a39428969200951af089ea217468
+text_sha256: sha256:c3fe3370f932eb938c61430c0d5e467480ad86e3c03ca132fad78a1b9744f95c
+text_fidelity: extracted_verified
+language: vi
+authoritative_status: authentic_text
+license: vn-law-noncopyright
+rights_note: Vietnamese Intellectual Property Law (Law No. 50/2005/QH11 as amended), Art. 15(2), excludes
+  legal normative documents and their official translations from copyright. Clean. Vietnamese is the authentic
+  language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://congbao.chinhphu.vn
+  original_sha256: sha256:d65911c89cedad9cb0948824d742363776b9a39428969200951af089ea217468
+  note: Official Công báo PDF (issue 965+966, 24 July 2025) containing Law No. 71/2025/QH15.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Vietnam''s Law on Digital Technology Industry (No. 71/2025/QH15), the first Vietnamese
+  statute to define and recognise digital assets (tài sản số, Arts 46–48), classifying virtual vs crypto
+  assets and mandating a management framework, with detailed market-structure rules delegated to Government
+  decrees. Vietnamese authentic (Công báo); in force 1 January 2026. Implementing decrees to be added
+  when issued. AUTHORITATIVENESS: authentic_text (framework/definitional). LICENCE: vn-law-noncopyright
+  (IP Law Art. 15(2)). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 31-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 262 blocks; 0 PART/CHAPTER headings; 171
+    numbered units (max 9); 0 Art. units.'

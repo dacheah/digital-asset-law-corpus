@@ -1,0 +1,34 @@
+DLT-Handelssysteme
+
+Art. 73 a  Begriffe
+1 Als DLT-Handelssystem gilt eine gewerbsmässig betriebene Einrichtung zum multilateralen Handel von DLT-Effekten, die den gleichzeitigen Austausch von Angeboten unter mehreren Teilnehmern sowie den Vertragsabschluss nach nichtdiskretionären Regeln bezweckt und mindestens eine der folgenden Voraussetzungen erfüllt: a. Sie lässt Teilnehmer nach Artikel 73 c Absatz 1 Buchstabe e zu. b. Sie verwahrt DLT-Effekten gestützt auf einheitliche Regeln und Verfahren zentral. c. Sie rechnet und wickelt Geschäfte mit DLT-Effekten gestützt auf einheitliche Regeln und Verfahren ab.
+2 Gewerbsmässigkeit ist gegeben, wenn eine selbstständige, auf dauernden Erwerb ausgerichtete wirtschaftliche Tätigkeit vorliegt.
+
+Art. 73 b  Geltung bestimmter für Handelsplätze aufgestellter Anforderungen
+Für DLT-Handelssysteme gelten die Anforderungen an Handelsplätze betreffend: a. die Selbstregulierung (Art. 27); b. die Organisation des Handels (Art. 28); c. die Vor- und Nachhandelstransparenz (Art. 29); d. die Sicherstellung des geordneten Handels (Art. 30); e. die Überwachung des Handels (Art. 31); f. die Zusammenarbeit zwischen Handelsüberwachungsstellen (Art. 32); g. die Einstellung des Handels (Art. 33 Abs. 2); h. die Beschwerdeinstanz (Art. 37).
+
+Art. 73 c  Zulassung von Teilnehmern und deren Pflichten
+1 Als Teilnehmer eines DLT-Handelssystems können zugelassen werden: a. Wertpapierhäuser nach Artikel 41 FINIG SR 954.1 ; b. weitere von der FINMA nach Artikel 3 des FINMAG SR 956.1 Beaufsichtigte sowie von einer ausländischen Behörde Beaufsichtigte, sofern das DLT-Handelssystem sicherstellt, dass sie gleichwertige technische und operative Voraussetzungen erfüllen wie Wertpapierhäuser; c. die SNB; d. die Bank für Internationalen Zahlungsausgleich; e. weitere natürliche und juristische Personen, sofern diese erklären, in eigenem Namen und auf eigene Rechnung teilzunehmen.
+2 Teilnehmer mit Sitz in der Schweiz müssen der FINMA alle Auskünfte erteilen und alle Unterlagen herausgeben, die sie zur Erfüllung ihrer Aufgaben benötigt. Das DLT-Handelssystem muss sicherstellen, dass ihm Teilnehmer mit Sitz im Ausland entsprechende Auskünfte erteilen und Unterlagen herausgeben, wenn die FINMA es anordnet.
+3 Die Bestimmungen über die Aufzeichnungspflicht (Art. 38) und die Meldepflicht (Art. 39) gelten auch für Teilnehmer an einem DLT-Handelssystem. Der Bundesrat kann für Teilnehmer nach Absatz 1 Buchstabe e Ausnahmen vorsehen.
+4 Der Bundesrat regelt die Einzelheiten betreffend die Zulassung sowie die Pflichten und den Ausschluss von Teilnehmern.
+5 Das DLT-Handelssystem erlässt ein Reglement über die Zulassung sowie die Pflichten und den Ausschluss von Teilnehmern und beachtet dabei insbesondere den Grundsatz der Gleichbehandlung.
+6 Es überwacht die Einhaltung des Reglements und ergreift bei Verstössen die vertraglich vorgesehenen Sanktionen.
+
+Art. 73 d  Zulassung von DLT-Effekten und weiteren Vermögenswerten
+1 Das DLT-Handelssystem erlässt ein Reglement über die Zulassung von DLT-Effekten zum Handel und zu seinen weiteren Dienstleistungen. Es legt darin insbesondere fest, welche Anforderungen die DLT-Effekten und die Emittenten oder Dritte im Zusammenhang mit der Zulassung erfüllen müssen. Die Prospektpflicht richtet sich ausschliesslich nach den Artikeln 35–57 des Finanzdienstleistungsgesetzes vom 15. Juni 2018 SR 950.1 .
+2 Ein DLT-Handelssystem, das neben DLT-Effekten weitere Vermögenswerte zum Handel oder zu seinen weiteren Dienstleistungen zulässt, regelt die Zulassung solcher Vermögenswerte in einem Reglement.
+3 Der Bundesrat kann: a. vorsehen, dass DLT-Effekten an DLT-Handelssystemen nur zugelassen werden dürfen, wenn sie bestimmte Mindestanforderungen namentlich hinsichtlich deren Integrität und Publizität erfüllen; b. zum Schutz der Finanzmarktteilnehmerinnen und -teilnehmer, der Stabilität oder der Integrität des Finanzsystems DLT-Effekten und weitere Vermögenswerte bezeichnen, die an DLT-Handelssystemen nicht zugelassen werden dürfen.
+4 Das DLT-Handelssystem überwacht die Einhaltung der Reglemente und ergreift bei Verstössen die vertraglich vorgesehenen Sanktionen.
+
+Art. 73 e  Weitere Anforderungen
+1 Der Bundesrat kann für DLT-Handelssysteme, die Teilnehmern nach Artikel 73 c Absatz 1 Buchstabe e offenstehen, neben den Anforderungen nach den Artikeln 73 b –73 d weitere Anforderungen zum Schutz dieser Teilnehmer festlegen.
+2 Er legt für DLT-Handelssysteme, die Dienstleistungen im Bereich der zentralen Verwahrung, Abrechnung oder Abwicklung anbieten, neben den Anforderungen nach den Artikeln 73 a –73 d weitere Anforderungen fest, namentlich betreffend: a. die zentrale Verwahrung, die Abrechnung und Abwicklung von DLT-Effekten; b. Sicherheiten; c. Eigenmitteln; d. Risikoverteilung; e. Nebendienstleistungen; f. Liquidität; g. Verfahren bei Ausfall eines Teilnehmers; h. Segregierung.
+3 Er orientiert sich bei der Festlegung der Anforderungen nach Absatz 2 an den Anforderungen an Zentralverwahrer (Art. 61–73).
+4 Er kann die FINMA ermächtigen, die Anforderungen nach Absatz 2 aufzustellen, soweit dies erforderlich ist, um technologiespezifischen Risiken Rechnung tragen zu können.
+5 Vorbehalten bleibt die Zuständigkeit der SNB nach Artikel 23 zur Festlegung besonderer Anforderungen an systemisch bedeutsame DLT-Handelssysteme.
+
+Art. 73 f  Erleichterungen für kleine DLT-Handelssysteme
+1 Der Bundesrat kann aus Gründen der Verhältnismässigkeit und unter Berücksichtigung des Schutzzwecks dieses Gesetzes für kleine DLT-Handelssysteme Erleichterungen von den Anforderungen nach den Artikeln 6–21, 27–33 und 37 vorsehen, namentlich von den Bestimmungen über: a. die Trennung der Organe für die Geschäftsführung einerseits und für die Oberleitung, Aufsicht und Kontrolle andererseits (Art. 8); b. die Ausübung von Nebendienstleistungen, die nach den Finanzmarktgesetzen keiner Bewilligung oder Genehmigung bedürfen (Art. 10); c. die Unabhängigkeitsanforderungen an die Selbstregulierungsorganisation (Art. 27 Abs. 2) und die Beschwerdeinstanz (Art. 37 Abs. 1).
+2 Als klein gelten DLT-Handelssysteme, die geringe Risiken für den Schutz der Finanzmarktteilnehmerinnen und -teilnehmer, für die Funktionsfähigkeit und Stabilität des Finanzsystems aufweisen, namentlich weil die Anzahl Teilnehmer, das Handelsvolumen, das Verwahrvolumen oder das Abrechnungs- und Abwicklungsvolumen beschränkt ist. Der Bundesrat legt Schwellenwerte fest.
+3 DLT-Handelssysteme, die Erleichterungen nach diesem Artikel erhalten, sind verpflichtet, dies gegenüber ihren Kundinnen und Kunden offenzulegen. Der Bundesrat regelt die Details.

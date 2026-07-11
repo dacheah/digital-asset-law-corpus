@@ -1,0 +1,117 @@
+corpus_id: ae/law/virtual-assets-dubai-2022
+version_id: '2022-02-28'
+title: قانون رقم (4) لسنة 2022 بشأن تنظيم الأصول الافتراضية في إمارة دبي (Dubai Law No. (4) of 2022 Regulating
+  Virtual Assets in the Emirate of Dubai)
+short_title: Dubai Law No. 4 of 2022 — Regulating Virtual Assets (establishes VARA)
+jurisdiction: ARE
+document_type: law
+official_citation: Law No. (4) of 2022 Regulating Virtual Assets in the Emirate of Dubai — issued 28 February
+  2022 by H.H. the Ruler of Dubai (Mohammed bin Rashid Al Maktoum); published in the Official Gazette
+  of the Government of Dubai, Year 56, Issue 559, 11 March 2022; 28 articles in 4 chapters; establishes
+  the Dubai Virtual Assets Regulatory Authority (VARA); applies in the Emirate of Dubai excluding the
+  DIFC (Art. 3)
+authentic_languages:
+- ar
+adoption_date: '2022-02-28'
+entry_into_force_date: '2022-03-11'
+source_url: https://dlp.dubai.gov.ae/legislation ar reference/2022/قانون رقم (4) لسنة 2022 بشأن تنظيم
+  الأصول الافتراضية.html
+source_publisher: Government of Dubai — Dubai Legislation Portal (dlp.dubai.gov.ae); published in the
+  Official Gazette of the Government of Dubai
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Gazette PDF (byte-exact anchor) + the Dubai Legislation Portal
+  HTML (clean authentic-text source), both from dlp.dubai.gov.ae
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:c127b7f5f0a6fa00d38b15884956d8a75afcef2c6409d2a378e13e51be9c02e9
+original_sha256: sha256:647f47a1d0b32c49d610d211988447bd86673f5a2b89278722aa380f9f7bb2f5
+text_sha256: sha256:c127b7f5f0a6fa00d38b15884956d8a75afcef2c6409d2a378e13e51be9c02e9
+text_fidelity: extracted_verified
+language: ar
+authoritative_status: authentic_text
+license: ae-law-noncopyright
+rights_note: 'Under the UAE Federal Decree-Law No. 38 of 2021 on Copyright and Neighbouring Rights, Article
+  3 excludes OFFICIAL DOCUMENTS — laws, regulations, resolutions and decisions, international conventions,
+  judicial judgments and the like, whatever their source or language — from copyright protection. Law
+  No. 4 of 2022 is a Dubai law (an official document) within Art. 3, so the authentic Arabic text is freely
+  reproducible (as with Japanese/Chinese/Korean/Brazilian/Swiss official texts; JC-028). AUTHENTIC LANGUAGE:
+  Arabic — the corpus''s first Arabic / right-to-left text. The official English translation on the Dubai
+  Legislation Portal is expressly UNOFFICIAL (''for the purpose of its interpretation and application,
+  reference must be made to the original Arabic text. In case of conflict, the Arabic text will prevail'');
+  it is stored in the derived layer as an unofficial translation. SOURCE: the Government of Dubai''s Dubai
+  Legislation Portal (dlp.dubai.gov.ae) and the Official Gazette of the Government of Dubai (Issue 559,
+  11 Mar 2022).'
+capture_history:
+- date: '2026-07-10'
+  source_url: https://dlp.dubai.gov.ae/legislation ar reference/2022/قانون رقم (4) لسنة 2022 بشأن تنظيم
+    الأصول الافتراضية.html
+  original_sha256: sha256:647f47a1d0b32c49d610d211988447bd86673f5a2b89278722aa380f9f7bb2f5
+  note: 'Initial capture from the Government of Dubai''s Dubai Legislation Portal (dlp.dubai.gov.ae):
+    the official Arabic Gazette PDF (SHA-256 recorded as original_sha256; the byte-exact authoritative
+    anchor) and the portal''s server-rendered Arabic HTML (SHA-256 4163fbe222d06cee...; the clean logical-order
+    authentic-text source). The Gazette PDF''s own text layer suffers right-to-left bidi artifacts (LTR
+    numerals/brackets displaced, floating diacritics) in every extraction engine, so text.txt was taken
+    from the HTML (which stores logical order) and cross-checked character-for-character against the PDF.
+    The English translation PDF was also captured (unofficial → derived layer).'
+verification:
+  status: verified
+  method: 'text.txt (the authentic Arabic text) was taken from the Government of Dubai Legislation Portal''s
+    server-rendered HTML (which stores the law in clean Unicode LOGICAL order) and cross-checked character-for-character
+    against the byte-exact official Gazette PDF (original.pdf). (1) WHY HTML, NOT THE PDF TEXT LAYER:
+    the Gazette PDF has a real text layer, but every extraction engine (PyMuPDF, pdftotext, browser copy)
+    renders its right-to-left content with bidi artifacts — LTR numerals/brackets displaced (e.g. ''رقم
+    (4)'' mis-ordered) and floating diacritics — whereas the portal HTML is free of these because HTML
+    stores logical order. (2) COMPLETENESS: with all non-alphanumeric characters removed and case/width
+    folded, text.txt (16,424 alphanumeric characters) matches the byte-exact Gazette PDF body (extracted
+    by an INDEPENDENT engine, PyMuPDF, excluding the repeated Gazette running footer) to within 11 characters
+    (0.07%) — Arabic orthographic-normalisation noise only (hamza/alif and tatweel variants) — so no operative
+    content was added or lost. (3) STRUCTURE: text.txt forms the COMPLETE CONSECUTIVE sequence of 28 articles
+    (المادة (1)–(28)) across 4 chapters (الفصل الأوّل–الرابع), ending in the publication/entry-into-force
+    article (Art. 28), the signature of the Ruler (محمد بن راشد آل مكتوم / حاكم دبي) and the issue date
+    (28 February 2022 / 27 Rajab 1443 H). (4) CROSS-LANGUAGE ALIGNMENT: the record aligns article-for-article
+    with the official English translation (also 28 articles / 4 chapters — the establishment of VARA,
+    the virtual-asset definitions, the permit-required activities, and the DIFC exclusion all correspond),
+    and the English content was independently confirmed against the live Dubai Legislation Portal.'
+  reference: 'Government of Dubai — Dubai Legislation Portal (dlp.dubai.gov.ae): official Arabic Gazette
+    PDF (Official Gazette Issue 559, 11 Mar 2022) + server-rendered Arabic HTML; official English translation.
+    Retrieved 10 July 2026.'
+  verified_by: Project maintainer
+  verified_date: '2026-07-10'
+  note: 'Disclosed processing (legal wording unchanged): text.txt is extracted from the portal HTML with
+    get_text('''') (no separator) so real inter-word spaces are preserved and Word-generated span boundaries
+    do not inject spurious spaces; two decorative ornament glyphs around the enacting words (نحن … آل
+    مكتوم), encoded outside UTF-8 and surfacing as U+FFFD, were dropped as non-textual apparatus; article/chapter
+    breaks were inserted before المادة (N) (sequential 1–28, so a cross-reference to المادة (16) inside
+    Art. 2 is not treated as a heading) and before each الفصل. The byte-exact Gazette PDF (original.pdf)
+    remains the authoritative integrity anchor; the HTML text source is pinned by SHA-256 (4163fbe222d06cee...).
+    Canonical UTF-8/LF.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Law No. (4) of 2022 Regulating Virtual Assets in the Emirate of Dubai — the United Arab
+  Emirates'' flagship virtual-asset market-structure instrument, issued 28 February 2022 by H.H. Sheikh
+  Mohammed bin Rashid Al Maktoum, Ruler of Dubai, and published in the Official Gazette of the Government
+  of Dubai (Year 56, Issue 559, 11 March 2022). It ESTABLISHES the Dubai Virtual Assets Regulatory Authority
+  (VARA) — the world''s first dedicated virtual-asset regulator — and makes virtual-asset activities permit-required.
+  28 ARTICLES in 4 CHAPTERS: Ch. 1 preliminary provisions and definitions (Art. 1–3, incl. the definitions
+  of virtual asset, virtual token, virtual-asset platform, distributed-ledger technology, wallet, and
+  service provider; scope = the Emirate of Dubai excluding the DIFC, Art. 3); Ch. 2 VARA''s regulatory
+  framework — establishment, objectives, competences, board and management (Art. 4–14); Ch. 3 regulating
+  virtual assets — the permit-required activities (operating a virtual-asset platform; exchange services
+  between virtual assets and currencies and between virtual assets; transfer, safekeeping and wallet/administration
+  services; and virtual-token offering and trading), permits, obligations and penalties (Art. 15–23);
+  Ch. 4 final provisions — grievances, delegation, implementing decisions, repeals, publication and entry
+  into force (Art. 24–28). Regulator: VARA. AUTHENTIC LANGUAGE: Arabic (the corpus''s first Arabic / right-to-left
+  branch); the Dubai Legislation Portal''s English is an UNOFFICIAL translation (Arabic prevails) held
+  in derived/. AUTHORITATIVENESS: authentic_text — the official Gazette publication. SOURCE/FORMAT: original.pdf
+  is the official Arabic Gazette PDF (byte-exact anchor); because the PDF''s text layer extracts with
+  right-to-left bidi artifacts, text.txt is the clean authentic Arabic taken from the portal''s server-rendered
+  HTML (logical order) and verified. FIDELITY (see verification block): text.txt is character-complete
+  against the byte-exact Gazette PDF body (alnum delta 11, i.e. Arabic orthographic-normalisation noise
+  only), forms the complete consecutive sequence of 28 articles across 4 chapters, and aligns article-for-article
+  with the official English translation (also 28 articles). WATCH/FOLLOW-UPS (JC-028): VARA''s Virtual
+  Assets and Related Activities Regulations 2023 + rulebooks (the substantive rules), the UAE federal
+  CMA regime and CBUAE stablecoin regulation, and the DIFC/ADGM free-zone frameworks — separate regimes,
+  recorded separately, never merged. LICENCE: ae-law-noncopyright — UAE Federal Decree-Law 38/2021 Art.
+  3 (JC-028). Recorded neutrally, on its own terms (JC-003/JC-005/JC-006).'

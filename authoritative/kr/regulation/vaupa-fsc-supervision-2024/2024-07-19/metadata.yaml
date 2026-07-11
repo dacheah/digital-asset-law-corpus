@@ -1,0 +1,53 @@
+corpus_id: kr/regulation/vaupa-fsc-supervision-2024
+version_id: '2024-07-19'
+title: 가상자산업감독규정 (Regulation on Supervision of Virtual Asset Business)
+short_title: Korea FSC Regulation on Supervision of Virtual Asset Business (Notification 2024-37)
+jurisdiction: KOR
+document_type: administrative rule
+official_citation: 가상자산업감독규정, 금융위원회고시 제2024-37호, 시행 2024-07-19 (FSC Regulation on Supervision of Virtual
+  Asset Business)
+authentic_languages:
+- ko
+adoption_date: '2024-07-19'
+entry_into_force_date: '2024-07-19'
+source_url: https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000244180
+source_publisher: Republic of Korea — Financial Services Commission (via law.go.kr)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official law.go.kr PDF (administrative rule)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:f091cc225218814ea4584330c12ce38e02e52de1af7f7db3a4d8b74a2030f77f
+original_sha256: sha256:12271dd951210ce205b4e9d875a8cf83e04606464876a0780dc7fc84e281437f
+text_sha256: sha256:f091cc225218814ea4584330c12ce38e02e52de1af7f7db3a4d8b74a2030f77f
+text_fidelity: extracted_verified
+language: ko
+authoritative_status: authentic_text
+license: kr-law-noncopyright
+rights_note: Korean Copyright Act, Art. 7, excludes statutes, decrees and official notices from copyright.
+  Clean. Korean is the authentic language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000244180
+  original_sha256: sha256:12271dd951210ce205b4e9d875a8cf83e04606464876a0780dc7fc84e281437f
+  note: Official law.go.kr PDF of the FSC Regulation on Supervision of Virtual Asset Business (Notification
+    No. 2024-37).
+supersedes: null
+superseded_by: null
+related_documents:
+- kr/act/virtual-asset-user-protection-2023
+provenance_note: 'The FSC''s Regulation on Supervision of Virtual Asset Business (Financial Services Commission
+  Notification No. 2024-37), the operational supervisory rulebook under the VAUPA framework. Korean authentic;
+  in force 19 July 2024. Cross-linked to the VAUPA anchor. AUTHORITATIVENESS: authentic_text. LICENCE:
+  kr-law-noncopyright (Copyright Act Art. 7). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 3-page PDF; 1
+    repeating header/footer line-classes removed. Structure: 89 blocks; 0 PART/CHAPTER headings; 25 numbered
+    units (max 9); 0 Art. units.'

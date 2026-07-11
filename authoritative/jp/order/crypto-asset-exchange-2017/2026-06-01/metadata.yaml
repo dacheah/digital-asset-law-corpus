@@ -1,0 +1,52 @@
+corpus_id: jp/order/crypto-asset-exchange-2017
+version_id: '2026-06-01'
+title: 暗号資産交換業者に関する内閣府令 (Cabinet Office Order on Crypto-Asset Exchange Service Providers)
+short_title: Japan Cabinet Office Order on Crypto-Asset Exchange Service Providers (No. 7 of 2017)
+jurisdiction: JPN
+document_type: cabinet office order
+official_citation: 暗号資産交換業者に関する内閣府令 (平成二十九年内閣府令第七号); Cabinet Office Order No. 7 of 2017, current version
+  as at 1 June 2026, under the Payment Services Act
+authentic_languages:
+- ja
+adoption_date: '2017-03-24'
+entry_into_force_date: '2017-04-01'
+source_url: https://laws.e-gov.go.jp/law/429M60000002007
+source_publisher: Government of Japan — e-Gov (Digital Agency), Standard Law data
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official e-Gov law data API (JSON)
+original_format: json
+original_filename: original.json
+content_hash: sha256:94ca81c371a940ff154a0b7272be63c7993bd3c53d998c94ff119ce127e94bee
+original_sha256: sha256:792d5bcb80bbeee6ae6d1f105b978f1efa9445408ad5831a9cf740c88269af52
+text_sha256: sha256:94ca81c371a940ff154a0b7272be63c7993bd3c53d998c94ff119ce127e94bee
+text_fidelity: extracted_verified
+language: ja
+authoritative_status: official_consolidation
+license: jp-law-noncopyright
+rights_note: Japanese Copyright Act, Art. 13, excludes laws, cabinet orders, ministerial ordinances and
+  official notices from copyright. Clean. Japanese is the authentic language; any English is unofficial/derived.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://laws.e-gov.go.jp/law/429M60000002007
+  original_sha256: sha256:792d5bcb80bbeee6ae6d1f105b978f1efa9445408ad5831a9cf740c88269af52
+  note: Official e-Gov Standard Law data (law_full_text) for lawId 429M60000002007, JSON.
+supersedes: null
+superseded_by: null
+related_documents:
+- jp/act/payment-services-2009
+provenance_note: 'The Cabinet Office Order on Crypto-Asset Exchange Service Providers (平成二十九年内閣府令第七号)
+  — the implementing 内閣府令 under the Payment Services Act detailing registration, conduct, segregation
+  and disclosure obligations for crypto-asset exchange service providers. Japanese authentic (e-Gov Standard
+  Law data); current consolidated version as at 1 June 2026. Cross-linked to the Payment Services Act
+  anchor. AUTHORITATIVENESS: official_consolidation. LICENCE: jp-law-noncopyright (Copyright Act Art.
+  13). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the Japanese authentic text extracted deterministically from the official e-Gov
+    Standard Law data (the law_full_text tree served by the e-Gov law-data API), with article/paragraph
+    structure (第N条) preserved. original.json is the byte-exact official API response (the anchor).
+  verified_by: Project maintainer (deterministic extraction from official structured source)
+  verified_date: '2026-07-10'
+  note: Extracted from the official e-Gov structured data;  article structure preserved (第N条 markers).
+    No lossy PDF text-layer step is involved.

@@ -1,0 +1,70 @@
+corpus_id: hk/ordinance/stablecoins-2025
+version_id: 2025-08-01_zh-Hant
+title: Stablecoins Ordinance (Cap. 656)
+short_title: Stablecoins Ordinance (Cap. 656) — Traditional Chinese
+jurisdiction: HKG
+document_type: ordinance
+official_citation: Stablecoins Ordinance (Cap. 656) (Hong Kong); commenced 1 Aug 2025, L.N. 125 of 2025
+authentic_languages:
+- en
+- zh-Hant
+entry_into_force_date: '2025-08-01'
+effective_date: '2025-08-01'
+source_url: https://www.elegislation.gov.hk/hk/cap656
+source_publisher: Hong Kong e-Legislation (Department of Justice, HKSAR)
+source_is_official: true
+retrieval_date: '2026-07-08'
+retrieved_by: Project maintainer — manual download from Hong Kong e-Legislation
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:7b59df48d97fa746f17cd63f531dad72efa6fbec2606711058b67b45315d8146
+original_sha256: sha256:b72d607f525f2a963c9ccc9fb1b1c8a65bdafbc445bad25225a25457d41930c0
+text_sha256: sha256:7b59df48d97fa746f17cd63f531dad72efa6fbec2606711058b67b45315d8146
+text_fidelity: extracted_verified
+language: zh-Hant
+authoritative_status: authentic_text
+license: hk-data-gov-psi
+rights_note: 'Hong Kong Government copyright (Copyright Ordinance, Cap. 528). Reuse RESOLVED (verified
+  2026-07-10): the Department of Justice publishes the full Hong Kong e-Legislation corpus (current and
+  past versions, in English, Traditional Chinese and Simplified Chinese) as official OPEN DATA on data.gov.hk
+  (dataset hk-doj-hkel-legislation-current). The data.gov.hk Terms and Conditions grant a free-of-charge,
+  worldwide licence to browse, download, distribute, reproduce and print the data for BOTH commercial
+  and non-commercial purposes, subject to (a) clear attribution acknowledging the Government''s ownership
+  of the data and (b) an indemnity, the data being provided ''as is''. The authoritative text stored here
+  is the byte-exact HKeL verified copy; the identical DoJ legislation published under the data.gov.hk
+  open terms is the reuse basis. ATTRIBUTION REQUIRED on redistribution. Licence id: hk-data-gov-psi (JC-031).'
+capture_history:
+- date: '2026-07-08'
+  source_url: https://www.elegislation.gov.hk/hk/cap656
+  original_sha256: sha256:b72d607f525f2a963c9ccc9fb1b1c8a65bdafbc445bad25225a25457d41930c0
+  note: 'Initial capture: HKeL PDF, Traditional Chinese current version (Cap. 656), manually downloaded
+    and staged.'
+verification:
+  status: verified
+  method: 'text.txt (Traditional Chinese; HKeL print PDF via pdftotext -layout, margin-column enumerators
+    rejoined to their text) cross-checked: ~100% token-type overlap with the raw extraction; genuine Traditional
+    Chinese forms (e.g. 穩 not 稳); and the English and Traditional Chinese authentic texts are structurally
+    PARALLEL — 269 numbered sections in each. The HKeL print output carries no page apparatus (no running
+    headers/footers/page numbers).'
+  reference: HKeL Cap. 656 (English + Traditional Chinese PDFs)
+  verified_by: Project maintainer
+  verified_date: '2026-07-08'
+  note: 'Disclosed cleaning (wording unchanged): HKeL margin-column labels ((1)/(a)/(i)/section numbers)
+    rejoined to their provision text; whitespace normalized; canonical UTF-8/LF by tooling. Parallel authentic-language
+    sibling under the same corpus_id (JC-013). Licence flagged (JC-012).'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Stablecoins Ordinance (Cap. 656), Hong Kong — the Traditional Chinese AUTHENTIC text
+  (HKeL current version, in force from 1 Aug 2025; L.N. 125 of 2025). Under the Official Languages Ordinance
+  (Cap. 5) and the Basic Law, Hong Kong legislation is enacted in English and Traditional Chinese and
+  BOTH are equally AUTHENTIC — neither is a translation. This record is the Traditional Chinese text;
+  its parallel authentic-language sibling is version 2025-08-01_en (English) of the same corpus_id (JC-013).
+  original.pdf is the HKeL PDF (byte-exact anchor); text.txt is extracted with pdftotext -layout and the
+  HKeL margin-column enumerators ((1)/(a)/(i)/section numbers) rejoined to their text — disclosed cleaning,
+  wording unchanged. CROSS-CHECKED: ~100% token-type overlap with the raw extraction, and the English
+  and Chinese texts are structurally PARALLEL (269 numbered sections in each). AUTHENTICATION: this is
+  the HKeL current-version print output; the specifically stamped ''verified copy'' status is to be confirmed
+  (a provenance upgrade if needed). LICENCE FLAGGED (hkel-terms-to-confirm): captured into the working
+  corpus; public release gated on confirming HKeL/data.gov.hk terms. Opens the Asia track; rehearses the
+  mainland-China (Simplified) challenge. Recorded on its own terms (JC-003/JC-007).'

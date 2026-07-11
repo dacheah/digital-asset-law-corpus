@@ -1,0 +1,53 @@
+corpus_id: jp/order/epi-exchange-2023
+version_id: '2026-06-01'
+title: 電子決済手段等取引業者に関する内閣府令 (Cabinet Office Order on Electronic Payment Instruments Exchange Service Providers)
+short_title: Japan Cabinet Office Order on Electronic Payment Instruments Exchange Service Providers (No.
+  48 of 2023)
+jurisdiction: JPN
+document_type: cabinet office order
+official_citation: 電子決済手段等取引業者に関する内閣府令 (令和五年内閣府令第四十八号); Cabinet Office Order No. 48 of 2023, current version
+  as at 1 June 2026, under the Payment Services Act
+authentic_languages:
+- ja
+adoption_date: '2023-06-01'
+entry_into_force_date: '2023-06-01'
+source_url: https://laws.e-gov.go.jp/law/505M60000002048
+source_publisher: Government of Japan — e-Gov (Digital Agency), Standard Law data
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official e-Gov law data API (JSON)
+original_format: json
+original_filename: original.json
+content_hash: sha256:36b1853607cefb701bd09e11ac6ca55b782dcf4ba83070e72f4a050355ae2c57
+original_sha256: sha256:e55eb67119ae18f494c7e4284ce794f605eef352190ab25ccad69947a2e11bcd
+text_sha256: sha256:36b1853607cefb701bd09e11ac6ca55b782dcf4ba83070e72f4a050355ae2c57
+text_fidelity: extracted_verified
+language: ja
+authoritative_status: official_consolidation
+license: jp-law-noncopyright
+rights_note: Japanese Copyright Act, Art. 13, excludes laws, cabinet orders, ministerial ordinances and
+  official notices from copyright. Clean. Japanese is the authentic language; any English is unofficial/derived.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://laws.e-gov.go.jp/law/505M60000002048
+  original_sha256: sha256:e55eb67119ae18f494c7e4284ce794f605eef352190ab25ccad69947a2e11bcd
+  note: Official e-Gov Standard Law data (law_full_text) for lawId 505M60000002048, JSON.
+supersedes: null
+superseded_by: null
+related_documents:
+- jp/act/payment-services-2009
+provenance_note: 'The Cabinet Office Order on Electronic Payment Instruments Exchange Service Providers
+  (令和五年内閣府令第四十八号) — the implementing 内閣府令 under the Payment Services Act for the stablecoin / ''electronic
+  payment instruments'' regime (registration and conduct of EPI exchange service providers). Japanese
+  authentic (e-Gov Standard Law data); current consolidated version as at 1 June 2026. Cross-linked to
+  the Payment Services Act anchor. AUTHORITATIVENESS: official_consolidation. LICENCE: jp-law-noncopyright
+  (Copyright Act Art. 13). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the Japanese authentic text extracted deterministically from the official e-Gov
+    Standard Law data (the law_full_text tree served by the e-Gov law-data API), with article/paragraph
+    structure (第N条) preserved. original.json is the byte-exact official API response (the anchor).
+  verified_by: Project maintainer (deterministic extraction from official structured source)
+  verified_date: '2026-07-10'
+  note: Extracted from the official e-Gov structured data;  article structure preserved (第N条 markers).
+    No lossy PDF text-layer step is involved.

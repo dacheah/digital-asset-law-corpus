@@ -1,0 +1,57 @@
+corpus_id: li/act/tvtg-2019
+version_id: '2025-02-01'
+title: Gesetz vom 3. Oktober 2019 über Token und VT-Dienstleister (Token- und VT-Dienstleister-Gesetz;
+  TVTG)
+short_title: Liechtenstein Token and TT Service Provider Act (TVTG), consolidated 2025
+jurisdiction: LIE
+document_type: act
+official_citation: Token- und VT-Dienstleister-Gesetz (TVTG) vom 3. Oktober 2019, LGBl. 2019 Nr. 301,
+  LR 950.6; official consolidated version (Stand 1. Februar 2025)
+authentic_languages:
+- de
+adoption_date: '2019-10-03'
+entry_into_force_date: '2020-01-01'
+source_url: https://www.gesetze.li/konso/2019301000
+source_publisher: Fürstentum Liechtenstein — Landesgesetzblatt (Gesetze.li)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Gesetze.li consolidated PDF (LR 950.6, v6)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:8f063e3acfca8e4aeb4b9b115e9951cc3d405346755ccf8bec0cb61fcf542136
+original_sha256: sha256:c57cd029f465ff929e8d5d75e0e3b7dd91f7b630953bec0672eb2fc6774d499c
+text_sha256: sha256:8f063e3acfca8e4aeb4b9b115e9951cc3d405346755ccf8bec0cb61fcf542136
+text_fidelity: extracted_verified
+language: de
+authoritative_status: official_consolidation
+license: li-law-noncopyright
+rights_note: Liechtenstein Copyright Act (URG, LGBl. 1999 Nr. 160) Art. 5(1)(a) excludes official texts
+  (laws, ordinances, official notices) from copyright. Clean. German is the authentic language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.gesetze.li/konso/2019301000
+  original_sha256: sha256:c57cd029f465ff929e8d5d75e0e3b7dd91f7b630953bec0672eb2fc6774d499c
+  note: Official Gesetze.li consolidated PDF of the TVTG (LR 950.6), consolidated version v6 (Stand 1
+    Feb 2025).
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Liechtenstein''s pioneering blockchain law: the Token- und VT-Dienstleister-Gesetz (TVTG,
+  ''Token and Trustworthy Technology Service Provider Act'') of 3 October 2019 (LGBl. 2019 Nr. 301, LR
+  950.6). It creates a civil-law ''token container'' model and a registration regime for TT service providers.
+  German authentic. Captured as the official consolidated version (Stand 1 Feb 2025). Its national token/civil-law
+  core sits alongside, and is not subsumed by, the EU MiCA regime. AUTHORITATIVENESS: official_consolidation.
+  LICENCE: li-law-noncopyright (URG Art. 5). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official Gesetze.li consolidated PDF text (pdftotext -layout), running headers
+    and bare page numbers removed. Completeness cross-checked against an independent pdftotext -raw extraction
+    and the article sequence verified (repealed Art. 29 correctly omitted).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 1231 (1.99%) over a 45-page PDF.
+    Diagnosed: the stored -layout text is a strict subset of -raw (nothing scrambled or duplicated); the
+    difference is the front table-of-contents (Inhaltsübersicht) and the footnote/amendment apparatus,
+    which the two poppler modes position differently — NOT operative text. The 51 operative articles are
+    present and sequential (Art. 1–51); Art. 29 is correctly absent because it was repealed by LGBl. 2024
+    Nr. 42 (recorded in the consolidated footnotes). Structure: 62 Art.-headed blocks incl. sub-articles.'

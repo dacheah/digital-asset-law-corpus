@@ -1,0 +1,54 @@
+corpus_id: th/decree/digital-asset-businesses-2561
+version_id: '2018-05-13'
+title: Emergency Decree on Digital Asset Businesses B.E. 2561 (2018) (พระราชกำหนดการประกอบธุรกิจสินทรัพย์ดิจิทัล
+  พ.ศ. ๒๕๖๑)
+short_title: Thailand Emergency Decree on Digital Asset Businesses B.E. 2561 (2018)
+jurisdiction: THA
+document_type: emergency decree
+official_citation: Emergency Decree on Digital Asset Businesses B.E. 2561, Royal Gazette Vol. 135, Part
+  33 Kor (เล่ม ๑๓๕ ตอนที่ ๓๓ ก), p. 43, 13 May 2018
+authentic_languages:
+- th
+adoption_date: '2018-05-13'
+entry_into_force_date: '2018-05-14'
+source_url: http://www.ratchakitcha.soc.go.th/DATA/PDF/2561/A/033/43.PDF
+source_publisher: Kingdom of Thailand — Royal Gazette (ราชกิจจานุเบกษา)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Royal Gazette PDF
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:48936c2ce8042079bf2713435d222535035f891799ec322fb5d0880d417c205c
+original_sha256: sha256:62c88d2f21efb0c0cc1ec0ead6e13c5d616d60c4b11489396243298694236239
+text_sha256: sha256:48936c2ce8042079bf2713435d222535035f891799ec322fb5d0880d417c205c
+text_fidelity: extracted_verified
+language: th
+authoritative_status: authentic_text
+license: th-law-noncopyright
+rights_note: Thai Copyright Act B.E. 2537, s7, excludes legislation, regulations and official gazette
+  texts from copyright. Clean. Thai is the authentic language; the SEC's English translation is derived/unofficial.
+capture_history:
+- date: '2026-07-10'
+  source_url: http://www.ratchakitcha.soc.go.th/DATA/PDF/2561/A/033/43.PDF
+  original_sha256: sha256:62c88d2f21efb0c0cc1ec0ead6e13c5d616d60c4b11489396243298694236239
+  note: Official Royal Gazette PDF (Vol. 135 Part 33 Kor, p. 43) of the Emergency Decree on Digital Asset
+    Businesses B.E. 2561.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Thailand''s Emergency Decree on Digital Asset Businesses B.E. 2561 (2018) — the licensing/authorisation
+  regime for digital-asset businesses (exchanges, brokers, dealers, ICO portals) supervised by the SEC,
+  defining cryptocurrency and digital tokens. Thai authentic (Royal Gazette); the SEC English is a derived
+  translation. Amendment No. 2 (B.E. 2568/2025, extraterritorial reach) to be added as a dated version.
+  AUTHORITATIVENESS: authentic_text. LICENCE: th-law-noncopyright (Copyright Act s7). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 28-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 134 blocks; 0 PART/CHAPTER headings; 0
+    numbered units (max 0); 0 Art. units.'

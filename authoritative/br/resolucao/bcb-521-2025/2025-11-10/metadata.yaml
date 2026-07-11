@@ -1,0 +1,95 @@
+corpus_id: br/resolucao/bcb-521-2025
+version_id: '2025-11-10'
+title: Resolução BCB nº 521, de 10 de novembro de 2025 (BCB Resolution No. 521 — virtual assets in the
+  foreign-exchange market)
+short_title: Resolução BCB nº 521/2025 — virtual-asset FX integration (Brazil)
+jurisdiction: BRA
+document_type: resolução
+official_citation: Resolução BCB nº 521, de 10 de novembro de 2025 (Banco Central do Brasil, Diretoria
+  Colegiada) — amends Resoluções BCB nº 277, 278 and 279/2022 to include virtual-asset service-provider
+  activities in the foreign-exchange market; in force 2 Feb 2026 (certain provisions 4 May 2026)
+authentic_languages:
+- pt-BR
+adoption_date: '2025-11-10'
+entry_into_force_date: '2026-02-02'
+source_url: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=521
+source_publisher: Banco Central do Brasil (Diretoria Colegiada)
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual capture (browser print-to-PDF) of the official BCB normativo
+  (bcb.gov.br)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:408598532e780fbefbbc6e388dea8e227776b359a85a295d6c136180b9f3acdd
+original_sha256: sha256:cc55742735d0e2383e5c504be05048dd127b1b0d579281b7a5a6c891ac08dd95
+text_sha256: sha256:408598532e780fbefbbc6e388dea8e227776b359a85a295d6c136180b9f3acdd
+text_fidelity: extracted_verified
+language: pt-BR
+authoritative_status: authentic_text
+license: br-law-noncopyright
+rights_note: 'Under the Brazilian Copyright Law (Lei nº 9.610/1998), Article 8, item IV, ''os textos de
+  … leis, decretos, regulamentos … e demais atos oficiais'' are not the subject of copyright protection.
+  A BCB Resolução is a regulamento / ato oficial squarely within Art. 8, IV, so the authentic Portuguese
+  text is freely reproducible (JC-021/023). Source: the official Banco Central do Brasil normativo (bcb.gov.br).
+  Any English rendering is UNOFFICIAL and belongs in the derived layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=521
+  original_sha256: sha256:cc55742735d0e2383e5c504be05048dd127b1b0d579281b7a5a6c891ac08dd95
+  note: 'Initial capture: browser print-to-PDF of the official BCB normativo page for Resolução BCB nº
+    521 (JS-rendered; cookie-consent banner dismissed before printing). original.pdf is the byte-exact
+    print anchor; text.txt is the enacted text extracted from it (browser print header and BCB website
+    footer removed).'
+verification:
+  status: verified
+  method: 'text.txt verified against the raw pdftotext extraction of original.pdf. NO FABRICATION +
+    COMPLETENESS + ORDER: with all whitespace removed, text.txt is an EXACT match (16,909 non-whitespace
+    characters) to the whitespace-stripped captured body — no operative content added, lost, or reordered.
+    This is an AMENDING resolution (6 own articles, Art. 1º–6º, that alter Resoluções 277/278/279 plus two
+    ANEXOs); the provisions it quotes from the amended resolutions — including the CAPÍTULO ÚNICO and art.
+    76-A added to Resolução 277 — carry their own distinct numbering and are preserved IN DOCUMENT ORDER
+    (not folded), so the reading order matches the source exactly. The Brazilian amendment ellipses (……)
+    for unchanged text are retained. Commencement (Art. 6º): 4 May 2026 for the item-I provisions, 2 Feb
+    2026 for the rest. The preamble cites Lei nº 14.478/2022.'
+  reference: Banco Central do Brasil — Resolução BCB nº 521, de 10 de novembro de 2025, retrieved 9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): browser print-to-PDF of the JS-rendered BCB normativo
+    (cookie banner dismissed). Removed as apparatus only: the browser print header line and the BCB
+    website footer. Latin word-boundary wraps rejoined with a single space (no hyphenation); blocks kept
+    in strict document order (quoted amended provisions in place). The two ANEXOs (Anexo I = new Anexo
+    II-A of Res 277; Anexo II = revised "Operações especiais" code table of Anexo V of Res 277) are
+    retained; the code table is captured as flowed text (the label/code columns run together in plain
+    text but no value is lost — confirmed by the exact whitespace-stripped match). Canonical UTF-8/LF by
+    tooling. Authoritative as authentic_text — the official BCB publication, as issued.'
+supersedes: null
+superseded_by: null
+related_documents:
+- br/lei/virtual-assets-framework-2022
+- br/resolucao/bcb-520-2025
+provenance_note: 'Resolução BCB nº 521, de 10 de novembro de 2025 (Banco Central do Brasil) — the FOREIGN-EXCHANGE-INTEGRATION
+  resolution of the Banco Central''s virtual-asset framework under Brazil''s Marco Legal dos Ativos Virtuais
+  (Lei nº 14.478/2022). It is an AMENDING resolution: it alters Resoluções BCB nº 277, 278 and 279, de
+  31 de dezembro de 2022 (which regulate the Brazilian FX Law, Lei nº 14.286/2021) to bring the activities
+  and operations of virtual-asset service providers (PSAVs) into the mercado de câmbio (foreign-exchange
+  market) and to address Brazilian-capital-abroad and foreign-capital-in-country situations; the preamble
+  cites art. 7º, V, of Lei 14.478/2022 and Decreto 11.563/2023. It has 6 own articles (Art. 1º amends
+  Res 277 — adding a CAPÍTULO ÚNICO and art. 76-A on virtual-asset services in the FX market; Art. 2º–3º
+  add/replace Anexos to Res 277; Art. 4º–5º amend Res 278 and 279; Art. 6º sets a PHASED commencement)
+  plus the provisions it quotes from the amended resolutions and two ANEXOs (Anexo I = new Anexo II-A
+  of Res 277, on information to be reported to the BCB; Anexo II = the revised ''Operações especiais''
+  classification-codes table of Anexo V of Res 277). COMMENCEMENT (Art. 6º): 4 May 2026 for the reporting/information
+  provisions listed in item I, and 2 Feb 2026 for the remaining provisions. RELATIONSHIP: companion to
+  Resoluções BCB nº 519 (authorisation) and nº 520 (operating rules), all implementing Lei 14.478/2022.
+  Cross-referenced in related_documents → br/lei/virtual-assets-framework-2022 and br/resolucao/bcb-520-2025.
+  AUTHENTIC LANGUAGE: Portuguese (pt-BR); English unofficial → derived. AUTHORITATIVENESS: authentic_text
+  — the official BCB normativo publication, as issued. SOURCE/FORMAT: captured as a browser print-to-PDF
+  of the JS-rendered BCB page (cookie banner dismissed); original.pdf is the byte-exact anchor; text.txt
+  is the enacted text (title → ementa → preamble → Art. 1º–6º and the provisions they quote from Res 277/278/279
+  → signature → Anexos), preserved in DOCUMENT ORDER — quoted amended provisions (e.g. the CAPÍTULO ÚNICO
+  and art. 76-A added to Res 277) carry their own distinct numbering and are kept in place rather than
+  folded, so the reading order matches the source; the Brazilian amendment convention of showing unchanged
+  text as ''……'' ellipses is retained verbatim. DISCLOSED removal of the browser print header and BCB
+  website footer only; page-width Latin wraps rejoined with a single space; the whitespace-stripped text
+  is an EXACT match to the whitespace-stripped captured body (no operative content added, lost, or reordered).
+  LICENCE: br-law-noncopyright — Lei 9.610/1998 Art. 8, IV (JC-021/023). Recorded on its own terms (JC-003/JC-007/JC-023).'

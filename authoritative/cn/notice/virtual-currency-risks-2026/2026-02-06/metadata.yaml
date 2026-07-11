@@ -1,0 +1,105 @@
+corpus_id: cn/notice/virtual-currency-risks-2026
+version_id: '2026-02-06'
+title: 关于进一步防范和处置虚拟货币等相关风险的通知 (Notice on Further Preventing and Dealing with Virtual Currency and Other
+  Related Risks)
+short_title: 银发〔2026〕42号 / 2026 Virtual Currency & RWA Risks Notice (China)
+jurisdiction: CHN
+document_type: notice
+official_citation: 中国人民银行 国家发展改革委 工业和信息化部 公安部 市场监管总局 金融监管总局 中国证监会 国家外汇局《关于进一步防范和处置虚拟货币等相关风险的通知》（银发〔2026〕42号）—
+  Notice on Further Preventing and Dealing with Virtual Currency and Other Related Risks (People's Bank
+  of China and seven other authorities, PBC Doc. Yin Fa [2026] No. 42), issued 6 Feb 2026
+authentic_languages:
+- zh-Hans
+adoption_date: '2026-02-06'
+entry_into_force_date: '2026-02-06'
+source_url: https://www.pbc.gov.cn/tiaofasi/144941/3581332/2026020619591971323/index.html
+source_publisher: 中国人民银行 (People's Bank of China), Legal Affairs Department (条法司), publishing on behalf
+  of the eight co-issuing authorities
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual capture (browser print-to-PDF) of the official PBoC web publication
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:af50818f7bc349d28c43cefb3691687138ef4dadb96532a57c99268f8f0b2fe4
+original_sha256: sha256:dcfe00765f9ef2f946fb59d9fd7c9f59e481c04664356bbf9738d5e6b257f1e4
+text_sha256: sha256:af50818f7bc349d28c43cefb3691687138ef4dadb96532a57c99268f8f0b2fe4
+text_fidelity: extracted_verified
+language: zh-Hans
+authoritative_status: authentic_text
+license: cn-law-noncopyright
+rights_note: 'Under the Copyright Law of the People''s Republic of China, Article 5(1), the law does not
+  apply to ''laws and regulations, resolutions, decisions and orders of State organs, other documents
+  of a legislative, administrative or judicial nature and the official translations thereof'' (本法不适用于：（一）法律、法规，国家机关的决议、决定、命令和其他具有立法、行政、司法性质的文件，及其官方正式译文).
+  A PBoC-led inter-agency notice (通知) is a normative document of an administrative nature issued by State
+  organs and therefore falls within Art. 5(1); the authentic Chinese text is freely reproducible (analogous
+  to Japan''s Copyright Act Art. 13 and US federal public-domain, reached via the ''official documents''
+  route). Source: the official PBoC publication (pbc.gov.cn). NOTE: any English rendering (including an
+  agency-posted English version) is UNOFFICIAL — only the Chinese original has legal effect — and is kept
+  in the derived layer under its own terms, never in the authoritative layer. Caveat recorded honestly:
+  this rests on the standard characterisation of an agency 通知 as an administrative-nature document under
+  Art. 5(1).'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.pbc.gov.cn/tiaofasi/144941/3581332/2026020619591971323/index.html
+  original_sha256: sha256:dcfe00765f9ef2f946fb59d9fd7c9f59e481c04664356bbf9738d5e6b257f1e4
+  note: 'Initial capture: browser print-to-PDF of the official PBoC web page for the 2026 Notice (银发〔2026〕42号),
+    Legal Affairs Dept (条法司) → 规范性文件. The web page is the official publication medium for PRC normative
+    documents; the page''s PDF metadata title is the full eight-agency notice title. Page-displayed publish
+    time: 2026-02-06 20:40. original.pdf is the print-to-PDF anchor; text.txt is the notice body extracted
+    from it.'
+verification:
+  status: verified
+  method: 'text.txt (the notice body) verified against the raw pdftotext extraction of original.pdf by
+    two checks. (1) NO FABRICATION: every character in text.txt is present in the raw extraction — the
+    set difference is empty (0 characters in text.txt not in the raw PDF text). (2) COMPLETENESS + ORDER:
+    text.txt, with whitespace removed, is an EXACT order-preserving match (4,368 characters both sides)
+    to the raw pdftotext body region — i.e. the slice from the eight-agency title through the signature
+    date, minus only the disclosed webpage chrome. So no operative content was added, lost, or reordered.
+    Structure recovered: 6 articles (一–六) and 19 sub-items （一）–（十九）, the addressees line, the preamble
+    citing the enabling statutes, the effective-and-repeal clause naming 银发〔2021〕237号, the eight-agency
+    signature block, and the date.'
+  reference: PBoC official web publication — 关于进一步防范和处置虚拟货币等相关风险的通知 (银发〔2026〕42号), pbc.gov.cn,
+    retrieved 9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed cleaning (wording unchanged): because original.pdf is a browser print-to-PDF of the
+    official PBoC web page, the extraction removes the surrounding webpage apparatus — the site navigation
+    menu (术语表 / 网站地图 / 货币政策 / 条法司 / 规范性文件 … sidebar and header links), the 字号 大 中 小 font-size
+    widget, the 打印本页 and 关闭窗口 buttons, and the page-displayed publish timestamp (2026-02-06 20:40:00)
+    — none of which is part of the enacted notice. PDF line-wraps within paragraphs are rejoined without
+    added spaces (Chinese); top-level headings (一、…六、), parenthesised sub-items （一）…（十九）, the addressees
+    line, the effective clause, the signature block and the date are each delimited as their own unit;
+    canonical UTF-8/LF by tooling. Authoritative as authentic_text (the PBoC web page is the official
+    publication of the notice).'
+supersedes: cn/notice/virtual-currency-trading-2021
+superseded_by: null
+related_documents: []
+provenance_note: '关于进一步防范和处置虚拟货币等相关风险的通知 (Notice on Further Preventing and Dealing with Virtual Currency
+  and Other Related Risks), PBC Doc. 银发〔2026〕42号 (Yin Fa [2026] No. 42), mainland China — issued 6 Feb
+  2026 by EIGHT authorities: 中国人民银行 (PBoC), 国家发展改革委 (NDRC), 工业和信息化部 (MIIT), 公安部 (MPS), 市场监管总局 (SAMR),
+  金融监管总局 (NFRA), 中国证监会 (CSRC), 国家外汇局 (SAFE). This is mainland China''s Track A market-structure instrument
+  — recorded as a PROHIBITION (China''s regime bans, rather than licenses, digital-asset market activity).
+  It reaffirms that virtual currencies (比特币/以太币/泰达币 etc.) have NO legal-tender status (不具有法偿性) and that
+  virtual-currency business is illegal financial activity (非法金融活动), and it NEWLY (i) bars issuance of
+  RMB-pegged STABLECOINS (稳定币) onshore or offshore without approval and (ii) restricts REAL-WORLD-ASSET
+  (现实世界资产 / RWA) TOKENISATION — addressing stablecoins and RWA that the 2021 notice did not. Structure:
+  6 articles (一 nature of virtual currency/RWA; 二 working mechanisms; 三 risk monitoring incl. the ''mining''
+  挖矿 clampdown and a ban on registering firms with names/scope containing ''虚拟货币''/''稳定币''/''RWA'' etc.;
+  四 strict supervision of domestic entities operating overseas; 五 organisation; 六 legal liability) with
+  19 sub-items （一）–（十九）. SUPERSESSION: it expressly REPEALS the 2021 ten-agency notice — 中国人民银行等十部门《关于进一步防范和处置虚拟货币交易炒作风险的通知》（银发〔2021〕237号）同时废止
+  (recorded in supersedes; the 2021 predecessor is queued for ingest as the superseded record). AUTHENTIC
+  LANGUAGE: Simplified Chinese (zh-Hans) ONLY — mainland''s script, DISTINCT from the Hong Kong records''
+  Traditional Chinese (zh-Hant); different legal system, never conflated. English is unofficial → derived
+  (JC-017), the corpus''s second non-English-authentic branch after Japan. AUTHORITATIVENESS: authentic_text
+  — the PBoC web page is the official publication of the notice, so its text is the authentic text; captured
+  via browser print-to-PDF (the official publication medium for PRC 规范性文件 is the web page, not a separate
+  signed PDF). SOURCE/FORMAT: original.pdf is that print-to-PDF (integrity anchor); text.txt is the notice
+  body (title → addressees → preamble citing the enabling statutes → 6 articles/19 sub-items → effective-and-repeal
+  clause → eight-agency signature → date 2026年2月6日), extracted with DISCLOSED removal of webpage chrome
+  only (the PBoC site navigation menu, the 字号 font-size widget, the 打印本页/关闭窗口 buttons, and the page publish-time
+  stamp) — the extracted body is an EXACT, order-preserving match to the raw pdftotext body minus that
+  chrome (4,368 characters; no operative content added or lost). LICENCE: cn-law-noncopyright — Copyright
+  Law of the PRC Art. 5(1) excludes official administrative documents from copyright (JC-017), so reproduction
+  is unrestricted. Follow-ups queued: the superseded 2021 notice (银发〔2021〕237号); the e-CNY / digital-RMB
+  framework only if a clean legal instrument exists (else watch, JC-005); the 2017 ICO ban. Recorded on
+  its own terms (JC-003/JC-006/JC-007/JC-017).'

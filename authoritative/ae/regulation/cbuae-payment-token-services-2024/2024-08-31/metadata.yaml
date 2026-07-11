@@ -1,0 +1,86 @@
+corpus_id: ae/regulation/cbuae-payment-token-services-2024
+version_id: '2024-08-31'
+title: نظام خدمات رمز الدفع (Payment Token Services Regulation), Circular No. C 2/2024 — Central Bank
+  of the UAE
+short_title: CBUAE Payment Token Services Regulation (C 2/2024)
+jurisdiction: ARE
+document_type: regulation
+official_citation: Payment Token Services Regulation (نظام خدمات رمز الدفع), Central Bank of the UAE Circular
+  No. C 2/2024, effective 31 August 2024 — the UAE federal fiat-backed payment-token (stablecoin) regime;
+  preamble, 8 Parts, 42 articles and an annex; Arabic authentic
+authentic_languages:
+- ar
+adoption_date: '2024-08-31'
+entry_into_force_date: '2024-08-31'
+source_url: https://rulebook.centralbank.ae/ar/rulebook/نظام-خدمات-رمز-الدفع
+source_publisher: Central Bank of the United Arab Emirates (CBUAE) — CBUAE Rulebook
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official CBUAE Rulebook Arabic HTML (clean authentic-text source) +
+  the official bilingual (Arabic/English) CBUAE PDF (byte-exact anchor)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:596e1a1ae92a498368736a1306490ed2055d2c3a711d3964eb613b9b3d6ad740
+original_sha256: sha256:158e0be5ad82aa9524e401df5a88f04a220ab0e2d689ad6da3d42a793bcd7b6d
+text_sha256: sha256:596e1a1ae92a498368736a1306490ed2055d2c3a711d3964eb613b9b3d6ad740
+text_fidelity: extracted_verified
+language: ar
+authoritative_status: authentic_text
+license: ae-law-noncopyright
+rights_note: 'Under the UAE Federal Decree-Law No. 38 of 2021 on Copyright, Article 3 excludes official
+  documents — ''laws, regulations, resolutions and decisions … whatever their source or language'' — from
+  copyright. A CBUAE regulation is an official regulation of a federal authority, within Art. 3, so the
+  authentic Arabic text is freely reproducible (as with the Dubai VA law; JC-028). AUTHENTIC LANGUAGE:
+  Arabic (a UAE federal regulation). The CBUAE also publishes an English text (in the official bilingual
+  PDF); it is a translation → derived layer. SOURCE: the Central Bank of the UAE Rulebook (rulebook.centralbank.ae).'
+capture_history:
+- date: '2026-07-10'
+  source_url: https://rulebook.centralbank.ae/ar/rulebook/نظام-خدمات-رمز-الدفع
+  original_sha256: sha256:158e0be5ad82aa9524e401df5a88f04a220ab0e2d689ad6da3d42a793bcd7b6d
+  note: 'Initial capture from the CBUAE Rulebook (rulebook.centralbank.ae): the official bilingual (Arabic/English)
+    PDF (the byte-exact anchor, original.pdf) and the Rulebook''s Arabic HTML page (SHA-256 recorded below;
+    the clean logical-order authentic-text source). Because the PDF''s Arabic column extracts with right-to-left
+    bidi artifacts, text.txt is taken from the HTML (get_text with element-boundary spacing, correct for
+    this Drupal-rendered page) and cross-checked against the PDF''s Arabic content.'
+verification:
+  status: verified
+  method: 'text.txt (the authentic Arabic text) was taken from the CBUAE Rulebook''s server-rendered HTML
+    (clean Unicode logical order) and cross-checked against the official bilingual (Arabic/English) CBUAE
+    PDF (original.pdf, the byte-exact anchor). WHY HTML: the PDF''s Arabic column extracts with right-to-left
+    bidi artifacts in every engine; the Drupal HTML stores logical order (get_text with element-boundary
+    spacing is correct here — headings and words are separate elements). COMPLETENESS: the Arabic-plus-digit
+    content of text.txt (87,438 characters) matches the Arabic content of the bilingual PDF (87,860; PyMuPDF,
+    independent) to within 422 characters (0.5%) — Arabic orthographic normalisation and the PDF''s repeated
+    page apparatus. STRUCTURE: the complete structure is present and consecutive — the preamble (مقدّمة),
+    8 Parts (الجزء الأول–الثامن), the consecutive sequence of 42 articles (المادة (1)–(42)), and the annex
+    (ملحق); a cross-reference such as ''المادة (74)'' inside another article is not treated as a heading
+    (sequential detection). The CBUAE''s own English text (bilingual PDF) corroborates the article structure.'
+  reference: 'Central Bank of the UAE Rulebook (rulebook.centralbank.ae) — Payment Token Services Regulation
+    C 2/2024: Arabic HTML (SHA-256 55bedef0a014c6f7...) + official bilingual PDF, retrieved 10 Jul 2026'
+  verified_by: Project maintainer
+  verified_date: '2026-07-10'
+  note: 'Disclosed processing (wording unchanged): text.txt extracted from the Rulebook HTML; the official
+    bilingual PDF is the byte-exact anchor. Article/Part/annex breaks inserted before المادة (N) (sequential
+    1–42), before each الجزء heading, and before the annex; the HTML source is SHA-256-pinned (55bedef0a014c6f7...).
+    Canonical UTF-8/LF.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Payment Token Services Regulation (نظام خدمات رمز الدفع), CBUAE Circular No. C 2/2024,
+  effective 31 August 2024 — the United Arab Emirates'' FEDERAL fiat-backed payment-token / stablecoin
+  regime, issued by the Central Bank of the UAE. It sets the rules and conditions for licensing or registration
+  to provide payment-token services — issuance, trading, and custody/transfer of payment tokens — distinguishing
+  Dirham Payment Tokens (AED-denominated; require a CBUAE licence) from Foreign Payment Tokens (non-AED;
+  require CBUAE registration), with prohibitions, licence categories and conditions, licensing procedures,
+  CBUAE authority over licensees, restrictions on payment tokens, and capital requirements. Structure:
+  a preamble (مقدّمة), 8 Parts (الجزء الأول–الثامن), 42 consecutive articles (المادة (1)–(42)) and an
+  annex (ملحق) of application requirements. On-theme with the corpus''s stablecoin coverage (US GENIUS
+  Act; Hong Kong Stablecoins Ordinance). AUTHENTIC LANGUAGE: Arabic (federal); the CBUAE''s English text
+  (in the official bilingual PDF) is a translation → derived. AUTHORITATIVENESS: authentic_text — the
+  official CBUAE publication. SOURCE/FORMAT: original.pdf is the official bilingual CBUAE PDF (byte-exact
+  anchor); because its Arabic column extracts with RTL bidi artifacts, text.txt is the clean authentic
+  Arabic taken from the CBUAE Rulebook''s server-rendered HTML and verified. FIDELITY (see verification
+  block): the Arabic text matches the bilingual PDF''s Arabic content to within 0.5% (Arabic normalisation
+  + PDF page apparatus), and forms the complete structure — preamble, 8 Parts, the consecutive sequence
+  of 42 articles, and the annex. LICENCE: ae-law-noncopyright — UAE Federal Decree-Law 38/2021 Art. 3
+  (JC-028/030). Recorded neutrally (JC-003/JC-005/JC-006).'

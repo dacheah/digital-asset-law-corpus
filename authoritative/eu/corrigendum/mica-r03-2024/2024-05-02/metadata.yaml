@@ -1,0 +1,51 @@
+corpus_id: eu/corrigendum/mica-r03-2024
+version_id: '2024-05-02'
+title: Corrigendum to Regulation (EU) 2023/1114 of the European Parliament and of the Council on markets
+  in crypto-assets (MiCA)
+short_title: MiCA Corrigendum R(03) (OJ L, 2024/90275)
+jurisdiction: EU
+document_type: corrigendum
+official_citation: Corrigendum to Regulation (EU) 2023/1114 (MiCA), OJ L, 2024/90275, 2 May 2024 (CELEX
+  32023R1114R(03))
+authentic_languages:
+- en
+adoption_date: '2024-05-02'
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114R(03)
+source_publisher: European Union — Official Journal (EUR-Lex)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official EUR-Lex OJ PDF
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:4386148ccfa0ab38f2303de0d3a9b7d3b0a799eb5da0257fcacfebf338743911
+original_sha256: sha256:a25d51a0baed6171b279eb25e0ef41c154aa9fc1985e20ca9a3865aa9f22647c
+text_sha256: sha256:4386148ccfa0ab38f2303de0d3a9b7d3b0a799eb5da0257fcacfebf338743911
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: eu-reuse-2011-833
+rights_note: EU Official Journal text — reuse under Commission Decision 2011/833/EU (attribution). Clean.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114R(03)
+  original_sha256: sha256:a25d51a0baed6171b279eb25e0ef41c154aa9fc1985e20ca9a3865aa9f22647c
+  note: Official EUR-Lex OJ PDF of the third corrigendum to MiCA.
+supersedes: null
+superseded_by: null
+related_documents:
+- eu/regulation/mica-2023
+provenance_note: 'The third corrigendum to the Markets in Crypto-Assets Regulation (MiCA, Reg (EU) 2023/1114),
+  published in the OJ on 2 May 2024, correcting the English authentic text (including the Art. 111(1)
+  transitional deadline). English authentic. Cross-linked to the MiCA anchor (eu/regulation/mica-2023)
+  as a dated authentic correction. LICENCE: eu-reuse-2011-833. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 2-page PDF; 0
+    repeating header/footer line-classes removed. Structure: 18 blocks; 0 PART/CHAPTER headings; 4 numbered
+    units (max 4); 0 Art. units.'

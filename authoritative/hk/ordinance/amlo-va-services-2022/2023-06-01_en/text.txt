@@ -1,0 +1,3283 @@
+Part 5B
+
+      Regulation of Activities Involving Virtual Assets
+                                               (Part 5B added 15 of 2022 s. 4)
+
+                       Division 1—Interpretation
+53ZR. Interpretation of Part 5B
+        In this Part—
+        associated entity (有聯繫實體), in relation to a licensed provider,
+             means a company as defined by section 2(1) of the Companies
+             Ordinance (Cap. 622)—
+              (a)   that is a wholly owned subsidiary of the licensed
+                    provider; and
+              (b)   that receives or holds, or is to receive or hold, in Hong
+                    Kong client assets of the licensed provider;
+auditor (核數師) means a certified public accountant (practising) as
+     defined by section 2(1) of the Accounting and Financial
+     Reporting Council Ordinance (Cap. 588);
+client (客户) means a person for whom a licensed provider provides
+      a service that constitutes a VA service;
+client asset ( 客 户 資 產 ) means any client virtual asset or client
+      money;
+client money (客户款項) means any money received or held by or
+      on behalf of a licensed provider or an associated entity of a
+      licensed provider—
+     (a)   that is so received or held on behalf of a client of the
+           licensed provider;
+     (b)   in which a client of the licensed provider has a legal or
+           equitable interest; or
+     (c)   that is any accretion to the money referred to in
+           paragraph (a) or (b), whether as capital or income;
+client virtual asset ( 客 户 虛 擬 資 產 ) means any virtual asset
+      received or held by or on behalf of a licensed provider or an
+      associated entity of a licensed provider—
+     (a)   that is so received or held on behalf of a client of the
+           licensed provider; or
+     (b)   in which a client of the licensed provider has a legal or
+           equitable interest;
+conduct (行為) includes any act or omission, and any series of acts
+    or omissions;
+customer loyalty or reward point (客户酬報或獎賞積分) means
+     any digital representation of value (by whatever name called)
+     that satisfies all of the following conditions—
+     (a)   it is not denominated in any currency;
+     (b)   it is issued as part of a scheme, the dominant purpose of
+           which is to promote the purchase of goods, or the use of
+           services, provided by its issuer or any merchant specified
+           by its issuer;
+     (c)   it is issued to a person on the purchase of goods, or the
+           use of services, provided by its issuer or any merchant
+           specified by its issuer;
+     (d)   it may only be used by the person for the payment or part
+           payment of, or in exchange for, goods or services (or
+           both) provided by its issuer or any merchant specified by
+           its issuer;
+director ( 董 事 ) includes any person occupying the position of
+     director (by whatever name called) and a shadow director;
+executive director ( 執 行 董 事 ), in relation to a licensed provider,
+     means a director of the licensed provider who actively
+     participates in, or is responsible for directly supervising, the
+     business of providing a VA service of the licensed provider;
+futures contract (期貨合約) has the meaning given by section 1 of
+     Part 1 of Schedule 1 to the Securities and Futures Ordinance
+     (Cap. 571);
+hold ( 持 有 ) has the meaning given by section 1 of Part 1 of
+     Schedule 1 to the Securities and Futures Ordinance (Cap.
+     571);
+holding company (控權公司), in relation to a corporation, means
+     any other corporation of which it is a subsidiary;
+information (資訊、資料) includes data, text, images, sound codes,
+     computer programmes, software and databases, and any
+     combination of them;
+in-game asset ( 遊 戲 用 資 產 ) means any digital representation of
+     value that—
+     (a)    is purchased or otherwise acquired by a person;
+     (b)    is not denominated in any currency;
+     (c)    is issued as part of a game; and
+     (d)    may only—
+            (i)    be used by the person to pay or in exchange for
+                   virtual objects or virtual services in the game;
+           (ii)    be used by the person to pay or in exchange for any
+                   similar thing within or in relation to the game; or
+           (iii)   be used by the person to pay or in exchange for any
+                   similar thing that is part of the game;
+interest of the investing public (投資大眾利益) does not include
+      any interest the taking into consideration of which is, or is
+      likely to be, contrary to the public interest;
+licensed person (持牌人) means a licensed provider or a licensed
+     representative;
+licensed provider (持牌提供者) means a corporation that is granted
+     a licence under section 53ZRK;
+licensed representative ( 持 牌 代 表 ) means an individual who is
+     granted a licence under section 53ZRL;
+limited purpose digital token (有限用途數碼代幣) means—
+     (a)    a customer loyalty or reward point;
+     (b)    an in-game asset; or
+     (c)    any digital representation of value that—
+            (i)    is similar to a customer loyalty or reward point or
+                   an in-game asset; and
+           (ii)    is not intended by its issuer to be convertible into
+                   money or another medium of exchange accepted by
+                   the public;
+officer (高級人員)—
+     (a)    in relation to a corporation, means a director, manager or
+            secretary of, or any other person involved in the
+            management of, the corporation; or
+     (b)    in relation to an unincorporated body, means any
+            member of the governing body of the unincorporated
+            body;
+possession ( 管 有 ), in relation to any matter, includes custody,
+     control and power of or over the matter;
+prescribed fee ( 訂 明 費 用 ), in relation to a matter specified in
+     column 2 of Schedule 3C, means the fee specified in column 3
+     of that Schedule opposite the matter;
+principal (主事人), in relation to a licensed representative, means
+     the licensed provider to which the representative is accredited;
+public (公眾、大眾) means the public of Hong Kong, and includes
+     any class of the public;
+regulated function (受規管職能)—see section 53ZRB;
+related corporation (有連繫法團)—see section 53ZRC;
+       responsible officer ( 負 責 人 員 ), in relation to a licensed provider
+            licensed to provide any VA service, means an individual
+            approved by the Commission as a responsible officer of the
+            licensed provider under section 53ZRP in relation to the VA
+            service or a part of the VA service;
+       rules (規則), except in a reference to the Rules of the High Court
+            (Cap. 4 sub. leg. A), means the rules made under section
+            53ZTL;
+       securities ( 證 券 ) has the meaning given by section 1 of Part 1 of
+            Schedule 1 to the Securities and Futures Ordinance (Cap.
+            571);
+       shadow director ( 幕 後 董 事 ) means a person in accordance with
+           whose directions or instructions the directors of a corporation
+           are accustomed or obliged to act, but a person is not to be
+           regarded as a shadow director only because of the fact that the
+           directors act on advice given by the person in a professional
+           capacity;
+       specified manner (指明方式), except in section 53ZSZ or 53ZT or
+            section 15 of Schedule 3G, means the form and way specified
+            by the Commission;
+       specified requirement (指明規定) means—
+            (a)   any provision of this Ordinance;
+            (b)   any provision in any code or guideline published under
+                  any provision of this Ordinance;
+            (c)   any notice, prohibition or requirement given or imposed
+                  under or pursuant to any provision of this Ordinance;
+            (d)   any conditions of licence imposed by the Commission
+                  under or pursuant to any provision of this Ordinance; or
+            (e)   any other condition imposed by the Commission under or
+                  pursuant to any provision of this Ordinance;
+       subsidiary (附屬公司)—see section 53ZRC;
+       ultimate owner (最終擁有人), in relation to a corporation, means
+            an individual who—
+            (a)   owns or controls, directly or indirectly, including through
+                  a trust or bearer share holding, more than 25% of the
+                  issued share capital of the corporation;
+            (b)   is, directly or indirectly, entitled to exercise or control the
+                  exercise of more than 25% of the voting rights at general
+                  meetings of the corporation; or
+            (c)   exercises ultimate control over the management of the
+                  corporation;
+       VA or virtual asset (虛擬資產)—see section 53ZRA;
+       VA service (虛擬資產服務) means any of the services specified in
+            Schedule 3B;
+       wholly owned subsidiary (全資附屬公司)—see section 53ZRC.
+
+53ZR Meaning of VA or virtual asset
+A.
+      (1)   In this Ordinance—
+       VA or virtual asset (虛擬資產), subject to subsection (2), means—
+            (a)   a cryptographically secured digital representation of
+                  value that—
+             (i)    is expressed as a unit of account or a store of
+                    economic value;
+            (ii)    either—
+                    (A)    is used, or is intended to be used, as a medium
+                           of exchange accepted by the public, for any
+                           one or more of the following purposes—
+                            (I)   payment for goods or services;
+                           (II)   discharge of a debt;
+                          (III)   investment; or
+                    (B)    provides rights, eligibility or access to vote on
+                           the    management,          administration      or
+                           governance of the affairs in connection with,
+                           or to vote on any change of the terms of any
+                           arrangement        applicable        to,      any
+                           cryptographically          secured         digital
+                           representation of value;
+            (iii)   can be transferred, stored or traded electronically;
+                    and
+            (iv)    satisfies other characteristics prescribed by the
+                    Commission under subsection (3)(a); or
+      (b)    a digital representation of value prescribed as a virtual
+             asset by notice published under subsection (4)(a).
+(2)   A digital representation of value is excluded from the
+      definition of VA in subsection (1) if—
+      (a)    it—
+             (i)    is—
+                    (A)    issued by a central bank or by an entity that
+                           performs the functions of a central bank or by
+                           an entity authorized by a central bank on its
+                           behalf; or
+                    (B)    issued by a government of a jurisdiction, or by
+                           an entity authorized by the government of a
+                           jurisdiction and acting pursuant to an
+                           authority to issue currency in that jurisdiction;
+            (ii)    is a limited purpose digital token;
+            (iii)   constitutes securities or a futures contract;
+            (iv)    constitutes any float or SVF deposit of a stored
+                    value facility as defined by section 2 of the
+                    Payment Systems and Stored Value Facilities
+                    Ordinance (Cap. 584); or
+             (v)    satisfies other characteristics prescribed by the
+                    Commission under subsection (3)(b); or
+      (b)    it is a digital representation of value prescribed not to be
+             a virtual asset by notice published under subsection (4)
+             (b).
+(3)   The Commission may, by notice published in the Gazette—
+      (a)    prescribe any characteristics necessary for a digital
+             representation of value to be a virtual asset for the
+             purposes of paragraph (a)(iv) of the definition of VA in
+             subsection (1); and
+      (b)    prescribe any characteristics the presence of which
+             precludes a digital representation of value being a VA for
+             the purposes of subsection (2)(a)(v).
+      (4)   The Secretary for Financial Services and the Treasury may, by
+            notice published in the Gazette—
+            (a)   prescribe, either generally or in a particular case, any
+                  digital representation of value to be a VA for the
+                  purposes of paragraph (b) of the definition of VA in
+                  subsection (1); or
+            (b)   prescribe, either generally or in a particular case, any
+                  digital representation of value not to be a VA for the
+                  purposes of subsection (2)(b).
+
+53ZR Meaning of providing VA service and performing regulated
+B.   function
+      (1)   In this Ordinance—
+      regulated function (受規管職能)—
+            (a)   subject to subsections (4)(c) and (7), means any function
+                  performed—
+                  (i)    for or on behalf of or by arrangement with a person
+                         carrying on a business of providing a VA service;
+                         and
+                  (ii)   in relation to the provision of the VA service; but
+            (b)   excludes any work ordinarily            performed    by      an
+                  accountant, clerk or cashier.
+      (2)   In this Ordinance—
+            (a)   a person is to be regarded as providing a VA service if—
+                  (i)    the person carries on a business of providing a VA
+                         service; or
+                  (ii)   the person performs, for or on behalf of or by
+                         arrangement with a person carrying on a business
+                         of providing a VA service, any regulated function in
+                         relation to the provision of the VA service;
+            (b)   a person is to be regarded as providing a VA service on
+                  behalf of a licensed provider if the person performs, for
+                  or on behalf of or by arrangement with the licensed
+                  provider, any regulated function in relation to the
+                  provision of the VA service;
+            (c)   a corporation licensed under section 53ZRK to provide a
+                  VA service is to be regarded as being licensed for that VA
+                  service; and
+            (d)   an individual licensed under section 53ZRL to provide a
+                  VA service on behalf of a licensed provider is to be
+                  regarded as being licensed for that VA service.
+      (3)   Subsection (4) applies if—
+            (a)   a person (subsection (3) person) actively markets to the
+                  public any services that the subsection (3) person
+                  provides or purports to provide (specified services); and
+            (b)   the provision of the specified services, if done in Hong
+                  Kong, would constitute providing a VA service.
+      (4)   For the purposes of this Ordinance—
+            (a)   the subsection (3) person is to be regarded, in relation to
+                  the provision of the specified services, as carrying on a
+                  business of providing that VA service;
+            (b)   the subsection (3) person’s marketing of the specified
+                  services is to be regarded as holding itself, himself or
+                  herself out as carrying on a business of providing that VA
+                  service; and
+            (c)   an individual is to be regarded as performing a regulated
+                  function in relation to the provision of that VA service if
+                  —
+                  (i)    the individual performs a function (function X) in
+                         relation to—
+                         (A)   the subsection (3) person providing, or
+                               purporting to provide, the specified services;
+                               or
+                         (B)   the specified services that the subsection (3)
+                               person provides or purports to provide; and
+                  (ii)   the performance of function X, if done in Hong
+                         Kong in relation to the provision of the VA service,
+                         would constitute performing a regulated function in
+                         relation to the provision of that VA service.
+      (5)   Subsection (4) applies regardless of—
+            (a)   whether the specified services are provided or not;
+            (b)   whether the specified services are marketed by the
+                  subsection (3) person or someone on the subsection (3)
+                  person’s behalf; and
+            (c)   whether the specified services are marketed in Hong
+                  Kong or from a place outside Hong Kong.
+      (6)   Subsection (7) applies if—
+            (a)   a person (subsection (6) person) actively markets to the
+                  public a function (function Y) that the subsection (6)
+                  person performs or purports to perform; and
+            (b)   the performance of function Y, if done in Hong Kong in
+                  relation to a business, carried on by any person, of
+                  providing a VA service would constitute performing a
+                  regulated function in relation to the provision of that VA
+                  service.
+      (7)   For the purposes of this Ordinance—
+            (a)   the performance of function Y by the subsection (6)
+                  person is to be regarded as performing a regulated
+                  function in relation to the provision of a VA service; and
+            (b)   the subsection (6) person’s marketing of function Y is to
+                  be regarded as holding itself, himself or herself out as
+                  performing that regulated function in relation to the
+                  provision of that VA service.
+      (8)   Subsection (7) applies regardless of—
+            (a)   whether function Y is performed or not;
+            (b)   whether function Y is marketed by the subsection (6)
+                  person or someone on the subsection (6) person’s behalf;
+                  and
+            (c)   whether function Y is marketed in Hong Kong or from a
+                  place outside Hong Kong.
+
+53ZR Meaning of related corporation, subsidiary and wholly owned
+C.   subsidiary
+      (1)   This section applies to the construction of a reference to
+            related corporation or subsidiary in this Ordinance.
+(2)   Two or more corporations are related corporations of each
+      other if one of them is—
+      (a)    the holding company of the other;
+      (b)    a subsidiary of the other; or
+      (c)    a subsidiary of the holding company of the other.
+(3)   When an individual—
+      (a)    controls the composition of the board of directors of one
+             or more corporations;
+      (b)    controls more than half of the voting power at general
+             meetings of one or more corporations; or
+      (c)    holds more than half of the issued share capital (which
+             issued share capital, for the purposes of this paragraph,
+             excludes any part of it that carries no right to participate
+             beyond a specified amount on a distribution of either
+             profits or capital) of one or more corporations,
+      each of the corporations referred to in paragraph (a), (b) or (c),
+      and each of their subsidiaries, are related corporations of each
+      other.
+(4)   For the purposes of this Ordinance, a corporation is a
+      subsidiary of another corporation if—
+      (a)    the other corporation—
+             (i)    controls the composition of its board of directors;
+            (ii)    controls more than half of its voting power at
+                    general meetings; or
+            (iii)   holds more than half of its issued share capital
+                    (which issued share capital, for the purposes of this
+                    subparagraph, excludes any part of it that carries no
+                    right to participate beyond a specified amount on a
+                    distribution of either profits or capital); or
+      (b)    it is a subsidiary of a corporation that is the other
+             corporation’s subsidiary.
+(5)   For the purposes of subsection (4), in determining whether a
+      corporation is a subsidiary of another corporation—
+      (a)    any shares held or power exercisable by the other
+             corporation in a fiduciary capacity are to be regarded as
+             not held or exercisable by it;
+      (b)    subject to paragraphs (c) and (d), any shares held or
+             power exercisable as mentioned in any of the following
+             subparagraphs are or is to be regarded as held or
+             exercisable by the other corporation—
+             (i)    the shares are held, or the power is exercisable, by a
+                    nominee for the other corporation (except where the
+                    other corporation is concerned only in a fiduciary
+                    capacity);
+            (ii)    the shares are held, or the power is exercisable, by,
+                    or by a nominee for, a subsidiary of the other
+                    corporation, not being a subsidiary that is
+                    concerned only in a fiduciary capacity;
+      (c)    any shares held or power exercisable by a person under a
+             debenture of the corporation or under a trust deed for
+             securing the issue of the debenture is to be disregarded;
+             and
+             (d)   any shares held or power exercisable by, or by a nominee
+                   for, the other corporation or its subsidiary, not being held
+                   or exercisable as mentioned in paragraph (c), are or is to
+                   be regarded as not held or exercisable by the other
+                   corporation if—
+                   (i)    the ordinary business of the other corporation or its
+                          subsidiary (as the case requires) includes the
+                          lending of money; and
+                   (ii)   the shares are held or power is exercisable by way
+                          of security only for a transaction entered into in the
+                          ordinary course of that business.
+       (6)   A corporation is a wholly owned subsidiary of another
+             corporation if it has only the following as members—
+             (a)   that other corporation;
+             (b)   that other corporation’s nominee;
+             (c)   that other corporation’s wholly owned subsidiary (as
+                   construed in accordance with this section);
+             (d)   such wholly owned subsidiary’s nominee.
+
+Division 2—Restriction on Carrying on Activities Involving
+                     Virtual Assets
+53ZR Licence required for carrying on VA service business
+D.
+       (1)   A person must not—
+             (a)   carry on a business of providing any VA service; or
+             (b)   hold itself, himself or herself out as carrying on a
+                   business of providing any VA service.
+       (2)   Subsection (1) does not apply to a licensed provider for the VA
+             service.
+       (3)   Without affecting subsection (1), a person must not—
+             (a)   perform any regulated function in relation to a business
+                   of providing a VA service; or
+             (b)   hold itself, himself or herself out as performing such
+                   function.
+       (4)   Subsection (3) does not apply to a licensed representative who
+             provides on behalf of his or her principal, a VA service for
+             which the licensed representative is licensed.
+       (5)   A person who, without reasonable excuse, contravenes
+             subsection (1)(a) or (b) commits an offence and is liable—
+             (a)   on conviction on indictment to a fine of $5,000,000 and
+                   to imprisonment for 7 years and, in the case of a
+                   continuing offence, to a further fine of $100,000 for
+                   every day during which the offence continues; or
+             (b)   on summary conviction to a fine of $500,000 and to
+                   imprisonment for 2 years and, in the case of a continuing
+                   offence, to a further fine of $10,000 for every day during
+                   which the offence continues.
+       (6)   A person who, without reasonable excuse, contravenes
+             subsection (3)(a) or (b) commits an offence and is liable—
+             (a)   on conviction on indictment to a fine of $1,000,000 and
+                   to imprisonment for 2 years and, in the case of a
+                   continuing offence, to a further fine of $20,000 for every
+                   day during which the offence continues; or
+             (b)   on summary conviction to a fine at level 6 and to
+                   imprisonment for 6 months and, in the case of a
+                   continuing offence, to a further fine of $2,000 for every
+                   day during which the offence continues.
+
+53ZR Offence to issue advertisements relating to unlicensed person’s
+E.   provision of VA service
+       (1)   A person (subject person) commits an offence if—
+             (a)   the subject person issues, or has in the subject person’s
+                   possession for the purpose of issue—
+                   (i)    an advertisement in which, to the subject person’s
+                          knowledge, a person (advertised person) holds
+                          itself, himself or herself out as being prepared to
+                          provide a VA service; or
+                   (ii)   a document that, to the subject person’s knowledge,
+                          contains such advertisement; and
+             (b)   to the subject person’s knowledge, the advertised person
+                   is not licensed for the VA service as required under this
+                   Part.
+       (2)   A person who commits an offence under subsection (1) is
+             liable on conviction to a fine at level 5 and to imprisonment
+             for 6 months.
+       (3)   A person does not commit an offence under subsection (1)
+             merely because the person issues, or has in the person’s
+             possession for the purpose of issue, any advertisement or
+             document if—
+             (a)   the advertisement or document was so issued, or
+                   possessed for the purpose of issue, in the ordinary course
+                   of a business (whether or not carried on by the person),
+                   the principal purpose of which was receiving and issuing
+                   materials provided by others;
+             (b)   the contents of the advertisement or document were not,
+                   wholly or partly, devised by the person or (if applicable)
+                   a related person of the person; and
+             (c)   for the purposes of the issue, neither the person nor any
+                   related person of the person selects, adds to, modifies or
+                   otherwise exercises control over the contents of the
+                   advertisement or document.
+       (4)   A person (subject person) does not commit an offence under
+             subsection (1) merely because the subject person issues by
+             way of live broadcast, or has in the subject person’s possession
+             for the purpose of issue by way of live broadcast, any
+             advertisement or document if—
+             (a)   the advertisement or document was so issued, or
+                   possessed for the purpose of issue, in the ordinary course
+                   of the business of a broadcaster (whether or not the
+                   subject person was such broadcaster);
+             (b)   the contents of the advertisement or document were not,
+                   wholly or partly, devised by the subject person or (if
+                   applicable) a related person of the subject person;
+             (c)   for the purposes of the issue, neither the subject person
+                   nor any related person of the subject person selects, adds
+                   to, modifies or otherwise exercises control over the
+                   contents of the advertisement or document; and
+      (d)   in relation to the broadcast, the subject person acted, or
+            (if the subject person was not the broadcaster) the subject
+            person believed and had reasonable grounds to believe
+            that the broadcaster acted, in accordance with—
+            (i)    the terms and conditions of the licence (if any) by
+                   which the subject person or the broadcaster became
+                   entitled to broadcast as a broadcaster; and
+            (ii)   any code of practice or guidelines (however
+                   described) that is or are—
+                   (A)   issued   under    or    pursuant    to    the
+                         Telecommunications Ordinance (Cap. 106) or
+                         the Broadcasting Ordinance (Cap. 562); and
+                   (B)   applicable to the subject person or the
+                         broadcaster as a broadcaster.
+(5)   It is a defence to a charge for an offence under subsection (1)
+      for the person charged to prove that the person took all
+      reasonable steps and exercised all due diligence to avoid the
+      commission of the offence with which the person is charged.
+(6)   A person is taken to have established a matter that needs to be
+      established for a defence under subsection (5) if—
+      (a)   there is sufficient evidence to raise an issue with respect
+            to the matter; and
+      (b)   the contrary is not proved by the prosecution beyond
+            reasonable doubt.
+(7)   In this section—
+advertisement ( 廣 告 ) includes every form of advertising, whether
+     made orally or produced mechanically, electronically,
+     optically, manually or by any other means;
+document ( 文 件 ) means any publication (including a newspaper,
+    magazine or journal, a poster or notice, a circular, brochure,
+    pamphlet or handbill, or a prospectus)—
+      (a)   directed at, or the contents of which are likely to be
+            accessed or read (whether concurrently or otherwise) by,
+            the public; and
+      (b)   whether produced mechanically, electronically, optically,
+            manually or by any other means;
+issue ( 發 出 ), in relation to any material (including any
+     advertisement or document), includes publishing, circulating,
+     distributing or otherwise disseminating the material or the
+     contents of the material, whether—
+      (a)   by any visit in person;
+      (b)   in a newspaper, magazine, journal or other publication;
+      (c)   by the display of posters or notices;
+      (d)   by means of circulars, brochures, pamphlets or handbills;
+      (e)   by an exhibition of photographs or cinematograph films;
+      (f)   by way of sound or television broadcasting;
+      (g)   by way of social media;
+      (h)   by any information system or other electronic device; or
+      (i)   by any other means, whether mechanically,
+            electronically, optically, manually or by any other
+            medium, or by way of production or transmission of
+            light, image or sound or any other medium,
+            and also includes causing or authorizing the material to be
+            issued;
+      related person (有關連人士), in relation to a person who issues, or
+            has in the person’s possession for the purpose of issue, any
+            advertisement or document, in the ordinary course of a
+            business carried on by the person (whether or not the business
+            of a broadcaster), means any officer, employee or agent of the
+            person.
+      (8)   For the purposes of this section, an advertisement or document
+            issued by a person on behalf of another is to be regarded as an
+            advertisement or document issued by both persons.
+
+53ZRF Offence involving fraudulent or deceptive devices etc. in
+.     transactions in virtual assets
+      (1)   A person commits an offence if the person, directly or
+            indirectly, in a transaction involving any virtual assets—
+            (a)   employs any device, scheme or artifice with intent to
+                  defraud or deceive; or
+            (b)   engages in any act, practice or course of business that is
+                  fraudulent or deceptive, or would operate as a fraud or
+                  deception.
+      (2)   A person who commits an offence under subsection (1) is
+            liable—
+            (a)   on conviction on indictment to a fine of $10,000,000 and
+                  to imprisonment for 10 years; or
+            (b)   on summary conviction to a fine of $1,000,000 and to
+                  imprisonment for 3 years.
+      (3)   If a person is convicted of an offence under subsection (1), the
+            court before which the person is so convicted may, in addition
+            to any penalty specified in subsection (2), make an order
+            specified in subsection (4) in respect of the person.
+      (4)   The order is an order that, for the period (not exceeding 5
+            years) specified in the order, the person must not directly or
+            indirectly in any way acquire, dispose of or otherwise deal in,
+            in Hong Kong, any virtual assets without the leave of the
+            court.
+      (5)   When making an order in respect of a person under subsection
+            (4), the court may take into account any conduct by the person
+            that previously resulted in the person being convicted of an
+            offence in Hong Kong.
+      (6)   Where the court makes an order under subsection (4), the
+            Commission may notify any licensed provider of the order in
+            any manner that the Commission considers appropriate.
+      (7)   A person who fails to comply with an order made under
+            subsection (4) commits an offence and is liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 2 years; or
+            (b)   on summary conviction to a fine at level 6 and to
+                  imprisonment for 6 months.
+      (8)   For the purposes of this section—
+            (a)   court (法庭) includes a magistrate; and
+            (b)   a reference to a transaction includes an offer and an
+                  invitation (however expressed).
+53ZR Offence to fraudulently or recklessly induce others to invest in
+G.   virtual assets
+       (1)   A person commits an offence if the person makes any
+             fraudulent misrepresentation or reckless misrepresentation for
+             the purpose of inducing another person to enter into, or offer
+             to enter into, an agreement to acquire, dispose of, subscribe for
+             or underwrite any virtual assets.
+       (2)   A person who commits an offence under subsection (1) is
+             liable—
+             (a)   on conviction on indictment to a fine of $1,000,000 and
+                   to imprisonment for 7 years; or
+             (b)   on summary conviction to a fine at level 6 and to
+                   imprisonment for 6 months.
+       (3)   In this section—
+       fraudulent misrepresentation (欺詐的失實陳述) means—
+             (a)   any statement that, at the time when it is made, is to the
+                   knowledge of its maker false, misleading or deceptive;
+             (b)   any promise that, at the time when it is made—
+                   (i)    its maker has no intention of fulfilling; or
+                   (ii)   is to the knowledge of its maker not capable of
+                          being fulfilled;
+             (c)   any forecast that, at the time when it is made, is to the
+                   knowledge of its maker not justified on the facts then
+                   known to its maker;
+             (d)   any statement from which, at the time when it is made,
+                   its maker intentionally omits a material fact, with the
+                   result that the statement is rendered false, misleading or
+                   deceptive; or
+             (e)   any forecast from which, at the time when it is made, its
+                   maker intentionally omits a material fact, with the result
+                   that the forecast is rendered misleading or deceptive;
+       reckless misrepresentation (罔顧實情的失實陳述) means—
+             (a)   any statement that, at the time when it is made, is false,
+                   misleading or deceptive and is made recklessly;
+             (b)   any promise that, at the time when it is made, is not
+                   capable of being fulfilled and is made recklessly;
+             (c)   any forecast that, at the time when it is made, is not
+                   justified on the facts then known to its maker and is
+                   made recklessly;
+             (d)   any statement from which, at the time when it is made,
+                   its maker recklessly omits a material fact, with the result
+                   that the statement is rendered false, misleading or
+                   deceptive; or
+             (e)   any forecast from which, at the time when it is made, its
+                   maker recklessly omits a material fact, with the result
+                   that the forecast is rendered misleading or deceptive.
+
+   Division 3—Register and Application for, and Grant of,
+                 Licences for VA Service
+
+                          Subdivision 1—Register
+53ZR Register of licensed persons
+H.
+       (1)   The Commission must maintain a register of licensed persons
+             in a form it considers appropriate.
+       (2)   The register must contain—
+             (a)    in relation to each licensed person—
+                     (i)   the name and business address of the licensed
+                           person;
+                    (ii)   the conditions of the licence that the Commission
+                           considers appropriate to be contained in the
+                           register, and the effective date of the conditions;
+                   (iii)   the central entity identification number assigned by
+                           the Commission to the licensed person;
+                   (iv)    the date of grant of licence under this Part;
+                    (v)    the VA service for which the licensed person is
+                           licensed and the date from which the licence takes
+                           effect;
+                   (vi)    whether or not the licence is suspended; and
+                   (vii)   particulars of each instance of an exercise of a
+                           power under section 53ZSP or 53ZSQ entered in
+                           accordance with section 53ZTJ;
+             (b)    in the case of a licensed provider—
+                     (i)   the name of each responsible officer;
+                    (ii)   its electronic mail address and website address;
+                   (iii)   its contact details, including contact details of its
+                           complaints officer; and
+                   (iv)    a list of the licensed representatives accredited to it;
+                           and
+             (c)    in the case of a licensed representative—
+                     (i)   the name of his or her principal;
+                    (ii)   whether he or she is approved as a responsible
+                           officer and, if so, the VA service for which he or she
+                           is responsible; and
+                   (iii)   the date of accreditation to his or her principal.
+       (3)   The register may contain any other particulars that the
+             Commission considers appropriate.
+       (4)   The register must be made available for inspection by a
+             member of the public to enable him or her—
+             (a)    to ascertain whether he or she is dealing with a licensed
+                    person; and
+             (b)    to ascertain the particulars of the licence.
+       (5)   A member of the public is entitled, without charge, to inspect
+             the register during normal office hours.
+       (6)   In this section—
+       complaints officer ( 投 訴 主 任 ), in relation to a licensed provider,
+           means a person appointed by the licensed provider to handle
+           complaints made to the licensed provider.
+
+53ZRI Certified copy of register
+.
+       (1)   A person may, on the payment of the prescribed fee, obtain—
+             (a)    a certified copy or an uncertified copy of an entry in, or
+                    extract from, the register maintained under section
+                    53ZRH (register); or
+             (b)    a certificate by the Commission stating that the name of a
+                    person—
+                    (i)    has been entered on the register;
+                   (ii)    has not been entered on the register; or
+                   (iii)   has been removed from the register.
+       (2)   In any criminal or civil proceedings, a document purporting to
+             be a copy of an entry in, or extract from, the register, and
+             purporting to be certified by an authorized officer of the
+             Commission—
+             (a)    is admissible in evidence on production without further
+                    proof; and
+             (b)    is evidence of the facts stated in it.
+       (3)   The fact that the name of a person does not appear on a copy
+             of an entry in, or extract from, the register, purporting to be
+             certified by the Commission is evidence that, at the date on
+             which the copy is purporting to be certified, the person was
+             not a licensed person.
+       (4)   In any criminal or civil proceedings, a certificate purporting to
+             be signed by the Commission, and stating any of the
+             following, is admissible in evidence on production without
+             further proof and is to be conclusive evidence of the facts
+             stated in the certificate—
+             (a)    that the name of a person has been entered on the
+                    register;
+             (b)    that the name of a person has not been entered on the
+                    register;
+             (c)    that the name of a person has been removed from the
+                    register.
+
+                   Subdivision 2—Fit and Proper Test
+
+53ZRJ Fit and proper test
+.
+       (1)   In determining whether a person is a fit and proper person for
+             the purposes of any provision of this Part, the Commission
+             must, in addition to any other matter that the Commission
+             considers relevant, have regard to the following matters—
+             (a)    the financial status or solvency of the person;
+             (b)    the educational or other qualifications, or experience of
+                    the person, especially whether the qualifications or
+                    experience are or is appropriate to the functions that the
+                    person applies to be, or is, licensed or approved to
+                    perform;
+             (c)    the ability of the person to provide the VA service
+                    competently, honestly and fairly;
+             (d)    the reputation, character, reliability and financial
+                    integrity of the person;
+             (e)    whether the person has been convicted of—
+             (i)    an offence under section 5(5), (6), (7) or (8), 10(1),
+                    (3), (5), (6), (7) or (8), 13(1), (3), (5), (6), (7) or (8),
+                    17(9), 20(1), 61(2) or 66(3);
+            (ii)    an offence under section 14 of the United Nations
+                    (Anti-Terrorism Measures) Ordinance (Cap. 575);
+            (iii)   an offence under section 25(1) or 25A(5) or (7) of,
+                    or an offence specified in Schedule 1 to, the Drug
+                    Trafficking (Recovery of Proceeds) Ordinance
+                    (Cap. 405); or
+            (iv)    an offence under section 25(1) or 25A(5) or (7) of,
+                    or an offence specified in Schedule 1 or 2 to, the
+                    Organized and Serious Crimes Ordinance (Cap.
+                    455);
+      (f)    whether the person has a conviction in a place outside
+             Hong Kong—
+             (i)    for an offence in respect of an act that would have
+                    constituted an offence specified in paragraph (e)
+                    had it been done in Hong Kong;
+            (ii)    for an offence relating to money laundering or
+                    terrorist financing; or
+            (iii)   for an offence for which it was necessary to find
+                    that the person had acted fraudulently, corruptly or
+                    dishonestly;
+      (g)    whether the person has failed to comply with a
+             requirement imposed under this Ordinance.
+(2)   Without limiting subsection (1), in determining whether a
+      person is a fit and proper person, for the purposes of any
+      provision of this Part, the Commission may take into account
+      —
+      (a)    a decision made in respect of the person—
+             (i)    by any relevant authority; or
+            (ii)    by a regulator (as defined by section 13A) of a
+                    jurisdiction outside Hong Kong that, in the
+                    Commission’s opinion, performs a function similar
+                    to the functions of the Commission under this
+                    Ordinance or the Securities and Futures Ordinance
+                    (Cap. 571);
+      (b)    any information in the possession of the Commission,
+             whether provided by the person or not, relating to—
+             (i)    any other person who is or is to be employed by, or
+                    associated with, the person for the purpose of
+                    providing a VA service;
+            (ii)    any other person who will be acting for or on behalf
+                    of the person in relation to the provision of a VA
+                    service; or
+            (iii)   where the person is a corporation in a group of
+                    companies—
+                    (A)   any other corporation in the same group of
+                          companies; or
+                    (B)   any ultimate owner or officer of the
+                          corporation or any corporation referred to in
+                          sub-subparagraph (A);
+             (c)    whether the person has established effective internal
+                    control procedures and risk management systems to
+                    ensure the person’s compliance with all applicable
+                    regulatory requirements under any provision of this
+                    Ordinance; and
+             (d)    the state of affairs of any other business that the person
+                    carries on or proposes to carry on.
+       (3)   Where subsections (1) and (2) apply to a person that is a
+             corporation, references to the person in the paragraphs of those
+             subsections include, not only the corporation, but also any
+             officer of the corporation.
+       (4)   Subsection (1)(c) does not apply in determining whether a
+             person, being an ultimate owner of a corporation applying for,
+             or holding, a licence to provide a VA service, is a fit and
+             proper person to be associated with the business of providing
+             the VA service.
+       (5)   In this section—
+       group of companies (公司集團) means any 2 or more corporations
+           one of which is the holding company of the other or others (as
+           the case requires).
+
+                   Subdivision 3—Licensed Provider
+
+53ZR Application for and grant of licence
+K.
+       (1)   The Commission may, on application, grant to the applicant a
+             licence to provide a VA service.
+       (2)   The application must be—
+             (a)    made to the Commission in the specified manner; and
+             (b)    accompanied by the prescribed fee.
+       (3)   The Commission may grant a licence to an applicant only if—
+             (a)    the applicant is a corporation that is—
+                    (i)    a company as defined by section 2(1) of the
+                           Companies Ordinance (Cap. 622); or
+                   (ii)    a registered non-Hong Kong company; and
+                           (Amended 14 of 2025 s. 270)
+             (b)    the Commission is satisfied that—
+                    (i)    the applicant is a fit and proper person to be
+                           licensed for the VA service;
+                   (ii)    not less than 2 persons are applying to be
+                           responsible officers of the applicant and each
+                           person is a fit and proper person to be associated
+                           with the business of providing the VA service;
+                   (iii)   each director of the applicant, not falling within
+                           subparagraph (ii), is a fit and proper person to be
+                           associated with the business of providing the VA
+                           service;
+                   (iv)    if there is an ultimate owner in relation to the
+                           corporation—the ultimate owner is a fit and proper
+                           person to be associated with the business of
+                           providing the VA service; and
+              (v)   an application has been lodged under section
+                    53ZRR for approval of premises to be used by the
+                    applicant for keeping records or documents
+                    required under this Part.
+ (4)   On granting a licence under this section, the Commission may
+       impose any conditions on the licence.
+ (5)   Without limiting subsection (4), the Commission may impose
+       on a licence conditions on—
+       (a)    financial resources;
+       (b)    knowledge and experience;
+       (c)    risk management policies and procedures;
+       (d)    anti-money laundering        and   anti-terrorist   financing
+              policies and procedures;
+       (e)    management of client assets;
+       (f)    soundness of the business;
+       (g)    financial reporting and disclosure;
+       (h)    virtual asset listing and trading policies;
+        (i)   prevention of market manipulation and abusive activities;
+        (j)   avoidance of conflicts of interest;
+       (k)    keeping of accounts and records by licensed providers
+              and their associated entities;
+        (l)   provision of contract notes, receipts, statements of
+              account and notifications by licensed providers and their
+              associated entities;
+       (m)    financial statements and other documents, and the
+              auditor’s report;
+       (n)    business conduct of licensed providers and their licensed
+              representatives;
+       (o)    notification of changes; and
+       (p)    cybersecurity.
+ (6)   Without limiting subsections (4), (5) and (8), it is a condition
+       of a licence granted under this section for providing a VA
+       service that there is at least one responsible officer of the
+       licensed provider who is available at all times to supervise the
+       business of the VA service.
+ (7)   A licensed provider must not, when providing a VA service,
+       use a name other than the name specified in the licence.
+ (8)   In relation to a licence of a person, the Commission may, at
+       any time, if satisfied that it is reasonable to do so in the
+       circumstances—
+       (a)    impose any new conditions;
+       (b)    amend any previously imposed conditions; or
+       (c)    remove any previously imposed conditions.
+ (9)   Section 53ZRS applies in relation to the making of a decision
+       under this section if the decision falls within section
+       53ZRS(1).
+(10)   The imposition, amendment or removal of a condition under
+       subsection (8) takes effect at the time of the service of the
+       notice given under section 53ZRS(3) or at the time specified in
+       the notice, whichever is the later.
+  Subdivision 4—Licensed Representative and Accreditation to
+                         Principal
+
+53ZR Application to be licensed representatives
+L.
+       (1)   The Commission may, on application, grant to an individual a
+             licence to provide a VA service; the effect of such a licence is
+             that the individual licensed may provide the VA service on
+             behalf of a licensed provider of the VA service if the individual
+             is accredited to the licensed provider with approval under
+             section 53ZRM.
+       (2)   The application must be—
+             (a)   made by the individual to the Commission in the
+                   specified manner; and
+             (b)   accompanied by the prescribed fee.
+       (3)   The Commission may grant a licence to provide a VA service
+             under subsection (1) only if the Commission is satisfied that
+             the applicant is a fit and proper person to be so licensed for the
+             VA service.
+       (4)   On granting a licence under this section, the Commission may
+             impose any conditions on the licence.
+       (5)   In relation to the licence of a licensed representative, the
+             Commission may, at any time, if satisfied that it is reasonable
+             to do so in the circumstances—
+             (a)   impose any new conditions;
+             (b)   amend any previously imposed conditions; or
+             (c)   remove any previously imposed conditions.
+       (6)   Section 53ZRS applies in relation to the making of a decision
+             under this section if the decision falls within section
+             53ZRS(1).
+       (7)   The imposition, amendment or removal of a condition under
+             subsection (5) takes effect at the time of the service of the
+             notice given under section 53ZRS(3) or at the time specified in
+             the notice, whichever is the later.
+       (8)   Without limiting subsections (4) and (5), it is a condition of a
+             licence of a licensed representative that the representative
+             must—
+             (a)   at all times keep the Commission informed of particulars
+                   of his or her contact details including, in so far as
+                   applicable, his or her residential address, telephone
+                   number and electronic mail address; and
+             (b)   inform the Commission of any change in the particulars
+                   within 7 business days after the change takes place.
+       (9)   A licensed representative must not, when providing a VA
+             service, use a name other than the name under which the
+             representative is licensed.
+
+53ZR Approval and transfer of accreditation
+M.
+       (1)   The Commission may, on application, approve the
+             accreditation of a licensed representative to a licensed provider
+             and, on the Commission’s approval of the accreditation, the
+             licensed provider becomes the licensed representative’s
+             principal.
+       (2)   The Commission may, on application, approve the transfer of a
+             licensed representative’s accreditation to another licensed
+             provider and, on the Commission’s approval of the transfer,
+             that other licensed provider becomes the licensed
+             representative’s principal.
+       (3)   An application for the purposes of subsection (1) or (2) must
+             be—
+             (a)   made by the licensed representative to the Commission
+                   in the specified manner; and
+             (b)   accompanied by the prescribed fee.
+       (4)   The Commission may approve an accreditation or a transfer of
+             accreditation under this Part only if the Commission is
+             satisfied that the applicant concerned will be competent to
+             carry out his or her duties to the requisite standard as a
+             licensed representative for or on behalf of the licensed
+             provider concerned.
+       (5)   On giving an approval under this section, the Commission
+             may impose any conditions on the licensed representative and
+             the licensed provider concerned.
+       (6)   In relation to an approval under this section, the Commission
+             may, at any time, if satisfied that it is reasonable to do so in the
+             circumstances—
+             (a)   impose any new conditions;
+             (b)   amend any previously imposed conditions; or
+             (c)   remove any previously imposed conditions.
+       (7)   Section 53ZRS applies in relation to the making of a decision
+             under this section if the decision falls within section
+             53ZRS(1).
+       (8)   The imposition, amendment or removal of a condition under
+             subsection (6) takes effect at the time of the service of the
+             notice given under section 53ZRS(3) or at the time specified in
+             the notice, whichever is the later.
+
+         Subdivision 5—Variation of Licensed VA Service
+
+53ZR Variation of licensed VA service
+N.
+       (1)   The Commission may, on application, add to, remove or
+             otherwise vary the VA service for which a licensed provider or
+             licensed representative is licensed.
+       (2)   The application must be—
+             (a)   made by the licensed provider or licensed representative
+                   to the Commission in the specified manner; and
+             (b)   accompanied by the prescribed fee.
+       (3)   If a person applies for adding a VA service, the application is,
+             for the purposes of this Part, to be regarded as an application
+             for a licence in relation to that VA service.
+
+             Division 4—Approvals by Commission
+53ZR Requirements for responsible officers
+O.
+       (1)   A licensed provider must not provide any VA service unless—
+             (a)   every executive director of the licensed provider who is
+                   an individual is approved under section 53ZRP as a
+                   responsible officer of the licensed provider in relation to
+                   the VA service;
+             (b)   not less than 2 individuals, at least one of whom must be
+                   an executive director of the licensed provider, are
+                   approved under section 53ZRP as the responsible officers
+                   of the licensed provider in relation to the VA service; and
+             (c)   at least one responsible officer of the licensed provider
+                   ordinarily resides in Hong Kong.
+       (2)   A licensed provider who, without reasonable excuse,
+             contravenes subsection (1) commits an offence and is liable on
+             conviction to a fine at level 6 and, in the case of a continuing
+             offence, to a further fine of $2,000 for every day during which
+             the offence continues.
+
+53ZRP Approval of responsible officers
+.
+       (1)   The Commission may, on application by a licensed
+             representative in the specified manner and payment of a
+             prescribed fee, approve the applicant as a responsible officer
+             of the licensed provider to which the applicant is accredited.
+       (2)   The Commission must refuse to approve an applicant as a
+             responsible officer of a licensed provider unless the
+             Commission is satisfied that—
+             (a)   the applicant is a fit and proper person to be so approved;
+                   and
+             (b)   the applicant has sufficient authority within the licensed
+                   provider.
+       (3)   On giving approval under this section, the Commission may
+             impose any conditions on the responsible officer and the
+             licensed provider concerned.
+       (4)   In relation to the approval of a person as a responsible officer
+             of a licensed provider, the Commission may, at any time, if
+             satisfied that it is reasonable to do so in the circumstances—
+             (a)   impose any new conditions;
+             (b)   amend any previously imposed conditions; or
+             (c)   remove any previously imposed conditions.
+       (5)   Section 53ZRS applies in relation to the making of a decision
+             under this section if the decision falls within section
+             53ZRS(1).
+       (6)   The approval of an individual as a responsible officer of a
+             licensed provider is deemed to be revoked if the individual—
+             (a)   ceases to act as a licensed representative for or on behalf
+                   of the licensed provider; or
+             (b)   ceases to be accredited to the licensed provider.
+
+53ZR Ultimate ownership
+Q.
+       (1)   A person must not become an ultimate owner of a licensed
+             provider unless the Commission has, on application by the
+             person, given its approval in writing.
+       (2)   The Commission may, on application in the specified manner
+             and payment of a prescribed fee, approve the applicant to
+             become an ultimate owner of a licensed provider.
+      (3)   The Commission may give an approval only if the applicant
+            satisfies the Commission that the licensed provider will remain
+            a fit and proper person to be licensed if the application is
+            approved.
+      (4)   On giving an approval under this section, the Commission
+            may impose any conditions on the applicant and the licensed
+            provider concerned.
+      (5)   In relation to the approval for an ultimate owner of a licensed
+            provider, the Commission may, at any time, if satisfied that it
+            is reasonable to do so in the circumstances—
+            (a)   impose any new conditions;
+            (b)   amend any previously imposed conditions; or
+            (c)   remove any previously imposed conditions.
+      (6)   Section 53ZRS applies in relation to the making of a decision
+            under this section if the decision falls within section
+            53ZRS(1).
+      (7)   The imposition, amendment or removal of a condition under
+            subsection (5) takes effect at the time of the service of the
+            notice given under section 53ZRS(3) or at the time specified in
+            the notice, whichever is the later.
+      (8)   Without limiting subsections (4) and (5), it is a condition of an
+            approval that the approved ultimate owner must—
+            (a)   at all times keep the Commission informed of particulars
+                  of the ultimate owner’s contact details; and
+            (b)   inform the Commission of any change in the particulars
+                  within 7 business days after the change takes place.
+      (9)   A person who, without reasonable excuse, contravenes
+            subsection (1) commits an offence and is liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 2 years, and to a further fine of
+                  $5,000 for every day during which the person continues
+                  to be such ultimate owner without the Commission’s
+                  approval; or
+            (b)   on summary conviction to a fine at level 6 and to
+                  imprisonment for 6 months, and to a further fine of $500
+                  for every day during which the person continues to be
+                  such ultimate owner without the Commission’s approval.
+
+53ZR Premises for keeping records or documents
+R.
+      (1)   A licensed provider must keep records or documents required
+            under any specified requirement only at any premises that are
+            approved by the Commission.
+      (2)   An application to use premises for such purpose must be made
+            to the Commission in the specified manner, and must be
+            accompanied by the prescribed fee.
+      (3)   The Commission may approve an application made in
+            accordance with subsection (2).
+      (4)   The Commission may approve an application only if the
+            Commission is satisfied that the premises are non-domestic
+            premises that are suitable to be used for keeping records or
+            documents required under any specified requirement.
+      (5)   As soon as reasonably practicable after granting an
+            application, the Commission must update the relevant
+            particulars in the register maintained under section 53ZRH.
+      (6)   In this section—
+      non-domestic premises ( 非 住 宅 處 所 ) means any premises other
+          than domestic premises.
+
+ Division 5—Provisions Supplementary to Divisions 3 and 4
+53ZRS Procedural requirements
+.
+      (1)   This section applies in relation to the making of a decision to
+            do any of the following (subsection (1) decision)—
+            (a)   to refuse to grant a licence under section 53ZRK;
+            (b)   to impose a condition on, or amend or remove a
+                  condition of, a licence under section 53ZRK;
+            (c)   to refuse to grant a licence under section 53ZRL;
+            (d)   to impose a condition on, or amend or remove a
+                  condition of, a licence under section 53ZRL;
+            (e)   to refuse to approve an accreditation or transfer of an
+                  accreditation under section 53ZRM;
+            (f)   to impose a condition on, or amend or remove a
+                  condition of, an accreditation or transfer of an
+                  accreditation under section 53ZRM;
+            (g)   to refuse to add, remove or otherwise vary, under section
+                  53ZRN, any VA service for which a licensed provider or
+                  licensed representative is licensed;
+            (h)   to refuse to approve a person as a responsible officer of a
+                  licensed provider under section 53ZRP or to refuse to
+                  approve a person to become an ultimate owner of a
+                  licensed provider under section 53ZRQ;
+            (i)   to impose a condition in approving a person as a
+                  responsible officer of a licensed provider under section
+                  53ZRP or to amend or remove a condition in relation to
+                  the approval of a person as such a responsible officer
+                  under that section;
+            (j)   to impose a condition in approving a person to become
+                  an ultimate owner of a licensed provider under section
+                  53ZRQ or to amend or remove a condition in relation to
+                  the approval of such an ultimate owner under that
+                  section;
+            (k)   to refuse to approve premises under section 53ZRR.
+      (2)   If the Commission forms a preliminary view to make a
+            subsection (1) decision in relation to a person, the Commission
+            must, before making the decision, inform the person of the
+            ground for the preliminary view and give the person a
+            reasonable opportunity to be heard.
+      (3)   When the Commission makes a subsection (1) decision in
+            relation to a person, it must, as soon as reasonably practicable,
+            notify the person of the decision by written notice and the
+            notice must include—
+            (a)   a statement of the reasons for the decision; and
+            (b)   a statement that the person may apply to the Review
+                  Tribunal for a review of the decision.
+                      Division 6—Client Assets
+53ZR Client assets held by licensed providers and their associated
+T.   entities
+       (1)   Client assets of a licensed provider are not liable to be taken in
+             execution against the licensed provider or an associated entity
+             of the licensed provider under an order or process of a court.
+       (2)   Subsection (1) is not to be construed as taking away or
+             affecting a lawful claim or lien that any person has in respect
+             of client assets of a licensed provider (whether received or
+             held by the licensed provider or an associated entity of the
+             licensed provider).
+       (3)   However, the existence of any claim or lien referred to in
+             subsection (2) does not relieve a licensed provider or an
+             associated entity of a licensed provider of the duty to comply
+             with the requirements of any code or guideline published
+             under any provision of this Ordinance that apply to it.
+
+    Division 7—Licensed Persons’ Obligations Regarding
+       Notification, Annual Fees and Annual Returns
+53ZR Notification of change in particulars
+U.
+       (1)   A licensed person or an ultimate owner of a licensed provider
+             must, in the circumstances as prescribed under the specified
+             requirements, notify the Commission in writing of any change,
+             in any information that the licensed person or ultimate owner
+             (as the case requires) has provided to the Commission under
+             this Division or under Division 3 or 4, within 7 business days
+             after the change, together with a full description of the change.
+       (2)   If the information has been provided in connection with an
+             application under this Part and the application has been
+             refused or withdrawn, this section no longer applies in relation
+             to the information.
+       (3)   A person who, without reasonable excuse, contravenes
+             subsection (1) commits an offence and is liable on conviction
+             to a fine at level 5.
+
+53ZR Notification of intended cessation of business etc.
+V.
+       (1)   A licensed person who intends to cease to provide any VA
+             service for which it is licensed must notify the Commission, in
+             writing, as soon as reasonably practicable and in any event not
+             later than 7 business days before the intended cessation.
+       (2)   A licensed provider must notify the Commission, in writing, at
+             least 7 business days in advance if it intends to change the
+             address at which it proposes to provide any VA service.
+       (3)   If a person becomes or ceases to be a director of a licensed
+             provider, both the person and the licensed provider must,
+             within 7 business days after the change, notify the
+             Commission, by written notice, of the name and address of the
+             person and of the nature of the position the person occupies or
+             ceases to occupy.
+       (4)   A person who, without reasonable excuse, contravenes
+             subsection (1), (2) or (3) commits an offence and is liable on
+             conviction to a fine at level 5.
+53ZR Associated entities: notification and restriction on business
+W.
+       (1)   An associated entity of a licensed provider must within 7
+             business days after it becomes, or ceases to be, such an
+             associated entity, notify the Commission, in writing, of that
+             fact and other particulars specified in Schedule 3D.
+       (2)   If there is any change in the particulars required to be provided
+             by an associated entity of a licensed provider under subsection
+             (1), the associated entity must within 7 business days after the
+             change notify the Commission, by written notice, of that fact
+             and provide in the notice particulars of the change.
+       (3)   Unless otherwise authorized in writing by the Commission, an
+             associated entity of a licensed provider must not, at any time
+             after becoming such an entity, conduct any business other than
+             that of receiving or holding client assets of the licensed
+             provider.
+       (4)   If an associated entity of a licensed provider, without
+             reasonable excuse, contravenes subsection (1), (2) or (3), the
+             associated entity commits an offence and is liable—
+             (a)   on conviction on indictment to a fine of $200,000 and to
+                   imprisonment for 2 years; or
+             (b)   on summary conviction to a fine at level 6 and to
+                   imprisonment for 6 months.
+       (5)   If an associated entity of a licensed provider, with intent to
+             defraud, contravenes subsection (1), (2) or (3), the associated
+             entity commits an offence and is liable—
+             (a)   on conviction on indictment to a fine of $1,000,000 and
+                   to imprisonment for 7 years; or
+             (b)   on summary conviction to a fine of $500,000 and to
+                   imprisonment for 1 year.
+       (6)   If an associated entity of a licensed provider becomes aware
+             that it does not comply with subsection (1), (2) or (3), it must
+             within 1 business day after becoming aware of that fact notify
+             the Commission, by written notice, of that fact and of the
+             surrounding circumstances.
+       (7)   If an associated entity of a licensed provider contravenes
+             subsection (6), the associated entity commits an offence and is
+             liable—
+             (a)   on conviction on indictment to a fine of $200,000 and to
+                   imprisonment for 2 years; or
+             (b)   on summary conviction to a fine at level 6 and to
+                   imprisonment for 6 months.
+       (8)   An associated entity of a licensed provider is not excused from
+             complying with subsection (6) only on the ground that to do so
+             might tend to incriminate it.
+       (9)   If a person is required under subsection (6) to notify the
+             Commission of any matter, and the notification might tend to
+             incriminate the person, then the notification is not admissible
+             in evidence against the person in criminal proceedings in a
+             court of law other than the proceedings in which—
+             (a)   the person is charged with an offence under subsection
+                   (7) in respect of the notification; or
+            (b)   the person is charged with an offence under Part V of the
+                  Crimes Ordinance (Cap. 200) in respect of the
+                  notification.
+
+53ZR Licensed representative ceasing             to   act   for   principal:
+X.   consequences and notification
+      (1)   A licensed representative accredited to a licensed provider
+            ceases to be so accredited on the licensed representative
+            ceasing to act for or on behalf of the licensed provider as a
+            licensed representative.
+      (2)   If a licensed representative accredited to a licensed provider
+            ceases to act for or on behalf of the licensed provider as a
+            licensed representative, the licensed provider must, within 7
+            business days after the cessation, notify the Commission of the
+            cessation.
+      (3)   If an individual who is a licensed representative—
+            (a)   ceases to be accredited to a licensed provider; and
+            (b)   has not applied for transfer of the individual’s
+                  accreditation to another licensed provider under this Part
+                  within 180 days after the cessation,
+            the licence granted to the individual to be a licensed
+            representative is deemed to have been revoked on the
+            cessation.
+      (4)   A person who contravenes subsection (2) commits an offence
+            and is liable on conviction to a fine at level 6.
+
+53ZR Annual fee and annual return
+Y.
+      (1)   A licensed person must pay to the Commission a prescribed
+            fee—
+            (a)   within 1 month after each anniversary of the date of grant
+                  of the licence; or
+            (b)   by another date approved by the Commission by written
+                  notice.
+      (2)   In default of full payment of the prescribed fee as required
+            under subsection (1), the person must pay to the Commission
+            an additional sum calculated as follows—
+            (a)   10% of the fee or such part of the fee that remains unpaid
+                  for the first month after the due date for its payment;
+            (b)   20% of the fee or such part of the fee for each subsequent
+                  month when it remains unpaid.
+      (3)   In calculating the additional sum for the purposes of
+            subsection (2), any fraction of a month is treated as a month.
+      (4)   A licensed person must—
+            (a)   submit an annual return to the Commission—
+                  (i)    within 1 month after each anniversary of the date of
+                         grant of the licence; or
+                  (ii)   by another date approved by the Commission by
+                         written notice; and
+            (b)   include in the return the information specified in
+                  Schedule 3E.
+
+ Division 8—Licensed Provider and its Associated Entities
+         Required to Submit Audited Accounts etc.
+53ZR Interpretation of Division 8
+Z.
+       In this Division—
+       auditable entity (須予審計實體) means—
+             (a)   a licensed provider; or
+             (b)   an associated entity of a licensed provider;
+       prescribed auditor (訂明核數師), in relation to an auditable entity,
+            means an auditor appointed under section 53ZS(1) or (3) or
+            53ZSG by the auditable entity;
+       section 53ZSH auditor (第53ZSH條核數師)—see section 53ZSH.
+
+53ZS. Auditable entity to appoint prescribed auditor
+       (1)   A licensed provider must, within 1 month after it becomes
+             licensed, appoint an eligible auditor to perform the functions
+             required of an auditor of the licensed provider under or
+             pursuant to the provisions of this or any other Ordinance.
+       (2)   A licensed provider must, within 7 business days after making
+             an appointment under subsection (1), notify the Commission,
+             by written notice, of the name and address of the auditor.
+       (3)   An associated entity of a licensed provider must, within 1
+             month after the associated entity becomes such an associated
+             entity, appoint an eligible auditor to perform the functions
+             required of an auditor of the associated entity under or
+             pursuant to the provisions of this or any other Ordinance.
+       (4)   An associated entity of a licensed provider must, within 7
+             business days after making an appointment under subsection
+             (3), notify the Commission, by written notice, of the name and
+             address of the auditor.
+       (5)   A person who contravenes subsection (1) or (3) commits an
+             offence and is liable—
+             (a)   on conviction on indictment to a fine of $200,000 and to
+                   imprisonment for 1 year; or
+             (b)   on summary conviction to a fine at level 5 and to
+                   imprisonment for 6 months.
+       (6)   A person who contravenes subsection (2) or (4) commits an
+             offence and is liable on conviction to a fine at level 5.
+       (7)   A reference in subsection (1) or (3) to an eligible auditor is to
+             be construed in accordance with section 53ZSA.
+
+53ZSA Eligibility of auditor for appointment
+.
+       (1)   A person is not eligible for appointment as an auditor of a
+             licensed provider or any of its associated entities if the person
+             —
+             (a)   is an officer or employee of the licensed provider or any
+                   of its associated entities;
+             (b)   is in the employment of an officer or employee described
+                   in paragraph (a); or
+             (c)   belongs to a class of persons prescribed by rules.
+       (2)   Subject to subsection (1), a person is eligible for appointment
+             as an auditor of a licensed provider or any of its associated
+             entities, even if the person is, apart from that appointment,
+             already an auditor appointed by the licensed provider or the
+             associated entity the accounts of which are to be audited,
+             whether for the purposes of the Companies Ordinance (Cap.
+             622) or otherwise.
+
+53ZSB Auditable entity to notify financial year
+.
+       (1)   A licensed provider must, within 1 month after it becomes
+             licensed, notify the Commission, by written notice, of the date
+             on which its financial year ends.
+       (2)   An associated entity of a licensed provider must, within 1
+             month after it becomes such an associated entity, notify the
+             Commission, by written notice, of the date on which the
+             associated entity’s financial year ends.
+       (3)   Except with the approval in writing of the Commission under
+             subsection (5)(a)(i) and subject to any conditions imposed
+             under subsection (5)(b)—
+             (a)   a licensed provider must not alter the date on which its
+                   financial year ends; and
+             (b)   an associated entity of a licensed provider must not alter
+                   the date on which the associated entity’s financial year
+                   ends.
+       (4)   Except with the approval in writing of the Commission under
+             subsection (5)(a)(ii) and subject to any conditions imposed
+             under subsection (5)(b)—
+             (a)   a licensed provider must not adopt a period that exceeds
+                   12 months as its financial year; and
+             (b)   an associated entity of a licensed provider must not adopt
+                   a period that exceeds 12 months as the associated entity’s
+                   financial year.
+       (5)   On an application in writing by an auditable entity, the
+             Commission—
+             (a)   may grant approval in writing in respect of—
+                   (i)    an alteration of the date on which financial year of
+                          the auditable entity ends; or
+                   (ii)   the adoption of a period exceeding 12 months as the
+                          financial year of the auditable entity; and
+             (b)   may impose any conditions that the Commission
+                   considers appropriate on the approval.
+       (6)   A person who contravenes subsection (1), (2), (3) or (4), or a
+             condition imposed pursuant to subsection (5), commits an
+             offence and is liable on conviction to a fine at level 5.
+       (7)   Nothing in this section affects the operation of section 429 of
+             the Companies Ordinance (Cap. 622).
+
+53ZSC Auditable entity to submit audited accounts etc.
+.
+       (1)   An auditable entity must—
+             (a)   prepare prescribed financial statements and other
+                   prescribed documents for prescribed periods; and
+      (b)   submit the financial statements and other documents,
+            together with a report of the prescribed auditor, to the
+            Commission not later than 4 months after the end of the
+            financial year to which they relate.
+(2)   A licensed provider that, in prescribed circumstances, ceases
+      to provide the VA service for which it is licensed to provide,
+      and an associated entity of a licensed provider that ceases to
+      be such an associated entity, must—
+      (a)   prepare prescribed financial statements and other
+            prescribed documents, which must be made up to (and
+            including) the date of the cessation; and
+      (b)   submit the financial statements and other documents,
+            together with a report of the prescribed auditor, to the
+            Commission not later than 4 months after the date of the
+            cessation.
+(3)   Without limiting subsections (1) and (2), the requirements
+      under those subsections relating to the prescribed financial
+      statements and other prescribed documents, and the report of
+      the prescribed auditor, referred to in those subsections include
+      the requirements that—
+      (a)   the prescribed financial statements and other prescribed
+            documents are to relate to prescribed matters and contain
+            prescribed particulars;
+      (b)   the report of the prescribed auditor is to contain
+            prescribed particulars, including a prescribed statement
+            of opinion;
+      (c)   the prescribed financial statements and other prescribed
+            documents, and the report of the prescribed auditor, are
+            to be prepared in accordance with prescribed principles
+            or prescribed bases; and
+      (d)   without limiting section 387 of the Companies Ordinance
+            (Cap. 622), the prescribed financial statements and other
+            prescribed documents are to be signed by a prescribed
+            person.
+(4)   On an application in writing by the auditable entity by which
+      any prescribed financial statements and other prescribed
+      documents, and any report of the prescribed auditor, are
+      required under subsection (1) or (2) to be submitted, the
+      Commission may, if it is satisfied that there are special reasons
+      for so doing, extend the period within which the financial
+      statements and other documents, and the report of the
+      prescribed auditor, are required to be submitted, for the period
+      and subject to the conditions that the Commission considers
+      appropriate.
+(5)   On the Commission granting the extension, subsection (1) or
+      (2) (as the case requires) applies subject to the extension
+      accordingly.
+(6)   A person who, without reasonable excuse, contravenes
+      subsection (1) or (2), or a condition imposed pursuant to
+      subsection (4), commits an offence and is liable—
+      (a)   on conviction on indictment to a fine of $200,000 and to
+            imprisonment for 1 year; or
+      (b)   on summary conviction to a fine at level 5 and to
+            imprisonment for 6 months.
+       (7)   A person who, with intent to defraud, contravenes subsection
+             (1) or (2), or a condition imposed pursuant to subsection (4),
+             commits an offence and is liable—
+             (a)   on conviction on indictment to a fine of $1,000,000 and
+                   to imprisonment for 7 years; or
+             (b)   on summary conviction to a fine of $500,000 and to
+                   imprisonment for 1 year.
+       (8)   A reference in any provision of this section to prescribed
+             (except for a reference to prescribed auditor) means specified
+             in Schedule 3F.
+
+53ZSD Prescribed auditor of auditable entity to report on reportable
+.     matter etc.
+       (1)   This section applies if a person in the course of performing the
+             person’s functions as an auditable entity’s prescribed auditor—
+             (a)   becomes aware of a reportable matter; or
+             (b)   proposes to include any qualification or adverse
+                   statement in any report prepared by the person on the
+                   prescribed financial statements or other prescribed
+                   documents of the auditable entity that are required to be
+                   submitted to the Commission under section 53ZSC.
+       (2)   In the circumstances specified in subsection (1)(a), the person
+             must, as soon as reasonably practicable after the person
+             becomes aware of the reportable matter, lodge with the
+             Commission a written report on the reportable matter.
+       (3)   In the circumstances specified in subsection (1)(b), the person
+             must, as soon as reasonably practicable after the person first
+             proposes the inclusion of the qualification or adverse
+             statement, lodge with the Commission a written report on the
+             qualification or adverse statement.
+       (4)   In this section—
+       reportable matter (須報告事項)—
+             (a)   in relation to a person acting as the prescribed auditor of
+                   a licensed provider, means a matter that, in the person’s
+                   opinion—
+                   (i)    constitutes, on the part of the licensed provider or
+                          any of its associated entities, a failure to comply
+                          with any of the requirements specified by the
+                          Commission for this purpose in the codes or
+                          guidelines published under section 53ZTK; or
+                   (ii)   adversely affects to a material extent the financial
+                          position of the licensed provider or any of its
+                          associated entities; or
+             (b)   in relation to a person acting as the prescribed auditor of
+                   an associated entity of a licensed provider, means a
+                   matter that, in the person’s opinion—
+                   (i)    constitutes, on the part of the associated entity, a
+                          failure to comply with any of the requirements
+                          specified by the Commission for this purpose in the
+                          codes or guidelines published under section
+                          53ZTK; or
+                   (ii)   adversely affects to a material extent the financial
+                          position of the associated entity.
+53ZSE Auditable entity to notify proposed change of prescribed
+.     auditor
+       (1)   An auditable entity must notify the Commission in accordance
+             with subsection (2), within the specified period, if any of the
+             following circumstances (each a notifiable circumstance)
+             occurs in relation to a person who is its prescribed auditor
+             (incumbent)—
+             (a)   the auditable entity gives notice to its members of a
+                   motion, to be moved at its general meeting—
+                   (i)    to remove the incumbent as its prescribed auditor
+                          before the expiry of the incumbent’s term of office;
+                          or
+                   (ii)   to replace the incumbent with another person as its
+                          prescribed auditor on the expiry of the incumbent’s
+                          term of office or not to reappoint the incumbent on
+                          the expiry;
+             (b)   the incumbent ceases to be the auditable entity’s
+                   prescribed auditor before the expiry of the incumbent’s
+                   term of office, otherwise than in consequence of a
+                   motion referred to in paragraph (a).
+       (2)   The notification must be given by written notice and must
+             state the particulars of the notifiable circumstance.
+       (3)   The specified period mentioned in subsection (1) is 1 business
+             day after the notifiable circumstance occurs.
+       (4)   A person who contravenes subsection (1) commits an offence
+             and is liable on conviction to a fine at level 5.
+
+53ZSF. Prescribed auditor to notify resignation
+       (1)   A person appointed as an auditable entity’s prescribed auditor
+             must, within the specified period, notify the Commission by
+             written notice, giving the specified information, if any of the
+             following circumstances (each a specified change) occurs—
+             (a)   the person resigns as such auditor before the expiry of
+                   the person’s term of office as such auditor;
+             (b)   the person does not seek reappointment as such auditor at
+                   the expiry of the person’s term of office as such auditor;
+             (c)   the person otherwise ceases to be such auditor.
+       (2)   In relation to a specified change—
+             (a)   the specified period is 1 business day after the change
+                   occurs; and
+             (b)   the specified information is—
+                   (i)    the fact of the change and the reasons for the
+                          change; and
+                   (ii)   particulars of any connected circumstances that the
+                          person considers should be brought to the attention
+                          of the Commission or, where no such circumstances
+                          exist, a statement to that effect.
+
+53ZSG Vacant office of prescribed auditor must be filled
+.
+       (1)   An auditable entity must appoint an eligible auditor to be its
+             prescribed auditor, within the specified period, if the office of
+             its prescribed auditor becomes vacant.
+       (2)   The specified period in subsection (1) means 1 month after the
+             day on which the office of the prescribed auditor of the
+             auditable entity becomes vacant.
+       (3)   A person who contravenes subsection (1) commits an offence
+             and is liable—
+             (a)   on conviction on indictment to a fine of $200,000 and to
+                   imprisonment for 1 year; or
+             (b)   on summary conviction to a fine at level 5 and to
+                   imprisonment for 6 months.
+       (4)   A reference in subsection (1) to an eligible auditor is to be
+             construed in accordance with section 53ZSA.
+
+53ZSH Power of Commission to appoint auditor for auditable entity
+.
+       (1)   The Commission may appoint an auditor (section 53ZSH
+             auditor) to examine and audit, generally or in respect of any
+             particular matters, the accounts and records of a licensed
+             provider (subject provider), or any of its associated entities,
+             and report to the Commission on any matters that the
+             Commission directs if—
+             (a)   the Commission has reasonable cause to believe that the
+                   subject provider, or any of its associated entities, has
+                   failed to comply with any specified requirement; or
+             (b)   the Commission received a written report lodged under
+                   section 53ZSD by a prescribed auditor of the subject
+                   provider, or any of its associated entities, in relation to a
+                   reportable matter or a qualification or adverse statement.
+       (2)   A section 53ZSH auditor may examine any client assets of the
+             subject provider received or held by the subject provider or
+             any of its associated entities.
+       (3)   Subject to subsection (4), if a section 53ZSH auditor has
+             examined and audited the accounts and records of the subject
+             provider or any of its associated entities—
+             (a)   the Commission may give, to the subject provider, a
+                   direction to pay for the costs or expenses for the
+                   examination and audit; and
+             (b)   the subject provider is liable to pay, within the period and
+                   in the manner specified in the direction, the amount
+                   specified in the direction as the costs or expenses for the
+                   examination and audit.
+       (4)   The Commission must give the subject provider a reasonable
+             opportunity of being heard before giving a direction to pay any
+             costs or expenses.
+       (5)   The Commission may recover, from the subject provider, the
+             amount specified in the direction as a civil debt due to it if the
+             subject provider fails to comply with the direction.
+
+53ZSI. Powers of section 53ZSH auditors
+       (1)   This section applies to a section 53ZSH auditor appointed in
+             relation to a licensed provider (subject provider) or any of its
+             associated entities to examine and audit the accounts and
+             records of the subject provider or the associated entity.
+(2)   For the purpose of carrying out the examination and audit, the
+      section 53ZSH auditor may do any act or thing referred to in
+      subsection (3), in addition to any other action that the section
+      53ZSH auditor may reasonably take for that purpose.
+(3)   The section 53ZSH auditor may—
+      (a)    examine on oath or otherwise—
+             (i)    any officer, employee and agent of any of the
+                    following (each a covered person)—
+                    (A)   the subject provider;
+                    (B)   an associated entity of the subject provider;
+                    (C)   subject to subsection (6), a specified related
+                          corporation;
+            (ii)    for each covered person that is an auditable entity, a
+                    prescribed auditor of the covered person; and
+            (iii)   subject to subsection (6), an auditor of a specified
+                    related corporation,
+             in respect of any matter relating to a covered business or
+             to any covered client assets and, for that purpose,
+             administer oaths accordingly;
+      (b)    require any officer, employee and agent of a covered
+             person to—
+             (i)    produce any accounts and records concerning any
+                    matter relating to a covered business or to any
+                    covered client assets; and
+            (ii)    explain the contents of the accounts and records so
+                    produced;
+      (c)    require any prescribed auditor of a covered person who is
+             an auditable entity, or any auditor of a covered person
+             who is a specified related corporation, to—
+             (i)    produce any accounts and records held by the
+                    prescribed auditor or auditor concerning any matter
+                    relating to a covered business or to any covered
+                    client assets; and
+            (ii)    explain the contents of the accounts and records so
+                    produced;
+      (d)    require any person receiving or holding covered client
+             assets on behalf of the subject provider or any of its
+             associated entities, or, subject to subsection (6), any
+             person receiving or holding covered client assets on
+             behalf of a specified related corporation, to—
+             (i)    produce any accounts and records kept by the
+                    person, or information in the person’s possession,
+                    concerning any matter relating to the covered client
+                    assets; and
+            (ii)    explain the contents of the accounts and records,
+                    and the information, so produced;
+      (e)    employ any person the section 53ZSH auditor considers
+             necessary to assist the section 53ZSH auditor in carrying
+             out the examination and audit that the section 53ZSH
+             auditor is appointed to carry out; and
+            (f)    for the purpose of carrying out the examination and audit
+                   that the section 53ZSH auditor is appointed to carry out,
+                   authorize in writing any person employed by the section
+                   53ZSH auditor to do any act or thing referred to in
+                   paragraph (b), (c), (d) or (e).
+      (4)   In this section—
+            (a)    specified related corporation (指明有連繫法團) means
+                   —
+                   (i)    a related corporation of the subject provider; or
+                  (ii)    a related corporation of an associated entity of the
+                          subject provider;
+            (b)    covered business (受涵蓋業務)—
+                   (i)    means the business carried on by the subject
+                          provider or any of its associated entities;
+                  (ii)    subject to subsection (6), includes any other
+                          business carried on by the subject provider in
+                          conjunction with any VA service and any business
+                          of any of its associated entities; and
+                  (iii)   subject to subsection (6), includes any business
+                          carried on by a specified related corporation;
+            (c)    covered client assets ( 受 涵 蓋 客 户 資 產 ) means client
+                   assets of the subject provider—
+                   (i)    held or received by the subject provider;
+                  (ii)    held or received by any of the subject provider’s
+                          associated entities; or
+                  (iii)   subject to subsection (6), held or received by any
+                          person on behalf of a specified related corporation.
+      (5)   A reference to an auditor, in relation to a specified related
+            corporation, means any auditor appointed, under this
+            Ordinance or otherwise, by the specified related corporation.
+      (6)   Subsections (3)(a)(i)(C) and (iii) and (d) and (4)(b)(ii) and (iii)
+            and (c)(iii) apply if the section 53ZSH auditor, or a person
+            authorized under subsection (3)(f), reasonably considers the
+            application of those provisions is necessary for the purpose of
+            carrying out the examination and audit of the accounts and
+            records of the subject provider or any of its associated entities.
+
+53ZSJ. Offences for non-compliance with section 53ZSH auditor’s
+       requirement
+      (1)   A person commits an offence if the person, without reasonable
+            excuse, fails to comply with any requirement imposed on the
+            person (including the requirement to answer any question put
+            to the person) under section 53ZSI.
+      (2)   A person who commits an offence under subsection (1) is
+            liable—
+            (a)    on conviction on indictment to a fine of $200,000 and to
+                   imprisonment for 1 year; or
+            (b)    on summary conviction to a fine at level 5 and to
+                   imprisonment for 6 months.
+      (3)   A person commits an offence if the person—
+            (a)   in purported compliance with a requirement imposed on
+                  the person (including the requirement to answer any
+                  question put to the person) under section 53ZSI,
+                  produces any accounts or records or gives an answer that
+                  is false or misleading in a material particular; and
+            (b)   knows that, or is reckless as to whether, the accounts or
+                  records or the answer is false or misleading in a material
+                  particular.
+      (4)   A person who commits an offence under subsection (3) is
+            liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 2 years; or
+            (b)   on summary conviction to a fine at level 6 and to
+                  imprisonment for 6 months.
+      (5)   A person commits an offence if the person, with intent to
+            defraud—
+            (a)   fails to comply with any requirement imposed on the
+                  person (including the requirement to answer any question
+                  put to the person) under section 53ZSI; or
+            (b)   in purported compliance with a requirement imposed on
+                  the person (including the requirement to answer any
+                  question put to the person) under section 53ZSI,
+                  produces any accounts or records or gives an answer that
+                  is false or misleading in a material particular.
+      (6)   A person who commits an offence under subsection (5) is
+            liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 7 years; or
+            (b)   on summary conviction to a fine of $500,000 and to
+                  imprisonment for 1 year.
+
+53ZSK Section 53ZSH auditor to report to Commission
+.
+      (1)   A section 53ZSH auditor appointed to examine and audit any
+            accounts and records must—
+            (a)   make to the Commission any interim reports that the
+                  Commission requires; and
+            (b)   make to the Commission a final report when the
+                  examination and audit concludes.
+      (2)   A report referred to in subsection (1) must be made within the
+            period and in the manner that the Commission directs.
+      (3)   The Commission may, if it considers appropriate, forward a
+            copy of any report made to it under subsection (1) to the
+            auditable entity the accounts and records of which are the
+            subject of the examination and audit referred to in the report.
+
+53ZSL Offences to destroy, conceal, or alter accounts, records, or
+.     documents, etc.
+      (1)   A person commits an offence if—
+            (a)   a prescribed auditor or a section 53ZSH auditor is
+                  appointed under this Division to carry out any
+                  examination and audit; and
+            (b)   the person—
+                    (i)    deletes, destroys, mutilates, falsifies, conceals,
+                           alters or otherwise makes unavailable any accounts,
+                           records or documents related to the examination
+                           and audit, or aids or abets or conspires with another
+                           person to do so;
+                   (ii)    with intent to prevent, delay or obstruct the carrying
+                           out of the examination and audit—
+                           (A)   disposes or procures the disposal, in any
+                                 manner and by any means, of any property
+                                 related to the examination and audit; or
+                           (B)   aids or abets or conspires with another person
+                                 to do so; or
+                   (iii)   with intent to prevent, delay or obstruct the carrying
+                           out of the examination and audit, leaves, or
+                           attempts to leave, Hong Kong.
+       (2)   A person who commits an offence under subsection (1) is
+             liable—
+             (a)    on conviction on indictment to a fine of $1,000,000 and
+                    to imprisonment for 7 years; or
+             (b)    on summary conviction to a fine of $500,000 and to
+                    imprisonment for 1 year.
+       (3)   It is a defence for a person charged with an offence under
+             subsection (1) because of paragraph (b)(i) of that subsection to
+             establish that the person did not intend to prevent, delay or
+             obstruct the carrying out of any examination and audit.
+       (4)   A person is taken to have established a matter that needs to be
+             established for a defence under subsection (3) if—
+             (a)    there is sufficient evidence to raise an issue with respect
+                    to the matter; and
+             (b)    the contrary is not proved by the prosecution beyond
+                    reasonable doubt.
+
+53ZS   Immunity in respect of communication with Commission by
+M.     prescribed auditor
+       (1)   Without affecting section 4, no duty that a person appointed as
+             a prescribed auditor may be subject to is to be regarded as
+             contravened because of the person’s communicating in good
+             faith to the Commission, any information or opinion on a
+             matter that—
+             (a)    the person becomes aware of in the person’s capacity as
+                    such auditor (whether or not in the course of performing
+                    the person’s functions as such auditor); and
+             (b)    is relevant to any function of the Commission.
+       (2)   Subsection (1) also applies to a person whose appointment as a
+             prescribed auditor has ceased, in which case a reference to a
+             matter in that subsection is to be construed on the basis that
+             subsection (1)(a) requires the matter to be one that the person
+             becomes aware of in the person’s capacity as such auditor
+             (whether or not in the course of performing the person’s
+             functions as such auditor) before the appointment has ceased.
+       (3)   Subsection (1) also applies to a prescribed auditor appointed
+             by a former auditable entity, in which case a reference to a
+             matter in that subsection is to be construed on the basis that
+             subsection (1)(a) requires the matter to be one that the person
+             becomes aware of in the person’s capacity as such auditor.
+       (4)   Subsection (1) also applies to a person whose appointment as a
+             prescribed auditor by a former auditable entity, has ceased, in
+             which case a reference to a matter in that subsection is to be
+             construed on the basis that subsection (1)(a) requires the
+             matter to be one that the person becomes aware of in the
+             person’s capacity as such auditor before the appointment has
+             ceased.
+       (5)   In this section—
+       former auditable entity ( 前 須 予 審 計 實 體 ) means a corporation
+           that was formerly—
+             (a)   a licensed provider; or
+             (b)   an associated entity of a licensed provider.
+
+53ZSN Operation of Companies Ordinance not affected
+.
+       Nothing in section 53ZS, 53ZSA or 53ZSG affects the operation of
+       any other requirements relating to the appointment of an auditor,
+       whether under the Companies Ordinance (Cap. 622) or otherwise.
+
+   Division 9—Discipline, Intervention and Other Powers
+
+              Subdivision 1—Disciplinary Powers etc.
+
+53ZSO Interpretation of Subdivision 1
+.
+       (1)   In this Subdivision—
+       disciplinary power ( 紀 律 處 分 權 力 ) means a power that may be
+             exercised by the Commission under section 53ZSP;
+       regulated person (受規管人士) means—
+             (a)   a licensed person;
+             (b)   a responsible officer of a licensed provider; or
+             (c)   a person involved in the management of the business of a
+                   licensed provider.
+       (2)   In this Subdivision—
+             (a)   a reference to revoking or suspending a licence of a
+                   licensed person means—
+                   (i)    to revoke or suspend the licence; or
+                   (ii)   to revoke or suspend the licence in relation to any
+                          VA service, or any part of any VA service, for
+                          which the licensed person is licensed; and
+             (b)   a reference to revoking or suspending an approval for a
+                   person to be a responsible officer of a licensed provider
+                   means—
+                   (i)    to revoke or suspend the approval; or
+                   (ii)   to revoke or suspend the approval in relation to any
+                          VA service, or any part of any VA service, for
+                          which the person is approved to be such responsible
+                          officer.
+
+53ZSP. Disciplinary action by Commission
+(1)   Subject to sections 53ZSR, 53ZSS, 53ZST, 53ZSU, 53ZSV
+      and 53ZSW, the Commission may, on finding any of the
+      circumstances specified in subsection (2) occurring or having
+      occurred, exercise, in respect of the person, one or more of the
+      powers specified in subsection (3).
+(2)   The circumstances are that—
+      (a)   a person is, or was at any time, a regulated person guilty
+            of misconduct;
+      (b)   the Commission forms the opinion that a person who is a
+            regulated person is not a fit and proper person to be or to
+            remain the same type of regulated person; and
+      (c)   for a person who was formerly a regulated person, the
+            Commission forms the opinion that, because of any
+            matter occurring at any time while the person was a
+            regulated person (whether or not together with any other
+            matter), the person was not a fit and proper person to be,
+            or to remain, the same type of regulated person.
+(3)   The powers are—
+      (a)   to publicly or privately reprimand the person;
+      (b)   to order the person to take, by a date specified by the
+            Commission (compliance deadline), any action specified
+            by the Commission for the purpose of remedying any
+            contravention, act or omission that led to the finding
+            referred to in subsection (2) (remedial action);
+      (c)   to order the person to pay a pecuniary penalty not
+            exceeding the amount that is the greater of—
+            (i)    $10,000,000; or
+            (ii)   3 times the amount of the profit gained or loss
+                   avoided by the person as a result of the person’s
+                   misconduct or of the person’s conduct that led to
+                   the Commission forming the opinion referred to in
+                   subsection (2)(b) or (c) (as the case requires);
+      (d)   if the person is a licensed person—
+            (i)    to revoke the person’s licence; or
+            (ii)   to suspend the person’s licence for a period, or until
+                   the occurrence of an event, specified in the notice
+                   referred to in section 53ZSU;
+      (e)   if the person is a responsible officer of a licensed
+            provider—
+            (i)    to revoke the approval granted under section
+                   53ZRP; or
+            (ii)   to suspend such approval for a period, or until the
+                   occurrence of an event, specified in the notice
+                   referred to in section 53ZSU; and
+      (f)   to prohibit the person from doing all or any of the
+            following in relation to any VA service for a period, or
+            until the occurrence of an event specified in the notice
+            referred to in section 53ZSU—
+            (i)    applying to be licensed;
+            (ii)   applying to be approved as a responsible officer of
+                   a licensed provider.
+(4)   A person who is ordered to pay a pecuniary penalty under this
+      section must pay the penalty to the Commission within—
+             (a)    30 days; or
+             (b)    a longer period specified in the notice referred to in
+                    section 53ZSU,
+             after the order takes effect as a specified decision under
+             section 75.
+       (5)   If a person fails to comply with an order to take remedial
+             action, the Commission may further order the person to pay a
+             daily pecuniary penalty not exceeding $100,000 for each day
+             on which the failure continues after the compliance deadline.
+       (6)   If the Commission exercises its power under subsection (3)
+             against a person, the Commission may disclose to the public
+             details of the decision including the reasons for it and any
+             material facts relating to the case.
+       (7)   Any pecuniary penalty paid to or recovered by the
+             Commission pursuant to an order made under subsection (3)
+             (c) or (5) must be paid by the Commission into the general
+             revenue.
+
+53ZSQ Other circumstances for revocation or suspension in respect of
+.     licensed persons etc.
+       (1)   Subject to sections 53ZSU, 53ZSV and 53ZSW, the
+             Commission may in any of the situations specified in
+             subsection (2)—
+             (a)    revoke a licensed person’s licence; or
+             (b)    suspend a licensed person’s licence for a period, or until
+                    the occurrence of an event, specified in a notice referred
+                    to in section 53ZSU.
+       (2)   The situations are that—
+             (a)    if the licensed person is an individual—
+                    (i)    the licensed person enters into a voluntary
+                           arrangement with creditors, or has a bankruptcy
+                           order made against that person, under the
+                           Bankruptcy Ordinance (Cap. 6);
+                   (ii)    the licensed person fails to satisfy a levy of
+                           execution; or
+                   (iii)   any of the following circumstances arises that in the
+                           opinion of the Commission impugns the fitness and
+                           properness of the licensed person to remain
+                           licensed—
+                           (A)   the licensed person is convicted of an offence
+                                 (other than an offence under this Ordinance)
+                                 in Hong Kong or elsewhere;
+                           (B)   the licensed person has been found by a court
+                                 to be mentally incapacitated, or is detained in
+                                 a mental hospital, under the Mental Health
+                                 Ordinance (Cap. 136);
+             (b)    if the licensed person is a corporation—
+                    (i)    a receiver or manager of the property or business of
+                           the licensed person is appointed;
+                   (ii)    the licensed person fails to satisfy a levy of
+                           execution;
+                   (iii)   the licensed person enters into a compromise or
+                           scheme of arrangement with its creditors;
+            (iv)   the licensed person has commenced, or is deemed
+                   to have commenced, winding up or has applied for
+                   deregistration under the Companies Ordinance
+                   (Cap. 622); or
+            (v)    any of the following circumstances arises that in the
+                   opinion of the Commission impugns the fitness and
+                   properness of the licensed person to remain
+                   licensed—
+                   (A)   the licensed person is convicted of an offence
+                         (other than an offence under this Ordinance)
+                         in Hong Kong or elsewhere;
+                   (B)   any of the directors of the licensed person is
+                         convicted of an offence (other than an offence
+                         under this Ordinance) in Hong Kong or
+                         elsewhere;
+                   (C)   any of the directors of the licensed person has
+                         been found by a court to be mentally
+                         incapacitated, or is detained in a mental
+                         hospital, under the Mental Health Ordinance
+                         (Cap. 136);
+      (c)   the licensed person does not provide a VA service; and
+      (d)   the licensed person requests the Commission to so
+            revoke or suspend the licence.
+(3)   A licensed representative’s licence is deemed to be revoked if
+      the licensed representative dies.
+(4)   A licensed provider’s licence is deemed to be revoked if the
+      licensed provider is wound up, or has been deregistered or
+      struck off the Companies Register or is otherwise dissolved.
+(5)   Subject to subsection (6), a licence of a licensed person is
+      deemed to be suspended if—
+      (a)   the licensed person fails to make full payment of—
+             (i)   any annual fee payable by the licensed person
+                   under section 53ZRY(1); or
+            (ii)   any additional sum payable by the licensed person
+                   under section 53ZRY(2) as a result of any default in
+                   making full payment, of the annual fee, within 3
+                   months after the due date for payment of the annual
+                   fee under that section; or
+      (b)   the licensed person fails to submit an annual return,
+            required to be submitted by the licensed person under
+            section 53ZRY(4), within 3 months after the due date for
+            submission of the annual return under that section.
+(6)   A licence of a licensed person is not to be regarded as
+      suspended under subsection (5) unless and until—
+      (a)   in the case of a suspension under subsection (5)(a) by
+            reference to any failure to make full payment of any
+            annual fee or additional sum, the Commission has, by
+            written notice given not less than 10 business days before
+            the suspension is to take effect, informed the licensed
+            person—
+             (i)   of the requirement to make full payment of the
+                   annual fee or additional sum (as the case requires);
+                   and
+            (ii)   of the consequence of the failure to comply with the
+                   requirement under this section; or
+            (b)   in the case of a suspension under subsection (5)(b) by
+                  reference to any failure to submit an annual return, the
+                  Commission has, by written notice given not less than 10
+                  business days before the suspension is to take effect,
+                  informed the licensed person—
+                  (i)    of the requirement to submit the annual return; and
+                  (ii)   of the consequence of the failure to comply with the
+                         requirement under this section.
+      (7)   Subject to subsection (8), the suspension under subsection (5)
+            remains in force until the time the Commission—
+            (a)   considers it appropriate that the licence should no longer
+                  be suspended; and
+            (b)   informs the licensed person to that effect by written
+                  notice.
+      (8)   A licence is deemed to be revoked if—
+            (a)   the licence is suspended under subsection (5); and
+            (b)   the situation described in subsection (5)(a) or (b) (as the
+                  case requires) has not been remedied within—
+                  (i)    30 days after the day on which the suspension
+                         becomes effective under subsection (5); or
+                  (ii)   a further period that the Commission specifies by
+                         written notice to the licensed person.
+      (9)   Subject to sections 53ZSU, 53ZSV and 53ZSW, if a person
+            that is a responsible officer of a licensed provider is convicted
+            of an offence (other than an offence under this Ordinance) in
+            Hong Kong or elsewhere that in the opinion of the
+            Commission impugns the fitness and properness of the person
+            to remain such a responsible officer, the Commission may—
+            (a)   revoke the approval granted under section 53ZRP in
+                  respect of the person as such a responsible officer; or
+            (b)   suspend the approval for a period, or until the occurrence
+                  of an event, specified in the notice referred to in section
+                  53ZSU.
+
+53ZSR Determination concerning misconduct and fit and proper
+.     person
+      (1)   For the purposes of section 53ZSP, a person is a regulated
+            person guilty of misconduct if—
+            (a)   the person is a regulated person; and
+            (b)   either—
+                  (i)    the person contravenes a material requirement; or
+                  (ii)   the person does or omits to do an act in relation to
+                         the provision of any VA service which act or
+                         omission, in the opinion of the Commission, is or is
+                         likely to be prejudicial—
+                         (A)   to the interest of the investing public; or
+                         (B)   to the public interest.
+      (2)   For the purposes of section 53ZSP, a person was a regulated
+            person guilty of misconduct if—
+            (a)   the person was a regulated person; and
+            (b)   either—
+                  (i)    the person, while being such regulated person,
+                         contravened a material requirement; or
+                   (ii)   the person, while being such regulated person, did
+                          or omitted to do an act in relation to the provision
+                          of any VA service which act or omission, in the
+                          opinion of the Commission, was or was likely to be
+                          prejudicial—
+                          (A)   to the interest of the investing public; or
+                          (B)   to the public interest.
+       (3)   The Commission may form an opinion that a person’s act or
+             omission referred to in subsection (1)(b)(ii) or (2)(b)(ii) is or is
+             likely to be, or was or was likely to be, prejudicial as referred
+             to in that subsection only if the Commission has had regard to
+             prevailing guidelines.
+       (4)   Prevailing guidelines, in relation to an act or omission, means
+             any provision—
+             (a)   set out in any codes or guidelines published under
+                   section 7 or 53ZTK; and
+             (b)   in force at the time of occurrence of, and applicable in
+                   relation to, the act or omission.
+       (5)   If—
+             (a)   a person who is, or was at any time, a licensed provider
+                   guilty of misconduct within the meaning of subsection
+                   (1) or (2) as a result of the commission of any conduct—
+                   (i)    occurring with the consent or connivance of another
+                          person; or
+                   (ii)   attributable to any neglect on the part of another
+                          person; and
+             (b)   such other person is, or was at the time of occurrence of
+                   the conduct, a responsible officer of or a person involved
+                   in the management of the business of the licensed
+                   provider,
+             such other person is or was (as the case requires) also a
+             regulated person guilty of misconduct for the purposes of
+             section 53ZSP.
+       (6)   The Commission, in determining whether a regulated person is
+             or was a fit and proper person at any time (material time) for
+             the purposes of section 53ZSP, may, among the matters
+             specified in section 53ZRJ and any other matters, take into
+             account the conduct of the regulated person at the material
+             time or any past conduct as the Commission considers
+             appropriate in the circumstances of the case.
+       (7)   In this section—
+       material requirement (重要規定) means—
+             (a)   any provision of this Ordinance; or
+             (b)   any condition of a licence or any other conditions
+                   imposed under or pursuant to any provision of this Part.
+
+53ZSS Guidelines for imposing pecuniary penalty
+.
+       (1)   The Commission must publish guidelines indicating the way
+             in which the Commission proposes to exercise the disciplinary
+             power to impose a pecuniary penalty.
+       (2)   The guidelines must be—
+             (a)   published before the Commission exercises a disciplinary
+                   power to impose a pecuniary penalty for the first time;
+                   and
+             (b)   published in the Gazette and in any other way that the
+                   Commission considers appropriate.
+       (3)   In exercising the disciplinary power to impose a pecuniary
+             penalty, the Commission must have regard to the published
+             guidelines.
+       (4)   The guidelines are not subsidiary legislation.
+
+53ZST Registration of pecuniary penalty order
+.
+       (1)   The Court of First Instance may, on application made by the
+             Commission, register in that Court an order to pay a pecuniary
+             penalty.
+       (2)   The application must be made by producing to the Registrar of
+             the High Court a written notice, requesting that the order be
+             registered, together with the original and a copy of the order.
+       (3)   On registration, the order is to be regarded for all purposes as
+             an order of the Court of First Instance made within the civil
+             jurisdiction of that Court for the payment of money.
+       (4)   In this section—
+       pecuniary penalty (罰款) means a pecuniary penalty ordered to be
+           paid under section 53ZSP(3)(c) or (5).
+
+53ZSU Procedural requirements for exercising disciplinary powers or
+.     powers under section 53ZSQ
+       (1)   The Commission may exercise a power under section
+             53ZSP(3) or 53ZSQ(1) or (9) (except for a power under
+             section 53ZSQ(1) exercisable in a situation specified in
+             section 53ZSQ(2)(d)) in respect of a person only after giving
+             the person a reasonable opportunity to be heard.
+       (2)   In reaching a decision under section 53ZSP or 53ZSQ, the
+             Commission may have regard to any information or material
+             in its possession that is relevant to the decision, regardless of
+             how the information or material has come into its possession.
+       (3)   If the Commission decides to exercise a power under section
+             53ZSP(3) or 53ZSQ(1) or (9) in respect of a person who is or
+             was a regulated person, the Commission must inform the
+             person of the decision by written notice and the notice must—
+             (a)   include a statement of the reasons for the decision;
+             (b)   specify the time at which the decision is to take effect;
+             (c)   specify any action that the person is required to take
+                   under the decision;
+             (d)   for a decision to publicly reprimand, specify the terms in
+                   which the person is to be reprimanded;
+             (e)   for a decision to impose a pecuniary penalty—
+                   (i)    specify the amount of the penalty; and
+                   (ii)   if the penalty is to be paid within a period other
+                          than that referred to in section 53ZSP(4)(a), specify
+                          that other period within which it must be paid;
+             (f)   for a decision to revoke or suspend a licence or to
+                   prohibit an application, specify the duration and terms of
+                   the revocation, suspension or prohibition; and
+             (g)   except for a revocation or suspension in the situation
+                   specified in section 53ZSQ(2)(d), include a statement
+                   that the person may apply to the Review Tribunal for a
+                   review of the decision.
+
+53ZSV General provisions relating to exercise of disciplinary powers or
+.     powers under section 53ZSQ
+       (1)   The revocation or suspension of any licence under section
+             53ZSP or 53ZSQ does not operate so as to—
+             (a)   avoid or affect an agreement, transaction or arrangement
+                   entered into by the licensed person whether the
+                   agreement, transaction or arrangement was entered into
+                   before or after the revocation or suspension; or
+             (b)   affect a right, obligation or liability arising under the
+                   agreement, transaction or arrangement.
+       (2)   If at any time the Commission is contemplating exercising any
+             power under section 53ZSP or 53ZSQ in respect of a person
+             who is or was a regulated person, it may, where it considers it
+             appropriate to do so in the interest of the investing public or in
+             the public interest, by agreement with the person—
+             (a)   exercise any power the Commission may exercise in
+                   respect of the person under this Subdivision (whether or
+                   not the same as the power the exercise of which has been
+                   contemplated); and
+             (b)   take any additional action that it considers appropriate in
+                   the circumstances of the case.
+       (3)   If the Commission exercises any power or takes any additional
+             action in respect of a person under subsection (2)—
+             (a)   it must comply with the procedural requirements under
+                   section 53ZSU, as if those requirements, in addition to
+                   applying to the exercise of any power under section
+                   53ZSP or 53ZSQ, also apply with necessary
+                   modifications to the taking of any additional action under
+                   subsection (2); and
+             (b)   subject to the agreement of the person, it is not obliged to
+                   give the person a reasonable opportunity to be heard.
+       (4)   Subsection (2) does not apply to a revocation or suspension in
+             the situation specified in section 53ZSQ(2)(d).
+       (5)   Nothing in this Subdivision affects the power of the Court of
+             First Instance to make any order or exercise any other power
+             under or pursuant to section 53ZTE, 53ZTF, 53ZTG or
+             53ZTH.
+
+53ZS   Licensed person or responsible officer remains subject to
+W.     obligations as such, despite suspension of licence or approval
+       (1)   If a licence of a licensed person is suspended under section
+             53ZSP or 53ZSQ in relation to all or any, or any part of all or
+             any, of the VA service provided by the licensed person, then
+             during the period of the suspension, the licensed person—
+             (a)   continues to be regarded for the purposes of the
+                   provisions of this Ordinance, but not section 53ZRD, as
+                   licensed for the VA service or VA services, or the part of
+                   the VA service or VA services, to which the suspension
+                   relates; and
+             (b)   without limiting paragraph (a), continues to be required
+                   to comply with any provision of this Ordinance relating
+                   to a licensed person that would apply to the person were
+                   the licence not so suspended.
+       (2)   If an approval of a person as a responsible officer of a licensed
+             provider is suspended under section 53ZSP or 53ZSQ, then
+             during the period of the suspension, the person—
+             (a)   continues to be regarded for the purposes of the
+                   provisions of this Ordinance, but not section 53ZRO, as
+                   such a responsible officer; and
+             (b)   without limiting paragraph (a), continues to be required
+                   to comply with any provision of this Ordinance relating
+                   to a responsible officer that would apply to the person
+                   were the approval not so suspended.
+       (3)   A licence of a licensed person may be revoked under section
+             53ZSP or 53ZSQ even if, at the time of revocation, the licence
+             is suspended, whether in relation to all or any, or any part of
+             all or any, of the VA service provided by the person, under any
+             provision of this Part.
+       (4)   An approval of a person as a responsible officer of a licensed
+             provider may be revoked under section 53ZSP or 53ZSQ even
+             if, at the time of revocation, the approval is suspended under
+             any provision of this Part.
+       (5)   This section does not affect the operation of any provision of
+             this Ordinance that applies in relation to a suspension.
+
+Subdivision 2—Intervention Powers: Restrictions on Business or
+                          Property
+
+53ZSX Interpretation of Subdivision 2
+.
+       (1)   A reference in this Subdivision (except section 53ZTB) to a
+             prohibition or requirement imposed under section 53ZSZ,
+             53ZT or 53ZTA means a prohibition or requirement imposed
+             on a person under section 53ZSZ, 53ZT or 53ZTA, as from
+             time to time substituted or varied under section 53ZTB (if
+             applicable).
+       (2)   Section 53ZSO(2) applies to this Subdivision as that section
+             applies to Subdivision 1.
+
+53ZSY Grounds for imposing prohibition or requirement under section
+.     53ZSZ, 53ZT or 53ZTA
+       The Commission may impose a prohibition or requirement under
+       section 53ZSZ, 53ZT or 53ZTA in respect of, or with reference to,
+       any licensed provider or any of its associated entities if it appears to
+       the Commission that—
+             (a)   any of the following might be dissipated, transferred or
+                   otherwise dealt with in a manner prejudicial to the
+                   interest of any of the licensed provider’s clients or
+                   creditors—
+                   (i)    any property of the licensed provider or any of its
+                          associated entities or its clients;
+                   (ii)   any property connected with the business that
+                          constitutes providing a VA service by the licensed
+                          provider;
+             (b)    the licensed provider is not a fit and proper person to
+                    remain licensed or is not a fit and proper person to
+                    provide any VA service for which it is licensed (having
+                    regard, among other matters, to the matters specified in
+                    section 53ZRJ);
+             (c)    the licensed provider or any of its associated entities—
+                    (i)    has failed to comply with a requirement under
+                           section 9(3); or
+                   (ii)    in purported compliance with a requirement under
+                           section 9(3), has furnished the Commission with
+                           information that was, at the time when it was
+                           furnished, false or misleading in a material
+                           particular;
+             (d)    the licence of the licensed provider may be revoked or
+                    suspended on any of the grounds specified in section
+                    53ZSP(2) or 53ZSQ; or
+             (e)    the imposition of the prohibition or requirement is
+                    desirable in the interest of the investing public or in the
+                    public interest.
+
+53ZSZ Restriction of business
+.
+       (1)   Subject to section 53ZSY, the Commission may by written
+             notice—
+             (a)    prohibit a licensed provider or any of its associated
+                    entities from—
+                    (i)    entering into transactions of a specified description
+                           or other than of a specified description;
+                   (ii)    entering   into transactions in            specified
+                           circumstances or other than in             specified
+                           circumstances;
+                   (iii)   entering into transactions to a specified extent or
+                           other than to a specified extent;
+                   (iv)    soliciting business from persons of a specified
+                           description or from persons other than of a
+                           specified description; or
+                    (v)    carrying on business in a specified manner or other
+                           than in a specified manner; or
+             (b)    require a licensed provider or any of its associated
+                    entities to carry on business in, and only in, a specified
+                    manner.
+       (2)   A prohibition or requirement imposed on a licensed provider
+             or any of its associated entities under subsection (1) may relate
+             to either or both of the following—
+             (a)    transactions entered into in connection with the carrying
+                    on, by the licensed provider, of a business of providing a
+                    VA service;
+             (b)    transactions entered into in connection with any other
+                    business that is carried on by the licensed provider in
+                    connection with the carrying on, by the licensed
+                    provider, of a business of providing a VA service.
+       (3)   A prohibition or requirement imposed on an associated entity
+             of a licensed provider under subsection (1) may relate to
+             transactions entered into in connection with any client assets
+             of the licensed provider.
+53ZT. Restriction on dealing with property
+       (1)   Subject to section 53ZSY, the Commission may by written
+             notice—
+             (a)    prohibit a licensed provider or any of its associated
+                    entities—
+                    (i)    from doing any of the following—
+                           (A)   disposing of any relevant property;
+                           (B)   dealing with any relevant property in a
+                                 specified manner or other than in a specified
+                                 manner; and
+                   (ii)    from assisting, counselling or procuring another
+                           person to do any of the following—
+                           (A)   dispose of any relevant property;
+                           (B)   deal with any relevant property in a specified
+                                 manner or other than in a specified manner;
+                                 and
+             (b)    require a licensed provider or any of its associated
+                    entities to deal with any relevant property in, and only in,
+                    a specified manner.
+       (2)   In this section—
+       relevant property (相關財產), in relation to a licensed provider or
+            any of its associated entities, means—
+             (a)    any property—
+                    (i)    held by the licensed provider on behalf of any of
+                           the clients of the licensed provider;
+                   (ii)    held by an associated entity of the licensed
+                           provider, on behalf of the licensed provider or any
+                           of the clients of the licensed provider; or
+                   (iii)   held by any other person on behalf of, or to the
+                           order of, the licensed provider, or an associated
+                           entity of the licensed provider; or
+             (b)    any other property that the Commission reasonably
+                    believes to be owned or controlled by the licensed
+                    provider or any of its associated entities.
+       (3)   A reference to licensed provider in paragraph (a) of the
+             definition of relevant property in subsection (2) means the
+             licensed provider acting within the capacity for which the
+             licensed provider is licensed.
+
+53ZTA Maintenance of property
+.
+       (1)   Subject to section 53ZSY, the Commission may by written
+             notice require a licensed provider or any of its associated
+             entities to maintain property in Hong Kong, and in any
+             specified place outside Hong Kong, such that—
+             (a)    the property maintained is of the value and of the
+                    description that appear to the Commission to be desirable
+                    with a view to ensuring that the licensed provider will be
+                    able to meet its liabilities in relation to the business that
+                    constitutes providing a VA service by the licensed
+                    provider; and
+            (b)   the property is maintained in a manner that will enable
+                  the licensed provider or any of its associated entities at
+                  any time freely to transfer or otherwise dispose of the
+                  property.
+      (2)   The Commission may in any requirement imposed under this
+            section direct that, for the purposes of the requirement,
+            property of a specified description is or is not to be taken into
+            account.
+
+53ZTB Withdrawal, substitution or variation of prohibitions or
+.     requirements
+      (1)   An original prohibition or requirement, unless it provides
+            otherwise, remains in force in accordance with its terms until
+            it is—
+            (a)   withdrawn by the Commission under subsection (2)(a);
+                  or
+            (b)   substituted by another prohibition or requirement, or
+                  varied, by the Commission under subsection (2)(b).
+      (2)   The Commission may, if it considers appropriate to do so, by
+            written notice given to the person on whom an original
+            prohibition or requirement is imposed (subject person)—
+            (a)   withdraw the original prohibition or requirement; or
+            (b)   substitute another prohibition or requirement for, or vary,
+                  the original prohibition or requirement.
+      (3)   A prohibition or requirement as substituted or varied under
+            subsection (2)(b) may only be a prohibition or requirement
+            that the Commission may impose under section 53ZSZ, 53ZT
+            or 53ZTA.
+      (4)   The Commission may exercise its power under subsection (2)
+            of its own volition or on the request of the subject person or
+            any other person affected by an original prohibition or
+            requirement.
+      (5)   Subsections (1), (2), (3) and (4) apply, with necessary
+            modifications, to a revised prohibition or requirement as they
+            apply to an original prohibition or requirement.
+      (6)   In this section—
+      original prohibition or requirement ( 原 有 禁 止 或 要 求 ) means a
+           prohibition or requirement imposed on a person under section
+           53ZSZ, 53ZT or 53ZTA;
+      revised prohibition or requirement (經修改禁止或要求) means—
+            (a)   a prohibition or requirement that substitutes under this
+                  section—
+                  (i)    an original prohibition or requirement; or
+                  (ii)   an earlier revised prohibition or requirement; or
+            (b)   an original prohibition or requirement, or an earlier
+                  revised prohibition or requirement, as varied under this
+                  section.
+
+53ZT Exercise of Subdivision 2 power—procedural requirements and
+C.   effect on agreement
+      (1)   In this section—
+            (a)   a reference to the Commission deciding to exercise a
+                  Subdivision 2 power is a reference to—
+             (i)    the Commission imposing a prohibition or
+                    requirement under section 53ZSZ, 53ZT or 53ZTA;
+            (ii)    the Commission withdrawing a prohibition or
+                    requirement under section 53ZTB; or
+            (iii)   the Commission substituting another prohibition or
+                    requirement for, or varying, a prohibition or
+                    requirement under section 53ZTB; and
+      (b)    a reference to the Commission deciding not to exercise a
+             Subdivision 2 power is to be construed accordingly.
+(2)   If the Commission, of its own volition, decides to exercise a
+      Subdivision 2 power in relation to a person, the Commission
+      must inform the person of the decision by written notice and
+      the notice must include—
+      (a)    a statement of the reasons for the decision; and
+      (b)    (except for a withdrawal of a prohibition or requirement)
+             a statement that the person may apply to the Review
+             Tribunal for a review of the decision.
+(3)   If a request is made by any person to the Commission pursuant
+      to section 53ZTB(4) for the Commission to exercise its
+      Subdivision 2 power referred to in section 53ZTB—
+      (a)    if the Commission decides to exercise a Subdivision 2
+             power as requested, the Commission must inform the
+             person of the decision by written notice and the notice
+             must include a statement of the reasons for the decision;
+             or
+      (b)    if the Commission decides not to exercise a Subdivision
+             2 power as requested, with or without also deciding to
+             exercise a Subdivision 2 power in another way, the
+             Commission must inform the person of the decision or
+             decisions by written notice and the notice must include—
+             (i)    a statement of the reasons for the decision or
+                    decisions; and
+            (ii)    a statement that the person may apply to the
+                    Review Tribunal for a review of the decision or
+                    decisions.
+(4)   A decision to exercise a Subdivision 2 power in relation to a
+      person takes effect at the time the person receives the notice
+      given in respect of the decision or at the time specified in the
+      notice, whichever is the later.
+(5)   If—
+      (a)    the Commission decides to exercise a Subdivision 2
+             power in relation to a person (intervention subject); and
+      (b)    the reasons provided in accordance with subsection (2) or
+             (3) relate specifically to matters that—
+             (i)    refer to any person (identified person) who is
+                    identified in the statement of the reasons for the
+                    decision but who is not the intervention subject;
+                    and
+            (ii)    are, in the opinion of the Commission, prejudicial
+                    to the identified person in any respect,
+      the Commission must, as soon as reasonably practicable after
+      the decision, take all reasonable steps to serve on the identified
+      person a copy of the notice given in respect of the decision.
+      (6)   Subsections (2), (3) and (5) do not require a notice, or a copy
+            of a notice, given in respect of a decision to exercise a
+            Subdivision 2 power to be served on any person if the notice
+            or copy has been served on the person under any other
+            provision of this Part.
+      (7)   The Commission must publish in the Gazette, and may publish
+            by any additional means that it considers appropriate, a notice
+            regarding a decision to exercise a Subdivision 2 power.
+      (8)   A notice published under subsection (7) may, if the
+            Commission considers appropriate, include a statement of the
+            reasons for the decision to exercise a Subdivision 2 power to
+            which the notice relates.
+      (9)   A decision to exercise a Subdivision 2 power does not operate
+            so as to render an agreement unenforceable by a party to the
+            agreement if the party proves that in entering into the
+            agreement the party—
+            (a)   acted in good faith; and
+            (b)   was unaware of any notice given, served or published
+                  under this Subdivision in respect of or regarding the
+                  decision to exercise the Subdivision 2 power.
+     (10)   If, because of the application of this Subdivision or of the
+            giving, service or publication of any notice under this
+            Subdivision, a person rescinds an agreement, the person must
+            restore to any other party to the agreement any money or other
+            benefit received or obtained by the person under the agreement
+            from that party.
+
+53ZT Power to impose prohibition or requirement not affected by
+D.   revocation or suspension of licence
+      (1)   This section applies despite any other provisions of this Part,
+            but does not affect the operation of section 53ZSW.
+      (2)   Subsection (3) applies if—
+            (a)   in respect of, or with reference to, a licensed provider or
+                  any of its associated entities, a Subdivision 2 prohibition
+                  or requirement is imposed; and
+            (b)   at any time after the imposition takes effect, the licence
+                  of the licensed provider is revoked or suspended.
+      (3)   The revocation or suspension—
+            (a)   does not affect the validity of the imposition of the
+                  Subdivision 2 prohibition or requirement that has taken
+                  effect; and
+            (b)   without limiting paragraph (a), does not affect any power
+                  exercisable by the Commission under section 53ZTB, at
+                  the time when the revocation or suspension takes effect
+                  or at any later time,
+            and a reference in this Part to a licensed provider is to be
+            construed accordingly.
+      (4)   Subsection (5) applies to a licensed provider if—
+            (a)   the licence of the licensed provider is revoked or
+                  suspended; and
+            (b)   a Subdivision 2 prohibition or requirement imposed in
+                  respect of, or with reference to, the licensed provider or
+                  any of its associated entities (whether before or after the
+                  revocation or suspension) is in force.
+      (5)   The licensed provider does not contravene the prohibition in
+            section 53ZRD(1) on carrying on a business of providing a VA
+            service merely because it complies with the Subdivision 2
+            prohibition or requirement.
+      (6)   To avoid doubt, if the Commission has decided to revoke or
+            suspend the licence of a licensed provider, the Commission
+            may, at any time before the revocation or suspension takes
+            effect, impose or withdraw a Subdivision 2 prohibition or
+            requirement in respect of, or with reference, to the licensed
+            provider or any of its associated entities.
+      (7)   To avoid doubt, this section does not affect the power of the
+            Commission to impose or withdraw a Subdivision 2
+            prohibition or requirement imposed in respect of, or with
+            reference to, a licensed provider or any of its associated
+            entities where the licence of the licensed provider has been
+            suspended.
+      (8)   In this section—
+            (a)    a reference to imposing a Subdivision 2 prohibition or
+                   requirement is to be read to mean—
+                   (i)    imposing a prohibition or requirement under
+                          section 53ZSZ, 53ZT or 53ZTA;
+                  (ii)    substituting a prohibition or requirement for
+                          another prohibition or requirement under section
+                          53ZTB; or
+                  (iii)   varying a prohibition or requirement under section
+                          53ZTB,
+                   and a reference to a Subdivision 2 prohibition or
+                   requirement being imposed is to be read accordingly;
+            (b)    a reference to a Subdivision 2 prohibition or requirement
+                   means a prohibition or requirement imposed, substituted
+                   or varied as mentioned in paragraph (a)(i), (ii) or (iii);
+                   and
+            (c)    a reference to withdrawing a Subdivision 2 prohibition or
+                   requirement means withdrawing a prohibition or
+                   requirement under section 53ZTB.
+      (9)   In this section—
+            (a)    a reference to a licence of a licensed provider being
+                   revoked—
+                   (i)    means the licence being revoked under section
+                          53ZSP or 53ZSQ; and
+                  (ii)    includes the licence being deemed under section
+                          53ZRX to be revoked; and
+            (b)    a reference to a licence of a licensed provider being
+                   suspended means the licence being suspended under
+                   section 53ZSP or 53ZSQ.
+
+53ZTE Application to Court of First Instance relating to non-
+.     compliance with prohibition or requirement
+      (1)   The Commission may apply to the Court of First Instance for
+            an order under subsection (2) if a subject person fails to
+            comply with a Subdivision 2 prohibition or requirement.
+      (2)   On an application under subsection (1), the Court of First
+            Instance may inquire into the case and may—
+             (a)   if the Court is satisfied that there is no reasonable excuse
+                   for the subject person not to comply with the Subdivision
+                   2 prohibition or requirement—order the subject person to
+                   comply with the prohibition or requirement within the
+                   period specified by the Court; and
+             (b)   if the Court is satisfied that the failure was without
+                   reasonable excuse—punish the subject person, and any
+                   other person knowingly involved in the failure, in the
+                   same manner as if the subject person and, where
+                   applicable, that other person had been guilty of contempt
+                   of court.
+      (3)    The Commission may apply to the Court of First Instance for
+             an order under subsection (4) if there is a reasonable
+             likelihood that a subject person will fail to comply with a
+             Subdivision 2 prohibition or requirement.
+      (4)    On an application under subsection (3), the Court of First
+             Instance may order the following persons to take any action,
+             or refrain from taking any action, that the Court directs—
+             (a)   the subject person;
+             (b)   any other person whom the Court is satisfied is able to
+                   procure the subject person to comply with the
+                   Subdivision 2 prohibition or requirement.
+      (5)    An application under this section must be made by originating
+             summons or originating motion.
+      (6)    An originating summons under this section must be in Form
+             No. 10 in Appendix A to the Rules of the High Court (Cap. 4
+             sub. leg. A).
+      (7)    In this section—
+      Subdivision 2 prohibition or requirement (第2次分部禁止或要求)
+          —see section 53ZTD(8);
+      subject person ( 施 加 對 象 ), in relation to a Subdivision 2
+           prohibition or requirement, means the person in respect of
+           whom the prohibition or requirement is in force.
+
+            Subdivision 3—Winding Up and Other Orders
+
+53ZTF Winding up orders
+.
+      (1)    The Commission may present a petition for a licensed
+             provider, or an associated entity of a licensed provider, to be
+             wound up under the Companies (Winding Up and
+             Miscellaneous Provisions) Ordinance (Cap. 32) on the ground
+             that it is just and equitable that the licensed provider or the
+             associated entity should be so wound up if—
+             (a)   the licensed provider or the associated entity is a
+                   corporation in respect of which the Court of First
+                   Instance has jurisdiction to wind up under that
+                   Ordinance; and
+             (b)   it appears to the Commission that it is desirable in the
+                   public interest that the licensed provider or the associated
+                   entity should be wound up.
+      (2)    The Companies (Winding Up and Miscellaneous Provisions)
+             Ordinance (Cap. 32) applies to the petition as it applies in
+             relation to a petition presented under that Ordinance.
+53ZT Bankruptcy orders
+G.
+      (1)   The Commission may present a petition for a bankruptcy order
+            against a licensed representative in accordance with the
+            Bankruptcy Ordinance (Cap. 6) if—
+            (a)   grounds exist for the presentation of a petition for a
+                  bankruptcy order against the licensed representative by
+                  his or her creditor in accordance with that Ordinance;
+                  and
+            (b)   it appears to the Commission that it is desirable in the
+                  public interest to present a petition for a bankruptcy
+                  order against the licensed representative in accordance
+                  with that Ordinance.
+      (2)   The Bankruptcy Ordinance (Cap. 6) applies to the petition as it
+            applies in relation to a petition presented by a creditor.
+
+53ZT Injunctions and other orders
+H.
+      (1)   The Court of First Instance may, on an application of the
+            Commission, make one or more of the orders specified in
+            subsection (2) if—
+            (a)   a person has committed any contravention-related
+                  conduct; or
+            (b)   it appears to the Commission that any contravention-
+                  related conduct has been, is being or may be committed.
+      (2)   The orders specified for the purposes of subsection (1) are—
+            (a)   an order restraining or prohibiting the commission or the
+                  continued commission of any contravention-related
+                  conduct;
+            (b)   if a person, or it appears that a person, has been, is or
+                  may become, involved in the commission of any
+                  contravention-related conduct, whether knowingly or
+                  otherwise—an order requiring the person to take any step
+                  that the Court of First Instance directs, including steps to
+                  restore the parties to any transaction to the position in
+                  which they were before the transaction was entered into;
+            (c)   an order restraining or prohibiting a person from
+                  acquiring, disposing of, or otherwise dealing in, any
+                  property specified in the order;
+            (d)   an order appointing a person to administer the property
+                  of another person;
+            (e)   an order declaring a contract relating to any virtual assets
+                  to be void or voidable to the extent specified in the order;
+            (f)   for the purpose of securing compliance with any other
+                  order made under this section, an order directing a person
+                  to do or refrain from doing any act specified in the order;
+                  and
+            (g)   any ancillary order that the Court of First Instance
+                  considers necessary in consequence of the making of any
+                  of the orders referred to in paragraphs (a), (b), (c), (d),
+                  (e) and (f).
+      (3)   The Court of First Instance must, before making an order
+            specified in subsection (2), satisfy itself so far as it can
+            reasonably do so—
+             (a)   that it is desirable that the order be made; and
+             (b)   that the order will not unfairly prejudice any person.
+       (4)   The Court of First Instance may, before making an order
+             specified in subsection (2), direct either or both of the
+             following—
+             (a)   a notice of the application made in respect of the order be
+                   given to the persons that the Court considers appropriate;
+             (b)   such a notice be published in the manner that the Court
+                   considers appropriate.
+       (5)   If the Court of First Instance considers it desirable to do so, it
+             may grant an interim order that it considers appropriate
+             pending the determination of an application made pursuant to
+             subsection (1).
+       (6)   An order specified in subsection (2) may be made whether or
+             not it appears to the Court of First Instance that—
+             (a)   the person against whom the order is to be made intends
+                   to engage again, or to continue to engage, in the
+                   commission of any contravention-related conduct;
+             (b)   the person against whom the order is to be made has
+                   previously engaged in the commission of any
+                   contravention-related conduct; or
+             (c)   there is an imminent danger of damage to any person in
+                   the event of the order not being made.
+       (7)   If the Court of First Instance has power to make an order
+             specified in subsection (2) against a person, it may, in addition
+             to or in substitution for such order, make an order requiring the
+             person to pay damages to any other person.
+       (8)   If an order is made or granted under subsection (1) or (5), the
+             Court of First Instance may—
+             (a)   reverse, vary or discharge the order; or
+             (b)   suspend the operation of the order.
+       (9)   For the purposes of this section, a person commits
+             contravention-related conduct if the person—
+             (a)   contravenes an applicable requirement;
+             (b)   aids, abets, or otherwise assists, counsels or procures a
+                   person to contravene an applicable requirement;
+             (c)   induces, whether by threats, promises or otherwise, a
+                   person to contravene an applicable requirement;
+             (d)   is directly or indirectly in any way knowingly involved
+                   in, or a party to, any contravention of an applicable
+                   requirement; or
+             (e)   attempts, or conspires with others, to contravene an
+                   applicable requirement.
+      (10)   In this section—
+       applicable requirement (適用規定) means anything falling within
+            paragraph (a), (c), (d) or (e) of the definition of specified
+            requirement in section 53ZR.
+
+                     Division 10—Miscellaneous
+53ZTI. Applicant to provide information
+       (1)   This section applies to a person (applicant) who applies—
+             (a)   for a licence under section 53ZRK or 53ZRL;
+             (b)   for approval of accreditation or approval of transfer of
+                   accreditation to a principal under section 53ZRM;
+             (c)   for variation of VA service under section 53ZRN;
+             (d)   for approval to be a responsible officer under section
+                   53ZRP;
+             (e)   for approval of premises under section 53ZRR;
+             (f)   for approval to become an ultimate owner under section
+                   53ZRQ; or
+             (g)   for any other matter requiring the approval of the
+                   Commission under this Part.
+       (2)   The applicant must provide the Commission with any
+             information that the Commission reasonably requires to enable
+             it to consider the application.
+       (3)   In considering an application referred to in subsection (1), the
+             Commission may have regard to any information in its
+             possession, whether provided by the applicant or not.
+       (4)   This section does not affect the Commission’s power to
+             require or have regard to information apart from this section.
+
+53ZTJ Particulars of disciplinary actions to be entered on register
+.
+       (1)   For an exercise of a power under section 53ZSP or 53ZSQ
+             (decision) against a licensed person, the Commission—
+             (a)   must enter on the register maintained under section
+                   53ZRH (register) the particulars of the decision that the
+                   Commission considers appropriate; and
+             (b)   must enter the following particulars in relation to a
+                   decision on the register—
+                   (i)    if the decision is the subject of a review—the
+                          Tribunal’s determination of the review (when
+                          available);
+                   (ii)   if the Tribunal’s determination is the subject of an
+                          appeal—the Court of Appeal’s determination on
+                          appeal (when available).
+       (2)   The particulars of a decision entered on the register are to be
+             kept in the register for a period of 5 years after—
+             (a)   unless subsection (1)(b)(i) or (ii) applies—the day on
+                   which the decision takes effect;
+             (b)   if subsection (1)(b)(i) applies but subsection (1)(b)(ii)
+                   does not apply—the day on which the Tribunal makes its
+                   determination; or
+             (c)   if subsection (1)(b)(ii) applies—the day on which the
+                   Court of Appeal makes its determination.
+       (3)   Subsections (1) and (2) do not apply to a private reprimand
+             under section 53ZSP(3)(a).
+       (4)   Despite subsections (1) and (2), the Commission is not
+             required to enter on the register, or keep in the register, the
+             particulars of, or in relation to, a decision if the decision is
+             revoked by the Commission or is set aside on review or on
+             appeal.
+
+53ZT Codes or guidelines on matters under Part 5B
+K.
+      (1)   The Commission may publish codes and guidelines that it
+            considers appropriate for providing guidance in relation to any
+            provision under this Part.
+      (2)   The codes and guidelines must be published in the Gazette and
+            in any other way the Commission considers appropriate.
+      (3)   To avoid doubt, the power of the Commission to publish codes
+            or guidelines under this section is in addition to, and not in
+            derogation of, any other power of the Commission to publish
+            codes or guidelines under any provision of this or any other
+            Ordinance.
+      (4)   The Commission may, from time to time, amend the whole or
+            any part of any code or guideline published under this section
+            in a way consistent with the power to publish the code or
+            guideline under this section, and—
+            (a)   the other provisions of this section apply, with necessary
+                  modifications, to the amendments to the code or
+                  guideline as they apply to the code or guideline; and
+            (b)   any reference in this or any other Ordinance to the code
+                  or guideline (however expressed) published under this
+                  section is, unless the context otherwise requires, to be
+                  construed as a reference to the code or guideline as
+                  amended.
+      (5)   A failure on the part of a person to comply with a provision of
+            any code or guideline published under this section does not by
+            itself make the person liable to any legal proceedings, whether
+            in the nature of judicial proceedings or otherwise.
+      (6)   Despite subsection (5)—
+            (a)   the codes or guidelines may be taken into account in
+                  considering, for the purposes of any provision of this
+                  Ordinance, whether a licensed provider or a licensed
+                  representative is a fit and proper person to be or to
+                  remain licensed; and
+            (b)   in any proceedings under this Ordinance before any court
+                  —
+                  (i)    the code or guideline is admissible in evidence; and
+                  (ii)   if any provision set out in the code or guideline
+                         appears to the court to be relevant to any question
+                         arising in the proceedings, it is to be taken into
+                         account in determining that question.
+      (7)   Any code or guideline published under this section is not
+            subsidiary legislation.
+
+53ZTL Rules on matters under Part 5B
+.
+      (1)   The Commission may make rules for the better carrying out of
+            the provisions and purposes of this Part.
+      (2)   Without limiting subsection (1), the Commission may make
+            rules—
+            (a)   to specify any conditions subject to which the provisions
+                  of this Part—
+                  (i)    do not have effect, or only have effect to a specified
+                         extent, in relation to any specified person or to
+                         members of a specified class of persons;
+            (ii)    do not have effect in relation to any specified
+                    transaction or class of transactions entered into by
+                    any specified person or class of persons; or
+            (iii)   are, where they require any application, statement,
+                    notice or other document (however described) to be
+                    lodged or filed with or submitted to the
+                    Commission, to be regarded as having been
+                    complied with if the application, statement, notice
+                    or other document (as the case requires) is lodged
+                    or filed with or submitted to any other specified
+                    person; and
+      (b)    to prescribe any matter that under this Part is to be
+             prescribed by rules.
+(3)   Except as otherwise provided in this Part, rules made by the
+      Commission under this section—
+      (a)    may be of general or special application and may be
+             made so as to apply only in specified circumstances;
+      (b)    may make different provisions for different
+             circumstances and provide for different cases or classes
+             of cases;
+      (c)    may authorize any matter or thing to be determined,
+             applied or regulated by any specified person;
+      (d)    may provide for the exercise of discretion in specified
+             cases; and
+      (e)    may, for the better and more effectual carrying into effect
+             of any provision of this Ordinance or the rules, include
+             any savings, transitional, incidental, supplemental,
+             evidential and consequential provisions (whether
+             involving the provisions of any principal legislation or
+             the provisions of any subsidiary legislation).
+(4)   Despite any other provisions of this Part but subject to
+      subsection (6), if the Commission proposes to make rules
+      under subsection (1), it must publish a draft of the proposed
+      rules, in a manner that it considers appropriate, for the purpose
+      of inviting representations on the proposed rules by the public.
+(5)   If the Commission makes any rules under subsection (1) after
+      a draft is published under subsection (4) in relation to the
+      rules, it must—
+      (a)    publish, in a manner that it considers appropriate, an
+             account setting out in general terms—
+             (i)    the representations made on the draft; and
+            (ii)    the response of        the   Commission      to   the
+                    representations; and
+      (b)    if the rules are made with modifications that in the
+             opinion of the Commission result in the rules being
+             significantly different from the draft, publish, in a
+             manner that it considers appropriate, details of the
+             difference.
+(6)   Subsections (4) and (5) do not apply if the Commission
+      considers, in the circumstances of the case, that—
+      (a)    it is inappropriate or unnecessary that those subsections
+             should apply; or
+      (b)    any delay involved in complying with those subsections
+             —
+                  (i)    would not be in the interest of the investing public;
+                         or
+                  (ii)   would not be in the public interest.
+      (7)   To avoid doubt, subsections (4), (5) and (6) do not affect any
+            other requirements that, apart from those subsections, apply to
+            the making of any rules under any provision of this Part.
+      (8)   If rules are made by the Commission under subsection (1), the
+            Chief Executive in Council may make regulations to provide
+            that a person who contravenes any specified provision of the
+            rules that applies to the person commits an offence and is
+            liable to a specified penalty not exceeding—
+            (a)   on conviction on indictment a fine of $500,000 and
+                  imprisonment for 2 years; or
+            (b)   on summary conviction a fine at level 6 and
+                  imprisonment for 6 months.
+
+53ZT Amendment of Schedules 3B to 3F
+M.
+      (1)   The Secretary for Financial Services and the Treasury may, by
+            notice published in the Gazette, amend Schedule 3B.
+      (2)   The Commission may, by notice published in the Gazette,
+            amend Schedule 3C.
+      (3)   The Commission may, after consultation with the Financial
+            Secretary, by notice published in the Gazette, amend
+            Schedules 3D, 3E and 3F.
+
+53ZT Commission may waive or refund fees
+N.
+      The Commission may, in relation to any person or class of persons
+      —
+            (a)   waive, in whole or in part, the payment of any fee under
+                  this Part; or
+            (b)   refund, in whole or in part, any fee paid under this Part,
+      if the Commission is of the opinion that otherwise the payment of
+      the fee would be unduly burdensome or inappropriate.
+
+53ZT Offence for making false or misleading representation in
+O.   connection with application
+      (1)   A person commits an offence if the person—
+            (a)   in connection with an application made to the
+                  Commission under this Part, whether for the person or
+                  for another person, makes a representation, whether in
+                  writing, orally or otherwise, that is false or misleading in
+                  a material particular; and
+            (b)   knows that, or is reckless as to whether, the
+                  representation is false or misleading in a material
+                  particular.
+      (2)   A person commits an offence if the person, in connection with
+            an application made to the Commission under this Part,
+            whether for the person or for another person—
+            (a)   omits a material particular from a representation with the
+                  result that the representation is rendered false or
+                  misleading; and
+            (b)   knows that, or is reckless as to whether, the material
+                  particular is omitted from the representation.
+      (3)   A person who commits an offence under subsection (1) or (2)
+            is liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 2 years; or
+            (b)   on summary conviction to a fine at level 6 and to
+                  imprisonment for 6 months.
+      (4)   In this section—
+      representation (表述) means a representation or statement—
+            (a)   of a matter of fact, either present or past;
+            (b)   about a future event; or
+            (c)   about an existing intention, opinion, belief, knowledge or
+                  other state of mind.
+
+53ZTP Offence for providing false or misleading information, if
+.     information required under this Ordinance
+      (1)   A person commits an offence if the person—
+            (a)   in purported compliance with a requirement to provide
+                  information imposed by or under any provision of this
+                  Ordinance—
+                  (i)    provides to the Commission any information that is
+                         false or misleading in a material particular; or
+                  (ii)   omits a material particular from a statement with
+                         the result that the statement is rendered false or
+                         misleading; and
+            (b)   knows that, or is reckless as to whether, the information
+                  is false or misleading in a material particular.
+      (2)   Subsection (1) does not apply to the provision of information
+            that is false or misleading in a material particular if the
+            provision of the information in purported compliance with a
+            requirement imposed by or under any provision of this
+            Ordinance would, apart from subsection (1), also constitute an
+            offence under any provision of this Ordinance.
+      (3)   A person who commits an offence under subsection (1) is
+            liable—
+            (a)   on conviction on indictment to a fine of $1,000,000 and
+                  to imprisonment for 2 years; or
+            (b)   on summary conviction to a fine at level 6 and to
+                  imprisonment for 1 year.
+
+53ZT Offence for providing false or misleading document, if
+Q.   document required in connection with Commission’s function
+      (1)   Subject to subsection (2), a person commits an offence if the
+            person—
+            (a)   otherwise than in purported compliance with a
+                  requirement to provide information imposed by or under
+                  any provision of this Ordinance but, in connection with
+                  the performance by the Commission of a function under
+                  this Ordinance, provides to the Commission any record
+                  or document that is false or misleading in a material
+                  particular; and
+            (b)   the person—
+                   (i)    knows that, or is reckless as to whether, the record
+                          or document is false or misleading in a material
+                          particular; and
+                   (ii)   has, in relation to the provision of the record or
+                          document, received prior written warning from the
+                          Commission to the effect that the provision of any
+                          record or document that is false or misleading in a
+                          material particular or omission of a material
+                          particular from a statement in the circumstances of
+                          the case would constitute an offence under this
+                          subsection.
+       (2)   A person may be convicted of an offence under subsection (1)
+             only if the prosecution proves that—
+             (a)   the Commission has reasonably relied on the record or
+                   document in question; or
+             (b)   the person intended that the Commission would rely on
+                   the record or document in question.
+       (3)   However, subsection (2)(a) does not require it to be proved
+             that the Commission who has reasonably relied on any record
+             or document—
+             (a)   was misled;
+             (b)   suffered any detriment; or
+             (c)   incurred any loss,
+             as a result of the reliance.
+       (4)   A person who commits an offence under subsection (1) is
+             liable—
+             (a)   on conviction on indictment to a fine of $500,000 and to
+                   imprisonment for 6 months; or
+             (b)   on summary conviction to a fine at level 5 and to
+                   imprisonment for 6 months.
+
+53ZT Certain representations prohibited
+R.
+       (1)   Subject to subsection (2), a licensed provider or a licensed
+             representative—
+             (a)   must not represent that the abilities or qualifications of
+                   the licensed provider or the licensed representative (as
+                   the case requires) have been endorsed or warranted by
+                   the Government or the Commission; and
+             (b)   must not permit any other person to make representations
+                   to the effect referred to in paragraph (a).
+       (2)   A statement to the effect that a person is licensed under this
+             Ordinance does not by itself constitute a contravention of
+             subsection (1).
+       (3)   If a licensed provider or a licensed representative, without
+             reasonable excuse, contravenes subsection (1), the licensed
+             provider or the licensed representative commits an offence and
+             is liable on conviction to a fine at level 5.
+       (4)   In this section—
+       represent (表述) includes represent in any way, whether expressly
+            or by implication.
+
+53ZTS Offence for obstructing person in performance of functions
+.
+       (1)   A person who, without reasonable excuse, obstructs any
+             specified person in the performance of a function under or in
+             carrying into effect any provision of this Ordinance commits
+             an offence and is liable—
+             (a)   on conviction on indictment to a fine of $1,000,000 and
+                   to imprisonment for 2 years; or
+             (b)   on summary conviction to a fine at level 6 and to
+                   imprisonment for 6 months.
+       (2)   In this section—
+       specified person (指明人士) means—
+             (a)   the Commission;
+             (b)   any member, employee, or consultant, agent or adviser,
+                   of the Commission; or
+             (c)   any person appointed to investigate any matter under this
+                   Ordinance.
+
+53ZTT Time limitation for prosecution
+.
+       Despite section 26 of the Magistrates Ordinance (Cap. 227),
+       proceedings may be instituted for an offence, other than an
+       indictable offence, under this Part within 3 years after the
+       commission of the offence.
+
+53ZT Power of Commission to intervene in proceedings
+U.
+       (1)   If—
+             (a)   there are any judicial or other proceedings (other than
+                   criminal proceedings) that concern a matter provided for
+                   in any of the provisions in this Ordinance, or in which
+                   the Commission has an interest by virtue of its functions
+                   under this Ordinance; and
+             (b)   the Commission is satisfied that it is in the public interest
+                   for the Commission to intervene and be heard in the
+                   proceedings,
+             the Commission, after consultation with the Financial
+             Secretary, may, by an application made in accordance with
+             subsection (2) to the court hearing or otherwise having
+             competent authority to hear the proceedings, apply to
+             intervene and be heard in the proceedings.
+       (2)   An application made for the purposes of subsection (1) must
+             be—
+             (a)   made in writing; and
+             (b)   supported by an affidavit showing that the conditions set
+                   out in subsection (1)(a) and (b) are satisfied.
+       (3)   A copy of the application made for the purposes of subsection
+             (1) must be served on each of the parties to the proceedings to
+             which the application relates as soon as reasonably practicable
+             after the application is made.
+       (4)   Subject to subsection (5), the court to which an application is
+             made for the purposes of subsection (1) may by order—
+             (a)   allow the application, subject to any terms that it
+                   considers just; or
+             (b)   refuse the application.
+       (5)   The court to which an application is made for the purposes of
+             subsection (1) must not make an order pursuant to subsection
+             (4)(a) or (b) without first giving the following persons a
+             reasonable opportunity of being heard—
+             (a)   the Commission;
+             (b)   each of the parties to the proceedings to which the
+                   application relates.
+       (6)   If an application made for the purposes of subsection (1) is
+             allowed under subsection (4)(a), the Commission, subject to
+             the terms referred to in subsection (4)(a)—
+             (a)   may intervene and be heard in the proceedings to which
+                   the application relates; and
+             (b)   is to be regarded for all purposes as a party to the
+                   proceedings and has the rights, duties and liabilities of
+                   such a party.
+       (7)   Nothing in this section affects Order 15, rule 6 of the Rules of
+             the High Court (Cap. 4 sub. leg. A).
+       (8)   In this section—
+       court ( 法 庭 ) includes a magistrate and a tribunal, other than the
+            Review Tribunal.
+
+53ZT Civil proceedings by Commission
+V.
+       The Commission may begin or carry on any civil proceedings by a
+       solicitor or otherwise.
+
+53ZT Conflict of interest
+W.
+       (1)   Any member of the Commission or any person performing
+             any function under this Ordinance (the member or person
+             called in this section a specified person) must not directly or
+             indirectly effect or cause to be effected, on the specified
+             person’s own account or for the benefit of any other person, a
+             transaction regarding any virtual assets—
+             (a)   which transaction the specified person knows is, or is
+                   connected with a transaction or a person that is, the
+                   subject of any investigation or proceedings by the
+                   Commission under this Ordinance; or
+             (b)   which transaction the specified person knows is
+                   otherwise being considered by the Commission.
+       (2)   Subsection (1) does not apply to any transaction that a holder
+             of virtual assets effects or causes to be effected by reference to
+             any of their rights as such holder—
+             (a)   to participate in a scheme of arrangement sanctioned by
+                   the Court of First Instance under the Companies
+                   Ordinance (Cap. 622);
+             (b)   to charge or pledge the virtual assets to secure the
+                   repayment of money;
+             (c)   to realize the virtual assets for the purpose of repaying
+                   money secured under paragraph (b); or
+             (d)   to realize the virtual assets in the course of performing a
+                   duty imposed by law.
+(3)   A specified person must inform the Commission if, in the
+      course of performing any function under this Part, the
+      specified person is required to consider any matter relating to
+      —
+      (a)    any virtual assets—
+             (i)    in which the specified person has an interest;
+            (ii)    in which a corporation, in the shares of which the
+                    specified person has an interest, has an interest; or
+            (iii)   that are of or issued by the same issuer as those in
+                    which the specified person has an interest; or
+      (b)    a person—
+             (i)    by whom the specified person is or was employed;
+            (ii)    of whom the specified person is or was a client;
+            (iii)   who is or was the specified person’s associate; or
+            (iv)    whom the specified person knows is or was a client
+                    of a person—
+                    (A)   with whom the specified person is or was
+                          employed; or
+                    (B)   who is or was the specified person’s associate.
+(4)   A person who, without reasonable excuse, contravenes
+      subsection (1) or (3) commits an offence and is liable—
+      (a)    on conviction on indictment to a fine of $1,000,000 and
+             to imprisonment for 2 years; or
+      (b)    on summary conviction to a fine at level 6 and to
+             imprisonment for 6 months.
+(5)   In this section—
+associate (有聯繫者), in relation to a person, means—
+      (a)    the spouse, or any minor child (natural or adopted) or
+             minor step-child, of the person;
+      (b)    any corporation of which the person is a director;
+      (c)    any employee or partner of the person;
+      (d)    the trustee of a trust of which the person, his or her
+             spouse, minor child (natural or adopted) or minor step-
+             child, is a beneficiary or a discretionary object;
+      (e)    another person in accordance with whose directions or
+             instructions the person is accustomed or obliged to act;
+      (f)    another person accustomed or obliged to act in
+             accordance with the directions or instructions of the
+             person;
+      (g)    a corporation in accordance with the directions or
+             instructions of which, or the directions or instructions of
+             the directors of which, the person is accustomed or
+             obliged to act;
+      (h)    a corporation that is, or the directors of which are,
+             accustomed or obliged to act in accordance with the
+             directions or instructions of the person;
+      (i)    a corporation at general meetings of which the person,
+             either alone or together with another, is directly or
+             indirectly entitled to exercise or control the exercise of
+             33% or more of the voting power;
+      (j)    a corporation of which the person controls the
+             composition of the board of directors;

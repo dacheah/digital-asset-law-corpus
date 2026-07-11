@@ -1,0 +1,355 @@
+Digital-Asset Law Corpus — NOTICE
+=================================
+
+This release reproduces 57 official legal instruments from their official
+sources. Each is listed below with its issuing/publishing body, the terms under
+which it is included, and its official citation. The compilation and derived
+layers are CC BY 4.0 (see LICENSE); the source texts are not relicensed.
+
+Records are included only where reuse terms are confirmed clean. 13 further
+records whose terms are still to be confirmed are withheld from this public
+release pending confirmation.
+
+---------------------------------
+
+* ae/decision/cabinet-va-2022  [ARE]
+    title:     UAE (federal) Cabinet Decision No. (111) of 2022 — Regulating Virtual Assets & their Service Providers (Arabic)
+    publisher: United Arab Emirates — Federal Legislation Portal (uaelegislation.gov.ae); Securities and Commodities Authority (SCA / هيئة الأوراق المالية والسلع)
+    licence:   ae-law-noncopyright
+    source:    https://uaelegislation.gov.ae/ar/legislations/1623
+
+* ae/decision/cma-virtual-assets-2026  [ARE]
+    title:     UAE (federal, CMA) Chairman Decision No. (4/R.M) of 2026 — Regulating Virtual Assets (Arabic)
+    publisher: United Arab Emirates — Capital Market Authority (هيئة سوق المال / CMA, formerly SCA)
+    licence:   ae-law-noncopyright
+    source:    https://www.uaecma.gov.ae/ar/regulations/regulations-listing.aspx
+
+* ae/law/virtual-assets-dubai-2022  [ARE]
+    title:     Dubai Law No. 4 of 2022 — Regulating Virtual Assets (establishes VARA)
+    publisher: Government of Dubai — Dubai Legislation Portal (dlp.dubai.gov.ae); published in the Official Gazette of the Government of Dubai
+    licence:   ae-law-noncopyright
+    source:    https://dlp.dubai.gov.ae/legislation ar reference/2022/قانون رقم (4) لسنة 2022 بشأن تنظيم الأصول الافتراضية.html
+
+* ae/regulation/cbuae-payment-token-services-2024  [ARE]
+    title:     CBUAE Payment Token Services Regulation (C 2/2024)
+    publisher: Central Bank of the United Arab Emirates (CBUAE) — CBUAE Rulebook
+    licence:   ae-law-noncopyright
+    source:    https://rulebook.centralbank.ae/ar/rulebook/نظام-خدمات-رمز-الدفع
+
+* au/act/digital-assets-framework-2026  [AUS]
+    title:     Digital Assets Framework Act 2026
+    publisher: Federal Register of Legislation (Commonwealth of Australia)
+    licence:   cc-by-4.0-cwlth
+    source:    https://www.legislation.gov.au/C2026A00038/asmade
+
+* br/lei/virtual-assets-framework-2022  [BRA]
+    title:     Lei 14.478/2022 — Marco Legal dos Ativos Virtuais (Brazil)
+    publisher: Presidência da República (Casa Civil, Subchefia para Assuntos Jurídicos), via Planalto (planalto.gov.br)
+    licence:   br-law-noncopyright
+    source:    https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14478.htm
+
+* br/resolucao/bcb-519-2025  [BRA]
+    title:     Resolução BCB nº 519/2025 — PSAV authorisation/licensing (Brazil)
+    publisher: Banco Central do Brasil (Diretoria Colegiada)
+    licence:   br-law-noncopyright
+    source:    https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=519
+
+* br/resolucao/bcb-520-2025  [BRA]
+    title:     Resolução BCB nº 520/2025 — PSAV operating/prudential rules (Brazil)
+    publisher: Banco Central do Brasil (Diretoria Colegiada)
+    licence:   br-law-noncopyright
+    source:    https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=520
+
+* br/resolucao/bcb-521-2025  [BRA]
+    title:     Resolução BCB nº 521/2025 — virtual-asset FX integration (Brazil)
+    publisher: Banco Central do Brasil (Diretoria Colegiada)
+    licence:   br-law-noncopyright
+    source:    https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=521
+
+* ch/act/co-ledger-securities  [CHE]
+    title:     Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (German)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de
+
+* ch/act/co-ledger-securities  [CHE]
+    title:     Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (French)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr
+
+* ch/act/co-ledger-securities  [CHE]
+    title:     Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (Italian)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it
+
+* ch/act/dlt-2020  [CHE]
+    title:     Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — German authentic text
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex); enacted by the Federal Assembly
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/oc/2021/33/de
+
+* ch/act/dlt-2020  [CHE]
+    title:     Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — French authentic text
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex); enacted by the Federal Assembly
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/oc/2021/33/fr
+
+* ch/act/dlt-2020  [CHE]
+    title:     Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — Italian authentic text
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex); enacted by the Federal Assembly
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/oc/2021/33/it
+
+* ch/act/finfrag-dlt-facility  [CHE]
+    title:     Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (German)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/2015/853/de
+
+* ch/act/finfrag-dlt-facility  [CHE]
+    title:     Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (French)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/2015/853/fr
+
+* ch/act/finfrag-dlt-facility  [CHE]
+    title:     Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (Italian)
+    publisher: Swiss Confederation — Federal Chancellery (Fedlex)
+    licence:   ch-law-noncopyright
+    source:    https://www.fedlex.admin.ch/eli/cc/2015/853/it
+
+* cn/notice/virtual-currency-risks-2026  [CHN]
+    title:     银发〔2026〕42号 / 2026 Virtual Currency & RWA Risks Notice (China)
+    publisher: 中国人民银行 (People's Bank of China), Legal Affairs Department (条法司), publishing on behalf of the eight co-issuing authorities
+    licence:   cn-law-noncopyright
+    source:    https://www.pbc.gov.cn/tiaofasi/144941/3581332/2026020619591971323/index.html
+
+* cn/notice/virtual-currency-trading-2021  [CHN]
+    title:     银发〔2021〕237号 / 2021 Virtual Currency Trading Risks Notice (China)
+    publisher: 中国人民银行 (People's Bank of China), Legal Affairs Department (条法司), publishing on behalf of the ten co-issuing authorities
+    licence:   cn-law-noncopyright
+    source:    https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html
+
+* difc/law/digital-assets-2024  [ARE]
+    title:     DIFC Digital Assets Law No. 2 of 2024
+    publisher: Dubai International Financial Centre (DIFC) — official legal database
+    licence:   difc-official-legislation
+    source:    https://www.difc.com/business/laws-and-regulations/legal-database/difc-laws/digital-assets-law-difc-law-no-2-of-2024
+
+* eu/corrigendum/mica-r03-2024  [EU]
+    title:     MiCA Corrigendum R(03) (OJ L, 2024/90275)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114R(03)
+
+* eu/regulation/mica-2023  [EU]
+    title:     MiCA
+    publisher: Publications Office of the European Union (EUR-Lex) — Official Journal of the European Union
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114
+
+* eu/regulation/mica-its-whitepaper-2024  [EU]
+    title:     MiCA ITS — crypto-asset white-paper forms/templates (Reg (EU) 2024/2984)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2984
+
+* eu/regulation/mica-rts-complaints-2025  [EU]
+    title:     MiCA RTS — complaints-handling for CASPs (Reg (EU) 2025/294)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0294
+
+* eu/regulation/mica-rts-conflicts-2025  [EU]
+    title:     MiCA RTS — conflicts of interest for CASPs (Reg (EU) 2025/1142)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1142
+
+* eu/regulation/mica-rts-liquidity-2025  [EU]
+    title:     MiCA RTS — liquidity-management policy for ART/EMT issuers (Reg (EU) 2025/1264)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1264
+
+* eu/regulation/mica-rts-market-abuse-2025  [EU]
+    title:     MiCA RTS — market-abuse prevention/detection (Reg (EU) 2025/885)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0885
+
+* eu/regulation/mica-rts-ownfunds-2025  [EU]
+    title:     MiCA RTS — own funds / stress testing for ART/EMT issuers (Reg (EU) 2025/415)
+    publisher: European Union — Official Journal (EUR-Lex)
+    licence:   eu-reuse-2011-833
+    source:    https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0415
+
+* hk/ordinance/amlo-va-services-2022  [HKG]
+    title:     Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (English)
+    publisher: Hong Kong SAR — Department of Justice (e-Legislation); also open data on data.gov.hk
+    licence:   hk-data-gov-psi
+    source:    https://www.elegislation.gov.hk/hk/cap615!en
+
+* hk/ordinance/amlo-va-services-2022  [HKG]
+    title:     Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (Traditional Chinese)
+    publisher: Hong Kong SAR — Department of Justice (e-Legislation); also open data on data.gov.hk
+    licence:   hk-data-gov-psi
+    source:    https://www.elegislation.gov.hk/hk/cap615!zh-Hant
+
+* hk/ordinance/stablecoins-2025  [HKG]
+    title:     Stablecoins Ordinance (Cap. 656) — English
+    publisher: Hong Kong e-Legislation (Department of Justice, HKSAR)
+    licence:   hk-data-gov-psi
+    source:    https://www.elegislation.gov.hk/hk/cap656
+
+* hk/ordinance/stablecoins-2025  [HKG]
+    title:     Stablecoins Ordinance (Cap. 656) — Traditional Chinese
+    publisher: Hong Kong e-Legislation (Department of Justice, HKSAR)
+    licence:   hk-data-gov-psi
+    source:    https://www.elegislation.gov.hk/hk/cap656
+
+* id/regulation/ojk-27-2024  [IDN]
+    title:     Indonesia OJK Regulation 27/2024 (Digital Financial Asset & Crypto Trading)
+    publisher: Otoritas Jasa Keuangan (OJK), Republik Indonesia
+    licence:   id-law-noncopyright
+    source:    https://ojk.go.id/id/regulasi/Pages/POJK-27-2024-AKD-AK.aspx
+
+* jp/act/payment-services-2009  [JPN]
+    title:     資金決済法 / Payment Services Act (Japan)
+    publisher: e-Gov 法令検索 (Digital Agency, Government of Japan)
+    licence:   jp-law-noncopyright
+    source:    https://laws.e-gov.go.jp/law/421AC0000000059
+
+* jp/order/crypto-asset-exchange-2017  [JPN]
+    title:     Japan Cabinet Office Order on Crypto-Asset Exchange Service Providers (No. 7 of 2017)
+    publisher: Government of Japan — e-Gov (Digital Agency), Standard Law data
+    licence:   jp-law-noncopyright
+    source:    https://laws.e-gov.go.jp/law/429M60000002007
+
+* jp/order/epi-exchange-2023  [JPN]
+    title:     Japan Cabinet Office Order on Electronic Payment Instruments Exchange Service Providers (No. 48 of 2023)
+    publisher: Government of Japan — e-Gov (Digital Agency), Standard Law data
+    licence:   jp-law-noncopyright
+    source:    https://laws.e-gov.go.jp/law/505M60000002048
+
+* kr/act/virtual-asset-user-protection-2023  [KOR]
+    title:     가상자산이용자보호법 / Virtual Asset User Protection Act (Korea)
+    publisher: 국가법령정보센터 (National Law Information Center, Ministry of Government Legislation); responsible ministry: 금융위원회 (Financial Services Commission)
+    licence:   kr-law-noncopyright
+    source:    https://www.law.go.kr/법령/가상자산이용자보호법
+
+* kr/decree/vaupa-enforcement-2024  [KOR]
+    title:     Korea VAUPA Enforcement Decree (Presidential Decree No. 35472)
+    publisher: Republic of Korea — National Law Information Center (law.go.kr)
+    licence:   kr-law-noncopyright
+    source:    https://www.law.go.kr/법령/가상자산이용자보호등에관한법률시행령
+
+* kr/regulation/vaupa-fsc-supervision-2024  [KOR]
+    title:     Korea FSC Regulation on Supervision of Virtual Asset Business (Notification 2024-37)
+    publisher: Republic of Korea — Financial Services Commission (via law.go.kr)
+    licence:   kr-law-noncopyright
+    source:    https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000244180
+
+* li/act/tvtg-2019  [LIE]
+    title:     Liechtenstein Token and TT Service Provider Act (TVTG), consolidated 2025
+    publisher: Fürstentum Liechtenstein — Landesgesetzblatt (Gesetze.li)
+    licence:   li-law-noncopyright
+    source:    https://www.gesetze.li/konso/2019301000
+
+* mt/act/vfaa-2018  [MLT]
+    title:     Malta Virtual Financial Assets Act (Cap. 590) — English authentic text
+    publisher: Government of Malta — Laws of Malta (legislation.mt)
+    licence:   mt-law-noncopyright
+    source:    https://legislation.mt/eli/cap/590/20250516/eng
+
+* mt/act/vfaa-2018  [MLT]
+    title:     Malta Virtual Financial Assets Act (Cap. 590) — Maltese authentic text
+    publisher: Government of Malta — Laws of Malta (legislation.mt)
+    licence:   mt-law-noncopyright
+    source:    https://legislation.mt/eli/cap/590/20250516/mlt
+
+* mx/ley/fintech-2018  [MEX]
+    title:     Mexico Ley Fintech (consolidated, última reforma 14 nov 2025)
+    publisher: Cámara de Diputados del H. Congreso de la Unión (México) — texto consolidado
+    licence:   mx-law-noncopyright
+    source:    https://www.diputados.gob.mx/LeyesBiblio/pdf/LRITF.pdf
+
+* ph/circular/bsp-vasp-1108-2021  [PHL]
+    title:     BSP Circular No. 1108 (2021) — VASP Guidelines
+    publisher: Bangko Sentral ng Pilipinas (BSP)
+    licence:   ph-gov-noncopyright
+    source:    https://www.bsp.gov.ph/Regulations/Issuances/2021/1108.pdf
+
+* sg/act/fsma-2022-dtsp  [SGP]
+    title:     Singapore FSMA 2022, Part 9 (Digital Token Service Providers)
+    publisher: Singapore — Singapore Statutes Online (AGC)
+    licence:   sso-agc-permission
+    source:    https://sso.agc.gov.sg/Act/FSMA2022
+
+* sg/act/payment-services-2019  [SGP]
+    title:     Payment Services Act 2019 (Singapore)
+    publisher: Singapore Statutes Online (Attorney-General's Chambers)
+    licence:   sso-agc-permission
+    source:    https://sso.agc.gov.sg/Act/PSA2019
+
+* th/decree/digital-asset-businesses-2561  [THA]
+    title:     Thailand Emergency Decree on Digital Asset Businesses B.E. 2561 (2018)
+    publisher: Kingdom of Thailand — Royal Gazette (ราชกิจจานุเบกษา)
+    licence:   th-law-noncopyright
+    source:    http://www.ratchakitcha.soc.go.th/DATA/PDF/2561/A/033/43.PDF
+
+* tr/law/capital-markets-crypto-7518-2024  [TUR]
+    title:     Türkiye Law No. 7518 (2024) — crypto amendments to the Capital Markets Law
+    publisher: Republic of Türkiye — Resmî Gazete
+    licence:   tr-law-noncopyright
+    source:    https://www.resmigazete.gov.tr/eskiler/2024/07/20240702-1.htm
+
+* uk/regulations/fsma-cryptoassets-2026  [GBR]
+    title:     FSMA 2000 (Cryptoassets) Regulations 2026 (UK SI 2026/102)
+    publisher: The National Archives — King's Printer of Acts of Parliament (legislation.gov.uk); instrument made by HM Treasury
+    licence:   uk-ogl-v3
+    source:    https://www.legislation.gov.uk/uksi/2026/102/made
+
+* us/forms/occ-genius-ps01-instructions-2026  [USA]
+    title:     Form PS-01 Instructions
+    publisher: Office of the Comptroller of the Currency (OCC)
+    licence:   public-domain-gov
+    source:    https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24b.pdf
+
+* us/forms/occ-genius-ps02-instructions-2026  [USA]
+    title:     Form PS-02 Instructions
+    publisher: Office of the Comptroller of the Currency (OCC)
+    licence:   public-domain-gov
+    source:    https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24d.pdf
+
+* us/forms/occ-genius-reporting-2026  [USA]
+    title:     GENIUS Reporting Forms — Notice & Request for Comment
+    publisher: Office of the Comptroller of the Currency (OCC)
+    licence:   public-domain-gov
+    source:    https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24a.pdf
+
+* us/rule/occ-payment-stablecoins-2026  [USA]
+    title:     OCC Payment Stablecoins Proposed Rule (NPRM)
+    publisher: U.S. Government Publishing Office (govinfo) / Office of the Federal Register
+    licence:   public-domain-gov
+    source:    https://www.govinfo.gov/content/pkg/FR-2026-03-02/pdf/2026-04089.pdf
+
+* us/statute/genius-act-2025  [USA]
+    title:     GENIUS Act
+    publisher: U.S. Government Publishing Office (govinfo)
+    licence:   public-domain-gov
+    source:    https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf
+
+* vn/law/digital-technology-industry-2025  [VNM]
+    title:     Vietnam Law on Digital Technology Industry (71/2025/QH15)
+    publisher: Socialist Republic of Vietnam — Công báo (Official Gazette)
+    licence:   vn-law-noncopyright
+    source:    https://congbao.chinhphu.vn
+
+* za/notice/crypto-asset-financial-product-2022  [ZAF]
+    title:     South Africa — crypto asset declared a financial product (FAIS, GN 1350 of 2022)
+    publisher: Republic of South Africa — Government Gazette (FSCA)
+    licence:   za-gov-noncopyright
+    source:    https://www.gov.za/sites/default/files/gcis_document/202210/47334gen1350.pdf

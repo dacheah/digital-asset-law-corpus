@@ -1,0 +1,95 @@
+corpus_id: ae/decision/cabinet-va-2022
+version_id: '2022-12-12'
+title: قرار مجلس الوزراء رقم (111) لسنة 2022 بشأن تنظيم الأصول الافتراضية ومزودي خدماتها (Cabinet Decision
+  No. (111) of 2022 on Regulating Virtual Assets and their Service Providers)
+short_title: UAE (federal) Cabinet Decision No. (111) of 2022 — Regulating Virtual Assets & their Service
+  Providers (Arabic)
+jurisdiction: ARE
+document_type: cabinet decision
+official_citation: قرار مجلس الوزراء رقم (111) لسنة 2022 بشأن تنظيم الأصول الافتراضية ومزودي خدماتها؛
+  صدر بتاريخ 12/12/2022، ونُشر في الجريدة الرسمية عدد (741) بتاريخ 15/12/2022، ويُعمل به بعد (30) يومًا
+  من تاريخ نشره (اعتبارًا من 14/01/2023) — UAE federal Cabinet Decision No. (111) of 2022, Official Gazette
+  No. 741 (15 Dec 2022)
+authentic_languages:
+- ar
+adoption_date: '2022-12-12'
+entry_into_force_date: '2023-01-14'
+source_url: https://uaelegislation.gov.ae/ar/legislations/1623
+source_publisher: United Arab Emirates — Federal Legislation Portal (uaelegislation.gov.ae); Securities
+  and Commodities Authority (SCA / هيئة الأوراق المالية والسلع)
+source_is_official: true
+retrieval_date: '2026-07-11'
+retrieved_by: Project maintainer — official UAE Federal Legislation Portal (Arabic, server-rendered)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:0f8477f324f418e2108c5e847237f4016d66b3c6fda41acfbfd6c60f00465d19
+original_sha256: sha256:eff9a21e83fe3102f1731b5950597777d6b078af080cf10ffbbd594c137d41cb
+text_sha256: sha256:0f8477f324f418e2108c5e847237f4016d66b3c6fda41acfbfd6c60f00465d19
+text_fidelity: extracted_verified
+language: ar
+authoritative_status: authentic_text
+license: ae-law-noncopyright
+rights_note: UAE Federal Decree-Law No. 38 of 2021 on Copyright and Neighbouring Rights, Art. 3, excludes
+  official documents (laws, regulations, decisions and their official translations) from copyright protection.
+  Clean. Arabic is the authentic enacting language.
+capture_history:
+- date: '2026-07-11'
+  source_url: https://uaelegislation.gov.ae/ar/legislations/1623
+  original_sha256: sha256:eff9a21e83fe3102f1731b5950597777d6b078af080cf10ffbbd594c137d41cb
+  note: Text taken from the UAE Federal Legislation Portal's server-rendered Arabic (clean Unicode logical
+    order), captured from the browser DOM because the portal is a JavaScript-rendered single-page app
+    (a raw HTML download is an empty 'please enable JavaScript' shell). The byte-exact official PDF (original.pdf)
+    is retained as the integrity anchor.
+supersedes: null
+superseded_by: null
+related_documents:
+- ae/decision/cma-virtual-assets-2026
+provenance_note: 'The UAE FEDERAL framework decision for virtual assets: Cabinet Decision No. (111) of
+  2022 on Regulating Virtual Assets and their Service Providers, issued 12 December 2022, published in
+  Official Gazette No. 741 (15 Dec 2022) and in force from 14 January 2023 (30 days after publication).
+  It defines virtual assets and VA activities, requires federal Securities and Commodities Authority (SCA)
+  licensing/oversight of onshore VA service providers (excluding the financial free zones DIFC and ADGM,
+  and payment-token/stored-value instruments reserved to the Central Bank), and empowers the SCA (renamed
+  the Capital Market Authority, CMA, by Federal Decree-Laws 32 & 33 of 2025) to issue the implementing
+  rulebook — see the related CMA Chairman Decision No. (4/R.M) of 2026. Arabic authentic. FIDELITY: extracted_verified
+  (independent OCR cross-check, JC-038) — the authentic text is the official Legislation Portal''s server-rendered
+  Arabic (complete: preamble citing the Constitution and eight named federal laws, then the 18 sequential
+  articles المادة (1)–(18)). The byte-exact PDF anchor''s own text layer is degraded (presentation-form
+  glyphs + U+FFFD), so instead of a char-for-char text-layer check the portal text was confirmed against
+  the official PDF''s VISUAL content by an independent Arabic OCR (pdftoppm 300 dpi → tesseract -l ara;
+  reproducible via scripts/verify_ocr.py) at 99.2% token / 97.4% char-5-gram agreement — the residual
+  is OCR noise, not a content discrepancy. LICENCE: ae-law-noncopyright (Federal Decree-Law 38/2021 Art.
+  3). Recorded neutrally.'
+verification:
+  status: verified
+  method: 'text.txt (the authentic Arabic) was taken from the UAE Federal Legislation Portal (uaelegislation.gov.ae/ar/legislations/1623)
+    — the official federal publisher — as its server-rendered HTML, which stores the decision in clean
+    Unicode LOGICAL order. It was captured from the rendered browser DOM because the portal is a JavaScript-rendered
+    single-page app whose raw HTML download is an empty ''please enable JavaScript'' shell (0 occurrences
+    of المادة). WHY NOT THE PDF TEXT LAYER: the byte-exact official PDF (original.pdf) is kept as the
+    integrity anchor, but — unlike the clean Dubai/CBUAE Gazette PDFs — its Arabic text layer is degraded
+    (~6500 presentation-form glyphs and ~904 U+FFFD data-loss holes), so an INDEPENDENT char-for-char
+    completeness cross-check is not possible; a same-document skeleton-token overlap of 59% (capped by
+    the PDF''s corruption, not by the portal text) corroborates that the two are the same instrument.
+    STRUCTURE: text.txt forms the COMPLETE consecutive sequence of 18 articles (المادة (1)–(18)) preceded
+    by the enacting preamble (citing the Constitution and eight named federal laws and ending ''قـرّر'')
+    and closing with the publication / entry-into-force article (Art. 18: published in the Official Gazette,
+    in force 30 days after publication). INDEPENDENT OCR CROSS-CHECK (JC-038): because the byte-exact
+    official PDF anchor''s Arabic text layer is degraded (presentation-form glyphs + U+FFFD), the portal
+    text was confirmed against the official PDF''s VISUAL content by an independent Arabic OCR that reads
+    the rendered glyphs, not the broken text layer (pdftoppm 300 dpi → tesseract -l ara --psm 6; reproducible
+    via scripts/verify_ocr.py). After Arabic orthographic normalisation the stored text is covered by
+    the OCR at 99.2% of token instances (98.1% of unique tokens) and 97.4% of character 5-grams; the residual
+    is OCR noise, not a content discrepancy, and all 18 articles المادة (1)–(18) are present in both independent
+    readings.'
+  reference: 'United Arab Emirates — Federal Legislation Portal (uaelegislation.gov.ae), legislation no.
+    1623: server-rendered authentic Arabic. Byte-exact official PDF retained as integrity anchor (original.pdf,
+    SHA-256 pinned). Official Gazette No. 741, 15 December 2022. Retrieved 10–11 July 2026.'
+  verified_by: Project maintainer (independent Arabic OCR cross-check, scripts/verify_ocr.py)
+  verified_date: '2026-07-11'
+  note: text_fidelity=extracted_verified via an INDEPENDENT Arabic OCR cross-check of the official PDF
+    (JC-038; 99.2% token / 97.4% char-5-gram agreement, residual is OCR noise). Two fully independent
+    readings of the official instrument — the portal's server-rendered DOM and an OCR of the Gazette-anchored
+    PDF's visual content — agree. A clean Official Gazette PDF would additionally permit a char-exact
+    re-verification. Prior disclosed processing unchanged (one spurious U+241F removed; article breaks
+    before each line-initial المادة). Canonical UTF-8/LF.

@@ -1,0 +1,97 @@
+corpus_id: jp/act/payment-services-2009
+version_id: '2026-07-09'
+title: 資金決済に関する法律 (Payment Services Act)
+short_title: 資金決済法 / Payment Services Act (Japan)
+jurisdiction: JPN
+document_type: statute
+official_citation: 資金決済に関する法律（平成二十一年法律第五十九号）— Payment Services Act (Act No. 59 of 2009) (Japan); current
+  in-force consolidation as retrieved 9 Jul 2026, incorporating amendments through Act No. 66 of 2025
+  (令和七年六月一三日法律第六六号)
+authentic_languages:
+- ja
+adoption_date: '2009-06-24'
+entry_into_force_date: '2010-04-01'
+source_url: https://laws.e-gov.go.jp/law/421AC0000000059
+source_publisher: e-Gov 法令検索 (Digital Agency, Government of Japan)
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: Project maintainer — manual download from e-Gov 法令検索 (Standard Law XML via the e-Gov law
+  data API)
+original_format: xml
+original_filename: original.xml
+content_hash: sha256:0bc1313f9f92821a0e65aedd4ead388b5952e9cc5e06788fe2644f72b8f3b5e5
+original_sha256: sha256:3828b4db78457507e22abdd92c79b324d747e895c11e3b7aa34c55fe3a8bab32
+text_sha256: sha256:0bc1313f9f92821a0e65aedd4ead388b5952e9cc5e06788fe2644f72b8f3b5e5
+text_fidelity: extracted_verified
+language: ja
+authoritative_status: official_consolidation
+license: jp-law-noncopyright
+rights_note: 'Under the Copyright Act of Japan (著作権法), Article 13, laws and regulations (法令) are excluded
+  from the subject matter of copyright; the authentic Japanese statutory text is therefore freely reproducible
+  (analogous to US federal public-domain text, reached by a different route). Source: e-Gov 法令検索 (laws.e-gov.go.jp),
+  the official Japanese legislation database operated by the Digital Agency. NOTE: any third-party English
+  translation (e.g. the Government''s Japanese Law Translation, japaneselawtranslation.go.jp) is UNOFFICIAL
+  and carries its own terms — such translations are kept in the derived layer under their own licence,
+  never in the authoritative layer.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://laws.e-gov.go.jp/law/421AC0000000059
+  original_sha256: sha256:3828b4db78457507e22abdd92c79b324d747e895c11e3b7aa34c55fe3a8bab32
+  note: 'Initial capture: e-Gov Standard Law XML for LawId 421AC0000000059 (資金決済に関する法律), the current in-force
+    consolidated version served by the e-Gov law data API; manually downloaded and staged. original.xml
+    is the byte-exact XML anchor; text.txt is the Japanese authentic text extracted from the XML Law body.'
+verification:
+  status: verified
+  method: 'text.txt (Japanese authentic text extracted from the e-Gov Standard Law XML) verified against
+    the XML Law element by two independent checks. (1) NO FABRICATION: every character in text.txt (after
+    whitespace normalisation) is drawn from the XML Law itertext — the set difference is empty (0 characters
+    in text.txt that are not present in the XML). (2) COMPLETENESS: all 1,645 operative <Sentence> elements
+    under MainProvision and SupplProvision appear verbatim in text.txt (0 missing), INCLUDING the 300 sentences
+    inside the 7 read-as (読替) <TableStruct> tables. An earlier extraction draft dropped the tables that
+    are direct children of a Paragraph; this verification''s completeness check caught it and the extractor
+    was fixed to render every table before the record was committed. The extraction is deliberately NOT
+    a strict itertext subsequence because each Article renders its number before its caption (reading order:
+    第三十七条の二　（…）) whereas the XML stores the caption before the title — so faithfulness is established by
+    no-fabrication + no-missing-sentence, not by raw byte order.'
+  reference: e-Gov 法令検索 — 資金決済に関する法律 (LawId 421AC0000000059), current in-force consolidated version, retrieved
+    9 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed rendering (wording unchanged): the XML Standard Law structure is flattened to plain
+    text — title / chapter / section headings, article number + caption, paragraph number + sentences,
+    items and subitems, and supplementary provisions (附則), all in document order; the navigation Table
+    of Contents (目次, 863 chars) is omitted as it is not enacted text; read-as tables are rendered as tab-delimited
+    rows (one row per line); the full-width ideographic space (U+3000) that separates statutory labels
+    from their captions is preserved; ASCII whitespace from XML indentation is stripped; canonical UTF-8/LF
+    by tooling. Structural counts: 311 articles, 621 paragraphs, 525 items, 12 chapters, 13 supplementary-provision
+    blocks. Authoritative as an official_consolidation (Japan''s e-Gov current version has legal force).'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: '資金決済に関する法律 (Payment Services Act), Act No. 59 of 2009, Japan — the CURRENT IN-FORCE
+  consolidated version from e-Gov 法令検索 (the official Japanese legislation database, Digital Agency), retrieved
+  9 Jul 2026. This is Japan''s Track A market-structure spine: it carries the crypto-asset exchange service-provider
+  regime (暗号資産交換業) AND the electronic-payment-instrument / stablecoin regime (電子決済手段), alongside the pre-existing
+  prepaid-payment-instrument (前払式支払手段) and funds-transfer (資金移動業) regimes. AUTHENTIC LANGUAGE: Japanese
+  ONLY (authentic_languages=[ja]). This is the FIRST branch in the corpus where English is not authentic
+  — under Japanese practice only the original Japanese has legal effect; any English rendering (including
+  the Government''s own Japanese Law Translation) is UNOFFICIAL and belongs in the derived layer (JC-015).
+  VERSION: the base Act No. 59 of 2009 was promulgated 24 Jun 2009 (平成二十一年法律第五十九号) and commenced 1 Apr
+  2010; this consolidated text incorporates 12 amendments recorded in the XML SupplProvisions, the latest
+  being Act No. 66 of 2025 (令和七年六月一三日法律第六六号, promulgated 13 Jun 2025, with full operational effect by
+  13 Jun 2026). Because retrieval (9 Jul 2026) post-dates that commencement and the XML contains no not-yet-in-force
+  (未施行) markers, the 2025 amendment''s provisions are present and in force in this snapshot — evidenced
+  by the new intermediary category it introduced, defined here by its exact statutory term 「電子決済手段・暗号資産サービス仲介業」
+  (electronic-payment-instrument / crypto-asset service intermediary business, Art. 2 ¶¶18–20), and the
+  為替取引分析業 (exchange-transaction-analysis / travel-rule) business. (A secondary source''s loose gloss ''crypto-asset
+  intermediary business'' does not match the enacted term; the record follows the primary text.) AUTHORITATIVENESS:
+  the e-Gov current version has legal force, so this consolidated text is AUTHORITATIVE (recorded as official_consolidation)
+  — like AU compilations and SG current versions, unlike EU (EUR-Lex) consolidations which are non-authentic
+  (JC-009). SOURCE/FORMAT: original.xml is the e-Gov Standard Law XML (byte-exact anchor); text.txt is
+  the Japanese authentic text extracted from the XML Law body (title → chapters/sections → articles →
+  paragraphs/items → supplementary provisions 附則), preserving the full-width ideographic space (U+3000)
+  that separates statutory labels from their captions (e.g. 第一章　総則). LICENCE: jp-law-noncopyright — Copyright
+  Act of Japan Art. 13 excludes 法令 from copyright, so reproduction of the law text is unrestricted (JC-015);
+  any third-party English translation has its own terms. Follow-ups queued: the Cabinet Office Orders
+  (府令) implementing the crypto-asset and electronic-payment-instrument regimes; an unofficial English
+  translation authored into the derived layer. Recorded on its own terms (JC-003/JC-007).'

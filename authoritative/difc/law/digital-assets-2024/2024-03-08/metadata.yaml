@@ -1,0 +1,74 @@
+corpus_id: difc/law/digital-assets-2024
+version_id: '2024-03-08'
+title: Digital Assets Law (DIFC Law No. 2 of 2024)
+short_title: DIFC Digital Assets Law No. 2 of 2024
+jurisdiction: ARE
+document_type: law
+official_citation: Digital Assets Law, DIFC Law No. 2 of 2024 — enacted by the Ruler of Dubai for the
+  Dubai International Financial Centre; enacted 1 March 2024, in force 8 March 2024; 16 articles in 5
+  Parts + 2 Schedules; English (authoritative)
+authentic_languages:
+- en
+adoption_date: '2024-03-01'
+entry_into_force_date: '2024-03-08'
+source_url: https://www.difc.com/business/laws-and-regulations/legal-database/difc-laws/digital-assets-law-difc-law-no-2-of-2024
+source_publisher: Dubai International Financial Centre (DIFC) — official legal database
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official consolidated PDF from difc.com
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:a4f2399fa75e832b580bda0d179aae2e19268ae83acee103a03ff19933d37caa
+original_sha256: sha256:d0495dda58d657e1b33e47bd78ac8135cd8cb8b07705c0d20e08f55a896001f8
+text_sha256: sha256:a4f2399fa75e832b580bda0d179aae2e19268ae83acee103a03ff19933d37caa
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: difc-official-legislation
+rights_note: 'Official legislation of the Dubai International Financial Centre (DIFC), a common-law financial
+  free zone that legislates in English (English is the authoritative language). DIFC legislation is public
+  official law published on the DIFC legal database; official legal texts are treated as freely reproducible
+  (and UAE Federal Decree-Law 38/2021 Art. 3 excludes official documents from copyright). Recorded honestly;
+  the DIFC website''s general terms apply to the site, not the enacted text. `license: difc-official-legislation`.'
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.difc.com/business/laws-and-regulations/legal-database/difc-laws/digital-assets-law-difc-law-no-2-of-2024
+  original_sha256: sha256:d0495dda58d657e1b33e47bd78ac8135cd8cb8b07705c0d20e08f55a896001f8
+  note: 'Initial capture: the official consolidated PDF of DIFC Law No. 2 of 2024 from the DIFC legal
+    database (difc.com). original.pdf is the byte-exact anchor; text.txt is the English text extracted
+    from it.'
+verification:
+  status: verified
+  method: 'text.txt (the authentic English text) verified against original.pdf. NO-FABRICATION + COMPLETENESS:
+    with all non-alphanumeric characters removed and case/width folded, text.txt is an EXACT match (43,636
+    alphanumeric characters, delta 0) to the pdftotext -layout extraction of original.pdf minus the disclosed
+    apparatus, so no operative content was added, lost or reordered. -layout was used because the article
+    number sits in a left column and its title in the body column; -layout keeps ''N.  Title'' on one
+    line, correctly associating each article (1–16) with its heading (a naive raw extraction grouped adjacent
+    numbers, e.g. ''3.'' ''4.''). STRUCTURE: 5 Parts (GENERAL; DIGITAL ASSET; CONTROL AND TITLE; OBLIGATIONS;
+    MISCELLANEOUS), 16 articles, and 2 Schedules.'
+  reference: DIFC legal database (difc.com) — Digital Assets Law, DIFC Law No. 2 of 2024, official consolidated
+    PDF, retrieved 10 Jul 2026
+  verified_by: Project maintainer
+  verified_date: '2026-07-10'
+  note: 'Disclosed apparatus removed (wording unchanged): the running header ''DIGITAL ASSETS LAW'', standalone
+    page numbers, and the title page + table of contents (the operative body begins at ''PART 1: GENERAL'').
+    Segmentation inserts breaks before PART headings, article numbers and sub-provision markers; -layout
+    alignment spaces collapsed. Canonical UTF-8/LF.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Digital Assets Law (DIFC Law No. 2 of 2024) — the Dubai International Financial Centre''s
+  digital-asset law, enacted 1 March 2024 and in force 8 March 2024. A common-law statute (English authoritative)
+  that establishes legal principles for digital assets: it defines a Digital Asset and its legal characterisation
+  as intangible property (Part 2), the law of CONTROL and TITLE — how control is established and how title
+  transfers, including good-faith acquisition (Part 3), holder/custody OBLIGATIONS (Part 4), and miscellaneous/consequential
+  provisions with power to make Regulations (Part 5), plus Schedule 1 (interpretation and defined terms)
+  and Schedule 2 (disapplications/modifications to other DIFC laws for digital-asset scenarios). 16 articles
+  in 5 Parts. This is the DIFC free-zone regime — a distinct legal system within the UAE (cf. Hong Kong),
+  recorded separately from the Dubai/VARA and federal regimes (JC-028/030). AUTHENTIC LANGUAGE: English.
+  AUTHORITATIVENESS: authentic_text — the official DIFC consolidated publication. FIDELITY (see verification
+  block): text.txt is an EXACT alphanumeric match to the pdftotext -layout extraction of original.pdf
+  (delta 0) minus the disclosed apparatus (running header, page numbers, title page/table of contents);
+  5 Parts and the article sequence verified. LICENCE: difc-official-legislation (official DIFC law; JC-030).
+  Recorded neutrally (JC-003/JC-006).'

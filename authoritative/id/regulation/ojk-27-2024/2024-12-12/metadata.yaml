@@ -1,0 +1,55 @@
+corpus_id: id/regulation/ojk-27-2024
+version_id: '2024-12-12'
+title: Peraturan Otoritas Jasa Keuangan Nomor 27 Tahun 2024 tentang Penyelenggaraan Perdagangan Aset Keuangan
+  Digital Termasuk Aset Kripto
+short_title: Indonesia OJK Regulation 27/2024 (Digital Financial Asset & Crypto Trading)
+jurisdiction: IDN
+document_type: regulation
+official_citation: Peraturan Otoritas Jasa Keuangan (POJK) Nomor 27 Tahun 2024 tentang Penyelenggaraan
+  Perdagangan Aset Keuangan Digital Termasuk Aset Kripto; ditetapkan 12 Desember 2024; mulai berlaku 1
+  Oktober 2025
+authentic_languages:
+- id
+adoption_date: '2024-12-12'
+entry_into_force_date: '2025-10-01'
+source_url: https://ojk.go.id/id/regulasi/Pages/POJK-27-2024-AKD-AK.aspx
+source_publisher: Otoritas Jasa Keuangan (OJK), Republik Indonesia
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official OJK 'Salinan' PDF (POJK 27/2024)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:338325c7363b349592610b91315b6d638714149b36041c69db7e437720c7e600
+original_sha256: sha256:fd36208e0f8fe9327efa574a18e78942763f848af112192831f01d319701b43f
+text_sha256: sha256:338325c7363b349592610b91315b6d638714149b36041c69db7e437720c7e600
+text_fidelity: extracted_verified
+language: id
+authoritative_status: authentic_text
+license: id-law-noncopyright
+rights_note: Indonesian Copyright Law No. 28 of 2014, Art. 42, excludes official state documents (laws,
+  regulations, official texts) from copyright. Clean. Indonesian is the authentic language.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://ojk.go.id/id/regulasi/Pages/POJK-27-2024-AKD-AK.aspx
+  original_sha256: sha256:fd36208e0f8fe9327efa574a18e78942763f848af112192831f01d319701b43f
+  note: Official OJK 'Salinan' (certified copy) PDF of POJK No. 27 of 2024.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Indonesia''s market-structure regime for digital financial assets and crypto: POJK No.
+  27 of 2024, issued after crypto oversight moved from Bappebti to the OJK under the P2SK Law (UU No.
+  4 of 2023). It covers asset eligibility, operator institutions (exchange, clearing, custody), licensing,
+  governance, trading conduct, reporting and supervision. Indonesian authentic; in force 1 Oct 2025. Amendment
+  POJK 23/2025 to be added as a dated version. AUTHORITATIVENESS: authentic_text (Salinan). LICENCE: id-law-noncopyright
+  (Copyright Law Art. 42). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 178-page PDF;
+    1 repeating header/footer line-classes removed. Structure: 1470 blocks; 0 PART/CHAPTER headings; 628
+    numbered units (max 2024); 0 Art. units.'

@@ -1,0 +1,53 @@
+corpus_id: mt/act/vfaa-2018
+version_id: 2025-05-16_mt
+title: Att dwar l-Assi Finanzjarji Virtwali (Kapitolu 590 tal-Liġijiet ta' Malta)
+short_title: Malta Virtual Financial Assets Act (Cap. 590) — Maltese authentic text
+jurisdiction: MLT
+document_type: act
+official_citation: Att dwar l-Assi Finanzjarji Virtwali, Kapitolu 590 tal-Liġijiet ta' Malta; test konsolidat
+  ufficjali (rivedut sas-16 ta' Mejju 2025)
+authentic_languages:
+- en
+- mt
+adoption_date: '2018-11-01'
+entry_into_force_date: '2018-11-01'
+source_url: https://legislation.mt/eli/cap/590/20250516/mlt
+source_publisher: Government of Malta — Laws of Malta (legislation.mt)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Laws of Malta consolidated PDF (Cap. 590, Maltese)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:062f566afe856037c9cbd0cd5cb1722c36fc3b56fa60e3d31f1a4fa438e064f5
+original_sha256: sha256:9803fdfae0d343d98ede0aff33df03bec81cc0dc87a2ccda06dcb16adb4dc25d
+text_sha256: sha256:062f566afe856037c9cbd0cd5cb1722c36fc3b56fa60e3d31f1a4fa438e064f5
+text_fidelity: extracted_verified
+language: mt
+authoritative_status: official_consolidation
+license: mt-law-noncopyright
+rights_note: Maltese Copyright Act (Cap. 415) Art. 2 excludes official texts from copyright. Clean. Maltese
+  and English are both authentic; the Maltese text prevails (JC-013 parallel-language model).
+capture_history:
+- date: '2026-07-10'
+  source_url: https://legislation.mt/eli/cap/590/20250516/mlt
+  original_sha256: sha256:9803fdfae0d343d98ede0aff33df03bec81cc0dc87a2ccda06dcb16adb4dc25d
+  note: Official Laws of Malta consolidated PDF of the Virtual Financial Assets Act (Cap. 590), Maltese,
+    revised to 16 May 2025.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'Maltese authentic text of the Virtual Financial Assets Act (Kapitolu 590) — the parallel
+  authentic-language version of Malta''s VFA framework (the Maltese text prevails in case of conflict;
+  JC-013). Captured as the official consolidated text revised to 16 May 2025. AUTHORITATIVENESS: official_consolidation.
+  LICENCE: mt-law-noncopyright (Copyright Act Cap. 415 Art. 2). Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 62-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 656 blocks; 0 PART/CHAPTER headings; 69
+    numbered units (max 2024); 1 Art. units.'

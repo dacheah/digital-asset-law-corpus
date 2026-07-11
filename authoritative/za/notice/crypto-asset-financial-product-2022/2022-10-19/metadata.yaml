@@ -1,0 +1,57 @@
+corpus_id: za/notice/crypto-asset-financial-product-2022
+version_id: '2022-10-19'
+title: Declaration of a crypto asset as a financial product under the Financial Advisory and Intermediary
+  Services Act, 2002
+short_title: South Africa — crypto asset declared a financial product (FAIS, GN 1350 of 2022)
+jurisdiction: ZAF
+document_type: notice
+official_citation: General Notice 1350 of 2022, Government Gazette No. 47334, 19 October 2022 — Declaration
+  of a crypto asset as a financial product under s1(1) of the Financial Advisory and Intermediary Services
+  Act 37 of 2002 (FAIS)
+authentic_languages:
+- en
+adoption_date: '2022-10-19'
+effective_date: '2022-10-19'
+source_url: https://www.gov.za/sites/default/files/gcis_document/202210/47334gen1350.pdf
+source_publisher: Republic of South Africa — Government Gazette (FSCA)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official Government Gazette PDF (GG 47334)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:9974fca6c0df7fc1595a87567925bef7e097cb3215059667634d2ace2c56f3d8
+original_sha256: sha256:da2af571b6950fa5e3ff1e0fc15677021a3e790b72acfb1b0128efc8268fd904
+text_sha256: sha256:9974fca6c0df7fc1595a87567925bef7e097cb3215059667634d2ace2c56f3d8
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: za-gov-noncopyright
+rights_note: South African Copyright Act 98 of 1978, s12(8)(a), excludes official texts — legislation
+  and official government notices — from copyright. Clean. The Gazette is bilingual (English/Afrikaans);
+  the English text is recorded as authentic.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://www.gov.za/sites/default/files/gcis_document/202210/47334gen1350.pdf
+  original_sha256: sha256:da2af571b6950fa5e3ff1e0fc15677021a3e790b72acfb1b0128efc8268fd904
+  note: Official South African Government Gazette PDF (GG No. 47334, 19 Oct 2022) containing General Notice
+    1350 of 2022.
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'South Africa''s entry point for crypto-asset regulation: General Notice 1350 of 2022
+  (Government Gazette 47334, 19 Oct 2022), by which the FSCA declared a crypto asset to be a ''financial
+  product'' under the Financial Advisory and Intermediary Services Act 37 of 2002 — bringing crypto-asset
+  financial services within the FAIS licensing/conduct regime. English authentic (bilingual gazette).
+  AUTHORITATIVENESS: authentic_text. LICENCE: za-gov-noncopyright (Copyright Act s12(8)(a)). Recorded
+  neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 1-page PDF; 0
+    repeating header/footer line-classes removed. Structure: 16 blocks; 0 PART/CHAPTER headings; 3 numbered
+    units (max 3); 0 Art. units.'

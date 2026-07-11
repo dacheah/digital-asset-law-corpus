@@ -1,0 +1,50 @@
+corpus_id: eu/regulation/mica-rts-conflicts-2025
+version_id: '2025-02-27'
+title: Commission Delegated Regulation (EU) 2025/1142 supplementing MiCA with regard to regulatory technical
+  standards on conflicts of interest for crypto-asset service providers
+short_title: MiCA RTS — conflicts of interest for CASPs (Reg (EU) 2025/1142)
+jurisdiction: EU
+document_type: delegated regulation
+official_citation: Commission Delegated Regulation (EU) 2025/1142 of 27 February 2025, OJ L, 2025/1142,
+  10 June 2025 (RTS under Regulation (EU) 2023/1114)
+authentic_languages:
+- en
+adoption_date: '2025-02-27'
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1142
+source_publisher: European Union — Official Journal (EUR-Lex)
+source_is_official: true
+retrieval_date: '2026-07-10'
+retrieved_by: Project maintainer — official EUR-Lex OJ PDF
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:a33c7cd93542222448d52e872212da4f4081dbf24a9cd750d6a8e7e3d77df5b5
+original_sha256: sha256:aece43ae88ef4fe1c9d946161f120447e69de0dec8d9b1c2f744d9e095ad11c3
+text_sha256: sha256:a33c7cd93542222448d52e872212da4f4081dbf24a9cd750d6a8e7e3d77df5b5
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: eu-reuse-2011-833
+rights_note: EU Official Journal text — reuse under Commission Decision 2011/833/EU (attribution). Clean.
+capture_history:
+- date: '2026-07-10'
+  source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1142
+  original_sha256: sha256:aece43ae88ef4fe1c9d946161f120447e69de0dec8d9b1c2f744d9e095ad11c3
+  note: Official EUR-Lex OJ PDF.
+supersedes: null
+superseded_by: null
+related_documents:
+- eu/regulation/mica-2023
+provenance_note: 'MiCA Level-2 regulatory technical standards on conflicts of interest for crypto-asset
+  service providers (Commission Delegated Regulation (EU) 2025/1142), under Regulation (EU) 2023/1114.
+  English authentic; cross-linked to MiCA. LICENCE: eu-reuse-2011-833. Recorded neutrally.'
+verification:
+  status: verified
+  method: text.txt is the official PDF's text extracted with pdftotext -layout; repeating running-header/footer
+    line-classes and bare page numbers were removed and paragraph breaks inserted before structural units.
+    Completeness was cross-checked against an independent pdftotext -raw extraction of the same PDF (alnum
+    character-multiset delta).
+  verified_by: Project maintainer (automated dual-extraction completeness check)
+  verified_date: '2026-07-10'
+  note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 10-page PDF;
+    0 repeating header/footer line-classes removed. Structure: 161 blocks; 0 PART/CHAPTER headings; 26
+    numbered units (max 8); 11 Art. units.'

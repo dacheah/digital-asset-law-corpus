@@ -1,0 +1,131 @@
+corpus_id: uk/regulations/fsma-cryptoassets-2026
+version_id: '2026-02-04'
+title: The Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2026 (S.I. 2026 No. 102)
+short_title: FSMA 2000 (Cryptoassets) Regulations 2026 (UK SI 2026/102)
+jurisdiction: GBR
+document_type: statutory instrument
+official_citation: The Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2026, S.I. 2026
+  No. 102 — made 4 February 2026 by the Treasury (draft-affirmative procedure) under powers in the Financial
+  Services and Markets Act 2000 (c. 8), ss. 21, 22, 71K-71R, 428 and para. 25 of Sch. 2; full commencement
+  25 October 2027 (reg. 1(2)), with specified provisions in force 21 days after making for FCA preparatory
+  purposes (reg. 1(3)); King's Printer of Acts of Parliament / legislation.gov.uk
+authentic_languages:
+- en
+adoption_date: '2026-02-04'
+entry_into_force_date: '2027-10-25'
+source_url: https://www.legislation.gov.uk/uksi/2026/102/made
+source_publisher: The National Archives — King's Printer of Acts of Parliament (legislation.gov.uk); instrument
+  made by HM Treasury
+source_is_official: true
+retrieval_date: '2026-07-09'
+retrieved_by: 'Project maintainer — manual download from legislation.gov.uk of the official ''made'' (as-made)
+  version: the PDF (integrity anchor) and the CLML XML (structured text source)'
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:14603d4c29c15158a671205a15ce06c6247c4a1707065ccf1d5a1e809ae0822d
+original_sha256: sha256:08773b3c094938eec2a47244cafc7d2203d3b7330bc4bb0c95afc4fd522a9dc0
+text_sha256: sha256:14603d4c29c15158a671205a15ce06c6247c4a1707065ccf1d5a1e809ae0822d
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: uk-ogl-v3
+rights_note: 'UK legislation on legislation.gov.uk is Crown copyright and database right, published under
+  the Open Government Licence v3.0 (OGL). The ''made'' version page states: ''All content is available
+  under the Open Government Licence v3.0 except where otherwise stated.'' The OGL permits free copying,
+  publication, distribution and adaptation with attribution; required attribution: ''Contains public sector
+  information licensed under the Open Government Licence v3.0'' (licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+  This is a permissive, CC-BY-style licence (JC-025), not flagged. AUTHENTIC LANGUAGE: English. TEXT SOURCE:
+  text.txt was extracted from the official CLML XML of the ''made'' version (source https://www.legislation.gov.uk/uksi/2026/102/made/data.xml;
+  XML SHA-256 054cae79250be504dc796d5f889c42687457b9e99a16834c49b82bf05324d0a5); original.pdf (SHA-256
+  08773b3c094938eec2a47244cafc7d2203d3b7330bc4bb0c95afc4fd522a9dc0) is the byte-exact integrity anchor.
+  Any editorial rendering (heading case, provision numbering, superscript footnote markers, footnotes
+  collected in a closing section, tables rendered tab-delimited) is disclosed in the verification block;
+  wording is unchanged.'
+capture_history:
+- date: '2026-07-09'
+  source_url: https://www.legislation.gov.uk/uksi/2026/102/made
+  original_sha256: sha256:08773b3c094938eec2a47244cafc7d2203d3b7330bc4bb0c95afc4fd522a9dc0
+  note: 'Initial capture: the maintainer downloaded the official ''made'' version of S.I. 2026/102 from
+    legislation.gov.uk in two official formats — the PDF (uksi_20260102_en.pdf; SHA-256 08773b3c...; the
+    byte-exact integrity anchor, original.pdf) and the CLML XML (made/data.xml; SHA-256 054cae79...; the
+    structured authentic-text source from which text.txt was extracted). legislation.gov.uk is openly
+    accessible (The National Archives), permitting an independent live cross-check of the captured text
+    against the source.'
+verification:
+  status: verified
+  method: 'text.txt (the authentic English text) verified against the official CLML XML of the ''made''
+    version and cross-checked against the official PDF and the live source. (1) COMPLETENESS + NO-FABRICATION:
+    with all non-alphanumeric characters removed and case folded, text.txt (the main body, i.e. up to
+    the closing ''Footnotes'' section) is an EXACT match — 122,672 alphanumeric characters — to the identically-normalised
+    text of the authoritative <Secondary> element of the CLML XML (preliminary matter + body + schedules
+    + explanatory note, in document order), so no operative content was added, lost, or reordered. (2)
+    FOOTNOTES: all 70 footnote bodies are present in the closing section, and all 70 in-text superscript
+    reference markers appear in the body. (3) STRUCTURE INVENTORY: 8 Parts (Part 1-8); 65 operative regulations
+    forming a complete consecutive sequence (regulation 1-65); 2 Schedules; 70 footnotes. The 39 provision-level
+    items quoted inside amendment blocks (new articles inserted into the Regulated Activities Order, amendments
+    to FSMA and the Financial Promotion Order) are retained in document order and are correctly distinguished
+    from the 65 operative regulations. (4) PDF INTEGRITY CROSS-CHECK: 100% of the XML''s 25,746 word tokens
+    are present in the official PDF (original.pdf, the byte-exact anchor); all 8 Part titles, both signatories,
+    the made date and the Schedule titles were located in the PDF. (5) INDEPENDENT LIVE CROSS-CHECK against
+    legislation.gov.uk: /contents/made confirms the ''as it was originally made'' status and the eight
+    Parts; /introduction/made confirms the 4 February 2026 made date, HM Treasury, and the enabling FSMA
+    powers; /signature/made confirms the signatories (Stephen Morgan; Christian Wakeford; ''Two of the
+    Lords Commissioners of His Majesty''s Treasury''; 4th February 2026); /regulation/1/made confirms
+    regulation 1''s commencement (full commencement day 25 October 2027; 21-day early commencement for
+    FCA-preparatory purposes) and UK-wide extent — all matching text.txt.'
+  reference: 'legislation.gov.uk (The National Archives) — The Financial Services and Markets Act 2000
+    (Cryptoassets) Regulations 2026, S.I. 2026 No. 102, ''made'' version: official PDF (uksi_20260102_en.pdf)
+    and CLML XML (uksi/2026/102/made/data.xml), retrieved 9 July 2026'
+  verified_by: Project maintainer
+  verified_date: '2026-07-09'
+  note: 'Disclosed rendering (statutory wording unchanged). text.txt is extracted from the official CLML
+    XML; original.pdf is the byte-exact integrity anchor (the US GENIUS pattern: PDF anchor + official-XML-sourced
+    text). Editorial rendering, all disclosed: heading case normalised to PART / CHAPTER / SCHEDULE(S);
+    regulation numbers rendered ''N.'' (or ''N.-(1)'' where a regulation opens with numbered paragraphs)
+    and sub-provisions ''(1)''/''(a)''/''(i)''; footnote references rendered as superscript numbers (legislation.gov.uk''s
+    sequential-number web convention) with the 70 footnote bodies collected in a closing ''Footnotes''
+    section; the single XHTML amendment table rendered as a tab-delimited row; Explanatory Note paragraphs
+    separated by blank lines. No wording was added or removed — source quirks are preserved verbatim (e.g.
+    the Explanatory Note''s double full stop in ''approved by an authorised person..''). The CLML XML
+    text source is pinned by SHA-256 (054cae79250be504dc796d5f889c42687457b9e99a16834c49b82bf05324d0a5)
+    and is publicly re-retrievable from the cited URL, so the extraction is independently reproducible.
+    Canonical UTF-8/LF by tooling.'
+supersedes: null
+superseded_by: null
+related_documents: []
+provenance_note: 'The Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2026 (S.I. 2026
+  No. 102) — the United Kingdom''s first in-force cryptoasset market-structure instrument, made 4 February
+  2026 by HM Treasury under the Financial Services and Markets Act 2000 (c. 8) via the draft-affirmative
+  procedure (a draft was laid before, and approved by resolution of, each House of Parliament, then made).
+  This is Track A market structure: it brings cryptoassets inside the FSMA regulated-activities / designated-activities
+  perimeter. EIGHT PARTS: (1) general — citation, commencement (full commencement day 25 October 2027
+  (reg. 1(2)), with FCA-preparatory provisions in force 21 days after making (reg. 1(3))), interpretation,
+  and UK-wide extent (England and Wales, Scotland, Northern Ireland); (2) ''Markets in cryptoassets: designated
+  activities'' — Chapter 1 qualifying cryptoasset public offers and admissions to trading (disclosure
+  documents, liability for untrue/misleading statements, withdrawal rights) and Chapter 2 market abuse
+  in qualifying cryptoassets (insider dealing, unlawful disclosure of inside information, manipulation);
+  (3) amendment of the Regulated Activities Order 2001 to specify new cryptoasset regulated activities
+  (issuing qualifying stablecoin, safeguarding qualifying cryptoassets, operating a qualifying cryptoasset
+  trading platform, dealing, arranging, staking); (4) amendment of the Act (FSMA) itself; (5) amendment
+  of the Financial Promotion Order 2005; (6) consequential amendment of other secondary legislation; (7)
+  savings and transitional provision; (8) review. 65 regulations and 2 Schedules (Schedule 1 — exceptions
+  from the prohibition of public offers (reg. 10); Schedule 2 — compensation exemptions (reg. 14)); signed
+  by two Lords Commissioners of His Majesty''s Treasury (Stephen Morgan; Christian Wakeford), 4 February
+  2026. WATCH (NOT ingested; JC-005): the FCA Handbook conduct rules for the regime (consulted / phased
+  from 2027) and the separately-published DRAFT statutory instrument amending these Regulations — each
+  ingested only when made; and the fiat-backed stablecoin regime if/when put in force. AUTHENTIC LANGUAGE:
+  English. AUTHORITATIVENESS: authentic_text — the official ''made'' (as-made) version (no consolidation).
+  SOURCE/FORMAT: captured from legislation.gov.uk (The National Archives / King''s Printer of Acts of
+  Parliament) in two official formats — original.pdf (byte-exact integrity anchor) and the CLML XML (made/data.xml;
+  the structured authentic-text source from which text.txt was extracted). FIDELITY (see the verification
+  block): text.txt is an EXACT alphanumeric match to the authoritative CLML XML (122,672 alnum characters;
+  no operative content added, lost, or reordered); all 70 footnotes and their in-text superscript markers
+  are preserved; 100% of the XML''s word tokens are present in the official PDF; and the captured text
+  was independently cross-checked against the live legislation.gov.uk pages (made date, enabling powers,
+  the eight Parts, the signatories, and regulation 1''s commencement and extent). Disclosed rendering
+  (wording unchanged): heading case (PART/CHAPTER/SCHEDULE), provision numbering (''N.'', ''N.—(1)'',
+  ''(a)'', ''(i)''), footnote references rendered as superscript markers with the footnote bodies collected
+  in a closing ''Footnotes'' section (matching legislation.gov.uk''s sequential-number web convention),
+  and the one XHTML amendment table rendered as a tab-delimited row. LICENCE: uk-ogl-v3 — Open Government
+  Licence v3.0 (Crown copyright), permissive with attribution (JC-025). Recorded neutrally, on its own
+  terms (JC-003 / JC-005 / JC-006).'
