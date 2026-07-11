@@ -1,5 +1,16 @@
 # Changelog
 
+## v1.0.1 — 2026-07-11
+
+Tooling and metadata patch. No change to the corpus contents (still 57 instruments across 21 jurisdictions).
+
+- Fixed: the `verify_integrity.py` shipped in v1.0.0 was truncated (missing its `__main__` entry point) and
+  silently exited without verifying anything. Restored the complete script — it re-hashes every file against
+  `corpus_manifest.json`, re-derives the root hash, and reports GREEN/RED. Anyone who fetched v1.0.0 should
+  re-fetch v1.0.1 to independently verify the corpus.
+- Added: canonical repository, releases, and citation links in the README; `repository-code` and `url` in `CITATION.cff`.
+- Integrity: `corpus_manifest.json` regenerated; `verify_integrity.py` → GREEN (356 files, root hash reproduces).
+
 ## v1.0.0 — 2026-07-11
 
 First public release.

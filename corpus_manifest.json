@@ -4,10 +4,10 @@
   "generated": "2026-07-11",
   "records": 57,
   "jurisdictions": 21,
-  "root_hash": "sha256:5b22c332b6c4fe40c4abd6b2983d8f4948e9dc1bcdb966df4ce96acd50df74b2",
+  "root_hash": "sha256:50c66530ce6ebc2a351330cef11e6d8ac7b6ba8a95782ba3958e2091430a6de6",
   "files": {
     ".gitattributes": "sha256:30a1244c4e42e2fcf0f098e4432434aa61fd31f769a317d5fef89e3de67689ea",
-    "CHANGELOG.md": "sha256:c6d12bb8beb1273568ba8830613c7242105e4ed0ff9b79a669f5c11fbd0ca8c2",
+    "CHANGELOG.md": "sha256:8cb884b53ebfd85a3c001823a2b4599729b9f23caeede48fb5ef5c053a703afc",
     "CITATION.cff": "sha256:833467f83d34e9d19e76fa31c9cbcf5aa75830387129659b714ac830c62d4186",
     "LICENSE": "sha256:4bc3e06405a199798296b09cdb367226e8a989a4b65963ed5a82ea01408741aa",
     "NOTICE": "sha256:cc850fc3241e33200c6bd588991c92a82d5e2183a6b2b277dbcf7621d2cc9a38",
