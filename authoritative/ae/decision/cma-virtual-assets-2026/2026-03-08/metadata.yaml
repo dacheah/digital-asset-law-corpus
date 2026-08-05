@@ -67,3 +67,7 @@ verification:
     visual glyphs, so it independently confirms that the bidi-repaired text-layer extraction matches the
     document's actual content. A clean logical-order HTML/Gazette source would additionally permit a char-exact
     re-verification.
+akn_expression_uri: /akn/ae/statement/decision/2026-03-08/cma-virtual-assets-2026/ara
+akn_uri: /akn/ae/statement/decision/2026-03-08/cma-virtual-assets-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

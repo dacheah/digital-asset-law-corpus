@@ -50,3 +50,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 49-page PDF;
     2 repeating header/footer line-classes removed. Structure: 599 blocks; 0 PART/CHAPTER headings; 11
     numbered units (max 24165); 19 Art. units.'
+akn_expression_uri: /akn/eu/act/regulation/eu/2024-11-29/mica-its-whitepaper-2024/eng
+akn_uri: /akn/eu/act/regulation/eu/2024-11-29/mica-its-whitepaper-2024
+akn_uri_basis: akn4eu
+akn_uri_note: ''

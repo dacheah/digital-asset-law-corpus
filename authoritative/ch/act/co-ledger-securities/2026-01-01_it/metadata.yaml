@@ -52,3 +52,7 @@ verification:
   verified_date: '2026-07-10'
   note: All 6 target articles (Art. 973d–973i) present in the XML and cross-checked present in the PDF/A
     (6/6 matched).
+akn_expression_uri: /akn/ch/act/2026-01-01/co-ledger-securities/ita
+akn_uri: /akn/ch/act/2026-01-01/co-ledger-securities
+akn_uri_basis: iso3166
+akn_uri_note: ''

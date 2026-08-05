@@ -61,3 +61,7 @@ provenance_note: 'OCC Bulletin 2026-24 (issued 2026-06-11) announces GENIUS Act 
   leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling).
   Wording unchanged; word counts reconcile with the raw extraction. Implements the reporting apparatus
   of the OCC payment-stablecoins rule under the GENIUS Act.'
+akn_expression_uri: /akn/us/doc/form/2026-06-11/occ-genius-reporting-2026/eng
+akn_uri: /akn/us/doc/form/2026-06-11/occ-genius-reporting-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

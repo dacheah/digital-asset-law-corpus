@@ -67,3 +67,7 @@ provenance_note: 'OCC notice of proposed rulemaking (NPRM) implementing the GENI
   Unicode spaces — including the thin space (U+2009) the source places between ''§'' and section numbers
   — collapsed to regular spaces; invisible soft hyphens removed; canonical UTF-8/LF applied by tooling.
   Implements the GENIUS Act (Pub. L. 119-27); cross-referenced via related_documents.'
+akn_expression_uri: /akn/us/act/regulation/2026-03-02/occ-payment-stablecoins-2026/eng
+akn_uri: /akn/us/act/regulation/2026-03-02/occ-payment-stablecoins-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

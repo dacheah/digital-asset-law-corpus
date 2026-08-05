@@ -55,3 +55,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 1-page PDF; 0
     repeating header/footer line-classes removed. Structure: 16 blocks; 0 PART/CHAPTER headings; 3 numbered
     units (max 3); 0 Art. units.'
+akn_expression_uri: /akn/za/doc/notice/2022-10-19/crypto-asset-financial-product-2022/eng
+akn_uri: /akn/za/doc/notice/2022-10-19/crypto-asset-financial-product-2022
+akn_uri_basis: iso3166
+akn_uri_note: ''

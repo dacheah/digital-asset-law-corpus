@@ -105,3 +105,7 @@ corrections:
     the 149 true standalone article headers begin a paragraph. Wording and order unchanged; text.txt re-hashed.'
   reference: 'Extraction cleanup; paragraph structure cross-checked against EUR-Lex HTML (CELEX 32023R1114).'
   note: 'content_hash/text_sha256 updated accordingly; prior state retained in Git history (append-only).'
+akn_expression_uri: /akn/eu/act/regulation/eu/2023-06-09/mica-2023/eng
+akn_uri: /akn/eu/act/regulation/eu/2023-06-09/mica-2023
+akn_uri_basis: akn4eu
+akn_uri_note: ''

@@ -52,3 +52,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 31-page PDF;
     0 repeating header/footer line-classes removed. Structure: 262 blocks; 0 PART/CHAPTER headings; 171
     numbered units (max 9); 0 Art. units.'
+akn_expression_uri: /akn/vn/act/2025-06-14/digital-technology-industry-2025/vie
+akn_uri: /akn/vn/act/2025-06-14/digital-technology-industry-2025
+akn_uri_basis: iso3166
+akn_uri_note: ''

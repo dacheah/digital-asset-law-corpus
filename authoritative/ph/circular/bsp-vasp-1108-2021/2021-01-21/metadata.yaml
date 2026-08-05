@@ -50,3 +50,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 9-page PDF; 0
     repeating header/footer line-classes removed. Structure: 21 blocks; 0 PART/CHAPTER headings; 2 numbered
     units (max 3); 0 Art. units.'
+akn_expression_uri: /akn/ph/doc/circular/2021-01-21/bsp-vasp-1108-2021/eng
+akn_uri: /akn/ph/doc/circular/2021-01-21/bsp-vasp-1108-2021
+akn_uri_basis: iso3166
+akn_uri_note: ''

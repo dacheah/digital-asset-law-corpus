@@ -52,3 +52,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 6-page PDF; 0
     repeating header/footer line-classes removed. Structure: 25 blocks; 0 PART/CHAPTER headings; 0 numbered
     units (max 0); 0 Art. units.'
+akn_expression_uri: /akn/tr/act/2024-07-02/capital-markets-crypto-7518-2024/tur
+akn_uri: /akn/tr/act/2024-07-02/capital-markets-crypto-7518-2024
+akn_uri_basis: iso3166
+akn_uri_note: ''

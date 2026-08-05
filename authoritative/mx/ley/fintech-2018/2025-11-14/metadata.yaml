@@ -53,3 +53,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 84-page PDF;
     1 repeating header/footer line-classes removed. Structure: 1085 blocks; 0 PART/CHAPTER headings; 0
     numbered units (max 0); 0 Art. units.'
+akn_expression_uri: /akn/mx/act/2025-11-14/fintech-2018/spa
+akn_uri: /akn/mx/act/2025-11-14/fintech-2018
+akn_uri_basis: iso3166
+akn_uri_note: ''

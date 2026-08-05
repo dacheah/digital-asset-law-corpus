@@ -52,3 +52,7 @@ provenance_note: Instructions for OCC Reporting Form PS-01 (weekly payment stabl
   leaders collapsed; whitespace normalized; bare page-number lines removed; canonical UTF-8/LF by tooling).
   Wording unchanged; word counts reconcile with the raw extraction. Part of the GENIUS Act reporting package
   (see the Notice record); relates to the OCC payment-stablecoins rule.
+akn_expression_uri: /akn/us/doc/form/2026-06-11/occ-genius-ps01-instructions-2026/eng
+akn_uri: /akn/us/doc/form/2026-06-11/occ-genius-ps01-instructions-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

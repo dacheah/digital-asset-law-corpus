@@ -49,3 +49,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 2-page PDF; 0
     repeating header/footer line-classes removed. Structure: 18 blocks; 0 PART/CHAPTER headings; 4 numbered
     units (max 4); 0 Art. units.'
+akn_expression_uri: /akn/eu/doc/corrigendum/eu/2024-05-02/mica-r03-2024/eng
+akn_uri: /akn/eu/doc/corrigendum/eu/2024-05-02/mica-r03-2024
+akn_uri_basis: akn4eu
+akn_uri_note: ''

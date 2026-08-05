@@ -74,3 +74,7 @@ corrections:
     searchability. Wording and order unchanged; text.txt re-hashed.'
   reference: 'Extraction normalization; consistent with the corpus Unicode-space handling.'
   note: 'content_hash/text_sha256 updated accordingly; prior state retained in Git history (append-only).'
+akn_expression_uri: /akn/au/act/2026-04-08/digital-assets-framework-2026/eng
+akn_uri: /akn/au/act/2026-04-08/digital-assets-framework-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

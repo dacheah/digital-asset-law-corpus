@@ -65,3 +65,7 @@ provenance_note: 'GENIUS Act, enacted (approved) 2025-07-18. original.pdf is the
   final implementing rules — effective_date left null pending that trigger. Section 8 (Anti-Money Laundering
   Protections) is the Track B/AML interface point; the AML/VASP substance is owned by the sibling AML
   corpus (Project Origin) and cross-referenced, not reproduced here (design-lock JC-004).'
+akn_expression_uri: /akn/us/act/2025-07-18/genius-act-2025/eng
+akn_uri: /akn/us/act/2025-07-18/genius-act-2025
+akn_uri_basis: iso3166
+akn_uri_note: ''

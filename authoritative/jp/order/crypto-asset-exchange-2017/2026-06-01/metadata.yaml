@@ -50,3 +50,7 @@ verification:
   verified_date: '2026-07-10'
   note: Extracted from the official e-Gov structured data;  article structure preserved (第N条 markers).
     No lossy PDF text-layer step is involved.
+akn_expression_uri: /akn/jp/act/ordinance/2026-06-01/crypto-asset-exchange-2017/jpn
+akn_uri: /akn/jp/act/ordinance/2026-06-01/crypto-asset-exchange-2017
+akn_uri_basis: iso3166
+akn_uri_note: ''

@@ -93,3 +93,7 @@ verification:
     PDF's visual content — agree. A clean Official Gazette PDF would additionally permit a char-exact
     re-verification. Prior disclosed processing unchanged (one spurious U+241F removed; article breaks
     before each line-initial المادة). Canonical UTF-8/LF.
+akn_expression_uri: /akn/ae/act/decision/2022-12-12/cabinet-va-2022/ara
+akn_uri: /akn/ae/act/decision/2022-12-12/cabinet-va-2022
+akn_uri_basis: iso3166
+akn_uri_note: ''

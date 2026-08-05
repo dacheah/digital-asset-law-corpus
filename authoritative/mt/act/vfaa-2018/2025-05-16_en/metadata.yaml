@@ -55,3 +55,7 @@ verification:
   note: 'Completeness: alnum multiset delta between -layout and -raw = 0 (0.000%) over a 60-page PDF;
     0 repeating header/footer line-classes removed. Structure: 657 blocks; 12 PART/CHAPTER headings; 66
     numbered units (max 2024); 1 Art. units.'
+akn_expression_uri: /akn/mt/act/2025-05-16/vfaa-2018/eng
+akn_uri: /akn/mt/act/2025-05-16/vfaa-2018
+akn_uri_basis: iso3166
+akn_uri_note: ''
