@@ -43,11 +43,31 @@ the repository's own root files. The monitor is tooling and is deliberately not 
 outside the manifest is what allows the records' root hash to keep meaning exactly one thing: that
 those record bytes have not changed.
 
-## The integrity gate is currently RED, and it is not this tooling
+## The integrity gate: how the manifest is regenerated
 
-At the time of this commit, `python3 verify_integrity.py` reports 58 hash mismatches. All 58 are
-`metadata.yaml` files, and they are **exactly** the 58 files changed by commit `0474b85` ("add Akoma
-Ntoso identifiers to the published records"), which did not regenerate the manifest. The root hash
-still reproduces over the manifest's own file list; only those 58 per-file hashes are stale. No
-record text has drifted, and no generator for `corpus_manifest.json` exists in the tree. Recorded
-here so the next reader does not go looking for a cause in the tooling.
+`verify_integrity.py` fails whenever any covered file's bytes differ from `corpus_manifest.json`.
+`gen_corpus_manifest.py` closes that loop:
+
+```
+python3 scripts/gen_corpus_manifest.py --check    # report the drift; writes nothing; exit 1 if drifted
+python3 scripts/gen_corpus_manifest.py            # update the stale hashes, the root hash and the date
+```
+
+It re-hashes **only the paths the manifest already lists** — never adding or dropping one — and refuses
+outright if a listed file is missing, because a claim about a file nobody can check is worse than no
+claim at all. Files on disk that the claim does not cover are reported and never added automatically.
+The root hash is derived exactly as `verify_integrity.py` re-derives it, so the two cannot disagree.
+
+Run it **after** any deliberate change to a covered file: that is the moment the corpus's root hash is
+restated. Then run `verify_integrity.py`, or let CI run it, and expect GREEN.
+
+**Fixed 2026-10-15.** The gate had been RED since 5 August: commit `0474b85` ("add Akoma Ntoso
+identifiers to the published records") edited **57 `metadata.yaml` files and one JSON Schema**
+(`schema/authoritative-metadata.schema.json`, extended by 65 lines to declare the new `akn_*` fields)
+and did not regenerate the manifest — so all 58 hashes were stale, and CI failed on every push for ten
+weeks. The root hash still reproduced over the manifest's own list, no record text had drifted, and no
+generator existed in the tree; hence this one. Regenerated: 58 hashes, root hash
+`sha256:70929aa801c732f1480ec34982cadd13eaead2f4b3f94fb3d62861e88733dd31`, file list unchanged,
+`verify_integrity.py` → GREEN (356 files, root hash reproduces). An earlier note in this file said all 58
+were `metadata.yaml`; one of them was the schema, and the same slip stands in the message of commit
+`148b31d`, which cannot be rewritten without rewriting pushed history.
