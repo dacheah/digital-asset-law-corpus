@@ -17,9 +17,11 @@ exists and which failure it prevents; read them before changing anything.
   would create every baseline at once rather than diff against anything.
 - **No workflow runs it.** `.github/workflows/verify-integrity.yml` covers the records only.
 - **The watchlist is well-formed but unused:** 57 sources, all whole-page, **56 of 57 declaring an
-  `expect_contains` anchor** (the one that does not is recorded in its own `note`), none declared
-  manual, none binary. Arming it is a separate decision: a sweep writes state and a change opens a
-  triage issue.
+  `expect_contains` anchor**. The 57th, `us/statute/genius-act-2025`, declares none, and its `note`
+  records a held version rather than an anchor: *held version 2025-07-18; retrieved 2026-07-08*. So
+  that source's comparability rests on the retrieval record, not on an anchor. None declared manual,
+  none binary. Arming it is a separate decision: a sweep writes state and a change opens a triage
+  issue.
 - **The crawl layer is not tracked.** `scripts/crawl/` and `scripts/build_sources_from_records.py`
   exist in the working tree but are deliberately not part of this commit. Schema mode needs
   `scripts/crawl/common.py` plus crawl4ai, so a fresh clone runs whole-page mode only — which loses
