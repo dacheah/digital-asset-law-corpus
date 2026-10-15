@@ -1,0 +1,1378 @@
+"""
+watch_sources.py -- Phase F source monitor (consolidated v3).
+
+ONE monitor for the whole corpus portfolio. Merges three generations that had diverged:
+
+  v1 (space, bbnj, neo)  page hash + baseline/changed/unchanged/error.
+  v2 (aml-sanctions)     + MANUAL for declared SPAs, + monitor_url for server-rendered
+                           alternatives, + SUSPECT when content is implausibly short,
+                           + baselines advanced ONLY for trustworthy states.
+  v3 (deep-seabed)       + optional schema mode (deterministic CSS extraction via the crawl
+                           layer) giving instrument-level diffs, + a broken-selector guard,
+                           + false-alarm instrumentation.
+
+This file is the canonical merge, plus two fixes found auditing the portfolio on 2026-07-18:
+non-ASCII URL encoding, and a duplicate-hash guard.
+
+WHY EACH GUARD EXISTS (every one is a real failure that happened, not a hypothetical):
+
+  * MANUAL — several official portals are JavaScript apps. A stdlib GET returns a shell, whose
+    hash is perfectly STABLE, so the monitor reports "unchanged" forever while the law changes.
+    Stable-but-wrong is the worst failure mode for an integrity tool.
+  * SUSPECT — a formerly static site migrating to a SPA reintroduces that blind spot silently.
+    Any fetch whose stripped text falls below CONTENT_FLOOR is flagged and NOT baselined.
+  * SCHEMA_SUSPECT — with a CSS schema, a markup change can make selectors match nothing. Real
+    listings lose documents one at a time; broken selectors lose all at once. A collapse is
+    reported as probable breakage, never as documents being removed.
+  * DUPLICATE HASHES — two sources sharing a content hash is almost always both fetching the same
+    page. In the deep-seabed corpus, 15 CFR 970 and 971 carried identical hashes for weeks because
+    both were hitting the same access-denied page. It sat in the metadata where anyone could have
+    seen it. The one legitimate case — a UK SI's frozen /made text and its latest-version URL,
+    identical until the first amendment — must be declared MUTUALLY via duplicate_ok_with, so the
+    guard stays loud for everything else instead of being permanently ignored.
+  * URL ENCODING — official sources are not all ASCII. Dubai's legislation portal uses Arabic
+    paths with spaces; Korea uses Hangul. urllib raises on these, which gets misread as a dead
+    source when the source is fine and the client was wrong.
+
+Automation only WATCHES and queues; the maintainer judges. Nothing is ingested automatically.
+
+    python3 scripts/watch_sources.py             # live run
+    python3 scripts/watch_sources.py --selftest  # offline, no network
+    python3 scripts/watch_sources.py --tally     # measured whole-page false-alarm rate
+"""
+from __future__ import annotations
+import datetime
+import difflib
+import hashlib
+import html
+import json
+import os
+import re
+import sys
+import tempfile
+from urllib.parse import quote, urlsplit, urlunsplit
+from urllib.request import Request, urlopen
+
+# Bump on EVERY behaviour change. 3.0 shipped to five corpora, then gained is_manual() without a
+# bump — so all five reported "3.0" while one differed. A drift detector that isn't updated detects
+# nothing.
+#   3.0  consolidated v1/v2/v3: MANUAL, monitor_url, CONTENT_FLOOR, schema mode, guards
+#   3.1  monitor:"manual" declaration distinct from render:"spa"; UA decoupled from this version
+#   3.2  all text writes pin newline="\n" — Windows text mode was emitting CRLF into sources.json,
+#        last_report.md and snapshots, leaving every run "modified" with an empty diff
+#   3.3  json_extract: record-level monitoring for official JSON APIs (eCFR versioner, Federal
+#        Register), stdlib only. Shares _record_state with CSS schema mode so they cannot drift.
+#   3.4  ignore_patterns: per-source exclusion of volatile page fragments before hashing, for
+#        pages that stamp the current date into the body and would otherwise flag CHANGED daily.
+#   3.5  triage_flags(): errors now raise the alarm. Up to 3.4 the GITHUB_OUTPUT flag was computed
+#        inline and omitted BOTH error terms, so a run where every record-mode source raised went
+#        green and silent. Also: ignore_patterns now reach the record-mode page hash.
+#   3.6  per-source progress (flushed) + FETCH_TIMEOUT 45->30. The first unattended Neo run looked
+#        hung: the sweep printed only its final summary, so dozens of fetches ran in total silence.
+#   3.7  binary documents (PDF/DOCX) hashed as BYTES and exempted from CONTENT_FLOOR. A source that
+#        IS the document (EUR-Lex .../TXT/PDF/?uri=CELEX:...) was decoded as UTF-8, tag-stripped to
+#        mojibake, scored under the floor and classified SUSPECT — and SUSPECT is never baselined,
+#        so eight EU regulations had never once been monitored.
+#   3.8  duplicate_ok_with: a MUTUALLY declared pair may share a hash (legislation.gov.uk serves
+#        /made frozen and /uksi/Y/N latest-version — identical until the first amendment). Without
+#        it that legitimate pair forced "MONITOR BROKEN" every run, forever.
+#   3.9  norm_digest() + classify() state `reformatted`. Whole-page comparison was a raw string
+#        comparison, so a baseline seeded with bare hex and the identical computed digest reported
+#        CHANGED. On 2026-08-01 three unmoved ODS record copies flagged that way and the issue sat
+#        open for six weeks — a false alarm in a corpus whose product is proving nothing changed.
+#        Same digest in a different spelling is now a self-clearing baseline repair, never an alarm.
+#  3.10 (a) to_text() UNESCAPES HTML ENTITIES before collapsing space. Tag-stripping left `&nbsp;` as
+#        six literal characters, so a page that renders identically but encodes one space differently
+#        moved the hash and flagged CHANGED — measured on three variants of one visible sentence, three
+#        different digests. Latent in every source of every corpus, not just the ISA pages it surfaced
+#        on. THIS CHANGES COMPARABLE TEXT GLOBALLY: the first run after this version reports EVERY
+#        source CHANGED unless the baselines are re-derived in the same change. A corpus adopting this
+#        version must re-baseline deliberately, comparing old-vs-new digests per source first so a
+#        genuine pending change is never swallowed by the reset.
+#        (b) There was no --help, and any argument that was not --selftest/--tally fell through to a
+#        LIVE SWEEP: `--help`, a typo, or a hopeful `--dry-run` advanced every source's baseline and
+#        rewrote the report, silently discarding whatever pending signals the sweep was carrying.
+#        Unrecognised arguments now print usage, exit 2, and fetch nothing.
+#  3.11 a moved PAGE source now keeps both texts, so the flag can be triaged after the fact. Neither
+#        space-law nor bbnj retained a page body, so when the two BBNJ notification sources moved on
+#        2026-10-13 the change could only be explained by reading the live pages — and a page that
+#        REPLACES its content would have been unreadable by the time anyone looked. Every page
+#        source's COMPARABLE TEXT — exactly the string content_hash() hashes — is retained at
+#        monitoring/snapshots/pages/<slug>.txt, and a CHANGED source writes a bounded diff note
+#        (…/<slug>.change-<YYYYMMDD-HHMMSS>.md) against the retained text, BEFORE the baseline
+#        advances. One note per movement, never overwritten: a page amended twice in a day leaves two.
+#        Retention is free while nothing moves: identical bytes are the same git blob, so history
+#        grows only when a page really changes. No text fed to the hash changes, so NO baseline
+#        moves. Token-level, not line-level, because to_text() collapses a page to ONE line and a
+#        line diff of it reports "1 added, 1 removed" and names nothing. The note reaches the triage
+#        issue through last_report.md, which the workflow already embeds in the issue body.
+MONITOR_VERSION = "3.11"
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
+SOURCES = os.path.join(REPO, "monitoring", "sources.json")
+REPORT = os.path.join(REPO, "monitoring", "last_report.md")
+SNAP_DIR = os.path.join(REPO, "monitoring", "snapshots")
+# Retained page bodies live BESIDE the record snapshots, never among them: _snap_path() is the only
+# way a record snapshot is addressed, nothing globs this directory, and record mode reads
+# `<slug>.json` by name — so a `.txt` in `pages/` cannot be mistaken for record state.
+PAGE_DIR = os.path.join(SNAP_DIR, "pages")
+# A change note must fit where it is read: the triage issue body. Bounded in both directions, and
+# it says so when it truncates.
+CHANGE_NOTE_LINES = 200
+CHANGE_NOTE_CHARS = 8000
+ALARM_LOG = os.path.join(REPO, "monitoring", "false_alarm_log.jsonl")
+
+# Identify honestly and give operators a contact route. A bare token is more likely to be
+# refused by a WAF than a descriptive agent — several 403s during the 2026-07-18 audit were
+# plausibly the agent string rather than a real block.
+# DELIBERATELY NOT derived from MONITOR_VERSION. Embedding the tool version meant every bump
+# changed the request, and a server may return different content to a different agent — so a
+# routine version bump could flag every source as CHANGED. The agent identifies the *client*,
+# which is stable; MONITOR_VERSION identifies the *logic*, which is not.
+UA = "Mozilla/5.0 (compatible; provenance-corpus-monitor/1.0; +https://github.com/dacheah)"
+
+CONTENT_FLOOR = 1000      # stripped-text chars below which a fetch reads as a shell/error page
+SCHEMA_MIN_PREV = 5       # below this, a previous record set is too small to judge a collapse
+SCHEMA_DROP_RATIO = 0.5   # a fall below half the previous count reads as broken selectors
+
+# Optional schema mode. Absent crawl layer or crawl4ai -> every source uses whole-page hashing.
+sys.path.insert(0, os.path.join(HERE, "crawl"))
+try:
+    import common as _crawl
+    _HAVE_CRAWL = True
+except Exception:
+    _crawl = None
+    _HAVE_CRAWL = False
+
+
+# ---- pure helpers (offline-testable) --------------------------------------------------------
+def to_text(raw: str) -> str:
+    """Reduce HTML to comparable text: drop scripts/styles/tags, unescape entities, collapse space.
+
+    ENTITIES ARE UNESCAPED (v3.10), because tag-stripping alone leaves `&nbsp;` as six literal
+    characters: a page that renders identically but encodes a space differently moved the hash and
+    flagged CHANGED. `&nbsp;` unescapes to U+00A0, which `\\s+` matches, so it collapses to the same
+    single space as a plain one.
+
+    ORDER MATTERS: unescape AFTER tag removal, never before, or escaped markup carried in the body
+    (`&lt;script&gt;`) would be unescaped into something the tag regex then deletes.
+    """
+    raw = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw)
+    raw = re.sub(r"(?s)<[^>]+>", " ", raw)
+    raw = html.unescape(raw)
+    return re.sub(r"\s+", " ", raw).strip()
+
+
+def strip_volatile(text: str, patterns) -> str:
+    """Remove per-source volatile fragments before hashing.
+
+    Some official pages stamp the CURRENT DATE into the body. legislation.gov.uk revised pages
+    carry "…is up to date with all changes known to be in force on or before <today's date>", so
+    the page hash changes every single day and the source flags CHANGED forever — nine such false
+    alarms in one Origin run on 2026-07-20, four UK sources and five Singapore.
+
+    This is a deliberate, per-source, DOCUMENTED exclusion — never a default. Each pattern must be
+    narrow enough that it cannot swallow substantive text, and recorded in the source's _note so a
+    reader can see exactly what is not being watched.
+    """
+    for pat in (patterns or []):
+        text = re.sub(pat, " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def content_hash(raw: str, ignore=None) -> str:
+    """Hash the comparable text. With no ignore patterns this is byte-identical to before, so
+    existing baselines are unaffected for every source that does not declare any."""
+    return "sha256:" + hashlib.sha256(
+        strip_volatile(to_text(raw), ignore).encode("utf-8")).hexdigest()
+
+
+def norm_digest(value) -> str | None:
+    """Canonical comparable form of a stored or computed hash: bare lowercase hex.
+
+    WHY THIS EXISTS. `last_sha256` is a *string* in sources.json, so comparing two of them is a
+    string comparison, not a content comparison — and a baseline entry seeded by hand with bare hex
+    (no `sha256:` prefix) compares unequal to the identical digest computed by content_hash().
+
+    That is exactly what happened on 2026-08-01: three ODS record-copy sources were added by hand on
+    2026-07-25 with un-prefixed hashes, the monitor computed the same digests with the prefix, and
+    the report read:
+
+        was `b137390b89f3...`
+        now `sha256:b137390b89f3...`
+
+    Identical digests, reported as CHANGED, and the resulting issue sat open for six weeks. For a
+    corpus whose product is proving that a text has NOT changed, a false alarm is the most expensive
+    output there is: it costs a maintainer's attention and it teaches them to skim the alerts. A
+    formatting difference must never be able to masquerade as a content change.
+    """
+    if value is None:
+        return None
+    text = str(value).strip().lower()
+    prefix = "sha256:"
+    return text[len(prefix):] if text.startswith(prefix) else text
+
+
+def encode_url(u: str) -> str:
+    """Percent-encode a URL without changing what it points at. '%' stays safe (no double-encode)."""
+    p = urlsplit((u or "").strip())
+    netloc = p.netloc
+    if p.hostname:
+        try:
+            host = p.hostname.encode("idna").decode("ascii")
+        except Exception:
+            host = p.hostname
+        netloc = f"{host}:{p.port}" if p.port else host
+    safe = "/%:@&=+$,~()!*';"
+    return urlunsplit((p.scheme, netloc, quote(p.path, safe=safe),
+                       quote(p.query, safe=safe + "?"), p.fragment))
+
+
+def is_manual(s: dict) -> bool:
+    """A source that cannot be honestly auto-monitored, declared explicitly.
+
+    Two ways to say so, because there are two different reasons:
+      render: "spa"      the page is a JavaScript app; a stdlib GET returns a shell.
+      monitor: "manual"  anything else — a persistent 403, a form-POST search with no stable
+                         GET URL, a login wall, a certificate we will not bypass.
+
+    Either is OVERRIDDEN by monitor_url, which points at something a stdlib fetch can read.
+    Overloading render:"spa" for blocks was misleading: a 403 is not a rendering problem, and
+    the distinction matters when someone later asks why a source is unwatched.
+    """
+    if s.get("monitor_url"):
+        return False
+    return s.get("render") == "spa" or s.get("monitor") == "manual"
+
+
+def monitored_url(s: dict) -> str:
+    """Fetch a server-rendered artefact where declared, else the human URL.
+
+    Keeps `url` citable while `monitor_url` carries the machine endpoint — e.g. an eCFR
+    versioner API alongside the human eCFR page, or Japan's e-Gov XML API beside its SPA.
+    """
+    return s.get("monitor_url") or s["url"]
+
+
+def schema_suspect(prev_count: int, cur_count: int) -> bool:
+    """True when a record count COLLAPSES — reads as broken selectors, not removed documents."""
+    if prev_count < SCHEMA_MIN_PREV:
+        return False
+    if cur_count == 0:
+        return True
+    return cur_count < prev_count * SCHEMA_DROP_RATIO
+
+
+def duplicate_hashes(sources: list) -> list:
+    """Groups of sources sharing a content hash — usually impossible unless both fetch the same page.
+
+    This guard found the eCFR block page (15 CFR 970 and 971 carrying one hash for weeks). But a
+    LEGITIMATE pair exists: legislation.gov.uk serves /uksi/YYYY/N/made (the as-made text, frozen —
+    a change means the publisher issued a correction) and /uksi/YYYY/N (the latest version — a
+    change means the instrument was amended). Until the first amendment those are the same bytes,
+    so the pair is identical BY DESIGN and would otherwise force "MONITOR BROKEN" on every run,
+    forever. A permanently-crying guard is one nobody reads.
+
+    So a source may declare `duplicate_ok_with: [<other source name>, ...]` with a `_note` giving
+    the reason. The declaration must be MUTUAL — one side alone does not suppress the alarm — so a
+    pair cannot be silenced by editing a single source in isolation.
+    """
+    seen = {}
+    for s in sources:
+        h = s.get("last_sha256")
+        if h:
+            seen.setdefault(h, []).append(s["name"])
+    ok = {s["name"]: set(s.get("duplicate_ok_with") or []) for s in sources}
+    out = []
+    for h, names in seen.items():
+        if len(names) < 2:
+            continue
+        declared = all(
+            all(other in ok.get(n, set()) for other in names if other != n)
+            for n in names)
+        if not declared:
+            out.append((h, names))
+    return out
+
+
+def json_path(obj, path: str):
+    """Walk a dotted path through nested dicts/lists. Returns None if any step is missing.
+
+    Deliberately tiny — no jsonpath dependency. Supports 'a.b.c' and numeric list indices
+    ('results.0.title'), which covers every official API in the portfolio.
+    """
+    cur = obj
+    for part in (path or "").split("."):
+        if part == "":
+            continue
+        if isinstance(cur, list):
+            if not part.isdigit() or int(part) >= len(cur):
+                return None
+            cur = cur[int(part)]
+        elif isinstance(cur, dict):
+            if part not in cur:
+                return None
+            cur = cur[part]
+        else:
+            return None
+    return cur
+
+
+def json_extract_records(payload, spec: dict) -> list:
+    """Turn an API payload into comparable records, mirroring the CSS schema shape.
+
+        {"records": "content_versions",
+         "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"}}
+
+    WHY: hashing a whole JSON payload detects that *something* changed. Extracting records lets the
+    report name WHICH section was amended and when — the same gain schema mode gives for HTML. It
+    also drops volatile keys: the Federal Register payload carries public_inspection_pdf_url with a
+    changing timestamp query that would otherwise flag every single run as changed.
+    """
+    rows = json_path(payload, spec.get("records", "")) if spec.get("records") else payload
+    if isinstance(rows, dict):
+        rows = [rows]
+    if not isinstance(rows, list):
+        return []
+    fields = spec.get("fields") or {}
+    out = []
+    for r in rows:
+        rec = {}
+        for name, path in fields.items():
+            v = json_path(r, path)
+            if v is not None:
+                rec[name] = v if isinstance(v, str) else json.dumps(v, sort_keys=True,
+                                                                    ensure_ascii=False)
+        if rec:
+            out.append(rec)
+    return out
+
+
+def _rec_key(rec: dict) -> str:
+    for k in ("doc_url", "url", "citation", "title"):
+        if rec.get(k):
+            return str(rec[k]).strip()
+    return json.dumps(rec, sort_keys=True, ensure_ascii=False)
+
+
+def diff_records(prev: list, cur: list) -> dict:
+    """Structured diff: new / disappeared / changed-fields."""
+    pv = {_rec_key(r): r for r in prev}
+    cv = {_rec_key(r): r for r in cur}
+    changed = []
+    for k in cv:
+        if k in pv and cv[k] != pv[k]:
+            fields = set(pv[k]) | set(cv[k])
+            changed.append({"key": k, "changes": {f: {"was": pv[k].get(f), "now": cv[k].get(f)}
+                                                  for f in sorted(fields)
+                                                  if pv[k].get(f) != cv[k].get(f)}})
+    return {"new": [cv[k] for k in cv if k not in pv],
+            "disappeared": [pv[k] for k in pv if k not in cv],
+            "changed": changed}
+
+
+def advances_baseline(state: str) -> bool:
+    """May this run's computed hash overwrite the stored baseline?
+
+    Only for trustworthy states — never a shell, a SPA, or an error, because those would write a
+    bad hash as the new truth.
+
+    `reformatted` MUST be here. It means the digest is identical and only the stored spelling
+    differed; advancing rewrites the canonical form and clears the state on the same run. Omit it
+    and the non-canonical baseline persists forever, so the note fires every run — which is exactly
+    how a maintenance note becomes noise.
+
+    A pure function on purpose: the inline version of this decision was untestable, and the missing
+    `reformatted` term went unnoticed until the self-heal test caught it.
+    """
+    return state in {"baseline", "unchanged", "changed", "reformatted"}
+
+
+def classify(sources: list, hashes: dict, lengths: dict | None = None) -> list:
+    """Pure whole-page diff logic.
+
+    States: manual, error, suspect, baseline, changed, reformatted, unchanged.
+
+    `reformatted` is new in v3.9: the stored baseline and the computed hash are the SAME digest in
+    different spelling (bare hex vs `sha256:`-prefixed). That is a baseline-format repair, NOT a
+    source change, and it must not reach the alert path — see norm_digest(). The baseline is
+    rewritten canonically on the same run, so this state is self-clearing.
+    """
+    lengths = lengths or {}
+    events = []
+    for s in sources:
+        name = s["name"]
+        h = hashes.get(name)
+        if is_manual(s):
+            events.append((name, "manual", s.get("last_sha256"), h))
+        elif h is None or str(h).startswith("ERROR"):
+            events.append((name, "error", s.get("last_sha256"), h))
+        elif lengths.get(name, CONTENT_FLOOR) < CONTENT_FLOOR:
+            events.append((name, "suspect", s.get("last_sha256"), h))
+        elif s.get("last_sha256") is None:
+            events.append((name, "baseline", None, h))
+        elif norm_digest(h) != norm_digest(s["last_sha256"]):
+            events.append((name, "changed", s["last_sha256"], h))
+        elif h != s["last_sha256"]:
+            events.append((name, "reformatted", s["last_sha256"], h))
+        else:
+            events.append((name, "unchanged", s["last_sha256"], h))
+    return events
+
+
+def log_observation(ts, name, page_changed, records_changed, state) -> dict:
+    """One instrumentation row: what whole-page hashing WOULD have flagged vs what really changed."""
+    verdict = ("false_alarm" if page_changed and not records_changed
+               else "real_change" if records_changed else "quiet")
+    return {"ts": ts, "source": name, "page_changed": bool(page_changed),
+            "records_changed": bool(records_changed), "state": state, "verdict": verdict}
+
+
+# ---- live fetch -----------------------------------------------------------------------------
+# A monitor is a health check, not a browser. 30 s is generous — a source that cannot answer in
+# that time is effectively down for the run, and with dozens of sources a longer wait just turns
+# one slow server into minutes of a frozen-looking sweep (which is exactly what made the first
+# unattended run on 2026-07-22 look hung).
+FETCH_TIMEOUT = 30
+
+
+def fetch_raw(url: str):
+    """Return (bytes, content_type). Bytes, not str — a PDF must never be decoded before hashing."""
+    req = Request(encode_url(url), headers={"User-Agent": UA})
+    with urlopen(req, timeout=FETCH_TIMEOUT) as r:
+        return r.read(), (r.headers.get("Content-Type") or "")
+
+
+def is_binary_doc(raw: bytes, ctype: str = "") -> bool:
+    """Is this a document to hash as BYTES rather than tag-stripped text?
+
+    Some official sources are the document itself, not a page about it — EUR-Lex serves
+    /legal-content/EN/TXT/PDF/?uri=CELEX:... as a PDF. Decoding that as UTF-8 with replacement and
+    running an HTML tag-stripper over it yields a few dozen characters of mojibake, which falls
+    under CONTENT_FLOOR and is classified SUSPECT. SUSPECT records are never baselined, so on
+    2026-07-22 eight EU regulations had never once been monitored — the monitor was silently blind
+    to them while reporting them as merely "suspect".
+
+    TRADE-OFF, recorded deliberately: hashing the bytes means a publisher who REGENERATES the same
+    PDF (new internal /CreationDate) reads as CHANGED. For a corpus whose authoritative layer stores
+    byte-exact originals that is the correct bias — a changed byte in the official artifact is a
+    real event for a human to triage, not noise to suppress. If a source proves to regenerate on
+    every fetch, point its monitor_url at a stable endpoint or declare it manual.
+    """
+    if raw[:5] == b"%PDF-":
+        return True
+    if raw[:4] == b"PK\x03\x04" and ("openxml" in ctype or "msword" in ctype):
+        return True
+    ct = (ctype.split(";")[0] or "").strip().lower()
+    return ct in ("application/pdf", "application/msword", "application/octet-stream")
+
+
+def fetch(url: str) -> str:
+    """Text fetch, for the HTML path and for json_check."""
+    raw, _ = fetch_raw(url)
+    return raw.decode("utf-8", errors="replace")
+
+
+def _slug(name: str, limit: int = 60) -> str:
+    """Filesystem-safe key for a source name, shared by record snapshots and retained page bodies."""
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:limit] or "src"
+
+
+def _snap_path(name: str) -> str:
+    return os.path.join(SNAP_DIR, _slug(name) + ".json")
+
+
+def _body_path(name: str) -> str:
+    return os.path.join(PAGE_DIR, _slug(name) + ".txt")
+
+
+def comparable_text(raw: str, ignore=None) -> str:
+    """The exact text content_hash() hashes. Retaining THIS string is what makes retention free.
+
+    An unmoved page yields the identical string, write_page_body() rewrites nothing, and git stores
+    the same blob — so history grows only when a page really changes. Retention is tied to the
+    digest by construction rather than by a parallel normalisation that could drift from it.
+    """
+    return strip_volatile(to_text(raw), ignore)
+
+
+def read_page_body(name: str) -> str | None:
+    p = _body_path(name)
+    if not os.path.isfile(p):
+        return None
+    with open(p, encoding="utf-8") as f:
+        return f.read()
+
+
+def write_page_body(name: str, text) -> bool:
+    """Retain a page source's comparable text. Returns True only if the bytes on disk changed.
+
+    Never called for a SUSPECT or ERROR state: a shell or a failed fetch is not a comparator, and
+    overwriting a good retained body with one would destroy the only evidence of the last real text.
+    """
+    if text is None:
+        return False
+    p = _body_path(name)
+    if os.path.isfile(p):
+        with open(p, encoding="utf-8") as f:
+            if f.read() == text:
+                return False
+    os.makedirs(PAGE_DIR, exist_ok=True)
+    with open(p, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+    return True
+
+
+def _cap_words(text: str, cap: int = 600) -> str:
+    """Trim a span to `cap` characters ON A WORD BOUNDARY, and say how many words were dropped.
+
+    A silent cut is worse than no note at all: a reader cannot tell a two-word edit from a passage of
+    two hundred words that happens to end at the same character.
+    """
+    if len(text) <= cap:
+        return text
+    words, kept, used = text.split(), [], 0
+    for w in words:
+        if used + len(w) + 1 > cap:
+            break
+        kept.append(w)
+        used += len(w) + 1
+    return " ".join(kept) + f" …[{len(words) - len(kept)} more word(s)]"
+
+
+def change_summary(old: str, new: str, context: int = 24, max_spans: int = 20) -> dict:
+    """Locate what moved between two texts. PURE, and deliberately WORD-level.
+
+    to_text() collapses whitespace, so a page is ONE line: a line-level diff of it reports "1 added,
+    1 removed" and names no change at all. The comparison is over word tokens, and each span carries
+    the words immediately around it so a reader can recognise the passage without the page.
+    """
+    a, b = (old or "").split(), (new or "").split()
+    spans, added, removed, elided = [], 0, 0, 0
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if tag == "equal":
+            continue
+        added += j2 - j1
+        removed += i2 - i1
+        if len(spans) >= max_spans:
+            elided += 1
+            continue
+        spans.append({"op": tag, "was": " ".join(a[i1:i2]), "now": " ".join(b[j1:j2]),
+                      "before": " ".join(a[max(0, i1 - context):i1]),
+                      "after": " ".join(b[j2:j2 + context])})
+    return {"spans": spans, "added": added, "removed": removed, "elided_spans": elided,
+            "was_words": len(a), "now_words": len(b)}
+
+
+def render_change_note(name: str, old: str | None, new: str, ts: str,
+                       old_digest: str | None = None,
+                       max_lines: int = CHANGE_NOTE_LINES,
+                       max_chars: int = CHANGE_NOTE_CHARS) -> str | None:
+    """A bounded, triageable record of one page source's movement. PURE — no I/O, so it is testable.
+
+    Returns None when old and new are identical: a note for an unmoved page would turn the evidence
+    directory into noise. When there is no retained body (the first sweep after this version) it says
+    so and shows the current text, rather than implying the page did not move.
+    """
+    if old is not None and old == new:
+        return None
+    head = [f"# Page change — {name}", "", f"- seen: {ts}",
+            f"- baseline digest: `{old_digest or 'none'}`"]
+    if old is None:
+        head += ["- **no retained body**: this is the first sweep since page retention was added, so "
+                 "the previous text is not available — only the digest above. The current text is "
+                 "retained from this run onward, and the next movement will carry a diff.", "",
+                 "## current text (first 800 characters)", "", "```", new[:800], "```"]
+        return "\n".join(head) + "\n"
+    s = change_summary(old, new)
+    head += [f"- words: {s['was_words']} → {s['now_words']} "
+             f"({s['added']} added, {s['removed']} removed across "
+             f"{len(s['spans'])} span(s))", ""]
+    body = []
+    for n, sp in enumerate(s["spans"], 1):
+        body += [f"## span {n} — {sp['op']}", "", "```diff",
+                 ("  …" + sp["before"][-400:]) if sp["before"] else "  …"]
+        if sp["was"]:
+            body.append("[-] " + _cap_words(sp["was"]))
+        if sp["now"]:
+            body.append("[+] " + _cap_words(sp["now"]))
+        # The trailing context MUST carry its own marker: unmarked, it renders as a continuation of
+        # the line above and a reader cannot tell added words from unchanged ones.
+        body += [("  …" + sp["after"][:400] + "…") if sp["after"] else "  …", "```", ""]
+    if s["elided_spans"]:
+        body += [f"_{s['elided_spans']} further changed span(s) not shown; {s['added']} words added "
+                 f"and {s['removed']} removed in total. Read the source if the spans above do not "
+                 f"explain it._", ""]
+    note = "\n".join(head + body)
+    lines = note.splitlines()
+    too_long = len(lines) > max_lines
+    if too_long:
+        note = "\n".join(lines[:max(1, max_lines - 4)])   # leave room for the footer below
+    if too_long or len(note) > max_chars:
+        foot = (f"\n\n_Elided: {s['added']} words added, {s['removed']} removed, "
+                f"{s['elided_spans']} further span(s) not shown. Retained text: "
+                f"{os.path.relpath(_body_path(name), REPO)}._\n")
+        note = note[:max(0, max_chars - len(foot))].rstrip() + foot
+    assert len(note) <= max_chars, "a change note must fit the bound it declares"
+    return note
+
+
+def write_change_note(name: str, new: str | None, ts: str,
+                      old_digest: str | None = None) -> str | None:
+    """Write the change note for a moved page source; return its repo-relative path, or None.
+
+    Called BEFORE the baseline advances and BEFORE the retained body is replaced: the text retained
+    by the previous sweep is the other half of the diff, so the order is load-bearing.
+
+    The filename carries the movement's TIMESTAMP, not just its date, and never overwrites: a source
+    that moves twice in a day (a page amended, corrected, then amended again) must leave two notes.
+    One note per movement is the whole point — the note is evidence, and evidence that overwrites
+    itself is not evidence.
+    """
+    if new is None:
+        return None
+    note = render_change_note(name, read_page_body(name), new, ts, old_digest=old_digest)
+    if note is None:
+        return None
+    os.makedirs(PAGE_DIR, exist_ok=True)
+    stamp = re.sub(r"[^0-9]", "", ts)[:14] or "unknown"          # YYYYMMDDHHMMSS, UTC
+    if len(stamp) < 14:
+        stamp = (stamp + "0" * 14)[:14]
+    base = f"{_slug(name)}.change-{stamp[:8]}-{stamp[8:]}"
+    p = os.path.join(PAGE_DIR, base + ".md")
+    n = 1
+    while os.path.exists(p):
+        n += 1
+        p = os.path.join(PAGE_DIR, f"{base}-{n}.md")
+    with open(p, "w", encoding="utf-8", newline="\n") as f:
+        f.write(note)
+    return os.path.relpath(p, REPO)
+
+
+def _record_state(source: dict, records: list, h_page) -> dict:
+    """Shared record-mode bookkeeping: hash, snapshot compare, collapse guard, structured diff.
+
+    Used by BOTH json_check and schema_check so the two modes cannot drift in how they decide
+    baseline / unchanged / changed / schema_suspect.
+    """
+    import hashlib as _h
+    canon = sorted(json.dumps(r, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+                   for r in records)
+    h_rec = "sha256:" + _h.sha256(
+        json.dumps(canon, ensure_ascii=False, separators=(",", ":")).encode("utf-8")).hexdigest()
+    sp = _snap_path(source["name"])
+    prev = json.load(open(sp, encoding="utf-8")).get("records", []) if os.path.isfile(sp) else []
+    prev_hash = source.get("last_sha256")
+    info = {"records": records, "h_rec": h_rec, "h_page": h_page,
+            "prev_count": len(prev), "cur_count": len(records),
+            "records_changed": bool(prev_hash is not None and h_rec != prev_hash),
+            "page_changed": bool(source.get("last_page_sha256") and h_page
+                                 and h_page != source.get("last_page_sha256")),
+            "report": None}
+    if prev_hash is None or not os.path.isfile(sp):
+        info["state"] = "baseline"
+    elif schema_suspect(len(prev), len(records)):
+        info["state"] = "schema_suspect"
+        info["report"] = diff_records(prev, records)
+    elif not info["records_changed"]:
+        info["state"] = "unchanged"
+    else:
+        info["state"] = "changed"
+        info["report"] = diff_records(prev, records)
+    return info
+
+
+def json_check(source: dict) -> dict:
+    """Record-level monitoring for an official JSON API. Stdlib only — no crawl4ai needed."""
+    raw = fetch(monitored_url(source))
+    records = json_extract_records(json.loads(raw), source["json_extract"])
+    return _record_state(source, records, content_hash(raw, source.get("ignore_patterns")))
+
+
+def schema_check(source: dict) -> dict:
+    """Extract via committed CSS schema, then share record bookkeeping with json_check.
+
+    The hash here is byte-identical to crawl.common.records_hash (sorted canonical JSON, then
+    sha256 of that list), so existing Deep snapshots and baselines remain valid — asserted in
+    the selftest rather than assumed.
+    """
+    import asyncio
+    schema = _crawl.load_schema(source["schema"])
+    records, html, _ = asyncio.run(_crawl.crawl_extract(monitored_url(source), schema))
+    return _record_state(source, records,
+                         content_hash(html, source.get("ignore_patterns")) if html else None)
+
+
+def triage_flags(counts: dict, n_rec_changed: int, n_rec_susp: int,
+                 n_rec_error: int, dupes) -> tuple:
+    """Return (needs_human, monitor_broken) for one run.
+
+    THE BUG THIS EXISTS TO KILL. Up to v3.4 this was one inline expression in main():
+
+        flag = (counts["changed"] or counts["suspect"]
+                or n_schema_changed or n_schema_susp or dupes)
+
+    Neither error term appears. Page-mode errors sat unused in counts["error"], and record-mode
+    errors were not in counts at all, because counts is built only from page_sources — every
+    schema/json source is excluded from it by construction. So a run in which ALL FIVE schema
+    sources raised (crawl4ai installed but no Playwright browser: precisely this repo's CI state
+    on 2026-08-01) would exit 0, print "0 errors", emit changes=false and open no issue. The live
+    ITLOS Case 34/35 proceedings would have gone unwatched, monthly, indefinitely.
+
+    An error is not a quiet non-event. It means the monitor DID NOT LOOK, which is strictly worse
+    than a change, because a change is at least visible. Silence is the one output a watcher must
+    never produce. Being a pure function is the point — the inline version could not be asserted,
+    which is why the omission survived four versions.
+    """
+    broken = bool(counts.get("error") or n_rec_error or dupes)
+    attention = bool(counts.get("changed") or counts.get("suspect")
+                     or n_rec_changed or n_rec_susp)
+    return (attention or broken), broken
+
+
+# ---- self-test ------------------------------------------------------------------------------
+def selftest() -> int:
+    assert content_hash("<p>hi</p>") == content_hash("<p>  hi  </p>")
+    # --- ignore_patterns: the real legislation.gov.uk banner, which carries TODAY's date ---
+    BANNER = r"is up to date with all changes known to be in force on or before \d{1,2} \w+ \d{4}"
+    d1 = "<p>Act text. is up to date with all changes known to be in force on or before 21 July 2026</p>"
+    d2 = "<p>Act text. is up to date with all changes known to be in force on or before 22 July 2026</p>"
+    assert content_hash(d1) != content_hash(d2), "without the pattern the date must move the hash"
+    assert content_hash(d1, [BANNER]) == content_hash(d2, [BANNER]), \
+        "with the pattern, a date-only change must NOT move the hash"
+    # a real amendment must still be detected while the banner is ignored
+    d3 = "<p>Act text AMENDED. is up to date with all changes known to be in force on or before 22 July 2026</p>"
+    assert content_hash(d1, [BANNER]) != content_hash(d3, [BANNER]), \
+        "substantive change must still flag with the pattern applied"
+    # no patterns => byte-identical to the previous behaviour, so existing baselines survive
+    assert content_hash(d1) == content_hash(d1, []) == content_hash(d1, None)
+
+    # --- Singapore Statutes Online: the SAME phrase carries today's date in the status line AND
+    # real version dates in the timeline. Stripping the timeline would hide genuine amendments —
+    # a SILENT false negative — so the pattern must be anchored on "Status:".
+    SG = [r"Status:(&nbsp;|\s)*Current version as at \d{1,2} \w{3} \d{4}",
+          r"Last updated \d{1,2} \w{3} \d{4}"]
+    sg_a = ("<p>CDSA 1992 Status: &nbsp; Current version as at 21 Jul 2026 Print "
+            "Timeline Provision Versions 01 May 2026 or find current version as at 01 May 2026 "
+            "Amended. Last updated 20 Jul 2026</p>")
+    sg_b = sg_a.replace("21 Jul 2026", "22 Jul 2026").replace("Last updated 20 Jul 2026",
+                                                              "Last updated 21 Jul 2026")
+    assert content_hash(sg_a) != content_hash(sg_b), "unpatterned, the daily dates must move the hash"
+    assert content_hash(sg_a, SG) == content_hash(sg_b, SG), \
+        "status-line and footer dates must be ignored"
+    # THE CRITICAL ONE: a real amendment moves the TIMELINE version date, which must still flag.
+    sg_amended = sg_a.replace("01 May 2026", "15 Aug 2026")
+    assert content_hash(sg_a, SG) != content_hash(sg_amended, SG), \
+        "timeline version dates MUST survive the strip — otherwise real amendments go unseen"
+    # and the timeline text must literally still be present after stripping
+    assert "01 May 2026" in strip_volatile(to_text(sg_a), SG), \
+        "the anchored pattern must not swallow the timeline"
+    # --- Malta legislation.mt: a "latest updates" sidebar listing OTHER laws. Observed changing
+    # between 2026-07-22 and 2026-07-25 while the watched Act was untouched, which is what flagged
+    # src-mt-act-vfaa-2018 as CHANGED. The pattern is anchored on the sidebar heading and stops at
+    # the next section, so the SUBSTANTIVE block below it — Short Title, Status, publication date
+    # and above all the "Emendat minn" amendment list — must survive. Losing that list would be a
+    # silent false negative: an amendment to the Act is exactly what this source exists to catch.
+    MT = [r"L-AĦĦAR AĠĠORNAMENTI.*?FAQs"]
+    mt_tail = (" FAQs Short Title: Virtual Financial Assets Act Status In Force "
+               "Emendat minn eli/act/2025/11")
+    mt_a = "MALTA FAQs L-AĦĦAR AĠĠORNAMENTI Ordni għal Kunsill Legali 113 tal-2026" + mt_tail
+    mt_b = "MALTA FAQs L-AĦĦAR AĠĠORNAMENTI Ordni dwar Nomina Legali 112 tal-2026" + mt_tail
+    assert content_hash(mt_a) != content_hash(mt_b), "unpatterned, the sidebar churn moves the hash"
+    assert content_hash(mt_a, MT) == content_hash(mt_b, MT), "sidebar churn must be ignored"
+    assert "Emendat minn eli/act/2025/11" in strip_volatile(to_text(mt_b), MT), \
+        "the amendment list MUST survive — it is the signal this source exists to catch"
+    mt_amended = mt_b.replace("eli/act/2025/11", "eli/act/2026/07")
+    assert content_hash(mt_b, MT) != content_hash(mt_amended, MT), \
+        "a real amendment MUST still flag with the pattern applied"
+
+    # whole-page states, including every guard
+    srcs = [{"name": "a", "url": "x", "last_sha256": "sha256:aaa"},
+            {"name": "b", "url": "y", "last_sha256": None},
+            {"name": "c", "url": "z", "last_sha256": "sha256:ccc"},
+            {"name": "d", "url": "w", "last_sha256": "sha256:ddd"},
+            {"name": "e", "url": "s", "render": "spa", "last_sha256": "sha256:eee"},
+            {"name": "f", "url": "s", "render": "spa", "monitor_url": "api",
+             "last_sha256": "sha256:fff"},
+            {"name": "g", "url": "v", "last_sha256": None}]
+    hh = {"a": "sha256:aaa", "b": "sha256:bbb", "c": "sha256:CHANGED", "d": "ERROR:timeout",
+          "e": "sha256:eee", "f": "sha256:fff", "g": "sha256:short"}
+    ll = {"a": 5000, "b": 5000, "c": 5000, "d": 0, "e": 40, "f": 5000, "g": 12}
+    got = {n: st for n, st, _, _ in classify(srcs, hh, ll)}
+    assert got == {"a": "unchanged", "b": "baseline", "c": "changed", "d": "error",
+                   "e": "manual", "f": "unchanged", "g": "suspect"}, got
+
+    # THE 2026-08-01 FALSE ALARM. A hand-seeded baseline with bare hex vs the identical digest
+    # computed with the `sha256:` prefix must be a format repair, never a source change. Without
+    # this, three unmoved ODS record copies reported CHANGED and the issue sat open for six weeks.
+    BARE = "b137390b89f321f3f2f322a9e2d8bdad96f4d5a6e0aa1ecd2886e00de42bbfe2"
+    assert classify([{"name": "ods", "url": "x", "last_sha256": BARE}],
+                    {"ods": "sha256:" + BARE}, {"ods": 5000})[0][1] == "reformatted", \
+        "same digest in a different spelling is NOT a change"
+    assert norm_digest(BARE) == norm_digest("sha256:" + BARE) == norm_digest("SHA256:" + BARE.upper())
+    assert norm_digest(None) is None
+    # ...and the canonical spelling must still be plain `unchanged`.
+    assert classify([{"name": "ods", "url": "x", "last_sha256": "sha256:" + BARE}],
+                    {"ods": "sha256:" + BARE}, {"ods": 5000})[0][1] == "unchanged"
+    # A REAL change must still be caught, including when the baseline is bare hex.
+    REAL = "c" * 64
+    assert classify([{"name": "ods", "url": "x", "last_sha256": BARE}],
+                    {"ods": "sha256:" + REAL}, {"ods": 5000})[0][1] == "changed", \
+        "normalising must not blunt a genuine change"
+    # A format repair must NOT raise the alarm; a real change must.
+    import inspect as _inspect
+    assert "reformatted" not in _inspect.getsource(triage_flags), \
+        "reformatted must stay out of the alert path"
+    # ...and it MUST advance the baseline, or the non-canonical value persists and the note repeats
+    # every run forever. That omission was live in the first version of this very fix.
+    assert advances_baseline("reformatted"), "reformatted must self-heal the baseline"
+    assert advances_baseline("changed") and advances_baseline("unchanged")
+    assert advances_baseline("baseline")
+    assert not advances_baseline("suspect") and not advances_baseline("error")
+    assert not advances_baseline("manual") and not advances_baseline("schema_suspect"), \
+        "a shell, SPA or error must never be written as the new truth"
+    # a SPA must never be baselined, even on a first run
+    assert classify([{"name": "z", "url": "s", "render": "spa", "last_sha256": None}],
+                    {"z": "sha256:zz"}, {"z": 30})[0][1] == "manual"
+    # monitor_url takes precedence, url is the fallback
+    assert monitored_url({"url": "human", "monitor_url": "api"}) == "api"
+    assert monitored_url({"url": "human"}) == "human"
+    # both manual declarations work, and monitor_url overrides either
+    assert is_manual({"render": "spa"}) and is_manual({"monitor": "manual"})
+    assert not is_manual({"render": "spa", "monitor_url": "api"})
+    assert not is_manual({"monitor": "manual", "monitor_url": "api"})
+    assert not is_manual({"url": "x"})
+    assert classify([{"name": "m", "url": "x", "monitor": "manual", "last_sha256": None}],
+                    {"m": "sha256:mm"}, {"m": 9000})[0][1] == "manual"
+    # broken-selector guard boundaries
+    assert schema_suspect(38, 0) and schema_suspect(38, 18)
+    assert not schema_suspect(38, 19) and not schema_suspect(38, 36) and not schema_suspect(4, 0)
+    # structured diff
+    d = diff_records([{"doc_url": "a", "title": "A"}, {"doc_url": "b", "title": "B"}],
+                     [{"doc_url": "a", "title": "A"}, {"doc_url": "b", "title": "B rev"},
+                      {"doc_url": "c", "title": "C"}])
+    assert [r["title"] for r in d["new"]] == ["C"] and d["disappeared"] == []
+    assert len(d["changed"]) == 1 and d["changed"][0]["key"] == "b"
+    # duplicate hashes
+    dup = duplicate_hashes([{"name": "A", "last_sha256": "h"}, {"name": "B", "last_sha256": "h"},
+                            {"name": "C", "last_sha256": "i"}])
+    assert len(dup) == 1 and set(dup[0][1]) == {"A", "B"}
+    # a MUTUALLY declared pair (uk /made vs latest-version) is expected and must not cry wolf
+    ok_pair = [{"name": "A", "last_sha256": "h", "duplicate_ok_with": ["B"]},
+               {"name": "B", "last_sha256": "h", "duplicate_ok_with": ["A"]}]
+    assert duplicate_hashes(ok_pair) == [], "a mutually declared pair must be silent"
+    # ONE-SIDED declaration must NOT suppress it — otherwise editing a single source in isolation
+    # could silence a real 'both fetching the same access-denied page' defect
+    half = [{"name": "A", "last_sha256": "h", "duplicate_ok_with": ["B"]},
+            {"name": "B", "last_sha256": "h"}]
+    assert len(duplicate_hashes(half)) == 1, "a one-sided declaration must still alarm"
+    # a THIRD source joining a declared pair is undeclared: the declaration is not a blanket
+    # amnesty for that hash, so the group must alarm again
+    assert len(duplicate_hashes(ok_pair + [{"name": "C", "last_sha256": "h"}])) == 1, \
+        "an undeclared third source must break the amnesty"
+    # non-ASCII URLs must encode, not explode
+    assert encode_url("https://www.law.go.kr/법령/가상자산이용자보호법").isascii()
+    assert " " not in encode_url("https://dlp.dubai.gov.ae/legislation ar ref/x.html")
+    assert encode_url("https://a.test/%D8%A7").count("%D8") == 1
+    # --- JSON mode ---
+    assert json_path({"a": {"b": [1, 2]}}, "a.b.1") == 2
+    assert json_path({"a": 1}, "a.missing") is None
+    assert json_path({"a": 1}, "") == {"a": 1}
+    # real eCFR versioner shape
+    ecfr = {"content_versions": [
+        {"identifier": "970.407", "name": "§ 970.407 Denial of certification.",
+         "amendment_date": "2026-05-14", "part": "970"},
+        {"identifier": "970.200", "name": "§ 970.200 General.",
+         "amendment_date": "2026-01-21", "part": "970"}],
+        "meta": {"latest_amendment_date": "2026-05-14"}}
+    recs = json_extract_records(ecfr, {"records": "content_versions",
+                                       "fields": {"citation": "identifier", "title": "name",
+                                                  "date": "amendment_date"}})
+    assert len(recs) == 2 and recs[0]["citation"] == "970.407"
+    assert recs[0]["date"] == "2026-05-14"
+    # an amendment to one section must diff as ONE changed record, not "the payload differs"
+    after = json_extract_records(
+        {"content_versions": [dict(ecfr["content_versions"][0], amendment_date="2026-08-01"),
+                              ecfr["content_versions"][1]]},
+        {"records": "content_versions",
+         "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"}})
+    d2 = diff_records(recs, after)
+    assert d2["new"] == [] and d2["disappeared"] == [] and len(d2["changed"]) == 1
+    assert d2["changed"][0]["key"] == "970.407" and "date" in d2["changed"][0]["changes"]
+    # volatile keys are excluded by simply not naming them (Federal Register timestamps)
+    fr = {"results": [{"document_number": "2026-12692", "title": "Stablecoin AML",
+                       "publication_date": "2026-06-24", "html_url": "https://x/y",
+                       "public_inspection_pdf_url": "https://x/z.pdf?1782218717"}]}
+    fr_recs = json_extract_records(fr, {"records": "results",
+                                        "fields": {"citation": "document_number", "title": "title",
+                                                   "date": "publication_date", "doc_url": "html_url"}})
+    assert "public_inspection_pdf_url" not in fr_recs[0], "volatile keys must not enter the record"
+    assert json_extract_records({"results": []}, {"records": "results", "fields": {"a": "b"}}) == []
+    # record hash must match crawl.common.records_hash so existing Deep baselines stay valid
+    import hashlib as _h
+    ref_canon = sorted(json.dumps(r, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+                       for r in recs)
+    ref = "sha256:" + _h.sha256(json.dumps(ref_canon, sort_keys=True, ensure_ascii=False,
+                                           separators=(",", ":")).encode("utf-8")).hexdigest()
+    got = _record_state({"name": "_t_", "last_sha256": None}, recs, None)["h_rec"]
+    assert got == ref, "record hash must stay compatible with crawl.common.records_hash"
+
+    # instrumentation verdicts
+    assert log_observation("t", "s", True, False, "unchanged")["verdict"] == "false_alarm"
+    assert log_observation("t", "s", False, True, "changed")["verdict"] == "real_change"
+    assert log_observation("t", "s", False, False, "unchanged")["verdict"] == "quiet"
+
+    # --- binary documents: hash the bytes, never the tag-stripped decode ---
+    assert is_binary_doc(b"%PDF-1.7\n%\xe2\xe3\xcf\xd3", "application/pdf")
+    assert is_binary_doc(b"%PDF-1.4", ""), "PDF magic alone is enough — servers mislabel content-type"
+    assert is_binary_doc(b"anything", "application/pdf; charset=binary")
+    assert not is_binary_doc(b"<!DOCTYPE html><html>", "text/html; charset=utf-8")
+    assert not is_binary_doc(b'{"results": []}', "application/json")
+    # THE DEFECT THIS CLOSES: a real PDF, decoded and tag-stripped, falls under CONTENT_FLOOR and is
+    # classified SUSPECT — and suspect sources are NEVER baselined, so they are never monitored.
+    pdf = b"%PDF-1.7\n" + bytes(range(32, 127)) * 3
+    assert len(to_text(pdf.decode("utf-8", "replace"))) < CONTENT_FLOOR
+    srcs = [{"name": "pdfsrc", "url": "x", "last_sha256": None}]
+    assert classify(srcs, {"pdfsrc": "sha256:aaa"}, {"pdfsrc": 40})[0][1] == "suspect", \
+        "short text is suspect — which is why a binary doc must not go down the text path"
+    assert classify(srcs, {"pdfsrc": "sha256:aaa"}, {"pdfsrc": CONTENT_FLOOR})[0][1] == "baseline", \
+        "a binary doc, exempted from the floor, must baseline like any other source"
+
+    # --- triage_flags: an error must NEVER produce a silent green run (the v3.4 defect) ---
+    quiet = {"changed": 0, "suspect": 0, "manual": 0, "error": 0}
+    assert triage_flags(quiet, 0, 0, 0, []) == (False, False)
+    assert triage_flags(quiet, 0, 0, 5, []) == (True, True), \
+        "record-mode errors MUST raise the flag — five schema sources failing is not a quiet run"
+    assert triage_flags({**quiet, "error": 1}, 0, 0, 0, []) == (True, True), \
+        "page-mode fetch errors MUST raise the flag too"
+    assert triage_flags(quiet, 0, 0, 0, [("sha256:x", ["a", "b"])]) == (True, True), \
+        "two sources sharing a hash means both are fetching the same wrong page"
+    assert triage_flags(quiet, 1, 0, 0, []) == (True, False)
+    assert triage_flags(quiet, 0, 1, 0, []) == (True, False)
+    assert triage_flags({**quiet, "changed": 2}, 0, 0, 0, []) == (True, False)
+    # a declared-manual source is a KNOWN state, not an alarm — it must stay quiet, or the
+    # monthly issue becomes noise and the real signals stop being read.
+    assert triage_flags({**quiet, "manual": 9}, 0, 0, 0, []) == (False, False)
+
+    # --- v3.10 (a): HTML entities must not move the hash (issue #5, cause 1) ---
+    # These are the three variants of ONE visible sentence that produced three different digests.
+    assert content_hash("<p>Area means the seabed.</p>") == \
+        content_hash("<p>Area&nbsp;means the seabed.</p>") == \
+        content_hash("<p>Area means the seabed.&nbsp;</p>"), \
+        "an entity-encoded space must not change the comparable text"
+    assert content_hash("<p>a &amp; b</p>") == content_hash("<p>a & b</p>"), \
+        "&amp; renders as '&' and must hash the same"
+    assert content_hash("<p>it&#39;s</p>") == content_hash("<p>it's</p>"), \
+        "numeric entities for punctuation must hash the same"
+    # ORDER: unescape AFTER tag removal. Escaped markup in the body is TEXT, so it must survive as
+    # literal characters and must not be eaten by the tag regex.
+    assert to_text("<p>&lt;b&gt;hi&lt;/b&gt;</p>") == "<b>hi</b>", \
+        "escaped markup carried in the body is text — unescaping before tag removal would delete it"
+    # and genuine detection must survive the change
+    assert content_hash("<p>Area means the seabed.</p>") != \
+        content_hash("<p>Area means the water.</p>"), \
+        "entity handling must not blunt genuine detection"
+
+    # --- v3.10 (b): an unrecognised argument must NOT fall through to a live sweep ---
+    assert parse_args([]) == ("sweep", [])
+    assert parse_args(["--selftest"]) == ("selftest", [])
+    assert parse_args(["--tally"]) == ("tally", [])
+    assert parse_args(["--help"])[0] == "help" and parse_args(["-h"])[0] == "help"
+    assert parse_args(["--selftest", "--tally"])[0] == "selftest"
+    # THE DEFECT THIS PREVENTS: --help was unrecognised, so it ran a real sweep and advanced every
+    # baseline, silently discarding pending change signals. A typo or a hoped-for --dry-run did the
+    # same, and the run still reported success.
+    for bad in (["--dry-run"], ["--hepl"], ["--update"], ["--verbose"], ["sweep"], ["--help-x"]):
+        mode, unknown = parse_args(bad)
+        assert mode == "error" and unknown == bad, \
+            f"{bad} must be refused as an error, never treated as 'just run it'"
+
+    # --- v3.11: a moved PAGE source must leave a triageable record, not merely a new hash ---
+    # THE DEFECT THIS CLOSES: a hash difference cannot be triaged after the fact. Neither space-law
+    # nor bbnj retained a page body, so the two BBNJ notification sources that moved on 2026-10-13
+    # could only be explained by re-reading the live pages — and a page that REPLACES its content
+    # would have been unreadable by the time a maintainer looked.
+    page_a = ("The Area and its resources are the common heritage of mankind. "
+              + " ".join(f"w{i}" for i in range(40)) + " End of page.")
+    page_b = page_a.replace("common heritage", "common treasure")
+    # The retained text IS the hashed text, so retention cannot drift from the digest it explains.
+    assert content_hash("<p>Area means the seabed.</p>") == \
+        "sha256:" + hashlib.sha256(
+            comparable_text("<p>Area means the seabed.</p>").encode("utf-8")).hexdigest()
+    pats = [r"updated \d{4}-\d{2}-\d{2}"]
+    assert comparable_text("<p>Text. updated 2026-10-15</p>", pats) == \
+        comparable_text("<p>Text. updated 2026-10-01</p>", pats), \
+        "a declared volatile pattern must be absent from the RETAINED text too, or every sweep " \
+        "would retain a page that differs only in its timestamps"
+    # ONE WORD, not one line: to_text collapses a page to a single line, so a line-level diff of
+    # these two texts would report "1 added, 1 removed" and name nothing at all.
+    assert "\n" not in page_a
+    s1 = change_summary(page_a, page_b)
+    assert len(s1["spans"]) == 1 and s1["spans"][0]["was"] == "heritage" \
+        and s1["spans"][0]["now"] == "treasure", "the moved word must be NAMED, not merely counted"
+    assert s1["added"] == 1 and s1["removed"] == 1
+    assert "common" in s1["spans"][0]["before"] and "mankind" in s1["spans"][0]["after"], \
+        "a span must carry the words around it, or the passage cannot be recognised without the page"
+    n1 = render_change_note("Example source", page_a, page_b, "2026-10-15T00:00:00Z",
+                            old_digest="sha256:aaa")
+    assert n1 and "[-] heritage" in n1 and "[+] treasure" in n1 and "sha256:aaa" in n1
+    # added-only and removed-only must never be rendered as each other
+    n2 = render_change_note("S", page_a, page_a + " A new clause appears.", "2026-10-15T00:00:00Z")
+    assert n2 and "[+]" in n2 and "[-]" not in n2, "an insertion must not read as a removal"
+    n3 = render_change_note("S", page_a, page_a.replace(" End of page.", ""), "2026-10-15T00:00:00Z")
+    assert n3 and "[-]" in n3 and "[+]" not in n3, "a deletion must not read as an addition"
+    # An insertion at the TOP shifts EVERY following word. Only the inserted words may be reported,
+    # or the note claims the whole page changed and tells the maintainer nothing.
+    s4 = change_summary(page_a, "A new opening sentence. " + page_a)
+    assert s4["added"] <= 6 and s4["removed"] == 0, \
+        "a shift must not be reported as a whole-page change"
+    # An unmoved page writes NO note — a note per sweep would turn evidence into noise — and the
+    # first sweep after this version must say what it lacks rather than imply the page did not move.
+    assert render_change_note("S", page_a, page_a, "2026-10-15T00:00:00Z") is None
+    first = render_change_note("S", None, page_a, "2026-10-15T00:00:00Z")
+    assert first and "no retained body" in first and page_a[:80] in first
+    # An oversized change is bounded in BOTH directions and admits the truncation: the note travels
+    # in the triage issue body, so an unbounded one would simply not arrive.
+    big_old = " ".join(f"keep{i} " + " ".join(f"old{i}w{j}" for j in range(100))
+                       for i in range(20))
+    big_new = " ".join(f"keep{i} " + " ".join(f"new{i}w{j}" for j in range(100))
+                       for i in range(20))
+    n5 = render_change_note("S", big_old, big_new, "2026-10-15T00:00:00Z",
+                            max_lines=10, max_chars=800)
+    assert n5 and len(n5) <= 800 and len(n5.splitlines()) <= 10, "the declared bound must hold"
+    assert "Elided" in n5, "a truncated note must say it was truncated"
+    n6 = render_change_note("S", big_old, big_new, "2026-10-15T00:00:00Z")
+    assert n6 and len(n6) <= CHANGE_NOTE_CHARS and len(n6.splitlines()) <= CHANGE_NOTE_LINES
+    assert "more word(s)]" in n6, \
+        "a span cut at the cap must count the words it dropped, or the cut is invisible"
+    # Retention rewrites NOTHING when the bytes are unchanged: identical bytes are one git blob,
+    # which is what keeps an unmoved page free of any history cost at all.
+    global PAGE_DIR
+    saved_dir = PAGE_DIR
+    with tempfile.TemporaryDirectory(prefix="ws-selftest-") as td:
+        PAGE_DIR = os.path.join(td, "pages")
+        try:
+            assert read_page_body("Example source") is None, "an unknown source has no retained body"
+            assert write_page_body("Example source", page_a) is True
+            assert write_page_body("Example source", page_a) is False, \
+                "identical text must rewrite nothing, or every sweep would add a blob"
+            assert read_page_body("Example source") == page_a
+            assert write_page_body("Example source", page_b) is True
+            assert read_page_body("Example source") == page_b
+            # The note is rendered from the text retained by the PREVIOUS sweep, then replaced.
+            p1 = write_change_note("Example source", page_a, "2026-10-16T00:00:00Z")
+            p2 = write_change_note("Example source", page_a, "2026-10-16T00:00:00Z")
+            # Two movements in the SAME SECOND must still leave two notes: a page amended, corrected
+            # and amended again in one day is exactly when a maintainer wants both, and a note that
+            # overwrites its predecessor is not evidence.
+            assert p1 and p2 and p1 != p2, "a later movement must never overwrite an earlier note"
+            assert os.path.basename(p1).startswith("example-source.change-20261016-000000")
+            assert len([f for f in os.listdir(PAGE_DIR) if ".change-" in f]) == 2
+            with open(os.path.join(PAGE_DIR, os.path.basename(p1)), encoding="utf-8") as f:
+                assert "[-] treasure" in f.read(), \
+                    "the note must diff against the RETAINED body, not the incoming one"
+            # A declared-manual source (a SPA) retains nothing: it was never fetched.
+            assert write_page_body("Example source", None) is False
+        finally:
+            PAGE_DIR = saved_dir
+    # Only a state that may advance the baseline may retain. A shell (SUSPECT) or a failed fetch
+    # must never overwrite the last trustworthy text with one that explains nothing.
+    for st in ("suspect", "error", "manual", "schema_suspect"):
+        assert not advances_baseline(st), f"{st} must neither retain nor advance"
+    assert advances_baseline("changed") and advances_baseline("reformatted")
+
+    print(f"watch_sources v{MONITOR_VERSION} selftest: OK")
+    return 0
+
+
+def tally() -> int:
+    """Measured false-alarm rate of whole-page hashing, from accumulated schema-mode runs."""
+    if not os.path.isfile(ALARM_LOG):
+        print("No instrumentation yet. Needs two runs on a schema-mode source.")
+        return 0
+    rows = [json.loads(l) for l in open(ALARM_LOG, encoding="utf-8") if l.strip()]
+    obs = [r for r in rows if r.get("state") in ("changed", "unchanged", "schema_suspect")]
+    if not obs:
+        print(f"{len(rows)} row(s) logged, none yet comparable (all baselines).")
+        return 0
+    page = sum(1 for r in obs if r["page_changed"])
+    recs = sum(1 for r in obs if r["records_changed"])
+    false = sum(1 for r in obs if r["page_changed"] and not r["records_changed"])
+    missed = sum(1 for r in obs if r["records_changed"] and not r["page_changed"])
+    print(f"Observations: {len(obs)} over {min(r['ts'] for r in obs)} .. {max(r['ts'] for r in obs)}")
+    print(f"  whole-page would have flagged : {page}")
+    print(f"  real instrument-level changes : {recs}")
+    print(f"  FALSE ALARMS                  : {false}")
+    if missed:
+        print(f"  page quiet but records changed: {missed}  (whole-page would have MISSED these)")
+    if page:
+        print(f"  => measured false-alarm rate: {false / page * 100:.0f}% of its flags")
+    return 0
+
+
+# ---- run ------------------------------------------------------------------------------------
+USAGE = """usage: watch_sources.py [--selftest | --tally | --help]
+
+  (no argument)  LIVE SWEEP: fetch every source, compare against its baseline, retain each page
+                 source's comparable text under monitoring/snapshots/pages/, write a diff note for
+                 every source that moved, write monitoring/last_report.md, and ADVANCE the baselines
+                 of unchanged and changed sources. This WRITES STATE. There is no dry run: a sweep is
+                 the only way to look, and looking costs the pending signal.
+  --selftest     offline assertions, no network, writes nothing
+  --tally        print the measured whole-page false-alarm rate from accumulated runs; read-only
+  --help, -h     this text
+
+An unrecognised argument is an ERROR, not a default. Before v3.10 anything that was not --selftest or
+--tally fell through to a LIVE SWEEP, so `--help`, a typo, or a hoped-for `--dry-run` advanced every
+source's baseline and rewrote the report — discarding the change signals it had been carrying and
+reporting it as a normal successful run. To inspect behaviour without sweeping, run --selftest.
+"""
+
+
+def parse_args(args):
+    """Classify argv into a mode. PURE, so the behaviour is testable without running a sweep.
+
+    Returns (mode, unknown) where mode is 'help' | 'selftest' | 'tally' | 'sweep' | 'error'.
+    'error' is the v3.10 addition: an unrecognised argument must not be read as 'just run it'.
+    """
+    if "--help" in args or "-h" in args:
+        return "help", []
+    known = {"--selftest", "--tally"}
+    unknown = [a for a in args if a not in known]
+    if unknown:
+        return "error", unknown
+    if "--selftest" in args:
+        return "selftest", []
+    if "--tally" in args:
+        return "tally", []
+    return "sweep", []
+
+
+def main() -> int:
+    mode, unknown = parse_args(sys.argv[1:])
+    if mode == "help":
+        print(USAGE, end="")
+        return 0
+    if mode == "error":
+        sys.stderr.write(
+            "error: unrecognised argument(s): " + " ".join(unknown) + "\n"
+            "refusing to sweep: a sweep WRITES state (it advances every source's baseline and\n"
+            "rewrites the report), so an unknown flag must not be treated as 'just run it'.\n\n")
+        sys.stderr.write(USAGE)
+        return 2
+    if mode == "selftest":
+        return selftest()
+    if mode == "tally":
+        return tally()
+
+    data = json.load(open(SOURCES, encoding="utf-8"))
+    sources = data["sources"] if isinstance(data, dict) and "sources" in data else data
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    os.makedirs(SNAP_DIR, exist_ok=True)
+    schema_ok = _HAVE_CRAWL and _crawl.crawl4ai_status()[0]
+
+    hashes, lengths, schema_states, observations = {}, {}, {}, []
+    binary_docs = set()   # sources hashed as bytes (PDF/DOCX), exempt from the HTML content floor
+    # v3.11: the comparable text of every page source fetched this run, retained AFTER the states are
+    # known, so a shell or a failed fetch can never overwrite the last trustworthy text.
+    page_text, change_notes = {}, {}
+    n_src = len(sources)
+    # Progress, flushed per source. Without it the sweep prints only its final summary, so a run
+    # over dozens of sources shows nothing for minutes and looks hung — it is not, it is fetching.
+    print(f"[v{MONITOR_VERSION}] sweeping {n_src} sources "
+          f"(up to {FETCH_TIMEOUT}s per fetch; declared-manual sources are skipped)", flush=True)
+    for i, s in enumerate(sources, 1):
+        name = s["name"]
+        print(f"  [{i:>3}/{n_src}] {name[:66]}", flush=True)
+        # JSON mode needs no crawl4ai, so it is tried first and works in every corpus.
+        if s.get("json_extract") and not is_manual(s):
+            try:
+                info = json_check(s)
+                schema_states[name] = info
+                observations.append(log_observation(now, name, info["page_changed"],
+                                                    info["records_changed"], info["state"]))
+                if info["state"] != "schema_suspect":
+                    with open(_snap_path(name), "w", encoding="utf-8", newline="\n") as f:
+                        json.dump({"generated": now, "records": info["records"]}, f,
+                                  indent=2, ensure_ascii=False)
+                    s["last_sha256"] = info["h_rec"]
+                    if info["h_page"]:
+                        s["last_page_sha256"] = info["h_page"]
+            except Exception as e:
+                schema_states[name] = {"state": "error", "err": f"{type(e).__name__}: {e}"}
+            s["last_checked"] = now
+            continue
+        if s.get("schema") and schema_ok:
+            try:
+                info = schema_check(s)
+                schema_states[name] = info
+                observations.append(log_observation(now, name, info["page_changed"],
+                                                    info["records_changed"], info["state"]))
+                if info["state"] != "schema_suspect":
+                    with open(_snap_path(name), "w", encoding="utf-8", newline="\n") as f:
+                        json.dump({"generated": now, "records": info["records"]}, f,
+                                  indent=2, ensure_ascii=False)
+                    s["last_sha256"] = info["h_rec"]
+                    if info["h_page"]:
+                        s["last_page_sha256"] = info["h_page"]
+            except Exception as e:
+                schema_states[name] = {"state": "error", "err": f"{type(e).__name__}: {e}"}
+            s["last_checked"] = now
+            continue
+        if is_manual(s):
+            hashes[name] = None            # do not even pretend to fetch it
+            s["last_checked"] = now
+            continue
+        try:
+            raw_b, ctype = fetch_raw(monitored_url(s))
+            if is_binary_doc(raw_b, ctype):
+                # Hash the DOCUMENT's bytes. CONTENT_FLOOR is an HTML-shell heuristic and is
+                # meaningless here, so it is bypassed rather than dooming the source to SUSPECT.
+                hashes[name] = "sha256:" + hashlib.sha256(raw_b).hexdigest()
+                lengths[name] = CONTENT_FLOOR
+                binary_docs.add(name)
+            else:
+                raw = raw_b.decode("utf-8", errors="replace")
+                lengths[name] = len(to_text(raw))
+                page_text[name] = comparable_text(raw, s.get("ignore_patterns"))
+                hashes[name] = content_hash(raw, s.get("ignore_patterns"))
+        except Exception as e:
+            hashes[name] = f"ERROR:{type(e).__name__}"
+        s["last_checked"] = now
+
+    page_sources = [s for s in sources if s["name"] not in schema_states]
+    events = classify(page_sources, hashes, lengths)
+    st_of = {n: st for n, st, _, _ in events}
+
+    # Advance baselines ONLY for trustworthy states — never a shell, a SPA, or an error.
+    # Order matters inside this loop: a change note is rendered against the text retained by the
+    # PREVIOUS sweep, so the note is written BEFORE the retained body is replaced, and only a state
+    # that may advance the baseline may retain — a shell must never overwrite the last real text.
+    for s in page_sources:
+        st = st_of[s["name"]]
+        if advances_baseline(st):
+            h = hashes[s["name"]]
+            if h and not str(h).startswith("ERROR"):
+                if st == "changed":
+                    note = write_change_note(s["name"], page_text.get(s["name"]), now,
+                                             old_digest=s.get("last_sha256"))
+                    if note:
+                        change_notes[s["name"]] = note
+                write_page_body(s["name"], page_text.get(s["name"]))
+                s["last_sha256"] = h
+    if change_notes:
+        print(f"  [{len(change_notes)} change note(s) written to "
+              f"{os.path.relpath(PAGE_DIR, REPO)}]", flush=True)
+
+    # ---- report
+    dupes = duplicate_hashes(sources)
+    n_schema_changed = sum(1 for i in schema_states.values() if i.get("state") == "changed")
+    n_schema_susp = sum(1 for i in schema_states.values() if i.get("state") == "schema_suspect")
+    # Record-mode errors are NOT in counts: counts comes from events, which comes from
+    # page_sources, which excludes every schema/json source by construction. Counting them
+    # separately here is what makes them visible to the header, the summary and the flag.
+    n_rec_error = sum(1 for i in schema_states.values() if i.get("state") == "error")
+    counts = {k: sum(1 for _, st, _, _ in events if st == k)
+              for k in ("changed", "suspect", "manual", "error")}
+    lines = [f"# Source monitor report — {now}", "",
+             f"_monitor v{MONITOR_VERSION} · schema mode "
+             f"{'on' if schema_ok else 'off (whole-page fallback)'}_", "",
+             f"{counts['changed'] + n_schema_changed} changed · {counts['suspect']} suspect · "
+             f"{n_schema_susp} schema-suspect · {counts['manual']} manual-review · "
+             f"{counts['error'] + n_rec_error} error · {len(sources)} total", ""]
+    if dupes:
+        lines += ["## ⛔ DUPLICATE HASHES", "",
+                  "Two sources cannot legitimately share a hash — both are probably fetching the "
+                  "same error or access-denied page.", ""]
+        for h, names in dupes:
+            lines += [f"- `{h}`"] + [f"    - {n}" for n in names]
+        lines.append("")
+    if schema_states:
+        lines += ["## Schema-mode sources", ""]
+        for name, i in schema_states.items():
+            st = i.get("state")
+            if st == "schema_suspect":
+                lines.append(f"- **{name}** — ⛔ **SCHEMA SUSPECT**: records fell "
+                             f"{i['prev_count']} → {i['cur_count']}. Selectors have probably "
+                             f"broken; this is NOT read as documents being removed. Baseline and "
+                             f"snapshot deliberately NOT advanced.")
+            elif st == "changed":
+                r = i["report"]
+                lines.append(f"- **{name}** — 🔶 CHANGED: {len(r['new'])} new, "
+                             f"{len(r['disappeared'])} gone, {len(r['changed'])} amended")
+                for x in r["new"]:
+                    lines.append(f"    - ➕ {x.get('title') or x.get('citation') or _rec_key(x)}")
+                for x in r["disappeared"]:
+                    lines.append(f"    - ➖ {x.get('title') or x.get('citation') or _rec_key(x)}")
+            elif st == "error":
+                lines.append(f"- **{name}** — ⚠️ {i.get('err')}")
+            else:
+                lines.append(f"- **{name}** — "
+                             f"{'🟦 baseline set' if st == 'baseline' else '✅ unchanged'} "
+                             f"({i.get('cur_count', '?')} records)")
+        lines.append("")
+    order = ["changed", "suspect", "reformatted", "manual", "error", "baseline", "unchanged"]
+    mark = {"changed": "🔶 CHANGED", "suspect": "🟥 SUSPECT — content too short (shell/error?)",
+            "reformatted": "🔧 BASELINE REFORMATTED — same digest, non-canonical stored form "
+                           "(no source change; baseline rewritten)",
+            "manual": "🟠 MANUAL — JS-rendered source, auto-monitor cannot see the law",
+            "error": "⚠️ fetch error", "baseline": "🟦 baseline set", "unchanged": "✅ unchanged"}
+    by_state = {k: [] for k in order}
+    for name, state, old, new in events:
+        by_state[state].append((name, old, new))
+    for state in order:
+        rows = by_state[state]
+        if not rows:
+            continue
+        lines += [f"## {mark[state]} ({len(rows)})"]
+        for name, old, new in rows:
+            lines.append(f"- **{name}**")
+            if state == "changed":
+                lines += [f"    - was `{old}`", f"    - now `{new}`"]
+                note = change_notes.get(name)
+                if note:
+                    lines.append(f"    - diff: `{note}`")
+        lines.append("")
+    lines += ["_Automation only watches and queues. A flag may be a genuinely new or amended "
+              "instrument OR a cosmetic page update — the maintainer triages. **MANUAL** sources "
+              "are JavaScript apps a stdlib fetch cannot see. **SUSPECT** means too little text to "
+              "trust. **SCHEMA SUSPECT** means selectors probably broke. Nothing is ingested "
+              "automatically._", "",
+              "_Each page source's comparable text is retained at `monitoring/snapshots/pages/`, and "
+              "a CHANGED source leaves a bounded word-level diff note beside it as "
+              "`…/<slug>.change-<YYYYMMDD-HHMMSS>.md` — one per movement. A flag can therefore be "
+              "triaged after the fact, from a clone, long after the page itself has moved on._"]
+    # newline="\n" on EVERY text write. Without it, Python text mode on Windows emits CRLF, so a
+    # monitor run left sources.json and last_report.md differing from their LF blobs in line
+    # endings only — an empty diff that still shows as modified, on every run, in five corpora.
+    # .gitattributes governs checkout, not what a script writes.
+    with open(REPORT, "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(lines) + "\n")
+
+    with open(SOURCES, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    if observations:
+        with open(ALARM_LOG, "a", encoding="utf-8", newline="\n") as f:
+            for o in observations:
+                f.write(json.dumps(o, ensure_ascii=False) + "\n")
+
+    flag, broken = triage_flags(counts, n_schema_changed, n_schema_susp, n_rec_error, dupes)
+    out = os.environ.get("GITHUB_OUTPUT")
+    if out:
+        with open(out, "a", encoding="utf-8", newline="\n") as f:
+            f.write(f"changes={'true' if flag else 'false'}\n")
+            f.write(f"broken={'true' if broken else 'false'}\n")
+    print(f"[v{MONITOR_VERSION}] checked {len(sources)} sources; "
+          f"{counts['changed'] + n_schema_changed} changed, {counts['suspect']} suspect, "
+          f"{n_schema_susp} schema-suspect, {counts['manual']} manual, "
+          f"{counts['error'] + n_rec_error} errors"
+          + (f", {len(binary_docs)} binary doc(s) hashed as bytes" if binary_docs else "")
+          + (f", {len(dupes)} DUPLICATE-HASH group(s)" if dupes else "")
+          + ("  ** MONITOR BROKEN -- sources were not checked **" if broken else "") + ".")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

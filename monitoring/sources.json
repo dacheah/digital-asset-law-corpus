@@ -1,0 +1,344 @@
+[
+  {
+    "name": "ae/decision/cabinet-va-2022 - UAE (federal) Cabinet Decision No. (111) of 2022 — Regulating Virtual Assets & their Service Providers (Arabic)",
+    "url": "https://uaelegislation.gov.ae/ar/legislations/1623",
+    "expect_contains": "UAE (federal) Cabinet Decision No. (111) of 2022",
+    "note": "held version 2022-12-12; retrieved 2026-07-11"
+  },
+  {
+    "name": "ae/decision/cma-virtual-assets-2026 - UAE (federal, CMA) Chairman Decision No. (4/R.M) of 2026 — Regulating Virtual Assets (Arabic)",
+    "url": "https://www.uaecma.gov.ae/ar/regulations/regulations-listing.aspx",
+    "expect_contains": "UAE (federal, CMA) Chairman Decision No. (4/R.M)",
+    "note": "held version 2026-03-08; retrieved 2026-07-10"
+  },
+  {
+    "name": "ae/law/virtual-assets-dubai-2022 - Dubai Law No. 4 of 2022 — Regulating Virtual Assets (establishes VARA)",
+    "url": "https://dlp.dubai.gov.ae/legislation ar reference/2022/قانون رقم (4) لسنة 2022 بشأن تنظيم الأصول الافتراضية.html",
+    "expect_contains": "No. 4 of 2022",
+    "note": "held version 2022-02-28; retrieved 2026-07-10"
+  },
+  {
+    "name": "ae/regulation/cbuae-payment-token-services-2024 - CBUAE Payment Token Services Regulation (C 2/2024)",
+    "url": "https://rulebook.centralbank.ae/ar/rulebook/نظام-خدمات-رمز-الدفع",
+    "expect_contains": "CBUAE Payment Token Services Regulation (C 2/202",
+    "note": "held version 2024-08-31; retrieved 2026-07-10"
+  },
+  {
+    "name": "au/act/digital-assets-framework-2026 - Digital Assets Framework Act 2026",
+    "url": "https://www.legislation.gov.au/C2026A00038/asmade",
+    "expect_contains": "C2026A00038",
+    "note": "held version 2026-04-08; retrieved 2026-07-08"
+  },
+  {
+    "name": "br/lei/virtual-assets-framework-2022 - Lei 14.478/2022 — Marco Legal dos Ativos Virtuais (Brazil)",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/L14478.htm",
+    "expect_contains": "Lei 14.478/2022 — Marco Legal dos Ativos Virtuai",
+    "note": "held version 2022-12-21; retrieved 2026-07-09"
+  },
+  {
+    "name": "br/resolucao/bcb-519-2025 - Resolução BCB nº 519/2025 — PSAV authorisation/licensing (Brazil)",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=519",
+    "expect_contains": "Resolução BCB nº 519/2025 — PSAV authorisation/l",
+    "note": "held version 2025-11-10; retrieved 2026-07-09"
+  },
+  {
+    "name": "br/resolucao/bcb-520-2025 - Resolução BCB nº 520/2025 — PSAV operating/prudential rules (Brazil)",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=520",
+    "expect_contains": "Resolução BCB nº 520/2025 — PSAV operating/prude",
+    "note": "held version 2025-11-10; retrieved 2026-07-09"
+  },
+  {
+    "name": "br/resolucao/bcb-521-2025 - Resolução BCB nº 521/2025 — virtual-asset FX integration (Brazil)",
+    "url": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Resolu%C3%A7%C3%A3o%20BCB&numero=521",
+    "expect_contains": "Resolução BCB nº 521/2025 — virtual-asset FX int",
+    "note": "held version 2025-11-10; retrieved 2026-07-09"
+  },
+  {
+    "name": "ch/act/co-ledger-securities - Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (French)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/fr",
+    "expect_contains": "Swiss Code of Obligations (SR 220) — ledger-base",
+    "note": "held version 2026-01-01_fr; retrieved 2026-07-10"
+  },
+  {
+    "name": "ch/act/co-ledger-securities - Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (German)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de",
+    "expect_contains": "Swiss Code of Obligations (SR 220) — ledger-base",
+    "note": "held version 2026-01-01_de; retrieved 2026-07-10"
+  },
+  {
+    "name": "ch/act/co-ledger-securities - Swiss Code of Obligations (SR 220) — ledger-based securities, Art. 973d–973i (Italian)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/27/317_321_377/it",
+    "expect_contains": "Swiss Code of Obligations (SR 220) — ledger-base",
+    "note": "held version 2026-01-01_it; retrieved 2026-07-10"
+  },
+  {
+    "name": "ch/act/dlt-2020 - Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — French authentic text",
+    "url": "https://www.fedlex.admin.ch/eli/oc/2021/33/fr",
+    "expect_contains": "2021/33",
+    "note": "held version 2020-09-25_fr; retrieved 2026-07-09"
+  },
+  {
+    "name": "ch/act/dlt-2020 - Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — German authentic text",
+    "url": "https://www.fedlex.admin.ch/eli/oc/2021/33/de",
+    "expect_contains": "2021/33",
+    "note": "held version 2020-09-25_de; retrieved 2026-07-09"
+  },
+  {
+    "name": "ch/act/dlt-2020 - Swiss DLT Act (blanket act, AS/RO/RU 2021 33) — Italian authentic text",
+    "url": "https://www.fedlex.admin.ch/eli/oc/2021/33/it",
+    "expect_contains": "2021/33",
+    "note": "held version 2020-09-25_it; retrieved 2026-07-09"
+  },
+  {
+    "name": "ch/act/finfrag-dlt-facility - Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (French)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2015/853/fr",
+    "expect_contains": "Swiss FinfraG (SR 958.1) — DLT trading facility,",
+    "note": "held version 2024-01-01_fr; retrieved 2026-07-10"
+  },
+  {
+    "name": "ch/act/finfrag-dlt-facility - Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (German)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2015/853/de",
+    "expect_contains": "Swiss FinfraG (SR 958.1) — DLT trading facility,",
+    "note": "held version 2024-01-01_de; retrieved 2026-07-10"
+  },
+  {
+    "name": "ch/act/finfrag-dlt-facility - Swiss FinfraG (SR 958.1) — DLT trading facility, Art. 73a–73f (Italian)",
+    "url": "https://www.fedlex.admin.ch/eli/cc/2015/853/it",
+    "expect_contains": "Swiss FinfraG (SR 958.1) — DLT trading facility,",
+    "note": "held version 2024-01-01_it; retrieved 2026-07-10"
+  },
+  {
+    "name": "cn/notice/virtual-currency-risks-2026 - 银发〔2026〕42号 / 2026 Virtual Currency & RWA Risks Notice (China)",
+    "url": "https://www.pbc.gov.cn/tiaofasi/144941/3581332/2026020619591971323/index.html",
+    "expect_contains": "银发〔2026〕42号 / 2026 Virtual Currency & RWA Risks ",
+    "note": "held version 2026-02-06; retrieved 2026-07-09"
+  },
+  {
+    "name": "cn/notice/virtual-currency-trading-2021 - 银发〔2021〕237号 / 2021 Virtual Currency Trading Risks Notice (China)",
+    "url": "https://www.pbc.gov.cn/tiaofasi/144941/3581332/4348658/index.html",
+    "expect_contains": "银发〔2021〕237号 / 2021 Virtual Currency Trading Ris",
+    "note": "held version 2021-09-15; retrieved 2026-07-09"
+  },
+  {
+    "name": "difc/law/digital-assets-2024 - DIFC Digital Assets Law No. 2 of 2024",
+    "url": "https://www.difc.com/business/laws-and-regulations/legal-database/difc-laws/digital-assets-law-difc-law-no-2-of-2024",
+    "expect_contains": "No. 2 of 2024",
+    "note": "held version 2024-03-08; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/corrigendum/mica-r03-2024 - MiCA Corrigendum R(03) (OJ L, 2024/90275)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1114R(03)",
+    "expect_contains": "2023/1114",
+    "note": "held version 2024-05-02; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-2023 - MiCA",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1114",
+    "expect_contains": "2023/1114",
+    "note": "held version 2023-06-09; retrieved 2026-07-08"
+  },
+  {
+    "name": "eu/regulation/mica-its-whitepaper-2024 - MiCA ITS — crypto-asset white-paper forms/templates (Reg (EU) 2024/2984)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2984",
+    "expect_contains": "2024/2984",
+    "note": "held version 2024-11-29; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-rts-complaints-2025 - MiCA RTS — complaints-handling for CASPs (Reg (EU) 2025/294)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0294",
+    "expect_contains": "2025/294",
+    "note": "held version 2024-10-01; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-rts-conflicts-2025 - MiCA RTS — conflicts of interest for CASPs (Reg (EU) 2025/1142)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1142",
+    "expect_contains": "2025/1142",
+    "note": "held version 2025-02-27; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-rts-liquidity-2025 - MiCA RTS — liquidity-management policy for ART/EMT issuers (Reg (EU) 2025/1264)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1264",
+    "expect_contains": "2025/1264",
+    "note": "held version 2025-06-27; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-rts-market-abuse-2025 - MiCA RTS — market-abuse prevention/detection (Reg (EU) 2025/885)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0885",
+    "expect_contains": "2025/885",
+    "note": "held version 2025-04-29; retrieved 2026-07-10"
+  },
+  {
+    "name": "eu/regulation/mica-rts-ownfunds-2025 - MiCA RTS — own funds / stress testing for ART/EMT issuers (Reg (EU) 2025/415)",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0415",
+    "expect_contains": "2025/415",
+    "note": "held version 2024-12-13; retrieved 2026-07-10"
+  },
+  {
+    "name": "hk/ordinance/amlo-va-services-2022 - Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (English)",
+    "url": "https://www.elegislation.gov.hk/hk/cap615!en",
+    "expect_contains": "Hong Kong AMLO (Cap. 615) Part 5B — VA services ",
+    "note": "held version 2023-06-01_en; retrieved 2026-07-10"
+  },
+  {
+    "name": "hk/ordinance/amlo-va-services-2022 - Hong Kong AMLO (Cap. 615) Part 5B — VA services / VATP licensing (Traditional Chinese)",
+    "url": "https://www.elegislation.gov.hk/hk/cap615!zh-Hant",
+    "expect_contains": "Hong Kong AMLO (Cap. 615) Part 5B — VA services ",
+    "note": "held version 2023-06-01_zh-Hant; retrieved 2026-07-10"
+  },
+  {
+    "name": "hk/ordinance/stablecoins-2025 - Stablecoins Ordinance (Cap. 656) — English",
+    "url": "https://www.elegislation.gov.hk/hk/cap656",
+    "expect_contains": "Stablecoins Ordinance (Cap. 656) — English",
+    "note": "held version 2025-08-01_en; retrieved 2026-07-08"
+  },
+  {
+    "name": "hk/ordinance/stablecoins-2025 - Stablecoins Ordinance (Cap. 656) — Traditional Chinese",
+    "url": "https://www.elegislation.gov.hk/hk/cap656",
+    "expect_contains": "Stablecoins Ordinance (Cap. 656) — Traditional C",
+    "note": "held version 2025-08-01_zh-Hant; retrieved 2026-07-08"
+  },
+  {
+    "name": "id/regulation/ojk-27-2024 - Indonesia OJK Regulation 27/2024 (Digital Financial Asset & Crypto Trading)",
+    "url": "https://ojk.go.id/id/regulasi/Pages/POJK-27-2024-AKD-AK.aspx",
+    "expect_contains": "Indonesia OJK Regulation 27/2024 (Digital Financ",
+    "note": "held version 2024-12-12; retrieved 2026-07-10"
+  },
+  {
+    "name": "jp/act/payment-services-2009 - 資金決済法 / Payment Services Act (Japan)",
+    "url": "https://laws.e-gov.go.jp/law/421AC0000000059",
+    "expect_contains": "No. 59 of 2009",
+    "note": "held version 2026-07-09; retrieved 2026-07-09"
+  },
+  {
+    "name": "jp/order/crypto-asset-exchange-2017 - Japan Cabinet Office Order on Crypto-Asset Exchange Service Providers (No. 7 of 2017)",
+    "url": "https://laws.e-gov.go.jp/law/429M60000002007",
+    "expect_contains": "No. 7 of 2017",
+    "note": "held version 2026-06-01; retrieved 2026-07-10"
+  },
+  {
+    "name": "jp/order/epi-exchange-2023 - Japan Cabinet Office Order on Electronic Payment Instruments Exchange Service Providers (No. 48 of 2023)",
+    "url": "https://laws.e-gov.go.jp/law/505M60000002048",
+    "expect_contains": "No. 48 of 2023",
+    "note": "held version 2026-06-01; retrieved 2026-07-10"
+  },
+  {
+    "name": "kr/act/virtual-asset-user-protection-2023 - 가상자산이용자보호법 / Virtual Asset User Protection Act (Korea)",
+    "url": "https://www.law.go.kr/법령/가상자산이용자보호법",
+    "expect_contains": "가상자산이용자보호법 / Virtual Asset User Protection Act (",
+    "note": "held version 2024-07-19; retrieved 2026-07-09"
+  },
+  {
+    "name": "kr/decree/vaupa-enforcement-2024 - Korea VAUPA Enforcement Decree (Presidential Decree No. 35472)",
+    "url": "https://www.law.go.kr/법령/가상자산이용자보호등에관한법률시행령",
+    "expect_contains": "Korea VAUPA Enforcement Decree (Presidential Dec",
+    "note": "held version 2025-04-23; retrieved 2026-07-10"
+  },
+  {
+    "name": "kr/regulation/vaupa-fsc-supervision-2024 - Korea FSC Regulation on Supervision of Virtual Asset Business (Notification 2024-37)",
+    "url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000244180",
+    "expect_contains": "Korea FSC Regulation on Supervision of Virtual A",
+    "note": "held version 2024-07-19; retrieved 2026-07-10"
+  },
+  {
+    "name": "li/act/tvtg-2019 - Liechtenstein Token and TT Service Provider Act (TVTG), consolidated 2025",
+    "url": "https://www.gesetze.li/konso/2019301000",
+    "expect_contains": "Liechtenstein Token and TT Service Provider Act ",
+    "note": "held version 2025-02-01; retrieved 2026-07-10"
+  },
+  {
+    "name": "mt/act/vfaa-2018 - Malta Virtual Financial Assets Act (Cap. 590) — English authentic text",
+    "url": "https://legislation.mt/eli/cap/590/20250516/eng",
+    "expect_contains": "Malta Virtual Financial Assets Act (Cap. 590) — ",
+    "note": "held version 2025-05-16_en; retrieved 2026-07-10"
+  },
+  {
+    "name": "mt/act/vfaa-2018 - Malta Virtual Financial Assets Act (Cap. 590) — Maltese authentic text",
+    "url": "https://legislation.mt/eli/cap/590/20250516/mlt",
+    "expect_contains": "Malta Virtual Financial Assets Act (Cap. 590) — ",
+    "note": "held version 2025-05-16_mt; retrieved 2026-07-10"
+  },
+  {
+    "name": "mx/ley/fintech-2018 - Mexico Ley Fintech (consolidated, última reforma 14 nov 2025)",
+    "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LRITF.pdf",
+    "expect_contains": "Mexico Ley Fintech (consolidated, última reforma",
+    "note": "held version 2025-11-14; retrieved 2026-07-10"
+  },
+  {
+    "name": "ph/circular/bsp-vasp-1108-2021 - BSP Circular No. 1108 (2021) — VASP Guidelines",
+    "url": "https://www.bsp.gov.ph/Regulations/Issuances/2021/1108.pdf",
+    "expect_contains": "BSP Circular No. 1108 (2021) — VASP Guidelines",
+    "note": "held version 2021-01-21; retrieved 2026-07-10"
+  },
+  {
+    "name": "sg/act/fsma-2022-dtsp - Singapore FSMA 2022, Part 9 (Digital Token Service Providers)",
+    "url": "https://sso.agc.gov.sg/Act/FSMA2022",
+    "expect_contains": "Singapore FSMA 2022, Part 9 (Digital Token Servi",
+    "note": "held version 2025-06-30; retrieved 2026-07-10"
+  },
+  {
+    "name": "sg/act/payment-services-2019 - Payment Services Act 2019 (Singapore)",
+    "url": "https://sso.agc.gov.sg/Act/PSA2019",
+    "expect_contains": "Payment Services Act 2019 (Singapore)",
+    "note": "held version 2026-07-09; retrieved 2026-07-09"
+  },
+  {
+    "name": "th/decree/digital-asset-businesses-2561 - Thailand Emergency Decree on Digital Asset Businesses B.E. 2561 (2018)",
+    "url": "http://www.ratchakitcha.soc.go.th/DATA/PDF/2561/A/033/43.PDF",
+    "expect_contains": "Thailand Emergency Decree on Digital Asset Busin",
+    "note": "held version 2018-05-13; retrieved 2026-07-10"
+  },
+  {
+    "name": "tr/law/capital-markets-crypto-7518-2024 - Türkiye Law No. 7518 (2024) — crypto amendments to the Capital Markets Law",
+    "url": "https://www.resmigazete.gov.tr/eskiler/2024/07/20240702-1.htm",
+    "expect_contains": "Türkiye Law No. 7518 (2024) — crypto amendments ",
+    "note": "held version 2024-07-02; retrieved 2026-07-10"
+  },
+  {
+    "name": "uk/regulations/fsma-cryptoassets-2026 - FSMA 2000 (Cryptoassets) Regulations 2026 (UK SI 2026/102)",
+    "url": "https://www.legislation.gov.uk/uksi/2026/102/made",
+    "expect_contains": "2026/102",
+    "note": "held version 2026-02-04; retrieved 2026-07-09"
+  },
+  {
+    "name": "us/forms/occ-genius-ps01-instructions-2026 - Form PS-01 Instructions",
+    "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24b.pdf",
+    "expect_contains": "Form PS-01 Instructions",
+    "note": "held version 2026-06-11; retrieved 2026-07-08"
+  },
+  {
+    "name": "us/forms/occ-genius-ps02-instructions-2026 - Form PS-02 Instructions",
+    "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24d.pdf",
+    "expect_contains": "Form PS-02 Instructions",
+    "note": "held version 2026-06-11; retrieved 2026-07-08"
+  },
+  {
+    "name": "us/forms/occ-genius-reporting-2026 - GENIUS Reporting Forms — Notice & Request for Comment",
+    "url": "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-24a.pdf",
+    "expect_contains": "GENIUS Reporting Forms — Notice & Request for Co",
+    "note": "held version 2026-06-11; retrieved 2026-07-08"
+  },
+  {
+    "name": "us/rule/occ-payment-stablecoins-2026 - OCC Payment Stablecoins Proposed Rule (NPRM)",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-02/pdf/2026-04089.pdf",
+    "expect_contains": "OCC Payment Stablecoins Proposed Rule (NPRM)",
+    "note": "held version 2026-03-02; retrieved 2026-07-08"
+  },
+  {
+    "name": "us/statute/genius-act-2025 - GENIUS Act",
+    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ27/pdf/PLAW-119publ27.pdf",
+    "expect_contains": "",
+    "note": "held version 2025-07-18; retrieved 2026-07-08"
+  },
+  {
+    "name": "vn/law/digital-technology-industry-2025 - Vietnam Law on Digital Technology Industry (71/2025/QH15)",
+    "url": "https://congbao.chinhphu.vn",
+    "expect_contains": "Vietnam Law on Digital Technology Industry (71/2",
+    "note": "held version 2025-06-14; retrieved 2026-07-10"
+  },
+  {
+    "name": "za/notice/crypto-asset-financial-product-2022 - South Africa — crypto asset declared a financial product (FAIS, GN 1350 of 2022)",
+    "url": "https://www.gov.za/sites/default/files/gcis_document/202210/47334gen1350.pdf",
+    "expect_contains": "South Africa — crypto asset declared a financial",
+    "note": "held version 2022-10-19; retrieved 2026-07-10"
+  }
+]
